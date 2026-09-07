@@ -9,6 +9,8 @@ Modulo paralelo a `src/HelixHeatX`. No modifica el intercambiador original.
 - `RocketCoolingChamber.cs`: generacion de canales helicoidales conectados.
 - `RocketCoolingThermalEstimate.cs`: estimacion 1D preliminar para un canal.
 - `Program.cs`: smoke test del perfil y del modelo termico, sin inicializar PicoGK.
+- `RocketCoolingLattice.cs`: lattice estructural BCC recortado al volumen frontera.
+- `RocketCoolingChamber.csproj`: proyecto base y perfil opcional con PicoGK.
 
 ## Uso previsto
 
@@ -33,3 +35,22 @@ Esta primera version genera el dominio de refrigerante. La siguiente fase debe a
 El programa de generacion geometrica debe integrarse despues en el proyecto que contenga las referencias de PicoGK y ShapeKernel. No se debe combinar este smoke test con la tarea principal de `CoolCube.HelixHeatX` sin configurar primero el proyecto anfitrion.
 
 El beam circular es una aproximacion inicial. Para fabricar canales rectangulares o trapezoidales sera necesario reemplazarlo por una seccion barrida.
+
+## Compilacion
+
+La configuracion base compila el perfil y el smoke test sin PicoGK:
+
+```text
+dotnet run --project src/RocketCoolingChamber/RocketCoolingChamber.csproj
+```
+
+La geometria requiere proyectos externos de PicoGK y ShapeKernel. Cuando existan sus rutas locales, se puede activar el perfil geometrico:
+
+```text
+dotnet build src/RocketCoolingChamber/RocketCoolingChamber.csproj \
+	-p:PicoGKGeometry=true \
+	-p:PicoGKProject=/ruta/PicoGK/PicoGK.csproj \
+	-p:ShapeKernelProject=/ruta/LEAP71_ShapeKernel/ShapeKernel.csproj
+```
+
+Los nombres exactos de los `.csproj` externos deben confirmarse en esos repositorios. No se incluyen referencias ficticias en el proyecto para evitar errores silenciosos.

@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <PicoGKGeometry>false</PicoGKGeometry>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="RocketCoolingParameters.cs" />
+    <Compile Include="RocketCoolingProfile.cs" />
+    <Compile Include="RocketCoolingThermalEstimate.cs" />
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(PicoGKGeometry)' == 'true'">
+    <Compile Include="RocketCoolingChamber.cs" />
+    <Compile Include="RocketCoolingLattice.cs" />
+    <Compile Include="../../BodyCentreLattice.cs" />
+    <Compile Include="../../BoundaryBeamThickness.cs" />
+    <Compile Include="../../CellBasedBeamThickness.cs" />
+    <Compile Include="../../ConstantBeamThickness.cs" />
+    <Compile Include="../../ConformalCellArray.cs" />
+    <Compile Include="../../CuboidCell.cs" />
+    <Compile Include="../../GlobalFuncBeamThickness.cs" />
+    <Compile Include="../../OctahedronLattice.cs" />
+    <Compile Include="../../RandomSplineLattice.cs" />
+    <Compile Include="../../RegularCellArray.cs" />
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(PicoGKGeometry)' == 'true' and '$(PicoGKProject)' != '' and Exists('$(PicoGKProject)')">
+    <ProjectReference Include="$(PicoGKProject)" />
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(PicoGKGeometry)' == 'true' and '$(ShapeKernelProject)' != '' and Exists('$(ShapeKernelProject)')">
+    <ProjectReference Include="$(ShapeKernelProject)" />
+  </ItemGroup>
+</Project>
