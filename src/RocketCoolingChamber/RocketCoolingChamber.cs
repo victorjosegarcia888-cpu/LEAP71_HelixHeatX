@@ -25,7 +25,7 @@ namespace Leap71.RocketCooling
         public Voxels VoxGetCoolingChannels()
         {
             Lattice channels = new Lattice();
-            float sampleStepMm = 0.5f;
+            float sampleStepMm = m_parameters.SampleStepMm;
             uint sampleCount = (uint)Math.Ceiling(m_profile.TotalLength / sampleStepMm);
             float beamRadius = 0.5f * m_parameters.ChannelWidth;
             float helixAngleRad = m_parameters.HelixAngleDeg * MathF.PI / 180f;
