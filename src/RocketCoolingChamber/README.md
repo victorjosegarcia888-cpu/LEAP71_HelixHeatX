@@ -44,13 +44,11 @@ La configuracion base compila el perfil y el smoke test sin PicoGK:
 dotnet run --project src/RocketCoolingChamber/RocketCoolingChamber.csproj
 ```
 
-La geometria requiere proyectos externos de PicoGK y ShapeKernel. Cuando existan sus rutas locales, se puede activar el perfil geometrico:
+La geometria requiere PicoGK y ShapeKernel. El repositorio ya incluye sus fuentes en `libs/PicoGK` y `libs/LEAP71_ShapeKernel`:
 
 ```text
 dotnet build src/RocketCoolingChamber/RocketCoolingChamber.csproj \
-	-p:PicoGKGeometry=true \
-	-p:PicoGKProject=/ruta/PicoGK/PicoGK.csproj \
-	-p:ShapeKernelProject=/ruta/LEAP71_ShapeKernel/ShapeKernel.csproj
+	-p:PicoGKGeometry=true
 ```
 
-Los nombres exactos de los `.csproj` externos deben confirmarse en esos repositorios. No se incluyen referencias ficticias en el proyecto para evitar errores silenciosos.
+ShapeKernel no trae un `.csproj` independiente en esta revision; sus fuentes se incluyen directamente. PicoGK se referencia mediante `libs/PicoGK/PicoGK.csproj`.
