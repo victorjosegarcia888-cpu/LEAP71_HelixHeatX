@@ -33,6 +33,8 @@ namespace Leap71
             {
                 try
                 {
+                    Library.oViewer().RequestScreenShot(Sh.strGetExportPath(Sh.EExport.TGA, "RocketMotorCoolingChannels_00"));
+
                     Lattice oChannels = new Lattice();
                     int nChannelCount = 120;
                     int nSteps = 100;
@@ -67,6 +69,9 @@ namespace Leap71
 
                     Voxels oVoxels = new Voxels(oChannels);
                     Sh.PreviewVoxels(oVoxels, Cp.clrToothpaste);
+                    Sh.ExportVoxelsToSTLFile(oVoxels, Sh.strGetExportPath(Sh.EExport.STL, "RocketMotorCoolingChannels"));
+
+                    Library.oViewer().RequestScreenShot(Sh.strGetExportPath(Sh.EExport.TGA, "RocketMotorCoolingChannels_01"));
                 }
                 catch (Exception e)
                 {

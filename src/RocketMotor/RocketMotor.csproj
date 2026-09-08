@@ -18,6 +18,7 @@
     <Compile Include="Ex_RocketMotorCoolingChannels.cs" />
     <Compile Include="Ex_RocketMotorLattice.cs" />
     <Compile Include="Ex_RocketMotorAssembly.cs" />
+    <Compile Include="Ex_RocketMotorAssembly_WithCooling.cs" />
   </ItemGroup>
 
   <ItemGroup Condition="'$(PicoGKGeometry)' == 'true'">

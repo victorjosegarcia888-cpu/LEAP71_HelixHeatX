@@ -33,16 +33,19 @@ namespace Leap71
             {
                 try
                 {
+                    Library.oViewer().RequestScreenShot(Sh.strGetExportPath(Sh.EExport.TGA, "RocketMotorTurbopump_00"));
+
                     {
-                        // turbopump hub
                         LocalFrame oLocalFrame  = new LocalFrame(new Vector3(-30, 0, 0));
                         BaseCylinder oHub       = new BaseCylinder(oLocalFrame, 50f, 26.8f);
                         Voxels oVoxels          = oHub.voxConstruct();
                         Sh.PreviewVoxels(oVoxels, Cp.clrBlue);
+                        Sh.ExportVoxelsToSTLFile(oVoxels, Sh.strGetExportPath(Sh.EExport.STL, "RocketMotorTurbopump_Hub"));
                     }
 
+                    Library.oViewer().RequestScreenShot(Sh.strGetExportPath(Sh.EExport.TGA, "RocketMotorTurbopump_01"));
+
                     {
-                        // turbopump blades
                         Lattice oLattice = new Lattice();
                         int nSteps = 8;
                         float fAngleRad = 83.0f * MathF.PI / 180.0f;
@@ -61,7 +64,10 @@ namespace Leap71
 
                         Voxels oVoxels = new Voxels(oLattice);
                         Sh.PreviewVoxels(oVoxels, Cp.clrGreen);
+                        Sh.ExportVoxelsToSTLFile(oVoxels, Sh.strGetExportPath(Sh.EExport.STL, "RocketMotorTurbopump_Blades"));
                     }
+
+                    Library.oViewer().RequestScreenShot(Sh.strGetExportPath(Sh.EExport.TGA, "RocketMotorTurbopump_02"));
                 }
                 catch (Exception e)
                 {

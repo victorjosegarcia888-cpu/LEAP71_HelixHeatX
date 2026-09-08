@@ -33,13 +33,17 @@ namespace Leap71
             {
                 try
                 {
+                    Library.oViewer().RequestScreenShot(Sh.strGetExportPath(Sh.EExport.TGA, "RocketMotorPreburner_00"));
+
                     {
-                        // preburner toroidal manifold
                         LocalFrame oLocalFrame  = new LocalFrame(new Vector3(0, 120, 0));
                         BaseRing oTorus         = new BaseRing(oLocalFrame, 60f, 10f);
                         Voxels oVoxels          = oTorus.voxConstruct();
                         Sh.PreviewVoxels(oVoxels, Cp.clrFrozen);
+                        Sh.ExportVoxelsToSTLFile(oVoxels, Sh.strGetExportPath(Sh.EExport.STL, "RocketMotorPreburner_Toroid"));
                     }
+
+                    Library.oViewer().RequestScreenShot(Sh.strGetExportPath(Sh.EExport.TGA, "RocketMotorPreburner_01"));
                 }
                 catch (Exception e)
                 {

@@ -33,16 +33,19 @@ namespace Leap71
             {
                 try
                 {
+                    Library.oViewer().RequestScreenShot(Sh.strGetExportPath(Sh.EExport.TGA, "RocketMotorInjector_00"));
+
                     {
-                        // injector plate
                         LocalFrame oLocalFrame  = new LocalFrame(new Vector3(0, 0, 0));
                         BaseCylinder oPlate     = new BaseCylinder(oLocalFrame, 5f, 190f);
                         Voxels oVoxels          = oPlate.voxConstruct();
                         Sh.PreviewVoxels(oVoxels, Cp.clrBlue);
+                        Sh.ExportVoxelsToSTLFile(oVoxels, Sh.strGetExportPath(Sh.EExport.STL, "RocketMotorInjector_Plate"));
                     }
 
+                    Library.oViewer().RequestScreenShot(Sh.strGetExportPath(Sh.EExport.TGA, "RocketMotorInjector_01"));
+
                     {
-                        // injector elements as lattice
                         Lattice oLattice = new Lattice();
                         int nCount = 24;
                         float fRadius = 117.5f;
@@ -57,7 +60,10 @@ namespace Leap71
 
                         Voxels oVoxels = new Voxels(oLattice);
                         Sh.PreviewVoxels(oVoxels, Cp.clrGreen);
+                        Sh.ExportVoxelsToSTLFile(oVoxels, Sh.strGetExportPath(Sh.EExport.STL, "RocketMotorInjector_Elements"));
                     }
+
+                    Library.oViewer().RequestScreenShot(Sh.strGetExportPath(Sh.EExport.TGA, "RocketMotorInjector_02"));
                 }
                 catch (Exception e)
                 {

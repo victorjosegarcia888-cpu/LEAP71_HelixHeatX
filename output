@@ -1,0 +1,52 @@
+      0s    0.0+ Opened /workspaces/LEAP71_HelixHeatX/output
+      0s    0.1+ 
+      0s    0.1+ ----------------------------------------
+      0s    0.1+ 
+      0s    0.0+ Current time (UTC): 2026-09-08 15:31:08 (UTC)
+      0s    0.0+ Current local time: 2026-09-08 15:31:08 (+00:00)
+      0s    0.0+ 
+      0s    0.0+ ----------------------------------------
+      0s    0.0+ 
+      0s    0.0+ System Info:
+      0s    0.0+ 
+      0s    0.0+ Machine Name:         codespaces-d6b17c
+      0s    0.0+ Operating System      Ubuntu 24.04.4 LTS
+      0s    0.0+ Version:              Unix 6.8.0.1052
+      0s    0.0+ OS Architecture:      X64
+      0s    0.0+ Proc Architecture:    X64
+      0s    0.0+ 64 Bit OS:            Yes
+      0s    0.0+ 64 Bit Process:       Yes
+      0s    0.0+ Processor Count:      4
+      0s    0.0+ Working Set:          30MB
+      0s    0.0+ C# Framework:         .NET 9.0.19
+      0s    0.0+ C# CLR Version:       9.0.19
+      0s    0.0+ PicoGK Path:          picogk.26.2
+      0s    0.0+ Command Line:         /workspaces/LEAP71_HelixHeatX/src/RocketMotor/bin/Debug/net9.0/RocketMotor.dll assemblywithcooling
+      0s    0.0+ 
+      0s    0.0+ ----------------------------------------
+      0s    0.0+ 
+      0s    0.0+ -----------------------------------------
+      0s    0.0+ -- Could not initialize PicoGK Library --
+      0s    0.0+ -----------------------------------------
+      0s    0.0+ Most likely cause is that the PicoGK runtime library wasn't found
+      0s    0.0+ Make sure picogk.26.2.dylib/.dll is accessible and has execution rights.
+      0s    0.0+ See PicoGK documentation on GitHub for troubleshooting info
+      0s    0.0+ Terribly long error string follows (usually devoid of real information):
+      0s    0.0+ --------------------------------
+      0s    0.0+ -
+      1s    0.4+ System.DllNotFoundException: Unable to load shared library 'picogk.26.2' or one of its dependencies. In order to help diagnose loading problems, consider using a tool like strace. If you're using glibc, consider setting the LD_DEBUG environment variable: 
+      1s    0.4+ /usr/share/dotnet/shared/Microsoft.NETCore.App/9.0.19/picogk.26.2.so: cannot open shared object file: No such file or directory
+      1s    0.4+ /workspaces/LEAP71_HelixHeatX/src/RocketMotor/bin/Debug/net9.0/picogk.26.2.so: cannot open shared object file: No such file or directory
+      1s    0.4+ /usr/share/dotnet/shared/Microsoft.NETCore.App/9.0.19/libpicogk.26.2.so: cannot open shared object file: No such file or directory
+      1s    0.4+ /workspaces/LEAP71_HelixHeatX/src/RocketMotor/bin/Debug/net9.0/libpicogk.26.2.so: cannot open shared object file: No such file or directory
+      1s    0.4+ /usr/share/dotnet/shared/Microsoft.NETCore.App/9.0.19/picogk.26.2: cannot open shared object file: No such file or directory
+      1s    0.4+ /workspaces/LEAP71_HelixHeatX/src/RocketMotor/bin/Debug/net9.0/picogk.26.2: cannot open shared object file: No such file or directory
+      1s    0.4+ /usr/share/dotnet/shared/Microsoft.NETCore.App/9.0.19/libpicogk.26.2: cannot open shared object file: No such file or directory
+      1s    0.4+ /workspaces/LEAP71_HelixHeatX/src/RocketMotor/bin/Debug/net9.0/libpicogk.26.2: cannot open shared object file: No such file or directory
+      1s    0.4+ 
+      1s    0.4+    at PicoGK.Library._hCreateInstance(Single fVoxelSizeMM)
+      1s    0.4+    at PicoGK.Library..ctor(Single fVoxelSizeMM) in /_/Library/Library.cs:line 54
+      1s    0.4+    at PicoGK.Library.GlobalInstance..ctor(Single fVoxelSizeMM, String strLogPath, String strViewerTitle, String strViewerEnvironment) in /_/Library/LibraryGlobal.cs:line 59
+      1s    0.4+ 
+      1s    0.0+ -
+      1s    0.0+ --------------------------------

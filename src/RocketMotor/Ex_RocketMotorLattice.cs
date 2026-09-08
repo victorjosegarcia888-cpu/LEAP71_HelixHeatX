@@ -34,8 +34,9 @@ namespace Leap71
             {
                 try
                 {
+                    Library.oViewer().RequestScreenShot(Sh.strGetExportPath(Sh.EExport.TGA, "RocketMotorLattice_00"));
+
                     {
-                        // basic body-centred lattice in bounding box
                         LocalFrame oLocalFrame  = new LocalFrame(new Vector3(0, 0, 0));
                         BaseBox oBounding       = new BaseBox(oLocalFrame, 100f, 100f, 100f);
                         Voxels voxBounding      = oBounding.voxConstruct();
@@ -57,7 +58,10 @@ namespace Leap71
                         Voxels oVoxels = new Voxels(oLattice);
                         oVoxels = oVoxels.voxBoolIntersect(voxBounding);
                         Sh.PreviewVoxels(oVoxels, Cp.clrLemongrass);
+                        Sh.ExportVoxelsToSTLFile(oVoxels, Sh.strGetExportPath(Sh.EExport.STL, "RocketMotorLattice_BCC"));
                     }
+
+                    Library.oViewer().RequestScreenShot(Sh.strGetExportPath(Sh.EExport.TGA, "RocketMotorLattice_01"));
                 }
                 catch (Exception e)
                 {

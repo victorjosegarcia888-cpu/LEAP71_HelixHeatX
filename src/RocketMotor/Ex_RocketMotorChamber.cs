@@ -33,25 +33,31 @@ namespace Leap71
             {
                 try
                 {
+                    Library.oViewer().RequestScreenShot(Sh.strGetExportPath(Sh.EExport.TGA, "RocketMotorChamber_00"));
+
                     {
-                        // basic chamber cylinder
                         LocalFrame oLocalFrame  = new LocalFrame(new Vector3(-60, 0, 0));
                         BaseCylinder oShape     = new BaseCylinder(oLocalFrame, 200f, 190f);
                         oShape.SetLengthSteps(500);
                         oShape.SetRadius(new SurfaceModulation(fGetChamberRadius));
                         Voxels oVoxels          = oShape.voxConstruct();
                         Sh.PreviewVoxels(oVoxels, Cp.clrBlue);
+                        Sh.ExportVoxelsToSTLFile(oVoxels, Sh.strGetExportPath(Sh.EExport.STL, "RocketMotorChamber_Basic"));
                     }
 
+                    Library.oViewer().RequestScreenShot(Sh.strGetExportPath(Sh.EExport.TGA, "RocketMotorChamber_01"));
+
                     {
-                        // chamber with modulated radius
                         LocalFrame oLocalFrame  = new LocalFrame(new Vector3(60, 0, 0));
                         BaseCylinder oShape     = new BaseCylinder(oLocalFrame, 200f, 190f);
                         oShape.SetLengthSteps(500);
                         oShape.SetRadius(new SurfaceModulation(fGetChamberRadiusModulated));
                         Voxels oVoxels          = oShape.voxConstruct();
                         Sh.PreviewVoxels(oVoxels, Cp.clrGreen);
+                        Sh.ExportVoxelsToSTLFile(oVoxels, Sh.strGetExportPath(Sh.EExport.STL, "RocketMotorChamber_Modulated"));
                     }
+
+                    Library.oViewer().RequestScreenShot(Sh.strGetExportPath(Sh.EExport.TGA, "RocketMotorChamber_02"));
                 }
                 catch (Exception e)
                 {

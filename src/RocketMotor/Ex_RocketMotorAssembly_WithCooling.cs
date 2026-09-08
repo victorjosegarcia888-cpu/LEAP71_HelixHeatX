@@ -27,13 +27,13 @@ namespace Leap71
 
     namespace RocketMotorExamples
     {
-        class RocketMotorAssembly
+        class RocketMotorAssembly_WithCooling
         {
             public static void Task()
             {
                 try
                 {
-                    Library.oViewer().RequestScreenShot(Sh.strGetExportPath(Sh.EExport.TGA, "RocketMotorAssembly_00"));
+                    Library.oViewer().RequestScreenShot(Sh.strGetExportPath(Sh.EExport.TGA, "RocketMotorAssembly_WithCooling_00"));
 
                     Voxels voxMotor = new Voxels();
 
@@ -47,7 +47,7 @@ namespace Leap71
                         voxMotor = voxMotor.voxBoolAdd(voxChamber);
                     }
 
-                    Library.oViewer().RequestScreenShot(Sh.strGetExportPath(Sh.EExport.TGA, "RocketMotorAssembly_01"));
+                    Library.oViewer().RequestScreenShot(Sh.strGetExportPath(Sh.EExport.TGA, "RocketMotorAssembly_WithCooling_01"));
 
                     {
                         LocalFrame oLocalFrame  = new LocalFrame(new Vector3(60, 0, 0));
@@ -59,7 +59,7 @@ namespace Leap71
                         voxMotor = voxMotor.voxBoolAdd(voxNozzle);
                     }
 
-                    Library.oViewer().RequestScreenShot(Sh.strGetExportPath(Sh.EExport.TGA, "RocketMotorAssembly_02"));
+                    Library.oViewer().RequestScreenShot(Sh.strGetExportPath(Sh.EExport.TGA, "RocketMotorAssembly_WithCooling_02"));
 
                     {
                         LocalFrame oLocalFrame  = new LocalFrame(new Vector3(0, 0, -110));
@@ -69,7 +69,7 @@ namespace Leap71
                         voxMotor = voxMotor.voxBoolAdd(voxInjector);
                     }
 
-                    Library.oViewer().RequestScreenShot(Sh.strGetExportPath(Sh.EExport.TGA, "RocketMotorAssembly_03"));
+                    Library.oViewer().RequestScreenShot(Sh.strGetExportPath(Sh.EExport.TGA, "RocketMotorAssembly_WithCooling_03"));
 
                     {
                         LocalFrame oLocalFrame  = new LocalFrame(new Vector3(0, 120, 0));
@@ -79,17 +79,63 @@ namespace Leap71
                         voxMotor = voxMotor.voxBoolAdd(voxPreburner);
                     }
 
-                    Library.oViewer().RequestScreenShot(Sh.strGetExportPath(Sh.EExport.TGA, "RocketMotorAssembly_04"));
+                    Library.oViewer().RequestScreenShot(Sh.strGetExportPath(Sh.EExport.TGA, "RocketMotorAssembly_WithCooling_04"));
+
+                    Voxels voxCooling = voxGetCoolingChannels();
+                    Sh.PreviewVoxels(voxCooling, Cp.clrToothpaste);
+                    voxMotor = voxMotor.voxBoolSubtract(voxCooling);
+
+                    Library.oViewer().RequestScreenShot(Sh.strGetExportPath(Sh.EExport.TGA, "RocketMotorAssembly_WithCooling_05"));
+
+                    voxMotor = voxMotor.voxOverOffset(1.0f, 0f);
+                    voxMotor = voxMotor.voxSmoothen(0.5f);
 
                     Sh.PreviewVoxels(voxMotor, Cp.clrRock);
-                    Sh.ExportVoxelsToSTLFile(voxMotor, Sh.strGetExportPath(Sh.EExport.STL, "RocketMotorAssembly"));
+                    Sh.ExportVoxelsToSTLFile(voxMotor, Sh.strGetExportPath(Sh.EExport.STL, "RocketMotorAssembly_WithCooling"));
 
-                    Library.oViewer().RequestScreenShot(Sh.strGetExportPath(Sh.EExport.TGA, "RocketMotorAssembly_05"));
+                    Library.oViewer().RequestScreenShot(Sh.strGetExportPath(Sh.EExport.TGA, "RocketMotorAssembly_WithCooling_06"));
                 }
                 catch (Exception e)
                 {
                     Library.Log($"Failed run example: \n{e.Message}"); ;
                 }
+            }
+
+            static Voxels voxGetCoolingChannels()
+            {
+                Lattice oChannels = new Lattice();
+                int nChannelCount = 120;
+                int nSteps = 100;
+                float fHelixAngleDeg = 35.0f;
+                float fHelixAngleRad = fHelixAngleDeg * MathF.PI / 180.0f;
+                float fChannelRadius = 200.0f;
+                float fChannelLength = 880.0f;
+                float fChannelWidth = 2.0f;
+
+                for (int i = 0; i < nChannelCount; i++)
+                {
+                    Vector3 previousPoint = new Vector3();
+                    bool hasPreviousPoint = false;
+                    float fPhase = 2.0f * MathF.PI * i / nChannelCount;
+
+                    for (int j = 0; j <= nSteps; j++)
+                    {
+                        float fZ = (float)j / nSteps * fChannelLength;
+                        float fPhi = fPhase + fZ * MathF.Tan(fHelixAngleRad) / fChannelRadius;
+                        Vector3 point = new Vector3(
+                            fChannelRadius * MathF.Cos(fPhi),
+                            fChannelRadius * MathF.Sin(fPhi),
+                            fZ);
+
+                        if (hasPreviousPoint)
+                            oChannels.AddBeam(previousPoint, fChannelWidth, point, fChannelWidth, true);
+
+                        previousPoint = point;
+                        hasPreviousPoint = true;
+                    }
+                }
+
+                return new Voxels(oChannels);
             }
 
             static float fGetChamberRadius(float fPhi, float fLengthRatio)

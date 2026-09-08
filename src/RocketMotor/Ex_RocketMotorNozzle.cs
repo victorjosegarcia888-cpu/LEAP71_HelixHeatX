@@ -33,18 +33,21 @@ namespace Leap71
             {
                 try
                 {
+                    Library.oViewer().RequestScreenShot(Sh.strGetExportPath(Sh.EExport.TGA, "RocketMotorNozzle_00"));
+
                     {
-                        // basic nozzle profile
                         LocalFrame oLocalFrame  = new LocalFrame(new Vector3(-60, 0, 0));
                         BaseCylinder oShape     = new BaseCylinder(oLocalFrame, 600f, 99f);
                         oShape.SetLengthSteps(500);
                         oShape.SetRadius(new SurfaceModulation(fGetNozzleRadius));
                         Voxels oVoxels          = oShape.voxConstruct();
                         Sh.PreviewVoxels(oVoxels, Cp.clrBlue);
+                        Sh.ExportVoxelsToSTLFile(oVoxels, Sh.strGetExportPath(Sh.EExport.STL, "RocketMotorNozzle_Profile"));
                     }
 
+                    Library.oViewer().RequestScreenShot(Sh.strGetExportPath(Sh.EExport.TGA, "RocketMotorNozzle_01"));
+
                     {
-                        // nozzle with wall thickness
                         LocalFrame oLocalFrame  = new LocalFrame(new Vector3(60, 0, 0));
                         BaseCylinder oInner     = new BaseCylinder(oLocalFrame, 600f, 99f);
                         oInner.SetLengthSteps(500);
@@ -58,7 +61,10 @@ namespace Leap71
 
                         Voxels voxNozzle       = voxOuter.voxBoolSubtract(voxInner);
                         Sh.PreviewVoxels(voxNozzle, Cp.clrGreen);
+                        Sh.ExportVoxelsToSTLFile(voxNozzle, Sh.strGetExportPath(Sh.EExport.STL, "RocketMotorNozzle_Wall"));
                     }
+
+                    Library.oViewer().RequestScreenShot(Sh.strGetExportPath(Sh.EExport.TGA, "RocketMotorNozzle_02"));
                 }
                 catch (Exception e)
                 {
