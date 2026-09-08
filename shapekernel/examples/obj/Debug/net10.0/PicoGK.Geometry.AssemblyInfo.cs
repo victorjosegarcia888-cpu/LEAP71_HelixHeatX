@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Shared geometry contracts and value types for PicoGK.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0-0.internal+af76380031f9f52d368b23e0e8dbeb723c3b9ce2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0-0.internal+fee1b5a0ffbe772bc4362aa9a2c19909df31f999")]
 [assembly: System.Reflection.AssemblyProductAttribute("PicoGK.Geometry")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PicoGK.Geometry")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

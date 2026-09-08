@@ -10,15 +10,7 @@
 
   <ItemGroup>
     <Compile Include="Program.cs" />
-    <Compile Include="MotorParameters.cs" />
-    <Compile Include="ChamberGeometry.cs" />
-    <Compile Include="NozzleGeometry.cs" />
-    <Compile Include="InjectorGeometry.cs" />
-    <Compile Include="TurbopumpGeometry.cs" />
-    <Compile Include="PreburnerGeometry.cs" />
-    <Compile Include="CoolingChannels.cs" />
-    <Compile Include="LatticeReinforcement.cs" />
-    <Compile Include="MotorAssembly.cs" />
+    <Compile Include="MotorTasks.cs" />
   </ItemGroup>
 
   <ItemGroup Condition="'$(PicoGKGeometry)' == 'true'">

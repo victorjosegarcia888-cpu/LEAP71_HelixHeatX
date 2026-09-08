@@ -6,33 +6,19 @@ namespace Leap71.RocketMotor
     {
         public static void Main()
         {
+            string strOutputFolder = "/workspaces/LEAP71_HelixHeatX/output";
+
             try
             {
                 Library.Go(
                     0.25f,
-                    Task);
+                    MotorTasks.Task_AssembledMotor,
+                    strOutputFolder
+                );
             }
             catch (Exception e)
             {
                 Library.Log($"Failed to run Task: {e.Message}");
-            }
-        }
-
-        public static void Task()
-        {
-            try
-            {
-                MotorAssembly oAssembly = new MotorAssembly();
-                oAssembly.PrintSummary();
-
-                Voxels voxMotor = oAssembly.voxAssembledMotor();
-                Sh.PreviewVoxels(voxMotor, Cp.clrRock);
-
-                Library.Log("Rocket motor geometry generated successfully.");
-            }
-            catch (Exception e)
-            {
-                Library.Log($"Failed run example: {e.Message}");
             }
         }
     }

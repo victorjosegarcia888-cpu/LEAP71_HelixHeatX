@@ -2,18 +2,22 @@
 
 Geometria base para un motor grande de cohete basada en PicoGK y ShapeKernel.
 
-## Contenido
+## Tareas disponibles
 
-- `Program.cs` — punto de entrada Task() para PicoGK
-- `MotorParameters.cs` — parametros del motor ASE extraidos de `documentation_II_dsgn/important_/notasDeMotorpdf.txt`
-- `ChamberGeometry.cs` — geometria de camara de combustion y convergente-divergente
-- `NozzleGeometry.cs` — perfil de tobera tipo bell con modulacion
-- `InjectorGeometry.cs` — placa de inyectores coaxiales
-- `TurbopumpGeometry.cs` — impulsor helicoidal y disco de turbobomba
-- `PreburnerGeometry.cs` — preburner toroidal con puertos de alimentacion
-- `CoolingChannels.cs` — canales de refrigeracion helicoidales regenerativos
-- `LatticeReinforcement.cs` — refuerzo interno con lattice y quasicrystal
-- `MotorAssembly.cs` — ensamblaje completo del motor
+Cambia el Task en `Program.cs` para ejecutar diferentes geometrias:
+
+| Task | Descripcion |
+|------|-------------|
+| `Task_ChamberAndNozzle` | Camara y tobera basicas |
+| `Task_InjectorPlate` | Placa de inyectores con lattice |
+| `Task_TurbopumpImpeller` | Impulsor de turbobomba |
+| `Task_PreburnerToroid` | Preburner toroidal |
+| `Task_CoolingChannels` | Canales de refrigeracion helicoidales |
+| `Task_AperiodicLattice` | Lattice aperiodico en caja |
+| `Task_AssembledMotor` | Motor ensamblado completo |
+| `Task_NozzleWithWall` | Tobera con espesor de pared |
+| `Task_ChamberWithLattice` | Camara con lattice interno |
+| `Task_HP_Ducts` | Ductos de alta presion |
 
 ## Uso
 
@@ -39,11 +43,11 @@ dotnet build src/RocketMotor/RocketMotor.csproj -p:PicoGKGeometry=true
 
 ## Workflow PicoGK
 
-1. Crear Base Shapes (cilindros, tores, pipes)
+1. Crear Base Shapes (`BaseCylinder`, `BasePipe`, `BaseRing`, `BaseBox`)
 2. Aplicar modulaciones de radio y superficie
-3. Voxelizar con `voxConstruct(fVoxelSize)`
-4. Ensamblar con `Sh.voxUnion()` y `Sh.voxSubtract()`
-5. Añadir lattice con interfaces `ICellArray`, `ILattice`, `IBeamThickness`
+3. Voxelizar con `voxConstruct()`
+4. Ensamblar con `voxBoolAdd()` y `voxBoolSubtract()`
+5. Anadir lattice con interfaces `ICellArray`, `ILatticeType`, `IBeamThickness`
 6. Preview con `Sh.PreviewVoxels()`
 
 ## Parametros base
@@ -57,3 +61,8 @@ dotnet build src/RocketMotor/RocketMotor.csproj -p:PicoGKGeometry=true
 | Angulo helix | 35 | deg |
 | Inyectores | 24 | - |
 | RPM turbobomba | 35000 | rpm |
+
+## Estructura
+
+- `Program.cs` — punto de entrada Task() para PicoGK
+- `MotorTasks.cs` — tareas de geometria del motor

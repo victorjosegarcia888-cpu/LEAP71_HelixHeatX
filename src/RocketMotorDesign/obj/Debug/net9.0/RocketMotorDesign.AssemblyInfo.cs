@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RocketMotorDesign")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af76380031f9f52d368b23e0e8dbeb723c3b9ce2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fee1b5a0ffbe772bc4362aa9a2c19909df31f999")]
 [assembly: System.Reflection.AssemblyProductAttribute("RocketMotorDesign")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RocketMotorDesign")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
