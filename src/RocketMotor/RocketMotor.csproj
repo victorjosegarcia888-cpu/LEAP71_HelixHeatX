@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+    <PicoGKGeometry>false</PicoGKGeometry>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="MotorParameters.cs" />
+    <Compile Include="ChamberGeometry.cs" />
+    <Compile Include="NozzleGeometry.cs" />
+    <Compile Include="InjectorGeometry.cs" />
+    <Compile Include="TurbopumpGeometry.cs" />
+    <Compile Include="PreburnerGeometry.cs" />
+    <Compile Include="CoolingChannels.cs" />
+    <Compile Include="LatticeReinforcement.cs" />
+    <Compile Include="MotorAssembly.cs" />
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(PicoGKGeometry)' == 'true'">
+    <Compile Include="../../BodyCentreLattice.cs" />
+    <Compile Include="../../BoundaryBeamThickness.cs" />
+    <Compile Include="../../CellBasedBeamThickness.cs" />
+    <Compile Include="../../ConstantBeamThickness.cs" />
+    <Compile Include="../../ConformalCellArray.cs" />
+    <Compile Include="../../CuboidCell.cs" />
+    <Compile Include="../../GlobalFuncBeamThickness.cs" />
+    <Compile Include="../../OctahedronLattice.cs" />
+    <Compile Include="../../RandomSplineLattice.cs" />
+    <Compile Include="../../RegularCellArray.cs" />
+    <Compile Include="../../libs/LEAP71_ShapeKernel/ShapeKernel/**/*.cs" />
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(PicoGKGeometry)' == 'true'">
+    <ProjectReference Include="../../libs/PicoGK/PicoGK.csproj" />
+  </ItemGroup>
+</Project>
