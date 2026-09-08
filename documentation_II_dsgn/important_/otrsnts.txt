@@ -1,0 +1,101 @@
+The fuel low pressure pump (boost pump) is driven at 2723 rad/s (26, 000 rpm)
+at its BEP by the oxidizer turbopump through a gear reduction of 2. 26:1. This
+reduction gearing consists of an L0 2 turbopump mounted pinion gear, a single
+bearing mounted idler gear and a shaft mounted boost pump drive gear. These
+gears transfer a maximum of 26 kw (34. 79 hp) for driving the fuel boost pump.
+The fuel side gears have characteristics as defined by the gear data table (figure 67). The idler gear is supported by a single hydrogen-cooled roller bearing, 20 x 37 mm, operating at a DN value of 0. 552 x 106 mm-rpm. The idler gear bearing support
+is the second of two local projections extending from the main L0 2 turbopump
+bearing support. The idler gear bearing load is calculated to be 445N (100 lb),
+which yields a life of 18, 100 hours for the 20 mm bearing.
+Hydrogen cooling flow to the idler gear is supplied by a series of drilled
+passages and slots which direct the oxidizer turbopump bearing coolant flow to
+the idler bearing. A cavity is provided on one side of the idler bearing to ensure
+that the coolant flow is directed through the bearing and does not exit directly
+into the gearbox cavity. The use of a well-cooled, single bearing idler gear which
+is closely toleranced and positioned will provide the 10-hr life required for the
+ASE. The required cooling flow to the idler bearing is estimated to be
+0. 0038 kg/s (0. 00835 lb/sec).
+The single bearing idler gear has been successfully demonstrated in the
+RL10. This system, although not a production item in the RL10, was well
+established in experimental operation and was qualified for production use. The
+single bearing system allows the idler gear freedom to adjust its plane of revolution to maximize the amount of line contact between the gear teeth in the event
+of shaft misalignment and hence minimizes the amount of load shift due to misalignment. The oxidizer and fuel boost pump drive train gears were designed to
+satisfy established design criteria for gears operating in cryogenic environments.
+The guidelines set forth in the NASA Monograph for turbopump gears, (Reference 8)
+are incorporated in the final design. The gears are, therefore, an involute form
+satisfying the following requirements:
+1. Pitch line velocity < 102 m/s (20,000 fpm) (maximum)
+2. Pressure angle - 0.436 rad (25 deg)
+3. Hertz stress level - 41,400 N/cm2 (60,000 psi) (maximum)
+4. Maximum reduction per mesh - 5:1 (maximum)
+5. Gear configuration for 5:1 reduction - spur
+6. Number of pinion teeth for 0. 436 rad (25 deg) pressure angle -
+20 (minimum)
+7. Ratio of face width/pitch diameter 5 1:1
+8. Number of gear teeth - 100 (maximum)
+114
+9. Design overload - 20% greater than design load (minimum)
+10. Gear heat generation - 1. 5% of HP transmitted/mesh
+11. Hunting-tooth action (number of teeth in gear and pinion have no
+common factors)
+Pertinent preliminary design and geometry information for the fuel and oxidizer boost pump gear trains are presented in figure 67.
+The primary concern with gear-driven boost pumps is the ability of the
+gears to achieve the 10-hr ASE life requirement. A number of factors considered to be indicators of gear life were evaluated. These factors are: gear
+loading, cooling, lubrication and material. This evaluation indicated that the
+ASE gears would require only a test program to demonstrate life capability rather
+than an extensive development program. The rationale used for evaluation of
+each factor and their effects are given below.
+The ASE gears were designed to face loading criteria not as great as those
+of the RL10 gears and to pitch line velocities and stress levels within current,
+NASA approved, state-of-the-art maximums. For example:
+Pitch Line Velocity, Unit Load, Hertz Stress,
+m/s (fpm) N/cm (lb/in) N/cm2 (psi)
+ASE 94 (18,500) maximum 5850 (3340) maximum 41,400 (60,000) maximum
+RL10 80 (15, 720) maximum 5870 (3350) maximum 38,900 (56,400) maximum
+One set of gears on the RL10 engine accumulated 5.56 hours of running
+time at the nominal engine operating conditions with gear tooth stress levels of
+51, 700 N/cm 2 (75, 000 psi) and a pitch line velocity of 81 m/s (16,'000 fpm). The
+gears, when removed, were badly worn but still usable. The accumulated time on
+the gear set was more than three times the required engine design service life.
+RL10 gears have also been successfully operated at tooth stress levels and pitch
+line velocities of 66, 190 N/cm 2 (96, 000 psi) and 102 m/s (20,000 fpm), respectively.
+The parts involved in all these tests were of an early design, and modifications to
+improve life, such as the use of a single bearing idler gear to improve alignment,
+have since been demonstrated, but have not been subjected to maximum life duration tests.
+The use of RL10 test results, the ASE's detailed attention to tolerances and
+a single bearing idler gear in the ASE gearbox to improve gear face alignment
+should result in increasing gear life to the required 10 hr.
+Gear cooling needed to prolong gear life is provided by the hydrogen environment in which the gears operate. A heat transfer analysis of the oxidizer
+turbopump pinion gear indicates a maximum tooth temperature of 389 0 K (700R).
+The heat transfer analysis was extremely conservative in that it assumed all
+the heat input occurred at the gear tip and that all the heat generation was
+absorbed by only one gear of the two gear mesh. However, even this temperature has little effect upon the properties of AMS 6260 material. 
+
+Table XV. Advanced Space Engine High Pressure Fuel Pump
+Best Efficiency Point Design Parameters
+100% Thrust, MR = 6. 0
+First Stage Second Stage
+Pump Speed, N, rad/s (rpm) 9, 740 (93, 000) 9, 740 (93, 000) Specific Speed, Ns 514 514
+*Design Suction Specific Speed, Nssma x 15,000 N/A
+Mean Head Coefficient, "2m 0. 527 0. 539
+Discharge Mean Flow Coefficient, 02m 0. 068 0. 060
+*Design Inlet Tip Flow Coefficient, 0 it 0. 015 N/A
+Head Rise, AH, N-m/kg (ft) 224, 780 (75, 200) 233,790 (78, 215) Volumetric Flowrate, Q, m 3 /s (gpm) 0. 0396 (628) 0. 0422 (669) **Efficiency, 7 , % 58.1 58.4
+Power, kw (hp) 1,104 (1,480) 1,141 (1,530) Inlet Tip Diameter, Dit, cm (in.) 4.50 (1.77) 5.97 (2.35) Inlet Hub Diameter, Dih, cm (in.) 1.52 (0.6) 4. 83 (1. 9) Inlet Pressure, N/cm2 (psia) 44. 8 (65) 1, 517 (2,200) Inlet Temperature, 'K (oR) 21.7 (39) 45.6 (82) Discharge Pressure, N/cm2 (psia) 1,538 (2,230) 3, 034 (4,400) Impeller Tip Diameter, D2t, cm (in.) 13. 4 (5. 276) 13. 6 (5. 37) Impeller Tip Speed, UT, m/s (ft/sec) 653 (2140) 659 (2160) Discharge Blade Height, hb, cm (in.) 0.25 (0.1) 0.25 (0.1) Inlet Tip Blade Angle, Olt*, rad (deg) 0. 192 (11) 0. 192 (11) Discharge Mean Blade Angle,) 2t*, rad (deg) 0.436 (25) 0.436 (25) Number of Blades 3-6-12
+Discharge Temperature, 'K (oR) 45.6 (82) 70.3 (126)
+*Suction Design Point, 100% Thrust and MR = 5.5
+**Pump efficiency includes effects of recirculated flows (thrust balance system, bearing cooling, internal leakages, etc.).
+N/A - Not Applicable
+120
+Critical speed for high pressure, high speed pumps is an important
+design consideration. The NASA groundrules for the ASE study requires the
+rotor bending frequency to be at least 25% above the rotor maximum operating
+speed, and a minimum margin of 20% is to be maintained between rotor rigid
+body critical speeds and rotor steady-state operating speeds at full thrust. (Refer to paragraph El for the complete NASA-prescribed groundrules.) The use
+of relatively stiff rotor support spring rates in the design of the fuel turbopump
+assures that the critical speed groundrule requirements will be satisfied. With
+a ball bearing spring rate of 525 MN/m (300, 000 lb/in.), the first and second
+critical speeds are bounce modes and occur within the transient operating range
+at 4922 rad/s (47, 000 rpm) and 7749 rad/s (74, 000 rpm), respectively. The
+third critical speed is a bending mode and occurs at a speed of 27,646 rad/s
+(264, 000 rpm), nearly three times the maximum steady-state operating speed.
