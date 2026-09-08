@@ -1,1 +1,67 @@
-
+tienes mas ejemplos que te servirian de estas carpetas para seguir montando geometrias en forma de tasks con c#=>function/sample&
+Add files via upload
+yesterday
+geom/others
+Add files via upload
+yesterday
+lattice/example
+Add files via upload
+yesterday
+lattice_II/others/important
+Add files via upload
+yesterday
+libs
+Mi commit desde Codespaces
+28 minutes ago
+notes/small_notes
+Add files via upload
+yesterday
+pikogk/examples
+Create d.txt
+yesterday
+roverwheels/rocket/refrigeration_channels
+Add files via upload
+yesterday
+shapek&/shapes
+Add files via upload
+yesterday
+shapekernel/examples
+Add files via upload
+yesterday
+src
+Mi commit desde Codespaces
+28 minutes ago
+BodyCentreLattice.cs
+Add files via upload
+yesterday
+BoundaryBeamThickness.cs
+Add files via upload
+yesterday
+CellBasedBeamThickness.cs
+Add files via upload
+yesterday
+ConformalCellArray.cs
+Add files via upload
+yesterday
+ConstantBeamThickness.cs
+Add files via upload
+yesterday
+CuboidCell.cs
+Add files via upload
+yesterday
+GlobalFuncBeamThickness.cs
+Add files via upload
+yesterday
+LICENSE
+Initial commit
+3 years ago
+OctahedronLattice.cs
+Add files via upload
+yesterday
+README.md
+Update README.md
+6 months ago
+RandomSplineLattice.cs
+Add files via upload
+yesterday
+RegularCellArray.cs similar o como en los tutoriales que te pasé en esa misma carpeta.
