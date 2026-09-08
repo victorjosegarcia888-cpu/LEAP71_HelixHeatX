@@ -1,9 +1,3 @@
-/workspaces/LEAP71_HelixHeatX/src/RocketMotor/obj/Debug/net9.0/RocketMotor.GeneratedMSBuildEditorConfig.editorconfig
-/workspaces/LEAP71_HelixHeatX/src/RocketMotor/obj/Debug/net9.0/RocketMotor.AssemblyInfoInputs.cache
-/workspaces/LEAP71_HelixHeatX/src/RocketMotor/obj/Debug/net9.0/RocketMotor.AssemblyInfo.cs
-/workspaces/LEAP71_HelixHeatX/src/RocketMotor/obj/Debug/net9.0/RocketMotor.csproj.CoreCompileInputs.cache
-/workspaces/LEAP71_HelixHeatX/src/RocketMotor/obj/Debug/net9.0/RocketMotor.sourcelink.json
-/workspaces/LEAP71_HelixHeatX/src/RocketMotor/obj/Debug/net9.0/RocketMotor.csproj.AssemblyReference.cache
 /workspaces/LEAP71_HelixHeatX/src/RocketMotor/bin/Debug/net9.0/RocketMotor
 /workspaces/LEAP71_HelixHeatX/src/RocketMotor/bin/Debug/net9.0/RocketMotor.deps.json
 /workspaces/LEAP71_HelixHeatX/src/RocketMotor/bin/Debug/net9.0/RocketMotor.runtimeconfig.json
@@ -17,6 +11,12 @@
 /workspaces/LEAP71_HelixHeatX/src/RocketMotor/bin/Debug/net9.0/PicoGK.dll
 /workspaces/LEAP71_HelixHeatX/src/RocketMotor/bin/Debug/net9.0/PicoGK.pdb
 /workspaces/LEAP71_HelixHeatX/src/RocketMotor/bin/Debug/net9.0/PicoGK.xml
+/workspaces/LEAP71_HelixHeatX/src/RocketMotor/obj/Debug/net9.0/RocketMotor.csproj.AssemblyReference.cache
+/workspaces/LEAP71_HelixHeatX/src/RocketMotor/obj/Debug/net9.0/RocketMotor.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/LEAP71_HelixHeatX/src/RocketMotor/obj/Debug/net9.0/RocketMotor.AssemblyInfoInputs.cache
+/workspaces/LEAP71_HelixHeatX/src/RocketMotor/obj/Debug/net9.0/RocketMotor.AssemblyInfo.cs
+/workspaces/LEAP71_HelixHeatX/src/RocketMotor/obj/Debug/net9.0/RocketMotor.csproj.CoreCompileInputs.cache
+/workspaces/LEAP71_HelixHeatX/src/RocketMotor/obj/Debug/net9.0/RocketMotor.sourcelink.json
 /workspaces/LEAP71_HelixHeatX/src/RocketMotor/obj/Debug/net9.0/RocketMo.45A06AF1.Up2Date
 /workspaces/LEAP71_HelixHeatX/src/RocketMotor/obj/Debug/net9.0/RocketMotor.dll
 /workspaces/LEAP71_HelixHeatX/src/RocketMotor/obj/Debug/net9.0/refint/RocketMotor.dll

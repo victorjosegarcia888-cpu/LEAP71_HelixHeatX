@@ -1,6 +1,6 @@
 using PicoGK;
 
-namespace Leap71.RocketMotor
+namespace Leap71.RocketMotorExamples
 {
     public class Program
     {
@@ -12,7 +12,7 @@ namespace Leap71.RocketMotor
             {
                 Library.Go(
                     0.25f,
-                    MotorTasks.Task_AssembledMotor,
+                    RocketMotorAssembly.Task,
                     strOutputFolder
                 );
             }

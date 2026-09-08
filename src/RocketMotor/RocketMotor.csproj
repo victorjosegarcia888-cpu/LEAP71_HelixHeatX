@@ -10,7 +10,14 @@
 
   <ItemGroup>
     <Compile Include="Program.cs" />
-    <Compile Include="MotorTasks.cs" />
+    <Compile Include="Ex_RocketMotorChamber.cs" />
+    <Compile Include="Ex_RocketMotorNozzle.cs" />
+    <Compile Include="Ex_RocketMotorInjector.cs" />
+    <Compile Include="Ex_RocketMotorTurbopump.cs" />
+    <Compile Include="Ex_RocketMotorPreburner.cs" />
+    <Compile Include="Ex_RocketMotorCoolingChannels.cs" />
+    <Compile Include="Ex_RocketMotorLattice.cs" />
+    <Compile Include="Ex_RocketMotorAssembly.cs" />
   </ItemGroup>
 
   <ItemGroup Condition="'$(PicoGKGeometry)' == 'true'">
