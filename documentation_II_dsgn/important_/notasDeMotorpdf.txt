@@ -1,0 +1,463 @@
+#Parametros y variables para diseño geometrico-volumen(voxels) en pikogk
+2. Control Functions
+Tank Head Idle Cycle Balance Flow Schematic, Thrust = 55 lb, Mixture Ratio 1. 5:1 FD 66669F
+(Saturated Liquid Propellants at Pump Inlets) (Cycle No. 106)
+
+Table XII. ASE Best-Estimate Performance
+Operating Point Mixture Ratio Delivered Ivac, N-s/kg (sec)
+5.5:1 4647.4 (473.9)
+Rated 6.0:1 4623.8 (471.5)
+6.5:1 4581.7 (467.2)
+Pumped Idle (4% of Rated Thrust) 3.5:1 4415.0 (450.2)
+Tank Head Idle (0. 3% of Rated Thrust) 1.5:1 3939.3 (401.7)
+
+The preburner temperature of 11400
+K (2050oR) at 100% thrust and MR = 6.0
+is the maximum allowable to assure that the 10 hr, 1% creep life requirements is
+satisfied at the severest operating point (maximum temperature) for the fuel turbine, which occurs at rated thrust, MR = 6.5. Because the oxidizer turbine is
+slightly smaller than the fuel turbine and operates at substantially lower speeds
+for the same temperatures, the oxidizer turbine blade stresses are lower and it
+has more temperature margin at all engine operating points.
+Parasitic flows represent engine propellant flows that contribute to increased
+cycle power requirements, reduce power availability and/or reduce performance.
+Propellant flow that bypasses the turbine(s) results in an energy loss. Overboard
+propellant flow can be a cycle power loss or a performance loss, depending upon
+its source and usage. Tank pressurant flows increase pump power requirements
+but are not chargeable to the engine as a performance (specific impulse) loss since
+the propellants are returned to the vehicle tanks. 
+
+Table IX. ASE Operating Characteristics,
+Pumped Idle (4% Thrust,
+MR = 3.5) (Concluded)
+Thrust Chamber
+Chamber Pressure, N/cm2 (psia) 54. 5 (79.1)
+Mixture Ratio 3.766
+Hot Gas Injector AP, N/cm2 (psid) 1. 675 (2. 43)
+Oxidizer Injector AP, N/cm2 (psia) 1.958 (2. 84)
+Chamber Throat Diameter, cm (in.) 6.53 (2. 57)
+Nozzle Exit Diameter (ID), cm (in.) 132.6 (52.2)
+Nozzle Expansion Ratio (Aero) 400
+Nozzle Dump Cooling Flowrate, kg/s (lb/sec) 0.0125 (0. 0275)
+Coolant Jacket
+Pressure Drop, N/cm2 (psid) 51.7 (75)
+Temperature Rise, 'K (OR) 277 (499)
+Tank Pressurants
+Oxidizer Flowrate, kg/s (ib/sec) 0.041 (0. 090)
+Oxidizer Temperature, OK (OR.) 143 (258)
+Fuel Flowrate, kg/s (lb/sec) 0. 006 (0. 013)
+Fuel Temperature, °K (OR) 302 (544)
+
+
+Control of the P&WA ASE is accomplished with eight valves. Locations of
+the valves used on the engine are shown schematically in figure 27. Shutoff of engine propellants is accomplished by fuel and oxidizer suction (inlet) valves. A fuel
+(cavitating venturi) valve, a main oxidizer valve, and a preburner oxidizer valve
+provide propellant control during full thrust operation. A GO2 control valve, a
+fuel bypass valve, and a fuel shunt valve complete the control system necessary
+for idle mode operation and tank pressurization requirements.
+The function of the suction valves, which are located at the inlets to the low
+pressure pumps, is to provide positive shutoff of the propellants when the engine
+is not operating.
+
+Explicacion
+The fuel valve is located downstream of the second stage of the high pressure fuel pump and controls the hydrogen flow into the thrust chamber cooling
+jacket. Selection of a cavitating venturi as the valve type is based upon pumped
+idle mode requirements. During pumped idle operation, the venturi throat area
+is set to cavitate to provide hydraulic isolation of the fuel pump from boiling
+instability, which occurs in the thrust chamber cooling jacket when the hydrogen
+coolant pressure is subcritical. At full thrust the valve is scheduled to control
+fuel flow to the engine and, with other valves, provides the desired mixture ratio.
+
+The main oxidizer valve is located in the line to the main oxidizer injector
+downstream of the high pressure oxidizer pump. The engine system was modified by (1) replacing the single hot gas G02
+heat exchanger for oxidizer tank pressurization with a dual GH 2 /GO 2 and hot gas/
+GO 2 heat exchanger system, (2) replacing the low pressure loss main oxidizer
+injector with a high pressure loss injector, and (3) using a single-stage high
+pressure oxidizer pump instead of the two-stage (or 1 1/2 stage) pump.
+To obtain adequate oxidizer tank pressurant when in the pumped idle mode,
+the GH 2 /02 and hot gas/02 heat exchangers were combined, with all the GO2
+flow supplied to the vehicle oxidizer tank. LO 2 was supplied to the main chamber.
+A fuel bypass around the GH 2 /0 2 heat exchanger provided adequate fuel side
+pressure drop during low fuel flowrate operation without incurring excessive
+pressure loss during full thrust operation. With liquid 02 supplied to the main
+injector in the pumped idle mode, the oxidizer injection pressure drop was
+increased to minimize the possibility of combustion instability. 
+
+The preburner oxidizer control
+valve is located on the preburner at the end of the line to the preburner oxidizer
+injector to minimize the volume between the valve and injector. The main oxidizer
+valve and preburner oxidizer valves control the oxidizer flowrates to the main
+chamber and preburner, respectively.
+
+Figure 25. ASE Fuel Parasitic Flowpath FD 75487
+Schematic; 100% Thrust,
+MR = 5.5
+
+Combustible-combustion
+The fuel bypass valve is located downstream of the high pressure fuel pump
+and allows fuel to bypass thrust chamber coolant jacket, preburner, and turbines
+during tank head idle. This valve is opened at tank head idle to schedule more
+fuel flow through the turbopumps for cooldown. In the tank head idle mode, the fuel
+bypass valve also helps prevent turbopump rotation by bypassing fuel around the
+turbines. The transition to pumped idle is accomplished by closing the fuel bypass
+valve thereby increasing the fuel flow to the turbines, which initiates turbopump
+rotation.
+
+Table X. JANNAF Performance at 100% Thrust
+Mixture Ratio Ivac , N-s/kg (sec)
+5.5 4686.6 (477.9)
+6.0 4663.1 (475.5)
+6.5 4620.9 (471.2)
+Note: For pure propellants -
+The engine seal overboard leakages were considered to have a negligible
+effect on engine performance. The JANNAF procedure and computer programs
+used for evaluating performance at full thrust were also used to determine
+delivered vacuum specific impulse at the tank head and pumped idle operating
+points. Estimates of energy release for tank head and pumped idle were obtained
+using a P&WA correlation parameter determined from test results, which takes
+into account injector and chamber geometry and propellant injection conditions.
+Idle mode performance is shown in table XI.
+
+
+Table XI. Idle Mode Performance
+Operating Point Mixture Ratio Ivac, N-s/kg (sec)
+Tank Head Idle (0.3% Thrust) 1.5:1 3939.3 (401.7)
+Pumped Idle (4% Thrust) 3.5:1 4415. 0 (450.2)
+
+The significantly reduced delivered vacuum specific impulses for idle mode
+operation, particularly for tank head idle, are primarily the result of lower
+Ivac values caused by the low mixture ratio and chamber pressure. For a
+detailed breakdown of JANNAF performance, see Appendix B.
+
+Experience has indicated that JANNAF-predicted performance levels have
+been 29.4 to 39.2 N-s/kg (3 to 4 sec) higher than the specific impulses obtained
+from hardware testing. Therefore, the P&WA best estimate of the ASE
+performance at rated thrust is the JANNAF-predicted value reduced by 39.2 N-s/
+kg (4 sec). There is presently no JANNAF procedure available for determining
+energy release when propellants are at subcritical pressures. Therefore, the
+idle mode performance presented in table XI obtained using JANNAF computer
+programs to determine kinetics.
+
+Table XII. ASE Best-Estimate Performance
+Operating Point Mixture Ratio Delivered Ivac, N-s/kg (sec)
+5.5:1 4647.4 (473.9)
+Rated 6.0:1 4623.8 (471.5)
+6.5:1 4581.7 (467.2)
+Pumped Idle (4% of Rated Thrust) 3.5:1 4415.0 (450.2)
+Tank Head Idle (0. 3% of Rated Thrust) 1.5:1 3939.3 (401.7)
+
+Control of the P&WA ASE is accomplished with eight valves. Locations of
+the valves used on the engine are shown schematically in figure 27. 
+Shutoff of engine propellants is accomplished by fuel and oxidizer suction (inlet) valves. A fuel
+(cavitating venturi) valve, a main oxidizer valve, and a preburner oxidizer valve
+provide propellant control during full thrust operation. A GO2 control valve, a
+fuel bypass valve, and a fuel shunt valve complete the control system necessary
+for idle mode operation and tank pressurization requirements.
+The function of the suction valves, which are located at the inlets to the low
+pressure pumps, is to provide positive shutoff of the propellants when the engine
+is not operating.
+The fuel valve is located downstream of the second stage of the high pressure fuel pump and controls the hydrogen flow into the thrust chamber cooling
+jacket. Selection of a cavitating venturi as the valve type is based upon pumped
+idle mode requirements. During pumped idle operation, the venturi throat area
+is set to cavitate to provide hydraulic isolation of the fuel pump from boiling
+instability, which occurs in the thrust chamber cooling jacket when the hydrogen
+coolant pressure is subcritical. At full thrust the valve is scheduled to control
+fuel flow to the engine and, with other valves, provides the desired mixture ratio.
+
+The fuel bypass valve is located downstream of the high pressure fuel pump
+and allows fuel to bypass thrust chamber coolant jacket, preburner, and turbines
+during tank head idle. This valve is opened at tank head idle to schedule more
+fuel flow through the turbopumps for cooldown. In the tank head idle mode, the fuel
+bypass valve also helps prevent turbopump rotation by bypassing fuel around the
+turbines. The transition to pumped idle is accomplished by closing the fuel bypass
+valve thereby increasing the fuel flow to the turbines, which initiates turbopump
+rotation.
+
+he dynamic deck was used to predict turbopump cooldown during tank head
+idle operation. The assumed input was an ambient temperature of 2220K (400'R)'
+and saturated liquid propellants. The results of a simulated cooldown run of
+175 sec are shown in figures 49 through 54 (also refer to figures 30 through 33).
+These data indicate the relative cooldown of the pump housings and impellers.
+The RL10 was successfully started to pumped idle after turbopump cooldown. 
+The go/no-go conditions were established by a cooldown test program.
+After the completion of cooldown the average turbopump housing temperature
+will have reached some level.
+The simulation of the ASE cooldown indicates that the average housing
+temperature of the turbopumps at the end of 175 sec of cooldown are approximately:
+Temperature,
+Pump oK (OR)
+Fuel Boost 61 (110)
+Fuel Pump (1st stage) 21 (38)
+Fuel Pump (2nd stage) 21 (38)
+Oxidizer Boost 106 (190)
+Oxidizer Pump 94 (170)
+
+When the simulated transient is extrapolated until housing temperatures are
+in the range that the RL10 achieved at "go" conditions (assumed to be 44.4 and
+100 0 K (80 and 180'R) on the fuel and oxidizer pump, respectively) the cooldown
+time would be:
+Pump Time, sec
+Fuel Boost 234
+Oxidizer Boost 198
+
+Cooldown criteria for the ASE turbopumps have not been established. It
+is not known if housing temperature is a sufficient indication for cooldown. If
+it is, it is also not known if the same temperature would be required for all fuel
+or oxidizer pumps. When the internal surface temperatures of the impeller and
+housing approach liquid temperatures, the pumps should be capable of producing
+a pressure rise. A search of available literature has indicated that the requirements for cooldown and pumping may be more complex 
+than the use of metal temperature criteria. For example, the propellant quality (vapor volume) at the pump
+inlet must be below a given value to prevent head falloff caused by choking in the
+pump. It was concluded that cooldown and pumping with saturated inlet conditions
+involved complex phenomena that require more detailed study as well as some
+experimental work. This area of operation is identified as an area that requires
+additional effort beyond the scope of the. ASE program.
+
+Gimbaling capability of ±0. 122 rad (7 deg) through a square pattern is provided. Gimbaling actuator attach points are located on a stiffening ring on the
+main chamber downstream of the throat.
+The centerline spacing between the fuel and oxidizer boost pumps is set
+at 21.5 cm (8.45 in.) to be the same as the RL10. However, the boost pump
+inlets are still located in as close to the engine centerline as possible to reduce
+gimbaling loads. The boost pump centerline spacing was selected by P&WA so that
+the ASE could be made more readily interchangeable with the RL10 by providing
+common vehicle/engine inlet interface locations. This is accomplished, as shown
+in Section V, Engine Development Program Plans, by repositioning the ASE
+oxidizer turbopump assembly (including the gearbox and boost pumps) on the engine.
+The engine oxidizer and fuel inlets are the inlet flanges of the two inlet
+shutoff (suction) valves, which are mounted on the low pressure pumps. The
+oxidizer and fuel inlet ID's are 9.68 cm (3.81 in.) and 8.53 cm (3.36 in.),
+respectively.
+The high pressure fuel turbopump and the preburner are mounted in a main
+case on top of the main chamber, which also contains the gimbal point. The fuel
+turbopump and preburner are plug-in units that can readily be removed and replaced to facilitate engine maintenance. The oxidizer turbopump is mounted
+separately with its centerline parallel to that of the thrust chamber; its turbine
+is supplied with preburner gases from the main case through a coaxial supply/
+return line.
+The engine arrangement shown in figures 55 and 56 evolved as the one that
+minimized engine weight compared to a design with both turbopumps and the
+preburner mounted in the main case located at the side of the engine. Examination
+of estimated weights for the components showed that the main injector and main
+case both were relatively heavy, and that combining them would offer significant
+weight savings. Approximately a 6.3 kg (14 lb) reduction in weight was achieved
+in the final design.
+
+The concept of a plug-in (into the main case) oxidizer high pressure turbopump proved to be impractical for a design in which the fuel and oxidizer low
+pressure pumps are driven by a gear system from the main oxidizer turbopump
+shaft. Locating the main oxidizer turbopump parallel to the thrust chamber
+centerline and outboard of the main case allowed the engine propellant inlets to
+be located close in. The coaxial preburner gas supply/return line provides a
+convenient location for the oxidizer heat exchanger for vehicle tank pressurization
+and eliminates the possible problems associated with hot plumbing lines.
+
+3. Engine Mass Properties
+
+a. Engine Weight and Center of Gravity
+The final engine assembly dry weight was found to be 206.9 kg (456.3 lb).
+This is the present design weight, and the target weight for the final flight version
+of the ASE would be set at approximately 85% of this value to bring the weight to
+below 181 kg (400 lb). The weight of the turbopumps (including the low pressure
+pumps and gearbox) represents 23.3% of the total engine weight, and the thrust
+chamber 26.6%. The control system represents a major portion of the engine 92 weight, 36.1%, with the valves being the largest contributor, and it is in this
+system that the major effort to reduce engine weight would be made. The weight
+breakdown of the ASE, including target weights, is summarized in table XIII.
+Location of the engine center of gravity is shown in figure 57.
+
+Table XIII. Advanced Space Engine Dry Weight Summary
+Design Target
+Component Weight, kg (lb) AWeight, kg (lb)
+1. High pressure fuel turbopump 19.1 (42.1) -0.9 (-2)
+2. High pressure oxidizer turbopump 22.6 (49.9) -0.9 (-2)
+and gearbox
+3. Low pressure fuel pump 2.6 (5.8) - 0.5 (-1)
+4. Low pressure oxidizer pump 3.8 (8.3)
+5. Preburner 3.9 (8.5) - 0. 9 (-2)
+6. Main case 10.7 (23.5)
+7. Thrust chamber (to e =100) 22.5 (49.6) -1.8 (-4)
+8. Dump cooled nozzle 32.5 (71.6) -6.3 (-14)
+9. Controls:
+ECU 11.3 (25.0)
+Exciter-igniter (4) 7.4 (16.4)
+Fuel inlet valve 7.8 (17.1)
+Oxidizer inlet valve 8.2 (18.1)
+P/B oxidizer valve 5.5 (12.2)
+Main chamber oxidizer 5.4 (11.9)
+valve
+Fuel shunt valve 5.9 (12.9)
+Fuel bypass valve 1.3 (2.9)
+Fuel cavitating venturi 9.5 (21.0)
+Gox control valve 4.4 (9.8)
+Electrical harness 8.0 (17.6)
+Total Controls 74.7 (164.9) -15.9 (-35)
+10. Plumbing (includes GO2 heat 14.5 (32.1) -1.4 (-3)
+exchanger)
+Total Design Dry Weight 206. 9 (456. 3) -28.6 (-63)
+Total Target Dry Weight 178.3 (393)
+NOTE: Valve weights include weight of valve actuators.
+
+ECU
+SOXIDIZER INLET
++X \ r
+-Y CG _ e = 100 e = 400
++Z
+FUEL INLET
+HP FUEL ENGINE CENTER OF GRAVITY
+PUMP X = 3.05 cm (1.2 in.)
+Y = 0.762 cm (0.3 in.)
+Z = 47.2 cm (18.6 in.)
+Figure 57. Advanced Space Engine Center of FD 72114
+Gravity (Fixed Nozzle Configuration)
+b. Gimbaled Moment of Inertia
+The engine can be gimbaled through a ±0.122 rad (7 deg) square pattern at
+rates not exceeding 20 radians/sec 2 . The gimbaled moments of inertia are
+presented in table XV. Figure 58 shows the ASE dynamic envelope.
+Table XIV. Gimballed Moments of Inertia
+Ixx, mm-kg-s 2 (in-lb-sec2 ) 13,283 (1,155)
+Iyy , mm-kg-s 2 (in-lb-sec2 ) 13,110 (1,140)
+Izz, mm-kg-s 2 (in-lb-sec2 ) 2,013 (175)
+E. ENGINE SUBASSEMBLY/COMPONENT DESIGNS
+1. General
+This subsection provides operating characteristics and mechanical descriptions of the various engine subassemblies/components. The designs of the componenits for the ASE were based upon the requirements of cycle No. 104. The
+component operating characteristics presented herein reflect the results of the
+component design analyses which were then used to generate the engine characteristics presented in paragraph B, Engine System.
+94
+27.9
+(11.0) 6.6
+142.2 (2.6)
+- (56.0) 12.71 - (5.0)1
+67.6 4.70
+(126.6) R (1.85)
+27.9 GIMBAL PLANE 99.1
+(39.0) DIAMETER (1.0) -- - - 135.1
+/ (53.2) DIAMETER
+/ 6.1
+(2.4)
+233.86
+(92.07)
+
+ASA GROUND RULES FOR ADVANCED SPACE ENGINE
+PRELIMINARY DESIGN
+General
+Components which are subject to a low cycle fatigue mode of failure shall
+be designed for a minimum of 300 cycles times a safety factor of 4.
+Components which are subject to a fracture mode of failure shall be designed for a minimum of 300 cycles times a safety factor of 4.
+Components which are subject to a high cycle fatigue mode of failure shall
+be designed within the allowable stress range diagram (based on the material endurance limit). If stress range material property data are not available, modifiedGoodman diagrams constructed as shown below shall be
+utilized.Fe = Material Endurance Limit Lower of t- or L
+1.4 1.1 Fty = Material Yield Strength (0.2% Offset)
+Ftu = Material Ultimate Strength.
+
+Effective stress shall be based on the Mises-Hencky constant energy
+of distortion theory.
+Unless otherwise noted under component ground rules specified herein, the following minimum factors of safety shall be utilized:
+Factor of Safety (. 2% yield) = 1.1 x Limit Load
+Factor of Safety (Ultimate) = 1.4 x Limit Load
+Limit Load: The maximum predicted load or pressure at the
+most critical operating condition
+Components subject to pressure loading shall be designed to the following minimum proof and burst pressures:
+Proof Pressure = 1.2 x Limit Pressure
+Burst Pressure = 1. 5 x Limit Pressure
+Inducer
+Inducer inlet NPSH shall not be less than the following:
+LH2 , NPSH = 1.3 cm 2 /2g
+LO2, NPSH = 2.3 cm 2 /2g
+Impeller
+Inducers and/or impellers utilized in the high pressure pumps shall
+be designed for operation above incipient cavitation.
+Impeller burst speed shall be at least 20% above the maximum operating speed.
+Impeller effective stress at 5% above the maximum operating speed
+shall not exceed the allowable . 2% yield stress. (Does not apply to
+areas in which local yielding is permitted.)
+Turbine
+Blade root steady-state stress shall not exceed the allowable 1% ten
+hour creep stress.
+Stress state at the blade root as defined by the steady-state stress
+and an assumed vibratory stress equal to the gas bending stress
+shall be within the allowable stress range diagram or modified
+Goodman diagram.
+
+No blade natural frequencies within ±15% of known sources of excitation at steady-state operating speeds.
+Disk burst speed shall be at least 20% above the maximum operating
+speed.
+Disk maximum effective stress at 5% above the maximum operating
+speed shall not exceed the allowable . 2% yield stress. (Does not
+apply to areas in which local yielding is permitted.)
+Bearings
+Turbopump designs shall utilize rolling element bearings.
+Maximum DN (mm x rpm):
+LO2 LH2 GH2
+Roller 1.5 x 10 6 2.0 x 10 6 .5 x 10 6
+Ball 1. 5 x 10 6 2.0x106 1. 2 x 10 6
+B1 0 life 2100 hours
+Material:
+Rolling Elements 440C
+Races 440C
+Seals
+Turbopump designs shall utilize conventional type seals.
+Face contact seal maximum PV, FV, and PfV factors:*
+LO 2 LH 2 GH 2 H 2 + H 2 0
+PV Factor 25,000 50,000 20,000 10,000
+FV Factor 2,000 4,000 1,500 800
+PfV Factor 60,000 200,000 50,000 20,000
+*PV = unit load times rubbing velocity (lb/in2 x ft/sec)
+FV = face load per unit length times rubbing velocity (lb/in. x ft/sec)
+PfV = fluid pressure differential times rubbing velocity (psig x ft/sec)
+Gears (Hydrogen Gas Cooled)
+Pitch line velocity (max) 20, 000 fpm
+Hertz stress (max) 60, 000 psi
+Material AMS 6260
+98
+Critical Speed
+Rotor bending frequency shall be at least 25% above the rotor maximum operating speed.
+A minimum margin of 20% shall be maintained between rotor. rigid
+body critical speeds and rotor steady-state operating speeds at full
+thrust and the- 6:1 throttled thrust condition. Rigid body critical
+speeds within the throttled-to-full thrust range shall be permitted
+only if deemedenecessary by both the contractor Program Manager
+and the NASA Project Engineer.
+Thrust Chamber
+High heat flux portion of chamber shall be of nontubular construction.
+It shall be of milled construction with dimensional limits of:
+minimum slot width = 0. 030 in.
+minimum slot depth/width = 4 to 1
+minimum web thickness = 0. 030 in.
+minimum wall thickness = 0. 025 in.
+Use lightweight construction (tubular with high strength, high temperature alloys) starting at lowest feasible expansion ratio.
+2. Low Pressure Pumps and Gearbox
+a. Low Pressure Pumps
+(1) General Description
+Boost-pumps, termed "low pressure pumps," are incorporated in both the
+fuel and oxidizer systems of the ASE design. The boost pumps provide the inlet
+NPSH conditions required by the high speed main pumps for operation without
+cavitation. The main pumps, in the interest of efficiency must be operated at
+rotational speeds too high for good suction performance. The low pressure
+pump designs, which have three-bladed, axial flow, helical pumping elements,
+provide the capability for operation at the engine inlet NPSH's of 6 N-m/kg (2 ft)
+for the oxidizer and 45 N-m/kg (15 ft) for the fuel. The oxidizer low pressure
+pump provides a pressure rise of 44.3 N/cm2 (64.3 psi) and the low pressure fuel
+pump provides a pressure rise of 35.0 N/cm2 (50.8 psi) at design point to supply
+the main pumps, which have maximum suction specific speeds of 34,000 and
+13,000 respectively. Both low pressure pumps are gear driven from the main
+oxidizer turbopump shaft.
+(2) Operating Characteristics
+The hydrodynamic criteria and resultant geometric configurations selected
+for the ASE fuel and oxidizer boost pumps are based upon extensive test results
+and developed technology from several prior axial inducer programs. Primary
+emphasis for the boost pump designs was directed toward achievement of cycle
+suction requirements over the specified operating ranges of thrust level and
+mixture ratio, while providing sufficient head rise to preclude cavitation of the
+main fuel and oxidizer turbopumps.
+
+Maximum suction requirements for both the fuel and oxidizer boost pumps
+occur at the maximum thrust, MR = 5.5 operating point. A peak suction specific
+speed level of 38, 000 was selected for each pump at this condition, and is compatible with demonstrated values from several earlier designs.
+One significant ground rule provided by the NASA/LeRC (Reference 5)
+to assure acceptable margin against inlet cavitation, established a maximum
+limit to the inlet fluid velocity as a function of the available NPSH,
+NPSH (LO2 ) = 2.3 cm2 /2g = 2.3 x inlet velocity head
+NPSH (LH 2 ) = 1.3 cm2 /2g = 1.3 x inlet velocity head
+The specified cycle NPSH requirements for the fuel and oxidizer boost
+pumps of 45 N-m/kg (15 ft) and 6 N-m/kg (2 ft), respectively, thus determined
+the required flow areas and resultant inlet diameters for the established cycle
+flowrates and maximum allowable velocities. Boost pump speeds were set in
+turn for each design by the selected values of suction specific speed, inlet
+diameter, and optimum inlet tip flow coefficient given by the suction performance
+correlations of figure 59.
