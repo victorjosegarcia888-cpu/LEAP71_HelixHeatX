@@ -1,0 +1,15 @@
+/workspaces/LEAP71_HelixHeatX/src/RocketMotorDesign/obj/Debug/net9.0/RocketMotorDesign.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/LEAP71_HelixHeatX/src/RocketMotorDesign/obj/Debug/net9.0/RocketMotorDesign.AssemblyInfoInputs.cache
+/workspaces/LEAP71_HelixHeatX/src/RocketMotorDesign/obj/Debug/net9.0/RocketMotorDesign.AssemblyInfo.cs
+/workspaces/LEAP71_HelixHeatX/src/RocketMotorDesign/obj/Debug/net9.0/RocketMotorDesign.csproj.CoreCompileInputs.cache
+/workspaces/LEAP71_HelixHeatX/src/RocketMotorDesign/obj/Debug/net9.0/RocketMotorDesign.sourcelink.json
+/workspaces/LEAP71_HelixHeatX/src/RocketMotorDesign/bin/Debug/net9.0/RocketMotorDesign
+/workspaces/LEAP71_HelixHeatX/src/RocketMotorDesign/bin/Debug/net9.0/RocketMotorDesign.deps.json
+/workspaces/LEAP71_HelixHeatX/src/RocketMotorDesign/bin/Debug/net9.0/RocketMotorDesign.runtimeconfig.json
+/workspaces/LEAP71_HelixHeatX/src/RocketMotorDesign/bin/Debug/net9.0/RocketMotorDesign.dll
+/workspaces/LEAP71_HelixHeatX/src/RocketMotorDesign/bin/Debug/net9.0/RocketMotorDesign.pdb
+/workspaces/LEAP71_HelixHeatX/src/RocketMotorDesign/obj/Debug/net9.0/RocketMotorDesign.dll
+/workspaces/LEAP71_HelixHeatX/src/RocketMotorDesign/obj/Debug/net9.0/refint/RocketMotorDesign.dll
+/workspaces/LEAP71_HelixHeatX/src/RocketMotorDesign/obj/Debug/net9.0/RocketMotorDesign.pdb
+/workspaces/LEAP71_HelixHeatX/src/RocketMotorDesign/obj/Debug/net9.0/RocketMotorDesign.genruntimeconfig.cache
+/workspaces/LEAP71_HelixHeatX/src/RocketMotorDesign/obj/Debug/net9.0/ref/RocketMotorDesign.dll

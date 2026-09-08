@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "RocketMotorDesign/1.0.0": {
+        "runtime": {
+          "RocketMotorDesign.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RocketMotorDesign/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
