@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "zf7NLhOWu3E=",
+  "success": true,
+  "projectFilePath": "/workspaces/LEAP71_HelixHeatX/csproj_example/PicoGK.csproj",
+  "expectedPackageFiles": [
+    "/home/codespace/.nuget/packages/microsoft.build.tasks.git/8.0.0/microsoft.build.tasks.git.8.0.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.sourcelink.common/8.0.0/microsoft.sourcelink.common.8.0.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.sourcelink.github/8.0.0/microsoft.sourcelink.github.8.0.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/skiasharp/3.119.0/skiasharp.3.119.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/skiasharp.nativeassets.macos/3.119.0/skiasharp.nativeassets.macos.3.119.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/skiasharp.nativeassets.win32/3.119.0/skiasharp.nativeassets.win32.3.119.0.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.netcore.app.ref/9.0.19/microsoft.netcore.app.ref.9.0.19.nupkg.sha512",
+    "/home/codespace/.nuget/packages/microsoft.aspnetcore.app.ref/9.0.19/microsoft.aspnetcore.app.ref.9.0.19.nupkg.sha512"
+  ],
+  "logs": []
+}

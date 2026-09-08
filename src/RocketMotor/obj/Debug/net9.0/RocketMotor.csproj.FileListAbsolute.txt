@@ -1,0 +1,6 @@
+/workspaces/LEAP71_HelixHeatX/src/RocketMotor/obj/Debug/net9.0/RocketMotor.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/LEAP71_HelixHeatX/src/RocketMotor/obj/Debug/net9.0/RocketMotor.AssemblyInfoInputs.cache
+/workspaces/LEAP71_HelixHeatX/src/RocketMotor/obj/Debug/net9.0/RocketMotor.AssemblyInfo.cs
+/workspaces/LEAP71_HelixHeatX/src/RocketMotor/obj/Debug/net9.0/RocketMotor.csproj.CoreCompileInputs.cache
+/workspaces/LEAP71_HelixHeatX/src/RocketMotor/obj/Debug/net9.0/RocketMotor.sourcelink.json
+/workspaces/LEAP71_HelixHeatX/src/RocketMotor/obj/Debug/net9.0/RocketMotor.csproj.AssemblyReference.cache
