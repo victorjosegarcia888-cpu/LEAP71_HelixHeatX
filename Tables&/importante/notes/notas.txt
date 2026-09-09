@@ -1,0 +1,228 @@
+Curvas del fabricante:
+El fabricante suele 
+proporcionar las curvas de 
+actuaciones para un tamaño, 
+un fluido y un régimen de giro 
+determinados.
+Es común que la presión 
+proporcionada por la bomba 
+se indique en altura hidráulica.
+
+Dependencia funcional de las actuaciones de una bomba
+Adimensionalizando con n, ρ y D, se obtiene:
+QnD3= ϕ∆ρP2µ2
+,
+n D nDρ2
+, Modelo adimensional de bomba
+La expresión final práctica característica de las bombas se obtiene si, 
+además, consideramos que:
+• La experiencia indica que el efecto del número de Reynolds es secundario.
+• El parámetro de salto de presión se suele expresar como función del de 
+caudal en lugar de lo contrario
+∆ρn2P ϕD2=′ QnD3 
+Para un modelo adimensional 
+determinado y para:
+• Cualquier otro parámetro adimensional de funcionamiento, como el de 
+potencia o el rendimiento, presentará la misma dependencia adimensional
+0,1<ReRe'<10
+
+Efecto del número de Reynolds:
+∆ρWρP
+n D2
+3 5
+n D2
+(en línea continua)
+(en línea discontinua)
+104
+104
+103
+103
+102
+102
+QnD31010µ/µagua = 1
+µ/µagua = 1
+Ejemplo del efecto de la variación de la viscosidad sobre las curvas de presión y 
+potencia adimensional en función del caudal adimensional, para una bomba 
+determinada. Relación entre los parámetros de actuaciones y los parámetros de 
+diseño vistos en capítulos anteriores
+Turbomáquinas. Cap. 4: Actuaciones, A. Lecuona y J. I. Nogueira
+Relación entre parámetro de caudal,                , y coeficiente de flujo,       . 3 nD
+Q CQ=1U VMm= Φ{ . 1 12M M
+Q m geom Q V A
+C K nr U=  ⇒ = Φ  π =  ω 
+Ambos parámetros responden al mismo 
+concepto y sólo se diferencian por una 
+constante dependiente de la geometría 
+adimensional que define la forma de la 
+máquina.
+Relación entre parámetro presión,                   , y coeficiente de carga,             . 2 2 P
+P C nD
+∆ =ρ 2
+2Uflτ=Ψ{2. 2 2 2 2 fl P geom Q P Q C K nr U
+∆ =ητ ρ 
+    ′ ⇒ =ηΨ
+
+para cualquier fluido, tamaño y condiciones de 
+funcionamiento, de ese modelo de bomba, si 
+la variación del número de Reynolds no es 
+excesiva.
+Notas:
+(i)Como en cualquier adimensionalización, se 
+ha de tener especial cuidado en introducir las 
+variables en un sistema coherente de 
+unidades
+(ii)A veces se usa el parámetro adimensional 
+de altura hidráulica, en vez del de presión, 
+siendo ambos totalmente equivalentes: 
+0
+0.2
+0.4
+0.6
+0.8
+1
+1.2
+1.4
+1.6
+1.8
+0 0.2 0.4 0.6 0.8 1 1.2 1.4 1.6
+η3 5 nD ρW
+2 2 P
+P C nD
+∆ =ρ
+3 nD
+Q CQ=2 2 2 2 Dn
+Hg C Dn
+P C H P
+∆ = ≡ ∆
+
+La tobera propulsiva 
+• Sónica 
+En las TGs propulsivas no se llega a expansionar hasta la presión atmosférica, 
+como se hace con la turbina libre. La expansión remanente se produce en un 
+conducto convergente, tobera, por lo que solo puede llegar a acelerar hasta la 
+velocidad del sonido local en su área mínima o garganta. Si queda aún presión 
+disponible, se desaprovecha, pues se produce fuera de la tobera en forma de 
+ondas de expansión libre, visibles. 
+Al ser la velocidad del sonido 𝑎 =
+𝛾𝑅𝑔𝑇, la alta temperatura de los gases de 
+escape hace que sea posible obtener empuje a velocidades de vuelo supersónicas. 
+La existencia de recalentamiento tras la turbina, denominado postcombustión, hace 
+que su área de garganta tenga que aumentarse considerablemente. Ello se logra 
+con un mecanismo de iris, el cual logra incluso orientar el chorro. 
+• Supersónica 
+Para volar a altas velocidades se provoca una expansión adicional tras la 
+garganta sónica disponiendo un conducto divergente. Su peso y la necesidad 
+de geometría variable hace que sean infrecuentes.Relación entre parámetro de caudal,                , y coeficiente de flujo,       . 3 nD
+Q CQ
+=1UVMm= Φ{ . 1 12M MQ m geom Q V AC K nr U=  ⇒ =Φ  π = ω 
+Ambos parámetros responden al mismo 
+concepto y sólo se diferencian por una 
+constante dependiente de la geometría 
+adimensional que define la forma de la 
+máquina
+
+Cuando el rendimiento es elevado (cerca 
+del punto de diseño), ambos parámetros 
+responden al mismo concepto y se 
+diferencian, salvo el rendimiento, en una 
+constante dependiente de la geometría 
+adimensional que define la forma de la 
+máquina.2.- Similitud entre bombas y ventiladores
+• Dependencia funcional de las actuaciones de un ventilador
+Parámetros de actuaciones:
+• Pese a trasegar un fluido compresible, el salto de presión es suficientemente 
+pequeña como para despreciar la compresibilidad, resultando en el mismo 
+análisis que las bombas:
+∆Pρ2n D2= ϕ ′QnD3
+
+Consideraciones adicionales:
+Para un modelo adimensional 
+determinado y para:
+0,1<Re Re'<10
+• Para comparar ventiladores de distinto fabricante, ha de tenerse especial 
+precaución en comprobar si el ∆P proporcionado es total a total, total a 
+estático o cualquier otra combinación:3.- Dependencia funcional y curvas características 
+de turbinas hidráulicas
+• Dependencia funcional de las actuaciones de una turbina hidráulica
+Parámetros de actuaciones:
+• El estudio de parámetros de actuaciones y análisis dimensional de una 
+turbina hidráulica es el mismo que se realiza para una bomba, con la 
+salvedad de que las turbinas suelen presentar geometría variable para 
+optimizar su funcionamiento. Esto implica considerar un parámetro 
+adimensional adicional “α ”.
+QnD3= ϕ′′∆ρP2n D2,α
+Consideraciones adicionales:
+
+Para un modelo adimensional 
+determinado y para:
+0,1<ReRe'<10
+• En el caso de las turbinas hidráulicas no es usual encontrar curvas 
+adimensionalizadas. Sin embargo, suelen usarse curvas con parámetros 
+“reducidos” correspondientes a considerar que están elaboradas para la 
+máquina semejante con D = 1m, ∆H = 1m.c.a. “Curvas de desarrollo”: son las que presentan la eficiencia en función del caudal y 
+régimen de giro, para una altura hidráulica y geometría variable a elegir.
+“Curvas de operación”: presentan la eficiencia en función de la altura hidráulica y 
+el caudal, para un régimen de giro dado y geometría variable optimizada.
+
+La dependencia funcional de partida puede establecerse en 
+base a:
+• Las variables que intervienen en las ecuaciones de Navier
+Stokes y sus condiciones de contorno.
+E
+• Un orden de magnitud menor del término de fuerzas 
+gravitatorias frente a las generadas por inercia o presión
+Régimen
+&=(,,m f P P T nR c kD E S E g p
+Geometría
+µ, , , , , , ,Modelodecompresor Fluido.
+
+Dependencia funcional de las actuaciones de un compresor
+Turbomáquinas. Cap. 4: Actuaciones, A. Lecuona y J. I. Nogueira
+Adimensionalizandoconvenientemente con PE, TE, Rgy D, se obtiene:
+2
+, , , , ,Modelodecompresor g E g E E S
+E E E g E E g
+m RT RT k T P nD
+PD P PD RT P RD
+  µ   =ϕ γ    
+&
+La expresión final práctica se obtiene si, además, consideramos que:
+• La experiencia indica que el efecto del número de Reynolds y de la 
+conductividad térmica son secundarios.
+• El parámetro de presiones se suele expresar como función del de flujo 
+másico en lugar de lo contrario.
+2, , g E S
+E E g Em RT P nD
+P PD RT
+ 
+′  =ϕ γ    
+&
+0,2 5 'ReRe < <4
+
+iMPORTANTE: Para un modelo adimensional 
+determinado y para:
+17
+•Dependencia funcional de las actuaciones de un compresor
+Turbomáquinas. Cap. 4: Actuaciones, A. Lecuona y J. I. Nogueira
+Adimensionalizandoconvenientemente con PE, TE, Rgy D, se obtiene:
+2
+, , , , ,Modelodecompresor g E g E E S
+E E E g E E g
+m RT RT k T P nD
+PD P PD RT P RD
+  µ   =ϕ γ    
+&
+La expresión final práctica se obtiene si, además, consideramos que:
+• La experiencia indica que el efecto del número de Reynolds y de la 
+conductividad térmica son secundarios.
+• El parámetro de presiones se suele expresar como función del de flujo 
+másico en lugar de lo contrario.
+2
+, , g E S
+E E g E
+m RT P nD
+P PD RT
+ 
+′  =ϕ γ    
+&
+0,2 5
