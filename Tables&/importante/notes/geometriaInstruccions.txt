@@ -1,0 +1,1424 @@
+•Otras correlaciones y comparaciones
+Pelton Francis Kaplan y hélice
+1 inyector      100 m ÷2.000 m
+2 inyectores  100 m ÷1.500 m
+4 inyectores  100 m ÷1.000 m
+30 m ÷800 m 4 m ÷80 m
+
+1. A partir de las curvas del fabricante de una bomba determinada, ¿es usted 
+capaz de generar las curvas de ese modelo de bomba girando a 
+revoluciones distintas, comprimiendo otro fluido y con otro tamaño?.
+2. Conociendo la geometría de una bomba y el rendimiento en un punto 
+determinado, ¿es usted capaz de traducir los parámetros adimensionales 
+de presión y caudal en coeficientes de carga y flujo?.
+3. Dadas la curvas de una instalación y un ventilador, ¿sabría definir si el 
+funcionamiento va a ser estable, inestable o indiferente?.
+4. A partir de las curvas de operación de una turbina hidráulica a un régimen 
+determinado, ¿sabría predecir las actuaciones a otro régimen?.
+5. Las curvas adimensionales de un compresor dado, operando con un gas 
+determinado, ¿sirven para otro gas con la misma relación de calores 
+específicos, γ ?.
+6. Las curvas adimensionales de un compresor dado, operando con un gas 
+determinado, ¿sirven para otro gas con distinta relación de calores 
+específicos, γ ?.
+7. Las curvas adimensionales de un compresor dado, operando con un gas 
+determinado, ¿sirven para otro gas con distinto valor de Rg?.
+8. ¿Puede indicar las razones que sitúan en una localización determinada 
+del mapa de un compresor las cuatro zonas de desprendimiento/bloqueo a 
+la entrada/salida de un compresor?.
+
+ La envolvente de trabajo de un compresor está limitada principalmente por 
+entrada en pérdida de los álabes (zonas de desprendimiento) y bloqueo 
+sónico en el flujo. Estos fenómenos pueden implicar la necesidad de 
+dispositivos especiales para el arranque de un compresor.
+7. En la envolvente de trabajo de una bomba aparece una limitación basada 
+en el posible cambio de fase del fluido de trabajo (cavitación). Esta 
+limitación se define con el parámetro NPSH, cuya contrapartida 
+adimensional se denomina parámetro de Thoma.
+8. Se pueden comparar las actuaciones de turbomáquinas distintas 
+caracterizando cada una por los valores de sus parámetros de presión y 
+caudal particularizados en el punto de rendimiento máximo. Esto es 
+equivalente a usar los valores de los coeficientes de carga y flujo en dicho 
+punto.
+9. Alternativamente, se pueden definir los parámetros de “Velocidad 
+específica” y “Diámetro especifico”, en función de las actuaciones en el 
+punto de rendimiento máximo. Estos parámetros son combinación de los 
+anteriores pero pueden presentar ventajas en cuanto a operaciones 
+matemáticas a realizar.
+10. Representando las parejas de valores que caracterizan a una 
+turbomáquina mono-escalón, en un diagrama bidimensional, se observa 
+que las máquinas de mejores rendimientos se alinean en una curva 
+denominada “Línea de Cordier” que puede aconsejar el tipo de 
+turbomáquina a diseñar en función de los requisitos a cumplir. 
+
+motor importante:TABLE 1-9.-Theoretical Performance of Some High-Energy Cryogenic Liquid Rocket Bipropellant 
+Combinations 
+Oxidizer 
+Liquid oxygen. 
+Oxidizer 
+Liquid oxygen 
+Liquid fluorine. .. . 
+Fuel 
+RP-1. .. 
+Tw 
+Tv 
+d 
+Tc 
+lJi 
+e· 
+CI 
+Is 
+Isd 
+Applications 
+. . ..... 2.00 1.421 0.998 5760 21 1 5898 1.605 294 293 ICBM, IRBM. large 
+2.40 1.708 1.012 6100 22.8 5953 1.620 300 303 space-probe and 
+2.56 1.82 1.02 6150 23.3 5920 1.632 300 306 space craft 
+2.73 1.94 1.03 6200 23.9 5865 1.642 299 308 boosters 
+Ammonia .... . .. . ..... 
+1.30 
+1.40 
+95% E.A .. . . ... 
+78 
+.84 
+1.73 1.23 
+88 
+.89 
+.99 
+5055 19.3 5920 1.608 296 260 
+5100 198 5865 1.612 1294 261 
+5640 24.1 5605 1.648 287 284 
+1.80 1.28 1.00 5675 24.4 5585 1.6-t4 285 285 
+Hydrazine. . . . . . . . . . . . . . . . 
+.90 
+80 
+1.07 
+5660 19.3 6235 1.618 313 335 
+50% UDMH-50% Hydrazine .. 1.30 1.03 1.02 5980 20.6 6160 1.628 312 318 
+1.37 1.08 1.03 5905 20.9 6155 1.622 310 319 
+Hydyne .. . ... . ... . ... . ... 1.73 1.31 
+1.02 
+5990 21.8 6035 1.632 306 312 
+1.80 1.36 1.02 6030 222 6010 1.639 306 312 
+UDMH ... ... . . . .... . .. . .. 
+1.65 1.14 
+1.83 1.27 
+.98 
+.99 
+TMB-1,3-D . . . . . .... . . ... 2.28 1.60 1.01 
+6010 21.3 6115 1.631 310 304 
+6065 22.1 6040 1.638 307 304 
+6100 22.9 5945 1.642 303 306 
+2.37 1.66 1.01 6120 23.2 5915 1.650 303 306 
+TABLE 1-10.-Theoretical Performance of Some Very-High-Energy Cryogenic Liquid Rocket Bipro
+pellant Combinations 
+Fuel 
+........ Liquid hydrogen. 
+Tw 
+Tv 
+d 
+Tc 
+.lJl 
+c· 
+CI 
+Is 
+Isd 
+Applications 
+402 0.25 0.28 4935 10.0 7980 1.578 391 109 Space probe and 
+19.50 1.20 .65 4960 23.4 5300 1.610 265 172 space craft upper 
+stage and booster 
+Hydrazine. 
+Liquid hydrogen. 
+Ammonia. 
+, 
+... 
+... 
+2.30 1.54 1.31 7955 19.4 7245 1.615 363 476 Space probe upper 
+2.40 1.61 1.32 7980 19.6 7225 1.614 362 478 stage 
+760 
+35 
+.45 6505 11.8 8365 1.578 410 185 
+23.70 110 .82 8230 18.5 7515 1.592 372 305 
+3.29 1.48 1 18 7715 19.3 7155 1.605 357 421 
+3.40 1.53 118 7745 19.5 7140 1.612 357 422 
+
+TABLE 1-7. - Theoretical Performance of Some Medium-Energy Storable Liquid Rocket Bipropellant 
+Combinations (Continued) 
+Oxidizer 
+Fuel rw rv d Tc m c* C ( lIs Isd Applications 
+Nitrogen tetroxide. UDMH. I 2.95 1.61 1.20 5685 24.5 5555 1.632, 2821339 Manned aircraft, 
+! 
+Hydyne .. 
+1 626: 282 344 
+ICBM. IRBM, 
+271 1.61 122 5650 21.1 55S0 
+2.95 1.75 124 5655 247 5525 1 631' 280 347 ALBM. small air
+, RP-l 
+TMB-1. 3-0 
+925"; EX 
+Chlorine trifluoride UDMH 
+I 
+Bromine 
+pentafluoride 
+Oxidizer 
+Hyd~·ne. 
+RP'1 
+TMB-1, 3-D 
+Hydrazine 
+%~~ Hydrogen peroxide Hydrazlne 
+Pentaborane . 
+Nitrogen tetroxide. 
+Chlorine trilluoride 
+4.01 226 1.25 5745 25.7 5440 1.636 276 345 to-an rockets. 
+4.50 2.51 1.27 5755 265 5385 1639 274 348 upper stages of 
+3.55 196 1.23 5715 252 5495 Ui31 278 342 space VE'hlCles 
+! 
+I 
+! 
+I 
+Fuel 
+3.90 2.15 1.24 5710 259 5425 1645 277 I 344 
+2.59 1.45 1.19 5290 
+5260 1635 267 318 
+3.03 131 138 6305 258 5630 1.602 280 386 ICBM,IRBM, 
+3.28 142 1 40 63.30 26.2 5605 1.589 277 388 I ALBM. and small 
+3.35 1.37 1.86 5570 
+to air, surface
+2.98 1 40 143 6220 261 5555 1599 276 395 
+1 
+air· launched 
+rocket s, upper 
+320 1 50 1 44 62,~0 265 5535 ,1595 274 395
+3.20 1 42 1 41 5890 29 1 5140 1.618 258 364 
+stages of space 
+vehicles 
+12.80 566 1.68 5735 370 453;) 1.6361230 386 
+317 1.39 140 6035 27.6 5330 1 608 266 373 
+3.60 1.57 1 43 6040 281 .S2&0 1 ,,92 ! 261 374 
+1 
+5000 1.565 243 453 Small au· launched 
+rockets 
+TABLE 1-8, - Theoretical Performance of Some High-Energy Storable Liquid Rocket Bipropellant 
+Combinations 
+rw 
+rv 
+2.01 1.41 
+d 
+1.26 
+Tc 
+IJj 
+c' 
+C( 
+Is 
+Isd 
+Applications 
+4775/195 5735 11 601 285 359 ICBM,IRBM, 
+270 1188' 1.037 5390 1901 6067 '1 600 302 313 ALBM 
+UDMH. .. 
+Hydrazine 
+2.61 142 1 18 5685 23.6 5650 1624 285 336 FBM, ICBM, 
+.' . 
+1.34 
+1.42 
+.93 
+.99 
+I::: 5390 20.9 5845 1 610 292 357 IRBM.ALBM, 
+5415 21 3 5815 1.605 290 357 upper stages 
+50% UDMH-50~ Hydral.lne 2.00 124 1.21 5590 22.6 5725 1.620 288 348 of space 
+2.15 1.33 1.21 5570 230 5665 1 636 288 348 vehicles 
+MMH 
+Hydrazine 
+2.16 1 31 
+') ~
+.... I( 
+1.53 
+120 5635 
+1.51 
+5720 ! 1.621 288 346 
+6550 232 5995 1 582 294 444 FBM, ICBM, 
+2.94 1.62 1.52 6600 236 5980 1 5721292 444 IRBM, ALBM. 
+50% UDMH-50o;;, Hydrazlne 2.89 142 145 6385 24.5 15795 1 596 ,287 416 upper stages 
+3.11 1.53 1.46 6420 24.9 5770 1598 286 417 of space 
+MMH 
+Hydrazine 
+Pentaborane 
+3.00 144 1.44 6400 
+14 
+.85 
+5763 1.591 285 410 vehicles 
+796 4430 147 6402 1.644 327 261 ICBM,IRBM 
+
+
+TABLE 1-6.-Performance of Some Liquid Rocket Monopropellants 
+Propellant 
+Hydrogen peroxide (HP,) (95%) . 
+Hydrazine (N,HJ . . . . . . . . . . . . . . 
+Nitromethane (CH,NO,). .. , 
+.. . . 
+Methylacetylene. 
+. . . . . . . . . ... 
+Specific 
+impulse Is. 
+Ib-sec!lb3 
+140 
+205 
+180 
+160 
+Density 
+impulse [d. 
+sec gm/cc 
+198 
+207 
+204.8 
+108.6 
+ApplicatIOns 
+Gas generators for turbopump Difficult handling 
+and auxiliary dnve; small 
+control rockets 
+Gas generators; small control Difficult handling (can de
+rockets 
+Small ordnance rockets 
+a Theoretical value at 300 pSla (Pe)os. sea-level optimum expansion. frozen gas composition or frozen eqUIlibrium. 
+25 
+Remarks 
+TABLE 1-7.-Theoretical Performance of Some Medium-Energy Storable Liquid Rocket Bipropellant 
+Combinations 
+Oxidizer 
+IRFNA (15% NO,) . UDMH. 
+Hydrazine 
+Fuel 
+.............. · . 
+RP-1. . .. . .. . ...... . ...... 
+95% hydrogen 
+peroXIde 
+UDMH .. 
+(w 
+.. . ........ 
+1.47 
+1.54 
+Tv 
+d 
+Tc 
+compose at high temper
+ature) 
+Dangerous handling (can 
+detonate unexpectedly) 
+Gas generators; small rockets Safe handling; dangerous and 
+very smoky exhaust fumes 
+lIT 
+e· 
+et 
+Is 
+Isd 
+Applications 
+2.99 1.51 1.26 5340 23.7 5490 1 619 276 348 Small air-to-air. 
+3.24 1.63 1.27 5315 24.2 5435 1.630 275 350 au-to-surface 
+.95 1.28 5090 20.8 5690 ,1.602 283 362 rockets and 
+.99 1.29 5100 21.1 5665 11.608 283 365 upper stages of 
+space vehicles 
+50% UDMH-50% hydrazine. · . 2.20 1.26 1.27 5250 22.4 5580 1.610 279 354 
+2.42 1.39 1 29 5220 230 5510 11.618 277 358 
+Hydyne. 
+.......... 3.11 1.70 1.31 5295 24.1 542511.620 273 358 
+3.33 1.82 1.32 5270 24.5 5375 1.630 272 359 
+4.80 2.48 1.35 5355 25.8 527511636 268 362 
+5.14 2.65 1.36 5330 26.2 5225 11.646 267 363 
+TMB-l, 3-D. ............ 4.09 2.08 1.32 5325 25.1 5335 1.632 270 356 
+4.37 2.23 1.33 5300 25.5 5280 1.640 269 358 
+JP-X (60% JP-4. 40% UDMH) 4.13 2.16 1.33 5310 24.6 5320 1 628 269 358 
+92.5% E.A. ... . .. . . .... · . 2.89 1.47 1.26 4935 
+5130 1.626 259 326 
+MMH. . . ...... . ....... . . · . 
+TMA. ... . . . . . . , 
+... ... , 
+... 
+. 
+Hydrazine 
+. ... . 
+.. .... . 
+..... . 
+50% UDMH-50% Hydrazine 
+· . 
+· 
+. 
+2.47 1.38 1.28 5290 . ... 5550 1.618 279 357 
+4.01 1.61 1.21 5285 . .. 5375 1.625 271 328 
+4.54 2.53 1.24 4800 21.7 5530 1.620 278 345 Manned aircraft. 
+4.74 2.64 1.25 4780 21.3 5505 1.620 277 346 small air-to-air. 
+2.17 1.54 1.26 4675 19.5 5655 1.604 282 355 air-to-surface 
+2.20 1.57 1.26 4675 19.5 5655 1.604 282 355 rockets. and 
+3.35 
+upper stages of 
+212 1.25 4760 20.5 5580 1.610 279 349 space vehicles 
+3.47 2.20 1.26 4740 20.6 5560 1.615 279 351 
+Hydyne . 
+IRP1 .. 
+. TMB-l. 3-D. 
+4.68 2.83 1.27 4765 21.3 5485 1:622 276 350 
+4.87 2.95 1.28 4745 21.4 5465 1.619 275 352 
+............. 7.35 418 1.30 4785 22.1 5405 1.627 273 355 
+7.581432 1.31 4765 22.2 5390 1.620 271 355 
+I 
+.... . 
+....... 6.2~ i 3.49 1.28 4770 21 8 5440 1 622 274 351 
+6.45 3.63 1.29 4745 21.9 5415 1.618 2~" 351
+
+TABLE 1-5.-General Data of Some Cryogenic Liquid Rocket Propellants 
+Propellants -------
+Ammonia 
+Liquid t1uorine ..... 1"2 
+Liquid hydro~en 
+Liquid oxy~en 
+formula 
+Nil] 
+H, 
+O2 
+Use 
+fuel. coolant 17.0:3 
+Oxid. 
+F'uel. coolant 2.016 
+Oxid. -
+Mol. 
+wt. 
+freezing BOiling Critical Critical Dcnsity 
+point. 
+of -108 
+38.00 -364 -434.6 
+32.00 -362 
+point. 
+press .. 
+oF' -28 
+pSia 
+temp .. 
+oF' 
+at hailing 
+point 
+!(III/CC 
+Vapor prcssure = 0.6&1 
+1600 
+500 psia at 
+F' -307 
+808 -422.9 1878 -200.5 1.509 
+Stability --
+Good 
+lIandle 
+hazard 
+Toxic. 
+t1ammable 
+Good 
+Materials compatibility 
+Cm 
+$/1 
+AI.. steel. lead. Tenon. Kd-F'. 
+Vitron A 
+Very toxic. 
+t1ammable -400.3 0.071 -297.4 735 
+Oxy~en dit1uori!!e. 
+Ozone 
+OF', 
+0, 
+Oxi!!. 
+Oxi!!. 
+54.00 
+48.00 -420 -299 
+168 
+719 
+804 -182 -72.3 
+10.2 
+1142 
+1.521 
+1.46 
+Good 
+Good 
+Good 
+flammable 
+Good 
+Very toxic. 
+t1ammable 
+Above 20~~ Very toxic. 
+explOSIve 
+t1armnable 
+AI.. 300 series stainless steel. 
+nickel alloy. brass 
+Stainless steel. nickel alloy. 
+AI. alloy. Kel-f 
+AI.. stainless steel. nickel 
+alloy. copper. Tet1on. Kel-F' 
+AI.. 300 series stainless steel. 
+nickel alloy. brass 
+AI.. 300 series stainless steel. 
+Tet1on. Kel-F' --
+o G 
+6.G o 
+7.C o 
+O.C 
+o 
+m 
+!C 
+Q 
+Z 
+o 
+"TI 
+r 
+.0 
+S 
+o 
+" 
+;u 
+o 
+m 
+r 
+" 
+r 
+)> 
+z 
+..... 
+;u 
+o 
+() 
+;0; 
+m 
+..... 
+m 
+z 
+~ 
+z 
+m 
+'
+
+
+TABLE 1-4.-General Data of Some Storable Liquid Rocket Propellants (Continued) 
+Mol. Freezing Bolling Vapor Density Handling Materials Formula Use point OF point"F press .. gmlcc Stability hazard Storability compatibility wt. psia 
+N2O. OXid. 92.02 11 70 111 at 1.44 at Function Very toxic. Good when AI.. stainless steel. 
+160° F 68° F of temp. hazardous dry nickel alloy. 
+skin con-Teflon 
+tact 
+B,H. Fuel 63.17 -52.28 140.11 19 at 0.61 at Good Explosive Good AI.. steel. copper. 
+1600 F 68° F on expo-Teflon. Kel-F. 
+sure to Viton A 
+air. very 
+toxic 
+C1H7N01 Fuel. 105.09 -130.9 231 3.7 at 1.06 at Fair Sensitive Good AI.. stainless steel. 
+coolant 160° F 68° F to shock Teflon. Kel-F 
+Mil-Spec.-Fuel. 165 to -47 to 342 to 0.33 at 0.8 to Auto. ig-Flammable Good AI.. steel. nickel 
+F25576B coolant 195 -64 507 160° F 0.82at nition at alloy. copper. 
+68° F 470° F Teflon, Kel-F. 
+Neoprene 
+(C2
+H,h Al Fuel. start 114.15 -49.9 381 0.40 at 0.836 at Decomp. Ignites on Good AI., steel. copper. 
+compound 160° F 68° F over contact Tenon 
+400° F with air 
+(CHJhN Fuel 59.11 -179 37 108 at 0.603 at Good Good Good AI.. steel. copper, 
+1600 F 68" F Tenon 
+(CH1)~-Fuel. 144.2 -131 320 1.32 at 0.795 at Stable 1 ... , ...... Good AI.. 347 stainless 
+CH2CH2-coolant 1600 F 68° F hr. at steel. polyethylene 
+CH-N(CH1h 5000 F 
+C'HJ 
+C(N02). OXid. 196.04 573 259 2.38 at 1.64 at Thermal. Shock sen-Good below AI.. mild steel. 
+165" F 68°F unstable sitive 100° F Teflon. Kel·F 
+(CHJhNNH2 Fuel. 60.08 -72 146 17.6 at 0.789 at Good Toxic Good AI.. stainless steel. 
+coolant 160° F 68° F Teflon. Kel-F 
+975% HNO. Oxid .. 59.9 -45 186 9.09 at 1.46 to Decomp. TOXIC. haz· Fair AI.. stainless steel. 
+2% H,o. coolant 160° F 1.52 at above ardous Tenon. Kel-F. 
+0.5% N02 68° F 100° F skin con-polyethylene 
+tact 
+Cost 
+5/1b 
+0.075 
+2.50-5.00 
+. . . . . . . . 
+0.015 
+........ 
+........ 
+. . . . . . . . 
+0.30 
+0.50-2.00 
+0.15 
+
+1) Engine system 
+(2) Vehicle structure 
+(3) Guidance system 
+(4) Payload 
+(5) Accessories 
+In the following. we will concern ourselves 
+with the engine system only, except for brief 
+references to the other systems, as required.
+
+TABLE 1-4.-General Data of Some Storable Liquid Rocket Propellants 
+Mol. Freezing BOiling Vapor Density Handling Propellant Formula Use wt. point of point of press .. gmlcc Stability hazard StorabiIi ty 
+psi a 
+Aniline C.H,NII, Fuel. 93.2 21 364 0.25 at 1.022 at Good Good Good 
+coolant 160° F 680 F 
+Bromine RrFs OXid .. 174.9 -80.5 104.5 41 at 2.48 at Up to Reacts with Good 
+pentanuoride coolant 160° F 68° F 800° F fuel 
+Chlorine trifiuoride CI F) Oxid. 92.5 -105.4 53.15 80 at 1.825 at Up to Toxic Good below 
+140° F 68° F 600°F 140° F 
+92.5% E.A. (ethyl C,JI,OII Fuel. 41.25 -189 172 13 at 0.81 at Good Flammable Good below 
+alcohol) coolant 160° F 600 F 130° F 
+Hydrazine N,II. Fuel. 32.05 34.5 235.4 2.8 at 1.01 at Up to Toxic. Good 
+oxid .. 160° F 68° F 300° F nammable 
+coolant 
+95% hydrogen H,O, Monoprop .. 32.57 21.9 294.8 0.05 at 1.414 at Unstable Hazardous Deteriorates 
+peroxide oxid .. 77° F 77° F decomp. skin con-at 1%/yr. 
+coolant at285°F tact. nam
+'"' mabie 
+98"i, hydrogen 11,0, Same as 3:1.42 27.5 299.2 0.043 at 1.432 at Same as Same as SamE' as 
+peroxide above 77° F 77° F above above ahove 
+llydyne (40~," "Deta" NfI(C,II,NII,),. Fuel. 72.15 -65 140 to 16.5 at 0.855 at Good Toxic Good 
+GOY.. "UDMW) (CHJ),NNH, coolant 400 160~ F 60" F 
+IRFNA (inhibited red 82% IIN01. OXid .. 55.9 -57 150 17.3 at 1.57 at Good Toxic. haz-Good 
+fuminJ; nitric acid) 15% NO,. coolant 160" F 68° F ardous 
+2~;' H2
+O. skin con
+1% HF tact 
+JP-4 (jet propulsion C.66H ,. Fuel. 128 -76 270 to 7.2 at 0.747 to Good Vapor ex-Good 
+fuel) coolant 470 1600 F 0.S25 plosive 
+600 F 
+MMH (monomethyl-CH1NH-NH, Fuel. 46.08 -63 187 8.S at 0.878 at Good Toxic Good 
+hydrazine) coolant 1600 F 680 F 
+Materials 
+compatibihty 
+AI.. steel. Tenon. 
+Kel-F 
+AI. alloy. 18-8 
+stainless steel. 
+nickel alloy. 
+copper. Tenon 
+AI. alloy. 18·8' 
+stainless steel. 
+nickel alloy. 
+copper. Tenon 
+AI .. steel. nickel 
+alloy. Tenon. 
+Kel-F. polyet.hylene 
+AI.. 304.307 stain
+less steel. 
+Tenon. Kel-F. 
+polyethy lene 
+AI.. stainless steel. 
+Tenon. Kel-F 
+Same as ahove 
+AI.. stainless steel. 
+Tenon. Kel·F 
+AI.. stamless steel. 
+Tenon. Kel-F. 
+polyethylene 
+AI.. steel. nickel 
+alloy. npopr"ne. 
+Tenon. Kel·F 
+AI.. 304.307 stain
+less steel. Tenon. 
+Kel-F. polyethylene 
+Cost 
+$/lb 
+. . . . . . . . 
+4.75 
+0.50-2.50 
+0.15 
+O.5(}-3.00 
+0.50 
+1.00 
+0.50-2.00 
+O.OS-O.IO 
+0.015 
+0.62-6.25 
+
+7. 
+OXItMlDt 
+O'(lOlln 
+IIIIAHIFo...O 
+, ..... ;-, 
+MA.NtFOl.O %>f<G~~~ ~;\ 
+'NJ(C'l'OIft 
+III 
+Ring slot (fig. 4-45c).-The ring-slot inJec
+tor employs concentric pairs of annular slots 
+which eject the propellants as conical sheets. 
+The slots are so arranged that fuel and oxidizer 
+sheets impinge much in the same manner as in 
+the doublet-type injector. 
+~~~~:r:~ 
+W"~~~ "')~~J(CTQlt 
+'A", 
+~=j~P-- ~~~l;l 
+(0) SHOWER HEAD 
+",,,,,, 
+"&WOLD 
+.. 
+(c) TRIPLET 
+(O'OOUEILET 
+Figure 4-44. -Injector impinging patterns. 
+(c)"WG SLOT 
+(d) SPl.ASH PlATE 
+Figure 4-45.-Injector impinging patterns. 
+6. Coaxial (fig. 4-45b).-This injector em
+ploys two concentric tubes for the two propel
+lants, which are injected coaxially. 
+8. 
+Splash plates (fig. 4-45d).-This injector 
+is designed for good propellant mixing while the 
+propellants are still in the liquid state. For this 
+purpose, injected propellants are denected by 
+the splash plates. The plates will be kept cool 
+by the impinging liquid propellants which do not 
+ignite until they have left the plate. 
+9. 
+Premix.-Figure 4-46 shows a typical 
+premix-type injector. Fuel and oxidizer are in
+jected radially into the premixing chamber. where 
+they are intimately mixed before entering the 
+combustion chamber by a gas jet introduced tan
+gentially at the chamber end. The length and 
+diameter of the premixing chamber with relation 
+to the mass now of propellants is critical, as is 
+the reaction time of the propellants. 
+10. Throttieable injector.-Certain require
+ments for space vehicle missions, such as orbit 
+corrections, rendezvous and docking maneuvers. 
+and lunar soft landings, demand engine systems 
+capable of thrust control. Figure 4-47a shows a 
+typical throttlable injector with variable injection
+slot areas. This is a very effective means of 
+controlling the propellant nows and injector 
+pressure drops at various engine thrust levels. 
+The addition of moving parts, however. causes 
+design complications. Another approach to a 
+thrcttlable injection system is the H 
+aeration 
+method, ~ as shown in figure 4-47b. I 
+An inert gas 
+is introduced into the injector propellant mani
+fold for reduced thrust levels. Through variation 
+of the propellant/gas mixture ratio, the effective 
+density of the propellants can be varied over a 
+wide range to achieve any desired thrust level 
+without affecting combustion stability. The gas 
+can be supplied by the same source used to 
+pressurize the propellant tanks. This method 
+has increased the range of rocket-engine throt
+tling up to a ratio of 100 to 1. 
+Design Calculations 
+For the design of injectors, various parame
+ters. such as injector pressure drop, impingement 
+lAstronautics magazine. December 1962. pp. 36-37.and resultant vector angle relationship, and 
+structural loads, can be calculated with reason
+able accuracy. 
+Injection Velocity 
+The propellant (oxidizer or fuel) injection 
+velocity V (in/sec) can be calculated from the 
+basic relation: 
+V=~ 
+Ap 
+(4-39) 
+where IV is the propellant weight flow rate, lb/ 
+sec; A is the calculated injector orifice area, 
+in 2; and p is the propellant density, lb/in 3 . 
+Injection Pressure Drop 
+The injection pressure drop ~Pi (lblin2 ) can 
+be calculated as 
+( 4-40) 
+where g is the gravitational constant, in/sec2 ; 
+Cd is a dimensionless discharge (velocity and 
+jet contraction) coefficient which is a function 
+of injector orifice configuration. 
+The value of this coefficient ranges from 0.5 
+to 0.92 and can be determined accurately by ex
+periment (wate~ flow tests). Injector orifices 
+with well-rounded entrance and smooth bore give 
+high values of the discharge coefficient. For a 
+given injection velocity, a higher value of dis
+GAS 
+MANIFOLO 
+GAS JET 
+TANGENTIAL 
+ORIFICE 
+_SP~8UST~~ 
+CHAM8ER 
+FUEL 
+MANIFOLD 
+OXIDIZER 
+MANIFOLD 
+Figure 4-46.-Premixing type injector. 
+MOVABLE 
+PINTLE RING" 
+i FUEL 
+MANIFOLD 
+(A) VARIABLE AREA INJECTOR 
+INJECTOR 
+FACE 
+charge coefficient gives a lower injection pres
+sure drop. The rule-of-thumb design value for 
+injector pressure drop varies from 15 to 20 per
+cent of the chamber-nozzle stagnation pressure. 
+Resultant Angle of Impinging Streams 
+The angle between the thrust chamber axis 
+and the resultant momentum vector of a pair of 
+impinging streams is defined as the beta angle, 
+(3. 
+By definition when the vector is directed 
+toward the chamber wall, the beta angle is posi
+tive, and when the vector is directed toward the 
+THRUST 
+CHAMBER 
+FUEL 
+THROTTLE. 
+VALVE 
+OXIDIZER 
+~ 
+~1[T:r=~"""' .... 
+I 
+THROTTLE 
+VALVE 
+INJECTOR 
+INERT GAS 
+CONTROL 
+VALVES 
+(B) AERATION THROTTLEABLE INJECTING SYSTEM 
+Figure 4-47. -Throttleable injecting methods. 
+central axis of the thrust chamoer. the beta angle 
+is negative. With a hypergolic-type propellant 
+combination, a positive beta angle (2° to 5") 
+tends to increase the combustion performance by 
+causing recirculation and better mixing of the 
+liquid propellants along the chamber wall. How
+ever. in a cryogenic propellant combination. 
+where gaseous mixing is predominant. the com
+bustion performance will not be noticeably 
+affected by the beta angle. A negative beta 
+angle should be used in this case to avoid the 
+possibility of hot streaks on the chamber wall 
+caused by excessive heat transfer. 
+The beta angle may be readily calculated. 
+from the principle of conservation of momentum: 
+129 
+( 4-42) 
+where IVo and WI are weight flow rates, and V 0 
+and V I are injection velocities for oxidizer and 
+fuel. The injection momentum ratio is a useful 
+injector design parameter for the prediction of 
+combustion stability and performance of certain 
+propellant combinations. In the design of oxygen
+hydrogen injectors. the value of the momentum 
+ratio varies from 1.5 to 3.5 for liquid hydrogen 
+injection. and from 0.5 to 0.9 for gaseous hydro
+gen injection. 
+For the impinging streams shown in figure 
+4-48, al and a2 are the respective angles be
+tween the thrust chamber axis and the streams; 
+IV 1 and IV 2 are the weight flow rates; and Viand 
+V 2 are the injection velocities. 
+Injection Momentum Ratio 
+The injection momentum ratio can be defined 
+by the expression 
+~ 
+THRUST 
+....... ----:--CHAMBER 
+INJECTOR 
+FACE 
+CHAMBER 
+WALL 
+Figure 4-48. -Resultant angle of impinging 
+streams. 
+Structural Loads 
+The main loads to be considered in the struc
+tural design of injectors result from propellant 
+pressures behind the injector face, and in the 
+manifolds. During steady-state main-stage oper
+ation. the pressure load on the injector face is 
+equal to the injector pressure drop: 
+( 4-43) 
+The pressure load in the injector manifolds is 
+equal to the sum of the injector-end chamber 
+pressure and the injector pressure drop: 
+(4-44) 
+where PI is the pressure load on the injector 
+face. Pm is the pressure load in the manifold; 
+b.Pj is the injector pressure drop; and (Pc)i is 
+the injector-end chamber pressure. 
+During start transients. however. maximum 
+pressure loads on the injector may be substan
+tially higher than during steady state. When the 
+propellant valves are opened rapidly. propellants 
+rushing into the empty injector passages can 
+cause severe hydraulic ram. This pressure load 
+can be estimated empirically as 
+PI=Pm=4Pp 
+(4-45) 
+where Pp is the propellant pressure at time of 
+valve opening. 
+Sam pIe Calculation (4-8) 
+Using data given in tables 3-2 and 3-3, deter
+mine the injector orifice sizes, injection veloci
+ties and momentum ratios for the A-1 and A-2 
+engines.
+
+ECUACIONES-IMPORTANTE para geometrias y pikogk camaras inyectores:Solution 
+DESIGN OF LIQUID PROPELLANT ROCKET ENGINES 
+~ A-l Engine 
+Thrust chamber propellant flow rates are 1941 
+lb/sec (oxidizer) and 827 lb/sec (fuel); propel
+lant densities are 71.38 lb/ft3 (oxidizer) and 
+50.45 lb/ft3 (fuel); injector pressure drops are 
+200 psi for both propellants. Based on compo
+nent test results an injector orifice discharge 
+coefficient Cd of 0.75 is used for both sides. 
+Substituting it into equation (4-40), and convert
+ing feet to inches: 
+For the oxidizer side: 
+200 = 
+1 
+t 
+1 941 ~ 2 
+2 x 32.2 x 12 x 71.38 x 17~8 \0.75 x Ao} 
+Total oxidizer injector orifice area: Ao = 32.4 in2 
+For the fuel side: 
+200 = 
+1 
+( 
+827 
+J 2 
+2 x 32.2 x12 x 50.45 x 17~8 0.75 x Ai} 
+In support of the injector development engi
+neer, who may wish to compare with earlier test 
+data, the injection momentum ratio is determined, 
+using equation (4-42): 
+121x1941 
+Rm = 144 x 827 = 1.97 
+(b) A-2 Engine 
+From table 3-3, the propellant flow rates for 
+the thrust chamber are 285.2 lb/sec (oxidizer) 
+and 54.5 lb/ sec (fuel); the propellant denSities 
+are 71.38 lb/ft3 (oxidizer) and 0.72lb/ft3 (fuel; 
+gaseous hydrogen at 1800 R); the injector pres
+sure drops are 160 psi (oxidizer) and 60 psi 
+(fuel). With the coaxial injecting pattern (fig. 
+4-45b), experimental tests give a value of 0.62 
+for the oxidizer-side discharge coefficient and a 
+value of 0.9 for the fuel side. Substitute these 
+into equation (4-40). 
+For the oxidizer side: 
+160= 
+1 
+I 
+285.2 J 2 
+2 x 32.2 x 12 x 71.38 x 17~8 \0.62 x Ao7 
+Total fuel injector orifice area: 
+A[= 16.4 in2 
+An injector pattern of 700 pairs of self
+impinging streams is used for both oxidizer and 
+fuel. The following orifice areas and diameters 
+result: - 32.4 - 0 0232' 2 
+ao -1400-' 
+10 
+_16.4 -0 0117' 2 
+a[-1400-' 
+10 
+do=0.172 in 
+d[ =0.122 in 
+From equation (4-39), and using orifice areas 
+obtained above for available tlP and Cd. mean 
+injection velocities are determined: 
+For the oxidizer: 
+v 0 = 
+A:; 0 = 
+19;~.38 = 1452 in/sec or 121ft/sec 
+32.4 x 1728 
+For the fuel: 
+Vl= IV[ = 
+827 
+AIPI 16 4 x 50.45 
+. 
+1728 
+1728 in/secor 144 ft/sec 
+Total injector oxidizer orifice area: Ao=6.43in2 
+For the fuel side: 
+60 = 
+1 
+( 
+54.5 
+)2 
+2x32.2X12XO.72X17~8 0.9xA[ 
+Total injector fuel orifice area: 
+A[= 13.79 in2 
+Use a total of 300 coaxial elements for the 
+injector. The individual orifice areas and diam
+eters will be 
+do = 0.165 
+Use a tube inner wall thickness of 0.025 inch. 
+The diameters for the annular fuel orifice will be 
+d[, = do + 2 x 0.025= 0.215 in 
+DESIGN OF THRUST CHAMBERS AND OTHER COMBUSTION DEVICES 
+From equation (4-39), the injecting velocities 
+are 
+For the oxidizer: 
+VO=AWO 
+285.2 
+oPO 6 41x 71.38 
+. 
+1076in/secor89.6ft/sec 
+1728 
+131 
+It is often beneficial if during the hot-firing 
+tests of a given injector configuration, certain 
+operational parameters such as injector pressure 
+drops, thrust chamber shape, and L* can be 
+changed to determine the effects on performance 
+and stability. In such an experimental evalua
+tion program injector, orifice hole patterns can 
+be redrilled or holes plugged, until an optimum 
+configuration is obtained. 
+For the fuel: 
+V t= Wt 
+Alpt 
+54.5 
+072 
+13.79 x 1728 
+9.500 in/sec or 790 ft/sec 
+From equation (4-42), the injection momentum 
+ratio 
+R 
+= 285.2 x 89.6 = 0 ~93 
+m 54.5 x 790 
+.0 
+Experimental Evaluation of Injector Designs 
+The design of an injector can be improved 
+through experimental testing. Three types of 
+tests are usually employed: hydrostatic pres
+sure, water flow, and hot firing. The hydrostatic 
+pressure tests are used to determine whether the 
+injector structure will withstand the required 
+pressure loads. The water flow tests are used 
+to evaluate the following design characteristics: 
+Effective injector pressure drop.-Tbe data 
+1. 
+from the water-flow tests can be used to deter
+mine the orifice-discharge coefficient and to pre
+dict the injector pressure drop for the design 
+propellant, with corrections for density and 
+viscosity. 
+2. Injection pattern. -Injection pattern and 
+impingement can be observed, and faulty opera
+tion can be detected and corrected. 
+3. 
+Atomization.-Water-flow tests at veloci
+ties corresponding to those employed in actual 
+service indicate the quality of atomization to be 
+expected with the actual propellants. 
+The true injector operational characteristics, 
+such as performance, combustion stability, and 
+heat-transfer characteristics for main-stage con
+ditions, as well as start-and-stop transients, can 
+only be fully evaluated by hot firing tests, in a 
+thrust chamber of representative design or a 
+"workhorse" eqUivalent. 
+Heat-transfer characteristics are an important 
+factor when evaluating an injector design. 
+Temperature-measuring instruments embedded in 
+chamber walls and injector face are required to 
+measure heat-transfer rates and to detect local 
+hot spots. Instrumentation for measuring propel
+lant flows, chamber pressure, and combustion 
+vibration characteristics are Similarly important 
+for determining the true levels of injector per
+formance and stability. 
+4.6 GAS-GENERATING DEVICES 
+In liquid propellant rocket engine systems, 
+gases are required to power the propellant feed 
+systems and other subsystems. Bottled com
+pressed gases such as helium can be employed 
+for these purposes; however, the use of higher 
+temperature gases generated by suitable devices 
+gives much higher overall system performance. 
+Gases at temperatures ranging from 4000 to 
+10000 
+F have been generated for pressurizing 
+propellant tanks. Gases in the range from 12000 
+to 17000 F are used to drive gas turbines for 
+pump-fed systems. Where ever possible, the 
+engine system primary propellants are used for 
+gas-generating purposes in the interests of over
+all system simpliCity. However, for certain 
+applications, such as for a pressurized gas-fed 
+system or for starting a turbopump-fed system, 
+high-pressure propellants other than those tapped 
+off the primary system are required to supply the 
+gas-generating systems. 
+Most operational engine systems use special 
+devices for gas generation. However, tapping 
+hot gases from the main chamber has shown 
+promise for certain applications. The following 
+is a list of design objectives for operational gas 
+generators: 
+(1) Ability to produce gases safely, with re
+quired properties (temperature, pressure, 
+132 
+DESIGN OF LIQUID PROPELLANT ROCKET ENGINES 
+nonexplosive) in a compact unit, at the 
+required now rate. 
+(2) Ability to start and stop smoothly, with
+out abrupt temperature surges, pressure 
+oscillations, or overnow of unburned 
+propellants. 
+(3) Ability to operate over a wide range of 
+propellant now rates and (in the case of 
+bipropellants) mixture ratios, and to 
+respond closely to the control system. 
+(4) Ability to maintain safe shutdown without 
+complicated purging and draining systems. 
+(5) Ability to restart safely (restartable 
+engine systems only). 
+Additional design requirements depend on the 
+particular engine system involved. 
+Gas generators can be classified according to 
+the propellants employed: 
+(1) Solid propellant systems 
+(2) Liquid monopropellant systems 
+(3) Liquid bipropellant systems. 
+Solid Propellant Gas Generators 
+Solid propellant gas generators are applied to 
+liquid propellant engine systems for limited
+duration applications only, such as for turbine 
+spinners for engine start, or as pressurants for 
+IGNITER 
+PELLETS 
+TAPE MIL-T-6ft4I 
+, 
+short-duration pressure-fed systems. The tem
+perature of the gases generated by solid propel
+lants is generally in excess of 2000° F and is 
+not suitable for un cooled components over ex
+tended durations. Diluents can be used with a 
+loss of basic simplicity. 
+Figure 4-49 shows the typical design of an 
+operational solid-propellant gas generator used 
+to supply power to the turbine for engine start. 
+It is built in the form of a cartridge that bolts to 
+a nange at the liquid bipropellant gas generator 
+(shown in fig. 4-51). The particular cartridge 
+shown is a disposable type that cannot be re
+loaded and reused. Upon an engine start signal, 
+two initiators or igniters set off solid propellant 
+combustion. 
+Twenty milliseconds after start, the solid 
+grain produces a gas-now rate of approximately 
+4.68 pounds per second. It will maintain this 
+now rate for approximately 1.0 second. This 
+gas generator operates at 2500° F and at a cham
+ber pressure of 1000 psia. The product gas 
+renders an approximate characteristic velocity of 
+4000 ft/sec. A burst diaphragm located just 
+upstream of the gas generator orifice is used to 
+seal the unit during storage. It is ruptured by 
+the increased gas pressure at start. Body and 
+end cap are made of 4130 steel. 
+PLACES ON TABS 
+3S GRAMS 
+'" POLY BAG 
+CAP 
+'OUTER GRAIN· .. 
+CENTER GRAIN': .. 
+INNER GRA'" 
+. . ..... : .::: 
+.. '., '.
+
+Solid propellants burn uniformly at the ex
+posed surfaces at a rate which is primarily a 
+function of the temperature and the pressure of 
+the surrounding gases. The correlation for a 
+given propellant can be expressed as 
+(4-46) 
+where 
+R = propellant linear burning rate. inl sec 
+k 1 = constant representing the linear burning 
+rate of a given propellant. at a given 
+initial temperature and a chamber pres
+sure of 1000 psia 
+Pc = chamber pressure. psia 
+n 
+= constant allowing for the sensitivity of the 
+propellant burning rate to changes in 
+pressure. at a given temperature. 
+The weight flow rate of a solid propellant gas 
+generator can be calculated by 
+(4-47) 
+133 
+these systems is that they are relatively easy to 
+control and that the gases are generated at pre
+dictable temperatures. However. unless the 
+mono propellant is also employed as one of the 
+engine system main propellants. the monopropel
+lant gas generator system introduces a third 
+propellant often requiring special handling and 
+tankage. 
+Figure 4-50 shows the schematic of a typical 
+monopropellant gas generator using 90 percent 
+hydrogen peroxide. The catalytic screen pack or 
+bed consists of alternate layers of stainless
+steel mesh and silver-plated brass wire screens 
+secured by perforated end plates or grids. which 
+are applied with a preload of approximately 800
+1000 pounds per square inch of bed cross
+sectional area. The length of the catalytic bed 
+generally ranges from 2 to 3 inches. The allow
+able design throughput. that is. propellant flow 
+rate per unit cross-sectional area of catalytic 
+bed. is about 0.4 Ib/in2-sec. The propellant 
+pressure drop across the bed can be approxi
+mated by 
+where 
+IV g = weight flow rate through gas generator. 
+lb/sec 
+Ab = burning area. in 2 
+p P = propellant density. lb/in 2 
+It can be seen that a solid propellant gas gener
+ator of constant flow requires a propellant grain 
+design which assures consta,nt burning area. 
+The correlation between pc. A b. and gas gener
+ator orifice area can be expressed as 
+(4-48) 
+where 
+Ao=gas generator orifice area. in 2 
+k2 = constant characteristic for a given propel
+lant at a given temperature. 
+Liquid Monopropellant Gas Generators 
+Monopropellants such as hydrogen peroxide 
+(H20 2) and hydrazine (N2H4) have been used as 
+gas generants in many applications. They per
+mit a simple generator system and do not require 
+mixture-ratio adjustments. The advantage of 
+( 4-49) 
+where 
+t.Pb 
+= pressure drop through the catalytic 
+bed. psi 
+= throughput. lb/in 2-sec 
+= gas generator chamber pressure at the 
+end of the catalytic bed. psia 
+= accumulated running time. sec 
+C 1. C 2 = design constants determined experi
+mentally for a given bed configuration. 
+II I \ ,\ 
+Figure 4-50.-Schematic of monopropellant gas 
+generator. 
+Sample Calculation (4-9) 
+DESIGN OF LIQUID PROPELLANT ROCKET ENGINES 
+A hydrogen peroxide monopropellant gas gen
+erator attached directly to the inlet flange of a 
+turbine has the following design data: Turbine 
+inlet pressure, 340 psia; total turbine nozzle 
+throat area, 0.776 in 2. Assume a c* value of 
+3080 ft/sec for 90 percent H20 2 and catalytic 
+bed design constants C 1 = 7.2 x 104 and C2 = 0.021 
+psi/sec. Determine the gas generator propellant 
+flow rate W g, catalytic bed area, and pressure 
+drop after 480 seconds of accumulated running 
+time. 
+Solution 
+Gas generator pressure = turbine inlet pressure 
+= 340 psia. Equivalent gas generator throat 
+area = total turbine nozzle throat area = 0.776 in 2. 
+Substitute into equation (1-32): 
+3080= 340 x 0.776 x 32.2 
+Wg 
+Propellant flow rate Wg=2.761b/sec 
+Use a design value for catalytic bed throughput, 
+G b, of 0.4 lblin 2-sec 
+Catalytic bed area = 7;.~6 = 6.9 in 2 
+Substitute given data into equation (4-49): 
+7.2 x 104 x (0.4)195 
+Bed pressure drop t.Pb = 
+09 
+(340) . 
++ 0.021 x 480 
+=63.5+10=73.5 psi 
+Liquid Bipropellant Gas Generators 
+This gas-generating system is used more 
+widely in liquid rocket engine systems than any 
+other, since it makes use of the primary rocket 
+engine propellants. Bipropellant gas generators 
+react in the same manner as the main thrust 
+chamber, except that the oxidizer-fuel-mixture 
+ratio will be adjusted to yield the desired gas 
+temperatures and chemical properties. The 
+gases generated may be either fuel rich or oxi
+dizer rich, depending on the propellant combina
+tion. Oxidizer-rich gases tend to accelerate 
+erosion of structural members, while fuel-rich 
+gases continue to burn with ambient air after 
+discharge, requiring special measures to prevent 
+damage. 
+Figure 4-51 and table 4-2 describe a typical 
+liquid bipropellant gas generator system. It is 
+designed to produce hot gases using primary 
+engine propellants (L02
+/RP-1) for driving the 
+turbine of a pump-fed system. The control sys
+tem consists of two normally closed, linked 
+poppet valves that control the flow of propellants 
+to the gas generator injector. The valve assem
+bly includes an oxidizer strainer, oxidizer pop
+pet, fuel poppet. timing orifice, actuating piston, 
+and valve main body. The valve assembly is 
+actuated by gas pressure which forces the piston 
+on the fuel side down to open the fuel poppet. A 
+yoke integral with the piston actuates the oxi
+dizer poppet. The valve design, through a com
+bination of manifold volumes and LOX poppet 
+adjustment, effects a slight oxidizer lead to 
+prevent detonations, and a fuel-rich cutoff to 
+eliminate the possibility of turbine burning. The 
+propellants flow through the poppets to the in
+jector and into the gas generator combustor, are 
+mixed, and burn within the inner chamber and 
+combustor body. Ignition of the propellants is 
+accomplished by two pyrotechnic igniters. A 
+gas duct with two flanges opposite to each other 
+is located at the end of the combustor body. 
+These flanges connect with the solid propellant 
+gas generator turbine spinner and the turbine 
+inlet. 
+The basic design parameters for bipropellant 
+gas generators are similar to those for thrust 
+chambers. The total throat area of the turbine 
+nozzles may be considered to be the equivalent 
+throat area of the gas generator combustion 
+chamber. In calculating combustion chamber 
+characteristic length L*, the volume between 
+injector and turbine nozzle throats is used, with 
+a correction factor allowing for the specific 
+design configuration. Because of temperature 
+limitations of the turbine construction materials, 
+gas generators are rarely operated at gas temper
+atures higher than 1800" F. In most designs no 
+cooling is provided for the combustion-chamber 
+wall and other surfaces exposed to the hot 
+gases. 
+
+GEOMETRIAS IGNITERS SYSTEMS y propelante
+TABLE 4-2.-0perating Characteristics of a 
+Typical Liquid Bipropellant Gas Generator 
+System, as Shown in Fig. 4-51 
+OXIDIZER PUIllP~~~::::::====== 
+0=l 
+fUEL PUtf.P ~:;:==:r' :=====:.;~===:: 
+! 
+OXidizer. 
+Fuel. .. 
+Total propellant now rate 
+O:F mIXture ratio 
+Oxidizer now rate ... 
+Fuel !low rate .. 
+GG chamber pressure (injector end) 
+GG chamber temperature. 
+Oxidizer-side pressure drop of line, valve, 
+and inJector. . . . . . . . . . .. , .. 
+
+OXidizer side pressure drop across orifice. 
+GG oxidizer supply line takeoff pressure 
+(total at mam OXidizer pump discharge) .. 
+Liquid oxygen 
+RP-1 
+I 
+TURBIHE -.. 
+I 
+,; 
+nH"U~lDUCT~,:-r--rJ= 
+~ 
+J / 
+~'=:]~~~o:::;-::!..J . 
+~,-'JI; 
+1734 lbisec 
+0.342 
+4.42 Ib/sec 
+12.92 Ib'sec 
+612.1 psia 
+1200' F 
+114 psi 
+121 psi 
+846 psia 
+,:.S 
+,-p / 
+t. 
+L HOT G"S 
+OOCT 
+~ I 
+~/ 
+\ 
+U 
+/ 
+
+Figure 4-52, -Schematic diagram of thrust chamber 
+gas tapo([ system. 
+Fuel side pressure drop of line, valve, 
+and inJector .. 
+Fuel sIde pressure drop across OrifICe 
+GG fuel supply line takeoff pressure (total 
+at mam fuel pump discharge .. 
+Thrust Chamber Gas Tapoff Systems 
+216 psi 
+80 psi 
+907 psi 
+
+With these systems, combustion product gases 
+are bled from the main thrust chamber and ducted 
+to the turbine, where they are used as the work
+ing fluid, This arrangement eliminates the need 
+for a separate gas generator system and contrib
+utes significantly to the simplicity and its relia
+bility potential of the engine system, The tech
+nique has been successfully developed by North 
+American Aviation's Rocketdyne Division and 
+appears to be particularly promiSing for hydrogen 
+engines requiring throttling, Figure 4-52 shows 
+a schematic of a tapoff system, 
+In a separate gas generator system, gases are 
+produced and "tailormade" for turbine-power 
+purposes only, with the benefit of relatively high 
+liquid supply pressures, In a tapoff system, the 
+bulk of the extremely hot gases of the main 
+chamber would not be suitable as the turbine 
+drive fluid, in view of the limitation of the tur
+bine construction materials, It has been suc
+cessfully demonstrated, however, that by with
+drawing chamber gases from the boundary zones 
+only, and through proper shaping and location of 
+the bleedports, any desired turbine inlet temper
+ature (usually less than 1700° F) can be reliably 
+and repeatably produced, for a given thrust cham
+ber and injector design, The bleed gases thus 
+withdrawn have been found to possess thermo
+dynamiC properties comparable to the products of 
+a liquid bipropellant gas generator utilizing the 
+same primary propeUan ts, However, a tapoff 
+turbine must be designed to operate at an inlet 
+pressure lower than the thrust chamber pressure, 
+Furthermore, a tapoff engine system will require 
+some sort of simple starting device, such as gas 
+spinner. With the aid of a hot gas regulating 
+valve placed at the turbine inlet, hydrogen tapoff 
+engine systems have been successfully throttled 
+to thrust ratios of 10:1 or better. 
+
+4.7 IGNITION DEVICES 
+The initiation of the release of the chemical 
+energy stored in liquid rocket propellants is 
+accomplished by a number of methods from which 
+the engine designer will select the most suitable 
+for a particular system: 
+(1) Igniters 
+(2) Hypergolic ignition 
+(3) Catalysts 
+All of these methods have been in use for 
+both thrust chambers and gas generators, Note 
+that in liquid propellant rocketry, gas generators 
+have been used not only for turbine power but for 
+propellant-tank pressurization as well. The 
+selection of the preferred ignition method de
+pends on the chosen type of propellants, whether 
+bipropellants or mono propellants are used. on 
+the size of the combustion chambers, the heat 
+release per unit time required in relation to the 
+amount of propellants entering, and on a number 
+of other considerations which will be discussed, 
+All ignition methods, particularly those for 
+bipropellant syst.ems, have one overriding re
+quirement in common: minimum ignition delay, 
