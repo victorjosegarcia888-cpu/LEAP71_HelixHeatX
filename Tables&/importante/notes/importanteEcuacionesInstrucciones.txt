@@ -1,0 +1,2000 @@
+2.- Fenomenología de la combustión en MEP (cont.) volver  
+5. Al subir la temperatura de los productos, éstos se dilatan, comprimiendo los reactantes, y 
+con ello empujan el frente de llama.  La velocidad aparente del frente de llama SF, que es 
+el directamente visible,  se debe a ambas componentes: velocidad de propagación de 
+llama S + velocidad debida a la expansión de los productos, o velocidad de arrastre uexp: 
+�
+�𝐹 = 𝑆 +𝑢𝑒𝑥𝑝 
+(6.1) 
+En condiciones normales de funcionamiento en MEP (sin detonación), S resulta muy 
+inferior a la velocidad del sonido 𝑎 = 
+�
+�𝑅𝑔𝑇 ; y por ello la presión no cambia 
+apreciablemente a través del frente de llama, denominada deflagración. Se considera la 
+presión de los reactantes y productos sensiblemente iguales. 
+1. Al llegar cerca de las paredes más frías (~ 150 ºC) del cilindro, embolo y culata, se 
+extingue la llama por no lograse las condiciones de ignición 𝑇𝑖  en la llama, 𝑇r < Ti ~ 480 
+ºC con gasolina y mezcla estequiométrica: 
+a) A causa de la transferencia de calor a la pared. 
+b) Por haber bajado demasiado T y p en la cámara por la expansión del cilindro 
+c) Por ser la relación local superficie de contacto a volumen muy alta, intersticios. 
+La extinción ocurre especialmente en los intersticios de la cabeza del embolo con el 
+cilindro, en la junta de culata, entre válvulas y sus asientos y en el interior de la bujía. 
+7 
+COMBUSTIÓN 
+EN MIF 
+Introducción – 
+Fenomenología 
+de la combustión 
+Velocidad de 
+propagación y 
+estructura de la 
+llama 
+Etapas de la 
+combustión. 
+Modelado de la 
+combustión – 
+Influencia de las 
+variables de 
+diseño y 
+operación. 
+Contaminación y 
+mitigación de la 
+contaminación 
+Combustión anormal: 
+detonación y 
+encendido 
+superficial. 
+Máquinas y 
+Motores 
+Térmicos 
+3.- Velocidad de propagación y estructura de la llama laminar volver  
+Una vez establecida la llama, se propaga indefinidamente. Cuando la llama es lisa, se tiene régimen laminar. 
+La llama se puede modelar con la teoría de Mallard-Le Chatelier, como una estructura adiabática auto
+mantenida y controlada por equilibrio entre conducción y reacción: 
+• Balance de energía y de masa a través de la llama. El 
+calor necesario para llegar a la ignición es 
+proporcionado por la conducción desde los 
+productos. 
+�
+�𝐴𝑆𝐿
+𝑚  
+�
+�𝑝
+𝑇𝑖 −𝑇r
+• Además, la liberación de calor se realiza en un 
+espesor 𝛿. 
+Para un combustible dado: 
+q recibido por
+reactantes
+= 𝑘𝐴𝑇p−𝑇𝑖
+𝛿
+conducción desde
+la llama
+𝛼
+• Temperatura de ignición: 𝑇𝑖
+𝐹𝑅,𝑝,𝑓,𝐸𝐺𝑅,𝐻𝑅 
+• Difusividad térmica: 𝛼
+𝑇, 𝑝,𝑐𝑜𝑚𝑝𝑜𝑠𝑖𝑐𝑖ó𝑛 
+• Tiempo de combustión: 𝜏𝑐𝑜𝑚𝑏
+𝐹𝑅,𝑝,𝑓,𝐸𝐺𝑅,𝐻𝑅 
+�
+�𝐿= 𝑘
+𝜌𝑐𝑝
+𝛿=𝑆𝐿𝜏𝑐𝑜𝑚𝑏
+↓
+𝑇p−𝑇𝑖
+𝑇𝑖−𝑇r
+1
+𝛿
+⇒𝑆𝐿=
+𝛼
+𝜏𝑐𝑜𝑚𝑏
+𝑇p−𝑇𝑖
+𝑇𝑖−𝑇r
+T 
+Tp 
+T
+i 
+Tr 
+⇒𝑆𝐿 
+�
+�𝑅,𝑝,𝑇r,𝑓,𝐸𝐺𝑅,𝐻𝑅,𝑐𝑜𝑚𝑏𝑢𝑠𝑡𝑖𝑏𝑙𝑒 
+Zona de conducción ; 
+ona de reacción 
+SL 
+Productos y reacciones 
+residuales 
+�
+�: espesor de la llama.  
+Típicamente en MEP: δ ~ 1 mm. 
+Reactantes 
+δ 
+Z
+x 
+Fig. 6.3 
+8 
+COMBUSTIÓN 
+EN MIF 
+Introducción – 
+Fenomenología 
+de la combustión 
+Velocidad de 
+propagación y 
+estructura de la 
+llama 
+Etapas de la 
+combustión. 
+Modelado de la 
+combustión – 
+Influencia de las 
+variables de 
+diseño y 
+operación. 
+Contaminación y 
+mitigación de la 
+contaminación 
+Combustión anormal: 
+detonación y 
+encendido 
+superficial. 
+Máquinas y 
+Motores 
+Térmicos 
+3.- Velocidad de propagación y estructura de la llama laminar (cont.) volver  
+La velocidad de propagación de llama de premezcla 𝑆𝐿 depende de: 
+SL,0: Sin diluyentes y  
+condiciones de referencia de T y p 
+Tr0 = 300 K y p0 = 1 atm 
+FR 
+Fig. 6.4.- Fuente: “Internal Combustion Engines 
+Fundamentals “- J. B. Heywood – 1988. 
+�
+�𝐿 
+�
+�𝑅,𝑝,𝑇r, 𝑓,𝐸𝐺𝑅,𝐻𝑅,𝑐𝑜𝑚𝑏𝑢𝑠𝑡𝑖𝑏𝑙𝑒 : 
+• Si solo tenemos efecto de 𝐹𝑅 y el 
+combustible es: 
+�
+�𝐿,0
+𝐹𝑅, 𝑝0,𝑇𝑟0,0,0,0,combustible . 
+• SL máximo para FR ~ 1,1. 
+Además 
+• SL sube con 𝑇r . 
+• SL poco sensible a p (baja). 
+• SL baja mucho con diluyentes 
+(𝑓, 𝐸𝐺𝑅 𝑦 𝐻𝑅). La humedad relativa 
+HR es un diluyente, pero influye 
+poco dentro de las variaciones 
+atmosféricas. 
+• Cuantificación de estas influencias: 
+9 
+Efecto de Tr , p y diluyentes (solo gases quemados, 𝑦p): 
+COMBUSTIÓN 
+EN MIF 
+Introducción – 
+Fenomenología 
+de la combustión 
+Velocidad de 
+propagación y 
+estructura de la 
+llama 
+Etapas de la 
+combustión. 
+Modelado de la 
+combustión – 
+Influencia de las 
+variables de 
+diseño y 
+operación. 
+Contaminación y 
+mitigación de la 
+contaminación 
+Combustión anormal: 
+detonación y 
+encendido 
+superficial. 
+Máquinas y 
+Motores 
+Térmicos 
+3.- Velocidad de propagación y estructura de la llama laminar (cont.) volver  
+≡xp 
+Fig. 6.5.- Efecto de la temperatura de reactantes, presión de la combustión y de la presencia de diluyentes 
+Resultado: 
+�
+�𝐿 = 𝑆𝐿,0
+𝐹𝑅,𝑐𝑜𝑚𝑏𝑢𝑠𝑡𝑖𝑏𝑙𝑒
+𝑎
+𝑇r
+𝑇0
+−𝑏
+𝑝
+𝑝0
+Limitación EGR en MEP→ 
+Para gasolina:  
+(1 −𝑐𝑦𝑝) 
+a ~ 2,4-0,27 FR3,51 
+b ~ 0,357-0,14 FR2,77 
+c ~ 2,1 y SL ~ 0 si yp > 0,45 
+10 
+COMBUSTIÓN 
+EN MIF 
+Introducción – 
+Fenomenología de 
+la combustión 
+Velocidad de 
+propagación y 
+estructura de la 
+llama 
+Etapas de la 
+combustión. 
+Modelado de la 
+combustión – 
+Influencia de las 
+variables de diseño 
+y operación. 
+Contaminación y 
+mitigación de la 
+contaminación 
+Combustión anormal: 
+detonación y 
+encendido 
+superficial. 
+Máquinas y 
+Motores 
+Térmicos 
+3.- Velocidad de propagación y estructura de la llama laminar (cont.) volver  
+Ejercicio 6.1.- Considerar un MIF (MEP) funcionando con catalizador de 3 vías 
+(FR = 1) con relación de compresión efectiva rc =7. La tasa de residuales es f = 
+5 % y el EGR = 15 %. La temperatura y presión en el cierre de la admisión son 
+T1’= 75 ºC y p1’= 0,7 atm. Determinar la velocidad de propagación de llama 
+laminar SL al iniciar la combustión. Tomar γ = 1,35. 
+�
+�
+−𝑏
+Para gasolina:  
+a ~ 2,4 - 0,27 FR3,51 
+b ~ 0,357 - 0,14 FR2,77 
+c ~ 2,1 
+�
+�𝐿 = 𝑆𝐿,0
+𝑇r
+𝑇0
+𝑝r
+𝑝0
+1−𝑐∙𝑦p
+𝑇r = 𝑇1′ ∙ 𝑟𝑐𝛾−1 = 688 K
+𝑝r = 𝑝1′ ∙ 𝑟𝑐𝛾= 9,68 atm
+𝑆𝐿 
+Asumimos igual peso molecular de reactantes que de productos, con lo que 
+�
+�p = 𝑦p
+𝑃𝑀𝑝
+𝑃𝑀r
+≈𝑦p. 
+Fig 5.I.1: 𝑦p = 𝑚r +𝑚𝐸𝐺𝑅
+𝑚
+Fig.6.4
+𝑆𝐿 = 0,3m
+s
+2,13
+=𝑓+𝐸𝐺𝑅 =0,05+0,15 =0,2 
+−0,217
+688
+300
+9,68
+1
+1−2,1∙0,2 = 0,62 m/s 
+Se duplica la velocidad de propagación de llama laminar SL. Se verá que con 
+aproximadamente las mismas consecuencias en la turbulenta ST. 
+Al ir progresando la combustión 𝑇r y 𝑝r aumentan, hasta que llega la expansión, 
+después del PMS. 
+11 
+COMBUSTIÓN 
+EN MIF 
+Introducción – 
+Fenomenología de 
+la combustión 
+Velocidad de 
+propagación y 
+estructura de la 
+llama 
+Etapas de la 
+combustión. 
+Modelado de la 
+combustión – 
+Influencia de las 
+variables de 
+diseño y 
+operación. 
+Contaminación y 
+mitigación de la 
+contaminación 
+Combustión anormal: 
+detonación y 
+encendido 
+superficial. 
+Máquinas y 
+Motores 
+Térmicos 
+4.- Velocidad de propagación y estructura de la llama turbulenta volver  
+• El flujo de gases de admisión a través de la válvula ocasiona un desprendimiento de la 
+corriente entrante que ocasiona: 
+• Velocidades coherentes de tamaño del orden del calibre 𝐷, como giro “swirl” y “tumble” y 
+otros torbellinos de menor tamaño que se mantienen en el tiempo, luego tienen valor 
+medio no nulo. 
+• Velocidades caóticas y por ello incoherentes, denominado turbulencia, alrededor del valor 
+medio del campo fluido. 
+• La turbulencia puede ser concebida como la superposición de torbellinos incoherentes 
+de distintos tamaños e intensidades, induciendo más velocidad cuan mayor es su 
+tamaño. Inducen velocidades que hacen que ellos se muevan de forma incoherente también. 
+Engendran un campo de velocidades que alrededor del valor medio posee un rms denominado 
+�
+�′. 
+• El elevado número de Reynolds 𝑅𝑒 (cociente entre fuerzas de inercia y viscosas) hace que 
+esta turbulencia decaiga lentamente en comparación con los tiempos del motor. 
+• Hay torbellinos de todos los tamaños. 
+• Los torbellinos de menor tamaño que pueden existir son aquellos en los que 𝑅𝑒~1 de 
+diámetro 𝜂𝑘, denominada escala de Kolmogórov. 
+• Los torbellinos de mayor diámetro (escala integral) tienen un tamaño que depende de las 
+fronteras físicas, en este caso, el diámetro de la válvula de admisión 𝑑. En los MCIA 𝑑 ∝ 𝐷. 
+• Si consideramos que el émbolo se mueve con velocidad media 𝑢, la velocidad media del gas 
+de admisión puede estimarse por continuidad con un flujo incompresible: 
+�
+�𝐴𝑒 = 𝑢𝑎𝑑𝐴𝑎𝑑 ⇒ 𝑢𝑎𝑑 = 𝑢 𝐷
+𝑑
+2
+(6.2) 
+• La llama deflagrante es arrastrada por la velocidad local, tanto la coherente como 𝑢′. 
+12 
+COMBUSTIÓN 
+EN MIF 
+Introducción – 
+Fenomenología 
+de la combustión 
+Velocidad de 
+propagación y 
+estructura de la 
+llama 
+Etapas de la 
+combustión. 
+Modelado de la 
+combustión – 
+Influencia de las 
+variables de 
+diseño y 
+operación. 
+Contaminación y 
+mitigación de la 
+contaminación 
+Combustión anormal: 
+detonación y 
+encendido 
+superficial. 
+Máquinas y 
+Motores 
+Térmicos 
+4.- Velocidad de propagación y estructura de la llama turbulenta volver  
+1. La llama en MEP no es laminar, sino que se ve arrastrada por la turbulencia en el cilindro que forma 
+torbellinos de diferentes tamaños, los cuales originan oscilaciones de velocidad locales de valor rms u’. 
+Establece un frente: 
+ηκ 
+A 
+SL 
+A 
+I.- Llama todavía laminar, 
+incluso con torbellinos de 
+Kolmogórov 𝜂𝑘 < 𝛿 no afectan. 
+lintegral 
+ST 
+SL 
+Fig. 6.6 
+Si 𝜏𝑐𝑜𝑚𝑏 
+> 𝜏𝑖𝑛𝑡𝑒𝑔𝑟𝑎𝑙 ⇒ formación de bolsas (𝛿/𝑆𝐿 
+> 𝑙𝑖𝑛𝑡𝑒𝑔𝑟𝑎𝑙/𝑢’)   
+u’ 
+A 
+lintegral 
+ST 
+Resultado principal: 
+SL 
+IIbis.- … e incluso con formación de bolsas (MEP) 
+La turbulencia incrementa el área 
+efectiva Aef  de la llama, aumentando 
+con ello la velocidad de avance del 
+conjunto del frente 𝑆𝑇: 
+�
+�𝑇
+𝑆𝐿
+≈𝐴𝑒𝑓
+𝐴
+II.- Llama turbulenta corrugada 
+�
+�𝑖𝑛𝑡𝑒𝑔𝑟𝑎𝑙 > δ 
+ST /SL = Aef /A ∝ u’   
+Luego ST  ~ SL u’  
+Además ST  >> SL 
+�
+�’ escala con 𝒖 = 𝟐𝒏𝒍,  
+velocidad media del pistón. Quiere 
+decir que es aproximadamente 
+proporcional. Se debe a que la 
+velocidad de paso por las válvulas 
+de admisión escala con 𝑢 también, 
+véase Ec. (6.2). 
+13 
+COMBUSTIÓN 
+EN MIF 
+Introducción – 
+Fenomenología 
+de la combustión 
+Velocidad de 
+propagación y 
+estructura de la 
+llama 
+Etapas de la 
+combustión. 
+Modelado de la 
+combustión – 
+Influencia de las 
+variables de 
+diseño y 
+operación. 
+Contaminación y 
+mitigación de la 
+contaminación 
+Combustión anormal: 
+detonación y 
+encendido 
+superficial. 
+Máquinas y 
+Motores 
+Térmicos 
+4.- Velocidad de propagación y estructura de la llama turbulenta (cont.) volver  
+• La propagación de una llama turbulenta puede ser visualizada con el 
+paradigma de los rodillos giratorios (en este caso ordenados e iguales, por 
+simplicidad) y tinta que emula la llama. Dentro de cada rodillo la llama es 
+laminar. Cuando alcanza la periferia, donde la velocidad es alta, se deforma y 
+propaga más rápido, repartiendo los puntos de ignición. 
+�
+�′ 
+�
+�𝑖𝑛𝑡𝑒𝑔𝑟𝑎𝑙 
+Fig. 6.7.- Tres instantes sucesivos de símil de propagación de llama turbulenta que comienza en la periferia de un torbellino. La 
+envolvente representa el frente de llama.  Adaptado de “Internal Combustion Engines Fundamentals “- J. B. Heywood - 1988 
+Se ha verificado que: ST  ~ SL u’  
+Consecuencias: 
+• u’ proporcional a 𝑛 [rpm]. 
+• Si ST sube a 𝑛 = cte., se acerca a Otto ⇒ 
+ Más eficiencia, pero pmáx↑, y Tmáx ↑.  
+ Más disociación y NOx ↑.  
+14 
+COMBUSTIÓN 
+EN MIF 
+Introducción – 
+Fenomenología de 
+la combustión 
+Velocidad de 
+propagación y 
+estructura de la 
+llama 
+Etapas de la 
+combustión. 
+Modelado de la 
+combustión – 
+Influencia de las 
+variables de 
+diseño y 
+operación. 
+Contaminación y 
+mitigación de la 
+contaminación 
+Combustión anormal: 
+detonación y 
+encendido 
+superficial. 
+Máquinas y 
+Motores 
+Térmicos 
+4.- Velocidad de propagación y estructura de la llama turbulenta (cont.) volver  
+1.La turbulencia se genera principalmente durante la admisión (en menor medida en el 
+escape), también por el movimiento del embolo y por el de la propia combustión. La 
+turbulencia generada durante la admisión tiende a decaer con el tiempo, pero subsiste hasta 
+la combustión. Además se ve acrecentada por el movimiento del pistón cerca del PMS. Se 
+fomenta la turbulencia con la geometría de la admisión (“swirl” y “tumble”) y de la cabeza 
+del embolo (p. e. “squish”), aislada o combinadamente, ver Fig. 6.1. 
+2.Las escalas grandes de turbulencia lintegral son del orden de magnitud del calibre del pistón 
+D, y/o del diámetro de la válvula de admisión d ≫ δ ~ 1 mm, dependiendo del mecanismo 
+usado para generarla. 
+log𝑢′2 
+Producción 
+(generación) 
+Rango inercial 
+(cascada de energía) Disipación viscosa 
+d  
+ST>SL 
+Red = ρvd/μ  
+lintegral ~ d 
+ηκ / δ 
+ηκ / lintegral 
+1 
+D  
+log𝜂𝑘
+𝑙
+Fig. 6.8.- Espectro de la energía turbulenta (homogénea e isótropa) (a título informativo) 
+A mayor n aumenta 𝑢′, luego cabe esperar una llama más deformada. Efecto del 
+movimiento dentro del cilindro: 
+15 
+5.- Etapas de la combustión en un MEP volver  
+COMBUSTIÓN 
+EN MIF 
+Introducción – 
+Fenomenología 
+de la combustión 
+Velocidad de 
+propagación y 
+estructura de la 
+llama 
+Etapas de la 
+combustión. 
+Modelado de la 
+combustión – 
+Influencia de las 
+variables de 
+diseño y 
+operación. 
+Contaminación y 
+mitigación de la 
+contaminación 
+Combustión anormal: 
+detonación y 
+encendido 
+superficial. 
+Máquinas y 
+Motores 
+Térmicos 
+Tres fases consecutivas 
+1. FASE LENTA (“laminar”): En el encendido, el arco eléctrico de la chispa de la bujía 
+“rompe” las moléculas de aire y de combustible, formando radicales libres, precursores de 
+la combustión. Después de un muy breve tiempo químico τQ ~ 0, empieza la combustión. 
+En este momento, la escala de la llama es del orden del espacio entre electrodos ε ~ 0,7 
+mm, muy inferior a la escala de la turbulencia lintegral.  
+La llama no se ve afectada por la turbulencia de gran escala (Aef /A ~ 1 ), y se propaga 
+lentamente a velocidad laminar: SL. El área de frente de llama es pequeño (A ~ ε2) y la tasa 
+de liberación de calor ρr ASL(h0f,r-h0f,p)  es muy pequeña (SL pequeño y A ~ ε2). Además, 
+existe una gran dispersión cíclica debido a la turbulencia, por la incertidumbre de saltar la 
+chispa dentro o en la periferia de un torbellino, Fig. 6.7. 
+Fig. 6.10.- Micro-umbruoscopía de la llama 
+entre los electrodos de la bujía. Fuente: 
+“Internal Combustion Engines 
+Fundamentals “- J. B. Heywood - 1988 
+Duración: hasta llegar al tamaño de los torbellinos mayores lintegral. 
+τlam ~ τQ + lintegral / SL ~ lintegral / SL. 
+Para una geometría dada: lintegral  ∝ d. 
+Luego su dependencia es: 𝑆𝐿 = 𝑆𝐿
+𝐹𝑅,𝑝,𝑇,𝑦p . 
+⇒ Para composición y geometría dada τlam es constante. 
+⇒ En ángulo de cigüeñal ocupado por esta fase: ∆𝛼𝑙𝑎𝑚 = 𝜏𝑙𝑎𝑚 2𝜋𝑛
+𝜔
+∝ 𝑛 
+16 
+5.- Etapas de la combustión en un MEP (cont.) volver  
+COMBUSTIÓN 
+EN MIF 
+Introducción – 
+Fenomenología 
+de la combustión 
+Velocidad de 
+propagación y 
+estructura de la 
+llama 
+Etapas de la 
+combustión. 
+Modelado de la 
+combustión – 
+Influencia de las 
+variables de 
+diseño y 
+operación. 
+Contaminación y 
+mitigación de la 
+contaminación 
+Combustión anormal: 
+detonación y 
+encendido 
+superficial. 
+Máquinas y 
+Motores 
+Térmicos 
+2. FASE RÁPIDA (“turbulenta”): Al ir creciendo la llama, el tamaño alcanzado supera la 
+escala grande de turbulencia y empieza la combustión turbulenta. La tasa de liberación de 
+calor ρrAST(h0f,r-h0f,p)  es muy alta, por quemar en régimen turbulento (ST) y con una gran 
+superficie de llama (A ~ D2). Por otro lado, suben Tr y p por la compresión de los 
+reactantes, afectando a ST. Tr/T0 ~ (𝜗r/𝜗0)γ-1 y p/p0 ~ 𝜗r/𝜗0)γ . 
+Duración: τturb ~ D/SF ~ D/(ST +uexp) ~  D/(kST ) ~ D/(kSLu’) 
+⇒ Para composición y geometría dada τturb es inversamente proporcional a n [rpm]. 
+⇒ En ángulo de cigüeñal ocupado por esta fase:  Δαturb ~ cte. 
+3. FASE de EXTINCIÓN: Al acercarse a las paredes del cilindro, del embolo y de los 
+intersticios, el frente de llama se encuentra la capa límite, donde velocidades y temperaturas 
+son inferiores, disminuyendo la velocidad de propagación (por bajar u’ y transferencia de 
+calor “llama no adiabática”) e incluso imposibilitando su propagación (Ti no se alcanza).  
+Se combina con este efecto la disminución importante del área de frente de llama al 
+finalizar la combustión. 
+A 
+�
+�𝑞 
+Fig. 6.10bis.- Área del frente de llama 
+como función de la fracción de masa en 
+el cilindro  quemada.  
+Duración: Difícil de evaluar el apagado de llama. En cualquier caso, es terminada por la 
+apertura de la válvula de escape. Luego Δαext ≈ indeterminado. Se genera una zona cerca 
+de las paredes del cilindro donde no se puede desarrollar la combustión con normalidad. 
+Deja una zona del orden del espesor de frente de llama con radicales libres e inquemados 
+HC. También hay liberación de calor residual tras la llama, Fig. 3.11. 
+17 
+5.- Etapas de la combustión en un MEP (cont.) volver  
+COMBUSTIÓN 
+EN MIF 
+Introducción – 
+Fenomenología 
+de la combustión 
+Velocidad de 
+propagación y 
+estructura de la 
+llama 
+Etapas de la 
+combustión. 
+Modelado de la 
+combustión – 
+Influencia de las 
+variables de 
+diseño y 
+operación. 
+Contaminación y 
+mitigación de la 
+contaminación 
+Combustión anormal: 
+detonación y 
+encendido 
+superficial. 
+Máquinas y 
+Motores 
+Térmicos 
+Endoscopio en cilindro MEP 4T y émbolo transparente. La llama se ve azul, 
+por ser de premezcla. La combustión residual aparece blanquecina. 
+Chispa 
+FASE LENTA  
+FASE RÁPIDA  
+FASE RÁPIDA  
+FASE RÁPIDA  
+FASE de EXTINCIÓN 
+Fig. 6.11.- Visualización de la llama y esquema del fondo. Fuente: “Internal Combustion Engines Fundamentals “- J. B. 
+Heywood - 1988 
+18 
+Máquinas y 
+Motores 
+Térmicos 
+19 
+COMBUSTIÓN 
+EN MIF 
+Introducción – 
+Fenomenología 
+de la combustión 
+Velocidad de 
+propagación y 
+estructura de la 
+llama 
+Etapas de la 
+combustión. 
+Modelado de la 
+combustión – 
+Influencia de las 
+variables de 
+diseño y 
+operación. 
+Contaminación y 
+mitigación de la 
+contaminación 
+Combustión anormal: 
+detonación y 
+encendido 
+superficial. 
+Ejercicio 6.2a.- En un MEP a plena carga (asumir FR =1, f ~ 0, EGR = 0) 
+girando a n1 = 2.000 rpm, la fase lenta de la combustión ocupa un ángulo 
+Δαlam,1 = 10º. Determinar cuanto tiempo duraría esta fase si el motor girase 
+a n2 = 4.000 rpm. 2
+,2 ,1
+1
+,1
+1 2
+1 ,2
+2
+2
+s 10º s 0,83ms s 2.000 6 º min º min 60 6 min min 360º
+lam lam
+lam
+lam
+n
+n
+t t n
+t n
+ 
+
+
+   
+           
+
+Ejercicio 6.2b.- En el mismo MEP, operando ahora a carga parcial, y girando 
+a n1 = 2.000 rpm, se recirculan gases de escape con EGR+f = 25 % para 
+mitigar emisiones de NOx. Estimar el ángulo ocupado por la fase lenta y las 
+repercusiones sobre el adelanto al encendido AE. 
+   
+,1
+,3 ,1
+,3
+,3 ,1
+,3
+,1
+~1 21º 10º 1
+2,1
+L
+lam lam
+L
+L lam
+lam
+L
+S
+S
+S c EGR f S c EGR f
+c
+ 
+ 
+   
+
+             
+  
+ 
+El ángulo ocupado por la fase lenta aumenta con n, pero el tiempo es constante 
+Este mayor ángulo hace que convenga saltar la chispa 
+antes del PMS ≡ aumentar el 𝐴𝐸. 
+5.- Etapas de la combustión en un MEP (cont.) volver  
+5.- Etapas de la combustión en un MEP (cont.) volver  
+COMBUSTIÓN 
+EN MIF 
+Introducción – 
+Fenomenología 
+de la combustión 
+Velocidad de 
+propagación y 
+estructura de la 
+llama 
+Etapas de la 
+combustión. 
+Modelado de la 
+combustión – 
+Influencia de las 
+variables de 
+diseño y 
+operación. 
+Contaminación y 
+mitigación de la 
+contaminación 
+Combustión anormal: 
+detonación y 
+encendido 
+superficial. 
+Máquinas y 
+Motores 
+Térmicos 
+Fase lenta (laminar): - Lenta. - Pocos radicales libres. 
+Δ𝛼𝑙𝑎𝑚
+𝐹𝑅,𝑝,𝑇r,𝑦p ∝ 𝑛.  -Origina Dispersión cíclica: 
+40 
+30 
+�
+�bar 
+20 
+10 
+Motor con combustión 
+�
+�bar 
+60 
+Fase de extinción 
+0 -150 -100 -50 0 50 100 150 
+�
+�  
+Fig. 6.12a.- Diagramas sucesivos 𝑝 − 𝛼, 
+mostrando la dispersión cíclica 
+Fase rápida (turbulenta): - Ver Ec. (6.1). - SF ~ ST +uexp ~ ST (1+kA) ~ cte. - Δ𝛼𝑡𝑢𝑟𝑏
+𝐹𝑅,𝑝,𝑇r,𝑦p ~ cte.  
+Fase de extinción: - Limitada por apagado 
+de llama y apertura de 
+la válvula de escape. 
+30 
+0 
+Fase rápida 
+Fase lenta 
+Motor arrastrado 
+−40 
+−80 80 𝛼  
+PMS 
+40 
+Fig. 6.12b.- Diagrama 𝑝 − 𝛼 mostrando el punto de divergencia 
+de presiones y la sobrepresión debida a la combustión. 
+20 
+Máquinas y 
+Motores 
+Térmicos 
+21 
+Balance de energía aplicado a los gases en el cilindro. Se considera la mezcla GICP, sin distinguir 
+zona de reactantes y de productos. La presión en cámara es uniforme, y se toma un valor 
+medio de la temperatura: 
+ 
+  
+ 
+0
+0
+0
+Cinemát.
+d d
+d d
+d d ~ d d
+d d d d d
+1 d d d
+d d d
+d d d
+d d 1 d d
+d 1 d
+1 d 1 d
+d d 1
+d 1 d 1
+v
+g
+g
+v
+g
+v v
+g g
+U p t t
+T mc p t t
+p p p T T p mR p
+T p p mR
+c p p p R t t t
+c c p p t R R t
+p p V t t
+p
+
+ 
+
+   
+
+
+  
+ 
+
+  
+ 
+
+ 
+ 
+
+                   
+ 
+          
+         
+   
+   
+Q
+Q
+Q
+Q=
+Q
+Q
+Cinemát.
+d
+d
+p
+
+Permite obtener el calor liberado por la combustión, 
+a partir de la evolución de presión en el cilindro 
+(presión indicada), véase la Fig. 6.14. 
+COMBUSTIÓN 
+EN MIF 
+Introducción – 
+Fenomenología 
+de la combustión 
+Velocidad de 
+propagación y 
+estructura de la 
+llama 
+Etapas de la 
+combustión. 
+Modelado de la 
+combustión – 
+Influencia de las 
+variables de 
+diseño y 
+operación. 
+Contaminación y 
+mitigación de la 
+contaminación 
+Combustión anormal: 
+detonación y 
+encendido 
+superficial. 
+6.- Modelado de la combustión – Influencia de las variables de 
+diseño y operación volver  
+Fig. 6.13.- Diagramas 𝑝−𝛼 y diagramas  
+d𝑄
+d𝛼
+−𝛼 resultantes.  
+Adaptado de  “Internal Combustion Engines 
+Fundamentals “- J. B. Heywood - 1988 
+�
+�bar 
+�
+�  
+30 
+20 
+10 
+0 -150 -100 -50 0 50 100 150 
+�
+�𝑄
+𝑑𝛼 ; J/º 
+�
+�  
+50 
+25 
+0 -150 -100 -50 0 50 100 150 
+COMBUSTIÓN 
+EN MIF 
+Introducción – 
+Fenomenología 
+de la combustión 
+Velocidad de 
+propagación y 
+estructura de la 
+llama 
+Etapas de la 
+combustión. 
+Modelado de la 
+combustión – 
+Influencia de las 
+variables de 
+diseño y 
+operación. 
+Contaminación y 
+mitigación de la 
+contaminación 
+Combustión anormal: 
+detonación y 
+encendido 
+superficial. 
+Máquinas y 
+Motores 
+Térmicos 
+6.- Modelado de la combustión – Influencia de las variables de 
+diseño y operación volver  
+La dispersión cíclica: 
+• La chispa (arco eléctrico) salta estadísticamente: 
+• En el interior de un torbellino, luego tarda en llegar a su periferia, 
+durando más la fase lenta, Fig. 6.10. 
+• En la periferia de un torbellino; luego, la fase lenta dura menos. 
+• Para un 𝐴𝐸 dado, esto hace que la fase rápida comience antes o 
+después, aleatoriamente, dando lugar a que aparezca la dispersión 
+cíclica. 
+• Estando el 𝐴𝐸 optimizado, la dispersión cíclica hace que los ciclos 
+que no coincidan con la media, no sean óptimos. 
+• La dispersión cíclica aumenta si hay una heterogeneidad en el mezclado, 
+que ocasione diferencias de dosado a escala pequeña. 
+• La dispersión cíclica aumenta al empobrecerse la mezcla, pues el 
+encendido se hace más precario. El fallo por mezcla pobre (límite de 
+empobrecimiento) ocurre cuando aleatoriamente el motor se para, por 
+fracasar el encendido o no sobrevivir la llama. También se para si la 
+mezcla es excesivamente rica. Ambos establecen los límites de 
+inflamabilidad en el motor. 
+22 
+COMBUSTIÓN 
+EN MIF 
+Introducción – 
+Fenomenología 
+de la combustión 
+Velocidad de 
+propagación y 
+estructura de la 
+llama 
+Etapas de la 
+combustión. 
+Modelado de la 
+combustión – 
+Influencia de las 
+variables de 
+diseño y 
+operación. 
+Contaminación y 
+mitigación de la 
+contaminación 
+Combustión anormal: 
+detonación y 
+encendido 
+superficial. 
+Máquinas y 
+Motores 
+Térmicos 
+6.- Modelado de la combustión – Influencia de las variables de 
+diseño y operación volver  
+Calor neto liberado acumulado medio Q 
+1.000 
+�
+�  y rendimiento de combustión 𝜂𝑐.  
+Disociación 
+800 
+600 
+Q [J] 
+400 
+200 
+0 -50 
+MEP mezcla 
+homogénea 
+�
+�𝑎𝑑 = 0,7 bar 
+�
+� =2.500 rpm   
+50 
+100 
+Capa límite fría 
+Intersticios 
+Transferencia de calor 
+150 
+0 
+PMS 
+�
+� [∘] 
+Fig. 6.14.- Balance energético de una combustión. Adaptado de “Internal Combustion Engines Fundamentals “- J. B. Heywood - 1988 
+Ineficiencias: 
+• Inherentes a la reacción (disociación), reversible. 
+• Capa límite fría, donde la llama se apaga.        𝜂
+• Intersticios, donde la llama no penetra. 
+�
+�
+• Transferencia de calor (~ 5-15 % Li ⇒ ≈ Jc en el Cap. 3 de ciclos de MACIs) 
+23 
+COMBUSTIÓN 
+EN MIF 
+Introducción – 
+Fenomenología 
+de la combustión 
+Velocidad de 
+propagación y 
+estructura de la 
+llama 
+Etapas de la 
+combustión. 
+Modelado de la 
+combustión – 
+Influencia de 
+las variables de 
+diseño y 
+operación. 
+Contaminación y 
+mitigación de la 
+contaminación 
+Combustión anormal: 
+detonación y 
+encendido 
+superficial. 
+Máquinas y 
+Motores 
+Térmicos 
+6.- Modelado de la combustión – Influencia de las variables de 
+diseño y operación volver  
+Avance al encendido 𝐴𝐸: 
+• La chispa ha de saltar antes del PMS para lograr una liberación de calor cerca 
+del PMS. 
+• El 𝐴𝐸 para máximo par (𝑀𝐵𝑇 = Minimum spark advance for Best 
+Torque.) se determina a 𝑛,𝐹𝑅,𝑝𝑎𝑑,𝑇𝑎𝑑,… = ctes. En esas circunstancias 
+�
+� 𝑐𝑜𝑚𝑏 = cte.⇒ máximo par 𝐶 ≡ máximo 𝜂. 
+• Se suele elegir  un 𝐴𝐸 ligeramente menor, perdiendo algo de par, que 
+reduzca el pico de presión y menores NOx, denominado 𝐴𝐸 óptimo. 
+También reduce el riesgo de detonación c. r. al 𝑀𝐵𝑇, por alcanzarse 
+menores 𝑝 y 𝑇. 
+�
+�[bar] 
+AE = 50 ° 
+AE = 30 ° 
+AE = 10 ° 
+PMS 
+�
+�𝐸 
+�
+� 
+�
+� 
+�
+�𝑚á𝑥 
+PMS 
+�
+� [°] 
+0,0 
+�
+�𝐸ó𝑝 
+�
+�𝐸𝑀𝐵𝑇 
+�
+�𝐸 
+Fig. 6.20.- Criterios para la elección de 𝐴𝐸ó𝑝 
+24 
+COMBUSTIÓN 
+EN MIF 
+Introducción – 
+Fenomenología 
+de la combustión 
+Velocidad de 
+propagación y 
+estructura de la 
+llama 
+Etapas de la 
+combustión. 
+Modelado de la 
+combustión – 
+Influencia de 
+las variables de 
+diseño y 
+operación. 
+Contaminación y 
+mitigación de la 
+contaminación 
+Combustión anormal: 
+detonación y 
+encendido 
+superficial. 
+Máquinas y 
+Motores 
+Térmicos 
+6.- Modelado de la combustión – Influencia de las variables de 
+diseño y operación volver  
+Influencia sobre el  𝐴𝐸ó𝑝: 
+• Dosado de la mezcla FR :  
+La máxima velocidad de combustión se obtiene para mezcla ligeramente rica (FR  ~ 1,15 para gasolina). Es 
+necesario aumentar el AE para motores de mezcla pobre, o mezcla muy rica. 
+Si  FR  Δαturb cte.,  Δαlam  𝐴𝐸ó𝑝   
+• Fracción de gases residuales f y humedad HR: 
+Los gases diluyentes disminuyen la velocidad de combustión. Es necesario aumentar el 𝐴𝐸 cuando 
+aumenta el 𝐸𝐺𝑅, 𝑓 o 𝐻𝑅. Si  𝑦𝑑𝑖𝑙𝑢𝑦𝑒𝑛𝑡𝑒𝑠   Δαturb,  Δαlam 𝐴𝐸ó𝑝 
+• Régimen de giro n :  
+Si  n  Δαturb cte., Δ αlam 𝐴𝐸ó𝑝 (antiguo avance centrífugo). 
+• Presión de admisión pad (operación a carga parcial):  
+La disminución de pad (con mariposa de gases) produce dos efectos relacionados con la combustión: 
+• Aumenta la fracción de gases residuales 𝑓  velocidad de combustión reducida. 
+• Disminuye la presión inicial de combustión  velocidad de combustión ligeramente mayor. 
+Si  pad  Δαturb cte.,  Δαlam 𝐴𝐸ó𝑝 (corrección por depresión en admisión o por grado de sobrealim.)  
+• Temperatura de admisión Tad: 
+La velocidad de propagación de llama es sensible a la temperatura de los reactantes, que es proporcional 
+a Tad (detalle).  
+Si  Tad  Δαturb cte.,  Δαlam 𝐴𝐸ó𝑝 
+• Relación de compresión rc : 
+Si  rc  Δαturb cte.,  Δαlam 𝐴𝐸ó𝑝 
+El aumento de rc produce dos efectos relacionados con la combustión: 
+• Disminuye la fracción de gases residuales  SL sube ligeramente. 
+• Aumenta la presión inicial de combustión  SL baja ligeramente. 
+• Los motores con bujía central y/o elevado swirl, tumble y/o squish necesitan un menor 𝐴𝐸ó𝑝. 
+25 
+• El 𝐴𝐸ó𝑝 es controlado por un microprocesador. 
+7.- Combustión anormal: detonación e ignición superficial volver  
+COMBUSTIÓN 
+EN MIF 
+Introducción – 
+Fenomenología 
+de la combustión 
+Velocidad de 
+propagación y 
+estructura de la 
+llama 
+Etapas de la 
+combustión. 
+Modelado de la 
+combustión – 
+Influencia de las 
+variables de 
+diseño y 
+operación. 
+Contaminación y 
+mitigación de la 
+contaminación 
+Combustión 
+anormal: 
+detonación y 
+encendido 
+superficial. 
+Máquinas y 
+Motores 
+Térmicos 
+Tipos de combustión 
+Normal 
+Se inicia a partir de la chispa de la bujía y a partir de ahí se propaga al 
+resto de la cámara mediante un frente de llama que evoluciona sin 
+cambios bruscos en su velocidad o en su forma. 
+Anormal, se subdivide en dos tipos: 
+Detonante: 
+Se inicia como la anterior pero en cierto instante los gases aún por 
+quemar, calentados y comprimidos por la dilatación de los quemados, 
+alcanzan espontáneamente la autoignición, tras consumirse el tiempo 
+de retardo. Arden instantáneamente en masa, generando una brusca 
+elevación de presión, acompañada de un ruido metálico (picado de 
+bielas). No es una llama detonante. El motor HCCI ha normalizado 
+este tipo de combustión, ver Anexo III. 
+Por ignición superficial: 
+Se inicia en un instante aleatorio por la energía aportada por  
+superficies calientes (p. e. carbonilla). Pre-encendido (antes del AE) o post
+encendido: más peligroso el primero porque aumenta p y T mucho y empeora en 
+los sucesivos ciclos, pudiendo degenerar en detonación. Ver Anexo II. 
+26 
+7.- Combustión anormal: detonación e ignición superficial (cont.) volver  
+COMBUSTIÓN 
+EN MIF 
+Introducción – 
+Fenomenología 
+de la combustión 
+Velocidad de 
+propagación y 
+estructura de la 
+llama 
+Etapas de la 
+combustión. 
+Modelado de la 
+combustión – 
+Influencia de las 
+variables de 
+diseño y 
+operación. 
+Contaminación y 
+mitigación de la 
+contaminación 
+Combustión anormal: 
+detonación y 
+encendido 
+superficial. 
+Máquinas y 
+Motores 
+Térmicos 
+• Autoignición simultánea de una fracción grande de la masa en el cilindro, sin que haya 
+sido alcanzada por el frente de llama (por lo tanto reactantes). La fracción arde a V = 
+cte. Generando elevadas 𝑝 y 𝑇 locales > que las de la masa anteriormente quemada. Esta 
+diferencia de presión genera una onda de choque. 
+• Ocurre cuando, habiéndose alcanzado las condiciones de temperatura y presión necesarias, ha 
+transcurrido el tiempo de retardo a la autoignición 𝜏𝑟. Su valor depende tanto del estado 
+termodinámico como de la composición de la mezcla reactante. P. e. el número de 
+octano N. O. (actualmente 95 y 98 en España) aumenta 𝜏𝑟. 
+• La oscilación de la presión se debe a los sucesivas reflexiones de la onda de choque en las 
+paredes de la cámara de combustión.  
+Fig. 6.25.- Diagramas 𝑝 − 𝛼 sin detonación, 
+detonación incipiente y detonación intensa, a 
+base de aumentar 𝐴𝐸, ceteris paribus. 
+PMS 
+PMS 
+PMS 
+La frecuencia oscilatoria depende de la velocidad del sonido y del tamaño de la cámara: 
+f
+ 
+R
+g
+T
+gas
+D
+
+
+
+det
+onación
+1, 4
+u
+sonido
+D
+
+J
+287 kg·K
+
+
+
+
+·
+R
+g
+
+f
+D
+·
+T
+gas
+  
+det
+onación
+• Aumenta la transferencia de calor hacia las paredes del motor 
+y la temperatura de las paredes: 
+• Mayor temperatura de los gases al liberarse más energía en 
+menos tiempo. 
+• Interacción onda de choque – capa límite → mayor 
+transferencia de calor a las paredes. 
+10,63 kHz
+
+1.800 K
+80 mm
+
+
+
+
+• Provoca perforación por fusión de la cabeza del émbolo. 
+• Es un factor limitador de la relación de compresión, y con 
+ello del rendimiento en MIF. 
+27 
+7.- Combustión anormal: detonación e ignición superficial (cont.) volver  
+COMBUSTIÓN 
+EN MIF 
+Introducción – 
+Fenomenología 
+de la combustión 
+Velocidad de 
+propagación y 
+estructura de la 
+llama 
+Etapas de la 
+combustión. 
+Modelado de la 
+combustión – 
+Influencia de las 
+variables de 
+diseño y 
+operación. 
+Contaminación y 
+mitigación de la 
+contaminación 
+Combustión 
+anormal: 
+detonación y 
+encendido 
+superficial. 
+Máquinas y 
+Motores 
+Térmicos 
+Frente de llama normal 
+Detonación 
+Fig. 6.26.- Umbruoscopía en la dirección del cilindro. Fuente: “Internal Combustion Engines Fundamentals “- J. B. Heywood - 1988 
+28 
+7.- Combustión anormal: detonación e ignición superficial (cont.) volver  
+COMBUSTIÓN 
+EN MIF 
+Introducción – 
+Fenomenología 
+de la combustión 
+Velocidad de 
+propagación y 
+estructura de la 
+llama 
+Etapas de la 
+combustión. 
+Modelado de la 
+combustión – 
+Influencia de las 
+variables de 
+diseño y 
+operación. 
+Contaminación y 
+mitigación de la 
+contaminación 
+Combustión 
+anormal: 
+detonación y 
+encendido 
+superficial. 
+Máquinas y 
+Motores 
+Térmicos 
+• Tiempo de retardo a la auto-ignición: 
+E
+RT
+a
+ 
+r
+r
+A e
+·
+p
+n
+• 𝐸𝑎 ≫𝑅𝑇0, A así como 𝑛 ~ 1 y > 0: dependen del combustible y de FR. 
+p es la presión en la cámara de combustión, cambiante al igual que 𝑇r. 
+• 𝜏𝑟 es muy sensible a la temperatura de reactantes 𝑇r, pues cuando  
+�
+�𝑎~𝑅𝑇r → 𝜏𝑟 disminuye drásticamente. 
+Condición de detonación: 𝜏𝑟
+𝑣𝑎𝑟𝑖𝑎𝑏𝑙𝑒𝑠 ≤ 𝜏𝑟𝑒𝑠𝑖𝑑𝑒𝑛𝑐𝑖𝑎 de los reactantes a alta 𝑇r. 
+Influencia de las variables: 
+• Composición del combustible: 
+• Número de octano 95, 98, etc.. Mayor N. O. Indica 𝜏𝑟 mayores. 𝐿𝑖 igual. 
+• Dosado:  
+• El tiempo de retardo mínimo se obtiene para FR = 1. Por ello enriquecer a plena carga es 
+interesante para evitar detonación también. 
+• Estado termodinámico de los reactantes: 
+• Relación de compresión rc y grado de sobrealimentación (↑ 𝑇r  y ↑ 𝑝r ⇒ 𝜏𝑟 ↓). La detonación 
+es factor limitante al rendimiento y potencia de los MIF. 
+• Presión (carga con mariposa). A carga parcial, pad disminuye ⇒ ↑ 𝜏𝑟 y aumenta f ⇒ 𝜏𝑟 ↑.  
+• Temperatura del refrigerante (enfría las paredes y los reactantes ⇒ 𝜏𝑟 ↑), posición relativa de 
+bujía (mejor central) y válvula de escape (muy caliente, malo), inyección de H2O o CH3OH ↓ 𝑇r 
+⇒ 𝜏𝑟 ↑. 
+• Tiempo de residencia de los reactantes antes de ser quemados 𝝉𝒓𝒆𝒔𝒊𝒅𝒆𝒏𝒄𝒊𝒂: 
+• Velocidad de giro, turbulencia y velocidad de propagación de llama  detonación más fácil a 
+regímenes bajos, pues el tiempo de residencia de los reactantes es mayor. 
+• Avance al encendido exagerado, aumenta 𝑇r y 𝑝r ⇒ 𝜏𝑟 ↓. 
+29 
+• Geometría de la cámara de combustión. Interesa compacta y 𝐷 bajo (motores pequeños y cuadrados). 
+8.- Contaminación y mitigación de la contaminación volver  
+COMBUSTIÓN 
+EN MIF 
+Introducción – 
+Fenomenología 
+de la combustión 
+Velocidad de 
+propagación y 
+estructura de la 
+llama 
+Etapas de la 
+combustión. 
+Modelado de la 
+combustión – 
+Influencia de las 
+variables de 
+diseño y 
+operación. 
+Contaminación y 
+mitigación de la 
+contaminación 
+Combustión anormal: 
+detonación y 
+encendido 
+superficial. 
+Máquinas y 
+Motores 
+Térmicos 
+• El CO2 se considera un contaminante por su efecto invernadero, por lo que su 
+reducción pasa por lograr: mayores eficiencias del motor, emplear 
+combustibles con menos carbono (H2 y CH4) o que previamente hayan 
+capturado CO2 atmosférico (biocombustibles). 
+• Los contaminantes principales de los MCIA son los NOx, CO y HC: 
+I. Los NOx (NO, NO2 y N2O) se forman a alta temperatura. Aunque deberían 
+haber desaparecido en la recombinación durante la expansión, las reacciones 
+son tan lentas que queda una parte sustancial. Su producción es máxima con 
+mezcla ligeramente pobre, Fig. 6.21, pues se junta una temperatura de la 
+combustión alta y presencia de O2. 
+II. El CO es alto con mezcla rica, por lo que hay que evitarla. Es alto con mezclas 
+pobre cercanas al límite de empobrecimiento, pues estadísticamente 
+aparecen apagados de la llama que originan compuestos de una combustión 
+incompleta. Aparece incluso con mezcla pobre por el enlentecimiento de las 
+reacciones de terminación de la combustión durante la expansión. 
+III. Los hidrocarburos inquemados (HCs) son altos con mezcla rica, a evitar. Pero 
+con mezclas apropiadas aparece a  causa de la tercera fase de la combustión, 
+apagado por cercanía de cuerpos fríos. Son especialmente altos cerca del límite 
+de empobrecimiento, por fracasos estadísticos de la llama. 
+• El humo negro (hollín) solo aparece con mezclas extraordinariamente ricas, a evitar. 
+• El humo azul es combustible inquemado. Aparece en arranque en frío. 
+30 
+Máquinas y 
+Motores 
+Térmicos 
+31 
+Tp,max [K], para inicio de combustión: p0 y T0. 
+A presión constante 
+Fig. 6.21.- Esquema de contaminación de un MEP de 
+mezcla homogénea convencional. La máxima 
+temperatura Tp,max alcanzada durante la combustión 
+depende de:  f, EGR, rc, FR, Tad, pad, combustible. La 
+conjunción de temperatura, equilibrio y cinética 
+químicos da lugar a la concentración en escape. 
+COMBUSTIÓN 
+EN MIF 
+Introducción – 
+Fenomenología 
+de la combustión 
+Velocidad de 
+propagación y 
+estructura de la 
+llama 
+Etapas de la 
+combustión. 
+Modelado de la 
+combustión – 
+Influencia de las 
+variables de 
+diseño y 
+operación. 
+Contaminación y 
+mitigación de la 
+contaminación 
+Combustión anormal: 
+detonación y 
+encendido 
+superficial. 
+8.- Contaminación y mitigación de la contaminación (cont.) volver  
+Cinética química 
+Humo negro 
+Equilibrio 
+termoquímico 
+HC 
+NO 
+CO 
+Dosado relativo 
+0.7 0.8 0.9 1.0 1.1 1.2 1.3 
+8.- Contaminación y mitigación de la contaminación (cont.) volver  
+COMBUSTIÓN 
+EN MIF 
+Introducción – 
+Fenomenología 
+de la combustión 
+Velocidad de 
+propagación y 
+estructura de la 
+llama 
+Etapas de la 
+combustión. 
+Modelado de la 
+combustión – 
+Influencia de las 
+variables de 
+diseño y 
+operación. 
+Contaminación y 
+mitigación de la 
+contaminación 
+Combustión anormal: 
+detonación y 
+encendido 
+superficial. 
+Máquinas y 
+Motores 
+Térmicos 
+• La contaminación en los MEP se reduce: 
+• Destruyendo los contaminantes formados, técnicas “end of pipe”: 
+• Catalizador de tres vías. Reduce los NOx y a la vez oxida los HC y CO. 
+• Catalizador de urea (SCR o “Selective Catalytic Reduction”) para 
+reducir los NOx.  
+• Catalizador de oxidación. Reduce solamente los CO y HC con mezcla 
+pobre. 
+• Catalizador de almacenamiento de NOx. Posibilita su reducción en 
+motores de mezcla pobre. 
+• Reduciendo la producción de contaminantes: 
+• Ciclo Miller. 
+• EGR. 
+• Motores de mezcla estratificada con dosado global pobre. 
+Además 
+• Los catalizadores no admiten azufre en las gasolinas, ni plomo-tetraetilo 
+como mejorador del N. O.  
+• El vapor que se desprende del depósito de combustible son HCs; debe 
+evitarse su fuga. 
+• El arranque en frío y calentamiento debe reducirse, pues se forman 
+muchos HCs. La necesaria mezcla rica hace que el CO sea alto también. 
+• Los catalizadores necesitan un tiempo de calentamiento para actuar. 
+• La ITV busca evitar vehículos muy contaminantes. 
+32 
+8.- Contaminación y mitigación de la contaminación (cont.) volver  
+COMBUSTIÓN 
+EN MIF 
+Introducción – 
+Fenomenología 
+de la combustión 
+Velocidad de 
+propagación y 
+estructura de la 
+llama 
+Etapas de la 
+combustión. 
+Modelado de la 
+combustión – 
+Influencia de las 
+variables de 
+diseño y 
+operación. 
+Contaminación y 
+mitigación de la 
+contaminación 
+Combustión anormal: 
+detonación y 
+encendido 
+superficial. 
+Máquinas y 
+Motores 
+Térmicos 
+Efecto del dosado: 
+• Con mezcla homogénea se dan las condiciones de mínimas emisiones para 0,8 < 𝐹𝑅 =
+1
+𝜆
+< 0,9, Fig. 6.21. El motor de mezcla pobre posibilita  𝐹𝑅 ~ 0,6, reduciendo los NOx y 
+aumentando 𝜂. 
+• A máxima potencia, aceleración y marcha en frío, se enriquece 𝐹𝑅 ~ 1,15 
+⇒ CO, HC ↑.  
+Reducción de los contaminantes con catalizadores (solamente se implementan los 
+necesarios, dependiendo del motor): 
+Catalizador de tres vías. Para simultáneamente poder oxidar los CO y HC y reducir los 
+NOx se requiere 0,95 < FR < 1,05. Para ello necesita medida de oxígeno en el escape 
+(sonda lambda) para regular con precisión la inyección de combustible y mantener FR 
+= 1. El motor opera fuera de la condiciones de ηmáx por lo que es una técnica en 
+regresión. 
+Catalizador de urea, solo necesario actualmente en MEC, Diésel.  
+Catalizador de oxidación, útil en motores de mezcla pobre. Similar al de tres vías. 
+Catalizador de almacenamiento de NOx. Tras adsorberlos, los reduce pasando 
+momentáneamente a mezcla estequiométrica o rica. Similar al de tres vías. 
+Filtro de partículas. Retiene las partículas carbonosas y las quema periódicamente. 
+Solo necesario en MEC, Diésel. 
+Reducción de la producción de contaminantes 
+Con turbo + ciclo Miller: rc,  Tr = T1’rcγ-1  Tmax   NOx . 
+Con EGR,  yp, Tmax   NOx  HC. 
+Mitigación de los contaminantes con combustión estratificada: 
+33 
+8.- Contaminación y mitigación de la contaminación (cont.) volver  
+COMBUSTIÓN 
+EN MIF 
+Introducción – 
+Fenomenología 
+de la combustión 
+Velocidad de 
+propagación y 
+estructura de la 
+llama 
+Etapas de la 
+combustión. 
+Modelado de la 
+combustión – 
+Influencia de las 
+variables de 
+diseño y 
+operación. 
+Contaminación y 
+mitigación de la 
+contaminación 
+Combustión anormal: 
+detonación y 
+encendido 
+superficial. 
+Máquinas y 
+Motores 
+Térmicos 
+Carga estratificada y homogénea en modos de funcionamiento, Fuente. 
+Carga 
+Mezcla homogénea  
+pobre 
+Mezcla homogénea 
+Mezcla estratificada 
+Régimen 
+Al motor 
+Fig. 6.23 
+34 
+8.- Contaminación y mitigación de la contaminación (cont.) volver  
+COMBUSTIÓN 
+EN MIF 
+Introducción – 
+Fenomenología 
+de la combustión 
+Velocidad de 
+propagación y 
+estructura de la 
+llama 
+Etapas de la 
+combustión. 
+Modelado de la 
+combustión – 
+Influencia de las 
+variables de 
+diseño y 
+operación. 
+Contaminación y 
+mitigación de la 
+contaminación 
+Combustión anormal: 
+detonación y 
+encendido 
+superficial. 
+Máquinas y 
+Motores 
+Térmicos 
+• Modo estratificado: En el centro de la cámara de combustión se 
+encuentra una mezcla con buena inflamabilidad (mezcla rica) en torno 
+a la bujía. Esta mezcla está rodeada de una capa exterior, que en el 
+caso ideal está compuesta por aire fresco y gases de escape 
+recirculados (mezcla globalmente muy pobre). El volumen a quemar 
+es pequeño  la combustión dura menos 𝜏𝑟𝑒𝑠𝑖𝑑𝑒𝑛𝑐𝑖𝑎 es menor. 
+• La combustión se desarrolla con dosado rico en una primera etapa 
+(pocos NOx por alcanzar menos T  localmente, pero mucho CO y HC). 
+La mezcla con el aire acaba de oxidar el CO y HC (equilibrio termoquímico). 
+La llama no alcanza las paredes del cilindro, generando menos HC en 
+zonas frías. La trampilla en admisión favorece el “tumble”. Se inyecta 
+con spray estrecho dirigido al centro. 
+FR  = 0,64 
+FR =0,33-0,64 
+Fig 6.24a 
+• Modo homogéneo pobre: mezcla homogénea, como en el 
+funcionamiento normal, pero con dosado cercano al límite 
+pobre.  Tmax  NOx . Requiere de un 𝐴𝐸 importante, no 
+necesita 𝐸𝐺𝑅  (η ) . Permite mitigar NOx sin perjudicar al 
+rendimiento del motor. La posición de la trampilla favorece la 
+turbulencia. Se inyecta con un spray amplio para homogeneizar. 
+Fig 6.24b 
+• Modo homogéneo (normal): usado en alta carga y régimen, donde 
+las emisiones no son problemáticas (paredes del cilindro/embolo 
+calientes  pocos HC y CO). Trampilla abierta para favorecer el 
+llenado. Spray amplio. 
+Fig 6.24c 
+FR=0,9-1,1 
+(Volver) 
+35 
+Máquinas y 
+Motores 
+Térmicos 
+36 
+9.- Cuestiones de autoevaluación volver  
+# Cuestión V/F 
+1 La combustión en MEPs trata de evitar la autoignición V 
+2 La autoignición tiene un tiempo de retardo, una vez alcanzadas las condiciones para 
+que se dé. 
+V 
+3 El tiempo de retardo ha de ser < que el de residencia en las condiciones de 
+autoignición, para que la detonación no se produzca 
+F 
+4 La premezcla permite que nos e formen llamas amarillas V 
+5 La presión en la cámara de combustión de un MEP es espacialmente homogénea, 
+salvo que aparezca detonación 
+V 
+6 La temperatura en la combustión real de un MEP es espacialmente homogénea en la 
+cámara 
+F 
+7 En los MEP conviene empobrecer la mezcla al efecto de lograr buen rendimiento del 
+ciclo 
+V 
+8 La mezcla en los MEP se puede empobrecer fin límite F 
+9 En los MEP de mezcla estratificada, la combustión pasa de ser rica a ser pobre en un 
+mismo ciclo 
+V 
+10 Los MEP de mezcla estratificada permiten mezclas globalmente más pobres que los de 
+mezcla homogénea. 
+V 
+11 Al sobrealimentar un motor, aumenta su tendencia a detonar, ceteris paribus. V 
+12 La aparición de gases contaminantes en el escape de los MEP se debe no solo a 
+cuestiones explicadas por la termoquímica, sino además a aspectos de cinética 
+química. 
+V 
+COMBUSTIÓN 
+EN MIF 
+Introducción – 
+Fenomenología 
+de la combustión 
+Velocidad de 
+propagación y 
+estructura de la 
+llama 
+Etapas de la 
+combustión. 
+Modelado de la 
+combustión – 
+Influencia de las 
+variables de 
+diseño y 
+operación. 
+Contaminación y 
+mitigación de la 
+contaminación 
+Combustión anormal: 
+detonación y 
+encendido 
+superficial. 
+Máquinas y 
+Motores 
+Térmicos 
+37 
+9.- Cuestiones de autoevaluación volver  
+# Cuestión V/F 
+13 El catalizador de tres vías es válido para motores de mezcla pobre F 
+14 El EGR permite bajar los NOx, pero aumentan los HC por reducirse la temperatura de 
+la llama 
+V 
+15 En un motor convencional de mezcla homogénea, la producción de NOx es máxima 
+con mezcla ligeramente pobre 
+V 
+16 Según va progresando la combustión en la fase rápida, la velocidad de propagación se 
+va enlenteciendo. 
+F 
+17 El uso de gasolina de mayor N. O. permite mayor potencia, por aumentar su poder 
+calorífico 
+F 
+18 Un MEP con hidrógeno como combustible no emitiría NOx. F 
+19 La relación de compresión en los MEP está limitada por la aparición de la detonación V 
+20 Agregar swirl o tumble al diseño de un motor beneficia la combustión, pero aumenta 
+las pérdidas de calor a las paredes, ceteris paribus 
+V 
+21 Agregar swirl o tumble al diseño de un motor reduce su rendimiento volumétrico V 
+22 El avance al encendido óptimo suele ser mayor que el MBT F 
+23 En un MEP, al producirse la autoignición espontánea de los reactantes, aparecen dos 
+presiones distintas en la cámara de combustión  
+V 
+24 Las llamas laminares de premezcla son más rápidas que las turbulentas F 
+25 En un MEP lento, el tiempo de residencia en condiciones de autoignición es mayor 
+que en uno rápido 
+V 
+COMBUSTIÓN 
+EN MIF 
+Introducción – 
+Fenomenología 
+de la combustión 
+Velocidad de 
+propagación y 
+estructura de la 
+llama 
+Etapas de la 
+combustión. 
+Modelado de la 
+combustión – 
+Influencia de las 
+variables de 
+diseño y 
+operación. 
+Contaminación y 
+mitigación de la 
+contaminación 
+Combustión anormal: 
+detonación y 
+encendido 
+superficial. 
+Máquinas y 
+Motores 
+Térmicos 
+38 
+9.- Cuestiones de autoevaluación volver  
+# Cuestión V/F 
+26 Un motor está diseñado para usar gasolina con N. O. 95. Si se le alimenta con N. O. 98 
+sufrirá daños 
+F 
+27 Un motor está diseñado para usar gasolina con N. O. 95. Si se le alimenta con N. O. 98 
+funcionará mejor 
+F 
+28 Un motor está diseñado para usar gasolina con N. O. 98. Si se le alimenta con N. O. 95 
+puede sufrir daños 
+V 
+29 Una pequeña cantidad de combustible Diésel a gasolina de N. O. 95, la mejora en su 
+capacidad anti-detonación 
+F 
+30 La presencia de oxígeno en los gases de escape, cuando se actúa con mezcla 
+globalmente pobre, dificulta su reducción catalítica sin aditivos 
+V 
+31 Como el gas natural y el propano disfrutan de un N. O superior a las gasolinas, la 
+conversión de motores de gasolina a operar con estos combustible no necesita rebajar 
+la relación de compresión 
+V 
+32 Un MEP con 𝐷 mayor que otro y con la misma 𝑛 tiene más riesgo de detonación, 
+ceteris paribus 
+V 
+33 Los MEP de gran tamaño tienen 𝐷 mayor, salvo que tuvieran muchos cilindros y 
+suelen tener igual velocidad media del ámbolo  𝑢. Ambos efectos aumentan el tiempo 
+de residencia en condiciones de autoignición, ceteris paribus. 
+V 
+34 Se desea modificar un MEP, añadiéndole EGR. Su encendido deberá producirse más 
+cerca del PMS 
+F 
+35 Se desea turboalimentar un MEP de aspiración normal. Es razonable que se tenga que 
+bajar su 𝑟𝑐 salvo que a plena carga se tomen medidas anti-detonación, como reducir el 
+�
+�𝐸. 
+V 
+COMBUSTIÓN 
+EN MIF 
+Introducción – 
+Fenomenología 
+de la combustión 
+Velocidad de 
+propagación y 
+estructura de la 
+llama 
+Etapas de la 
+combustión. 
+Modelado de la 
+combustión – 
+Influencia de las 
+variables de 
+diseño y 
+operación. 
+Contaminación y 
+mitigación de la 
+contaminación 
+Combustión anormal: 
+detonación y 
+encendido 
+superficial. 
+10.- Anexos volver  
+COMBUSTIÓN 
+EN MIF 
+Introducción – 
+Fenomenología 
+de la combustión 
+Velocidad de 
+propagación y 
+estructura de la 
+llama 
+Etapas de la 
+combustión. 
+Modelado de la 
+combustión – 
+Influencia de las 
+variables de 
+diseño y 
+operación. 
+Contaminación y 
+mitigación de la 
+contaminación 
+Combustión anormal: 
+detonación y 
+encendido 
+superficial. 
+Máquinas y 
+Motores 
+Térmicos 
+Anexo I: 
+• La temperatura de autoignición 𝑇𝑎 no coincide con la temperatura de 
+ignición justo antes de la llama 𝑇𝑖. En este último caso, los reactantes son 
+no solamente calentados por conducción de parte de los productos muy 
+próximos, sino que son atacados por radicales libres que los “desmontan”, 
+principalmente por el radical  menor que existe: H. Como resultado la 
+liberación de calor por combustión empieza a temperaturas menores y se 
+forma mayoritariamente CO y H2 ya dentro de la llama. De ahí que: 
+• Los distintos combustible muestren composición de los productos 
+muy similar, véase la Termoquímica. 
+• Aparezca CO en los gases tras la llama, pues su oxidación es lenta a 
+temperaturas moderadas. 
+ANEXO II 
+• Las bujías de encendido se producen con diferentes “grados térmicos”. 
+Tiene que ver con su capacidad de disipar calor durante la marcha del 
+motor. 
+• Si es excesivo, la bujía enfría los gases perjudicando la ignición y los 
+depósitos de residuos sobre ella pueden originar fallos, al conducir la 
+electricidad. 
+• Si es insuficiente, puede originar pre-encendido por punto caliente, 
+que por ser incontrolado perjudica. 
+39 
+10.- Anexos volver  
+COMBUSTIÓN 
+EN MIF 
+Introducción – 
+Fenomenología 
+de la combustión 
+Velocidad de 
+propagación y 
+estructura de la 
+llama 
+Etapas de la 
+combustión. 
+Modelado de la 
+combustión – 
+Influencia de las 
+variables de 
+diseño y 
+operación. 
+Contaminación y 
+mitigación de la 
+contaminación 
+Combustión anormal: 
+detonación y 
+encendido 
+superficial. 
+Máquinas y 
+Motores 
+Térmicos 
+Anexo III: 
+• El sistema de combustión HCCI (Homogeneous Charge Compression 
+Ignition) utiliza un modo de autoencendido simultáneo en toda la cámara 
+sin bujía. Está provocado por una alta recirculación de gases de escape, 
+EGR, y una alta 𝑟𝑐. En realidad es un MEC, pero de premezcla homogénea. 
+Información. 
+• Destinado a quemar mezclas pobres con buen rendimiento de combustión 
+y sin una gradiente de presiones d𝑝/d𝛼 exagerado. 
+• Logra bajos NOx por la baja temperatura de los productos; sin embargo, el 
+CO y HC necesitan catalizador de oxidación. No emite humo negro. 
+• Este modo se emplea a ralentí y carga parcial, una vez caliente el motor. 
+• No usa mariposa de admisión, eliminando el bucle de bombeo. 
+• El reducido margen operativo de este modo de autoignición se ve 
+ampliado con diagrama de la distribución variable. 
+• Puede quemar gasolina, alcohol etílico, E85, mezclas e incluso gasóleo. Un 
+ejemplo. Otro ejemplo.  
