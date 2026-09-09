@@ -1422,3 +1422,1437 @@ of other considerations which will be discussed,
 All ignition methods, particularly those for 
 bipropellant syst.ems, have one overriding re
 quirement in common: minimum ignition delay, 
+
+DES!GN OF THRUST OiAMBERS AND OTHER COMBUSTION DEVICES 
+If the propellants entering the combustion cham
+ber are not promptly ignited. explosive mixtures 
+can form and detonate with damaging results. 
+The assurance of faultless . gnition is dependent 
+on the selection of the ignition method. the 
+quality of design. and on adequate heat release. 
+137 
+. difficult. It is one of the inherent shortcomings 
+of solid propellants that they cannot be switched 
+on briefly for checkout and tben stopped again. 
+Igniters 
+These are defined as devices which release 
+heat and thus initiate ti e reaction of the main 
+propellants which subsequently sustains itself. 
+Igniters derive their power from an outside 
+source or from a limited amount of energy stored 
+as solid propellants within themselves. Follow
+ing ignition. igniters do not participate further in 
+the' combustion process. Some of the principal 
+igniter types are discussed below. 
+Pyrotechnic Igniters 
+These are literally slow-burning fire crackers. 
+somewhat modified for rocket engine application. 
+Burning time is in the range of a few seconds. 
+For thrust chamber use they can be mounted to 
+the injector face or inserted f.om below at the 
+end of a wooden or plastic stick (fig. 4-2). For 
+better heat distribution, multiple units firing ill 
+different directions. have been used. as a rule 
+radially outward from the center across the in
+jbctor face. In other deSigns they have been 
+mounted to pinwheels, achieving distribution 
+through rapid rotation. 
+Although pyrotechmc. tgniters are used, they 
+should be considered obsolescent. To achieve 
+adequate heat release (or modem large engines, 
+their size becomes impractIcal. Also, ejection 
+of their inert parts can cause damage to the 
+delicate thin-walled tubes 0 modem chamber 
+walls. Under cryogenic conditions, they have 
+exhibited a teudency to cause ignition delays, 
+complete duds, or explosive popping. 
+Pyrotechnic igniters for gas generators and 
+small thrust chambers have been mounted in 
+recesses as screw-in-type plugs. (See figs. 4-53 
+and 4-54.) The igniters e initiated by electri
+cally triggered s~uibs. oC whicb there are a 
+variety ot types in use. The need to CODDect 
+wires tr, tbe pyrotech.nic igniters is aootber in
+CODveDisnce. Fllrtb~ • cbeckout of tbe 
+iDtecrity aDd readiDau of pyroteCbDic ipitel'll is 
+F~ure 4-$3. -Radudly ouward tJr1q pyrot.eclWc 
+.,11M1« eellM 01 bJJ«&oI --ua,. 
+\ 
+138 
+DESIGiII OF LIQUID PROPELLANT ROCKET ENGINES 
+Main chGmber: centrally mounted unit; 
+propellant weight, 33 gms; 4.5 sec 
+burning time; heat release, 45 Btu/sec; 
+perchlorate-type fuel. Electrically initi
+ated. (Later models of this engine used 
+hypergolic slugs.) 
+Gas generator: Pyrotechnic: propellant 
+weight, 2 gms; 8 sec buw:ning time; heat 
+release. 1.6 Btu/oec; perchlorate-type 
+fuel. 
+Vernip.r engines (earlier models only): 
+Similar to gas generator units. 
+It is vital that ~ertain of the specifications 
+fall within a stated band. ""or instance. it can 
+be specified that in a famPLy of samples no 
+igniter will fire at currents below 1 amp, and 
+tbai all must fire below 4 amp. The first condi
+tion concerns the avoidance of accidental firing 
+due to stray currents introduced by extraneous 
+RF signals or other sources; ,he latter is simply 
+a reliability requirement. Similarly, minimum 
+and maximum burning times. i. 6., tolerances of 
+the nominal times, will i;9 dictated by start
+sequence conditions. 
+In operational designs, the pyrotechnic i"Jnit
+ers rrequently do not ignite the main propellants 
+directly, but ignite a pilot fiamo fed by a small 
+portion of the main fuel. The pilot name then 
+ignites the main propellants. 
+Figure 4-54. -Gas generator igniter with built-in 
+fusible link. 
+Assurance of their r~liability. thereror.e. is by 
+statistical and sampling methods. For opera
+tional application. additional safety margins are 
+aecured by redundancy. However. this tends to 
+increase bulkiness further. Also. pyrotechnic 
+igniters are unsuitable for repeated starts. 
+EDgine manufacturers alave bee_tl procuring 
+pyrotecbnic \gniters from sources specializing in 
+this field. Typical eDIIIPles of selected paralD
+ecera U8 ~8 follows: 
+For a l&OOOG-powad tbruat, LOXlRP-lear,iDe: 
+HypergoUc Igniters 
+The term "hypergolic" was coined by the 
+German chemist Noeggerath about 1942 and is 
+composed of elements of the Greek words for 
+"high energy liquid. II 
+'!be term now denotes a 
+bipropellant combination whic~l ignites spontane
+ously when the two compomm~s meet. Such a 
+system was used as a..a ignition source for the 
+earlier German A-4 (.mgine (later called V-2 
+engine). utilizing bydrazine-hydrate (N2H ... H20) 
+and 80 percent hydrogen peroxide (H20 2). Thin 
+tubes supported by a wooden stick were im·;e.ted 
+into the t.hrust ctJ8lllber from below. Upon an 
+"ign tion" signa'!. a ground-mounted supply unit. 
+including remotf!ly operated valves. ted the two 
+compooents to '~ear the injector elements where 
+tbey burned wf,tb a spontaneously igniting bot 
+name. Thill method may also have been used 
+,.porart1y aD otber system". However. its 
+cla ........ 'tbe tteqaeo, clngiDi of feed linea. 
+DESIGN OF THRUST CHAMBERS AND OTHER COMBUSTION DEVICES 
+and the need to eject a cor.diderable amount of 
+inert solid materi21 made it undesirable. Also, 
+adaptation to repeated starts would be complex 
+and would require vehicle mounting, thus adding 
+inert flight weight. 
+HypergoUc Slugs 
+A mora elegant way of using the hypergolic 
+effect for main-propE'llant ignition is through use 
+of a hypergolic slug. In this design a small 
+amount ~)f fluid is used which is hypergolic with 
+one of the main propellants but not with the 
+other. The fluid is stored in a cylindrical car
+tridge which has burst diaphragms at either end. 
+The cartridge, in tum, is loaded into a housing 
+which is part of a bypass line paralleling a high
+pressure main propellant feed line (fig. 4-55). If 
+a fl uid is chosen which is hypergolic with the 
+oxidizer but neutral to the fuel, it is installed in 
+the fuel system, and vice versa. The former 
+type is the more common one. Here a fuel by
+pass line feeds an injection element in the cen
+ter of the injector, or a set of elements evenly 
+distributed over the injector face. When the 
+pumps start and outlet pressures rise, the oxi
+dizer valve is opened. As pressures rise further, 
+the burst diaphragms in the hypergolic-fluid con
+tainer rupture and the fluid meets w1.th the oxi
+dizer in the chamber, igniting spontaneously. 
+The fuel following the slug sustains the ignition 
+name. The main fuel vai v~ ! ~ then opened and 
+all parameters reach main-stage level. Since the 
+igniter elements carry fuel fed from the main 
+source following ignition, they continue to par
+tiCipate> in the combustion, undistingu'shed from 
+the remainder of the main injector. (See scbe· 
+matic, fig. 2-13.) 
+139 
+Typical of fluid hypergolic with oxygen is 
+t"ie>t.hyl alurrunum. For optimum behavior, i.e., 
+fm ,oinimum ignition delays and avoidance of 
+undbsirable deposits in fuel and sensing lines, 
+optilnum mixtures of the two have been success
+fully established experime:ltally. In a typical 
+application, an amount of 6 cubic inches has 
+been found adequate, although 9 cubic inches 
+are actually used for maximum safety ma.rgin. By 
+comparison, a 1.5-million-pound thrust engine 
+uses 35 cubic inches. The hypergolic slug 
+method, first explored at the German Peenemtinde 
+installation, is well developed and bas found 
+wide application. Limiteci design and develop
+ment work has been done more recently toward 
+repeated-start units, using a device resembling 
+an automobile brake master cylinder witil its 
+replenishing features. However, tbe bypergolic 
+slug is truly a single-start device. Because of 
+relative bulkiness, .the bypergolic slug is not 
+recommended for small units sucb as gas gener
+ators, where pyrotechnic igniters or spark plugs 
+are preferred. 
+Spark Plugs 
+S(lark plugs and their accessories have been 
+developed to high levels of efficiency and relia
+bility for liquid rocket engine use. They are 
+eminently suitable for repeated starts. For 
+direct ignition, however, tbey are confined to 
+relatively small combustion device~. (Sef> fig. 
+4-56.) In a typical 200000-pound tbrust el(lgine, 
+tbe gas-generator spark plugs fire at the ra.te of 
+50 sparks per second, releaSing approximately 
+1/10 joule per spark. This corresponds to 5 
+joules/sec or 0.005 Btu/sec per plug. The 
+etriciency of spark generation from tbe electrical 
+. 
+".,. 4-i1. -H1Pf1r101 ,.,., CIJICl1qe ud ""'" 
+F~are 4-56. -Spart ~.iter aue.bly. At r~lIt, 
+SCIft'-ia 
+.,.,t plu,; at leit, cable coaectGr. 
+140 
+DESIGN OF LIQUID PROPELLANT ROCKET ENGINES 
+storage device is approximately 20 percent. The 
+overall efficiency of the spark ignition system is 
+approximately 10 percent. Thus, 100 watts of 
+electrical power is required. If a 28-V source is 
+lIsed, the nominal current is 4 amp when two 
+redundant systems are used in parallel. A Typi
+cal voltage at the spark plug is 15000 V. 
+Augmented Spark Igniters 
+The limitation of direct spark ignition to 
+small units has led to the design and develop
+ment of augmented spark igniters (ASI). In this 
+design a spark plug, similar to the above, fires 
+into a small chamber about the size of a gas 
+generator. A small amount of the main propel
+lants is fed into this chamber where they ignite. 
+The hot flame generated in turn ignites the main 
+propellants. Figure 4-57 shows the principles of 
+an earlier augmented spark igniter design. Per
+manently located at the injector end of the thrust 
+chamber, this igniter directs its products of com
+bustion across the face of the main injector. It 
+is film cooled by the tangential injection of fuel. 
+The oxidizer is injected through two copper 
+tubes which impinge at the centerline of the 
+igniter, resulting in a hot-core type of combus
+tion. The igniter is made of 4130 steel and has 
+a convergent, throatless nozzle. This results in 
+a wide dispersion angle of gases emanating from 
+the nozzle. The igniter is capable of an unlim
+ited number of starts. since the spark plug is so 
+located that the combustion does not seriously 
+affect its life. The igniter has proven operable 
+over a wide range of mixture-ratio and pressure 
+conditions. It continues to operate throughout 
+Figure 4-57. -Augmented spark igniter. 
+main stage. which prevents any of the main 
+chamber gases from backing up into the igniter. 
+Approximately one-half percent of the main pro
+pellant flow rates has been found adequate for 
+the augmented spark igniters. 
+Special Designs 
+For the engine used in the Saturn S-I booster. 
+gas-generator ignition by the solid-propellant 
+turbine spinner has been successfully developed. 
+The turbine spinner will be discussed in a later 
+chapter. 
+Hypergolic Main Propellant Ignition 
+In preceding paragraphs it was learned that 
+hypergolic fluids are being used as ignition 
+sources for main propellant combinations which 
+by themselves are not hypergolic (i.e., "anergol" 
+propellants). Hypergolic liquid main propellants 
+have attracted attention since the early days of 
+modern rocketry. Their use permits a substantial 
+simplification of the engine system through elim
+ination of the entire ignition system. leaving 
+entry timing the only functional requirement. 
+This gain however. is not entirely without penal
+ties. The practical hypergolic propellant com
+binations have a somewhat limited specific im
+pulse. Furthermore. some are highly corrosive 
+and/or pose handling and storage problems which 
+the engine designer has to consider_ 
+A number of hypergolic main propellant com
+binations have been in successful operational 
+use for many years. During World War II. several 
+guided-missile systems using hypergolic propel
+lants, were under development in Germany. Hydra
+zine hydrate (N2H4 • H20) and high-percentage 
+hydrogen peroxide were usen in certain Messer
+schmitt rocket fighters and the antiaircraft mis
+sile Enzian. Amines and nitric acid were used 
+for the AA rocket Schmetterling. Optolines and 
+nitric acid with sulfuric acid additives (approxi
+mately 10 percent were applied in the Peenemiinde 
+developments of the antiaircraft rocket Wasserfall 
+(17000-pound thrust) and the small 1300-pound 
+Taifun. "Optoline" was a generic term for vari
+ous mixtures of aniline. hydrocarbons. and other 
+substances. To make available to the high performing but 
+anergol propellant combinations the simplicity of 
+hypergolic behavior, the effectiveness of small 
+amounts of additives ("sweeteners") has been 
+successfully demonstrated. 
+Catalysts 
+In a general sense, catalysts are not igniters 
+but initiators and sustainers of reactions, which 
+themselves remain unchanged during these reac
+tions. In rocketry, catalysts have been used 
+predominantly to initiate and sustain the com
+position of monopropellants ("Monergols "), nota
+bly that of hydrogen peroxide. Several opera
+tional or near-operational systems existed during 
+World War II, such as the earlier Messerschmitt 
+Me-163 which used hydrogen peroxide with 
+potassium permanganate solution as the catalyst. 
+Probably the most widely used application of 
+this principle during that period was for the tur
+bine steam-generating system of the German A-4 
+(later called V-2) ballistic missile, which em
+ployed 80 percent hydrogen peroxide with either 
+potassium permanganate or sodium permanganate 
+OXIDIZER PUMP 
+(H,OZI 
+MAIN 
+FUEL 
+VALVE 
+THRUST 
+CONTROL 
+VALVE 
+141 
+MAIN 
+OXIDIZER 
+VALVE 
+Figure 4-58. -Schematic of a Rocketdyne AR-l 
+superperformance rocket engine. 
+as catalysts. 
+Because of the need for relati vely elaborate 
+timine, valving, and interlocking devices, the 
+use of liquid catalysts was soon found to be 
+cumbersome and undesirable. Application of 
+solid catalysts, therefore, as they were being 
+used for underwater torpedoes, led to design and 
+development work toward use of these systems 
+for rocket application. They never reached 
+maturity for the German World War II systems, 
+but were perfected after the war by the British 
+and to a limited degree by the United States. 
+The Redstone rocket steam plant, using solid 
+catalysts, has consistently and successfully 
+operated in many flights, among them the first 
+U. S. manned rocket flight by Commander Shepard. 
+Another successful development are the AR air
+plane superperformance rockets. Analogous to 
+certain British systems', the AR systems decom
+pose hydrogen peroxide fed through a solid cata
+lyst bed consisting of impregnated wire screens. 
+Since the specific impulse of decomposed hydro
+gen peroxide alone is low (below 200, depending 
+on concentration and design parameters), RP ftiel 
+is injected below the decomposition chamber. 
+Because of the sufficiently high temperature of 
+the decomposition gases (1400° F), the RP 
+ignites and burns spontaneously with the free 
+oxygen of the decomposed H20 2 . (See fig. 4-58.) 
+In this manner, the solid catalyst indirectly 
+serves as an ignition system. While the specific 
+impulse with RP afterburner is still moderate 
+(approximately 245 seconds for the AR), these 
+systems offer great versatility, storability, and 
+extreme simplicity, including throttling to low 
+levels and restartability. 
+More recently, it has been successfully dem
+onstrated that catalytic operation offers a simple 
+alternative to augmented spark ignition for hydro
+gen systems. 
+In a process patented for Engelhard Indus
+tries, Newark, N. J., a gaseous mixture of oxygen 
+and hydrogen is fed through a catalyst bed of 
+palladium-impregnated alumina (Al20 3) pellets, 
+by which the mixture is ignited. Installation of 
+this igniter is similar to an augmented spark 
+igniter. 
+Ignition Detection 
+The reader familiar with the news stories 
+about rocket launchings over the past years is 
+well aware of the consequences of rocket stages 
+failing to ignite: loss of mission. This is 
+.. 
+.. 
+142 
+.... 
+...... 
+.. 
+....... 
+... ... 
+,. 
+. 
+. 
+r 
+DESIGN OF LIQUID PROPELLANT ROCKET ENGINES 
+equally true for liquid- and for solid-propellant 
+systems. With the former, however. an additional 
+hazard exists in case of ignition failure: that of 
+accumulation of explosive propellant mixtures 
+which can be accidentally set off with cata
+strophic consequences. This consideration has 
+always been a concern with unmanned vehicles, 
+but has become even more important for manned 
+ones. 
+Recognition of these potential dangers has 
+prompted extensive investigation of means to 
+detect reliably absence or presence of ignition 
+in liquid propellant rocket engines. Only upon 
+an "ignition OK" Signal should the engine-start 
+sequence be permitted to proceed. This refers 
+mainly to the thrust chamber. For gas gener
+ators, redundancy appears to be adequate pro
+tection for most applications. Desirable detec
+tion systems must judge ignition both qualitatively 
+(absence or presence) and quantitatively (ade
+quate heat release). Not all methods are equally 
+good in both respects. 
+In some form or another, the engine designer 
+will have to provide means for ignition detection. 
+A survey follows of several which have found 
+operational application. 
+Visual Detection 
+For the German A-4 (V-2) and the early U. S. 
+Redstone missiles, visual observation by the 
+test conductor was used. Man in this case was 
+the interlocking device and would initiate the 
+next sequence step only if, in his judgment, 
+ignition was adequate. This simple procedure 
+was satisfactory because these early systems 
+employed a prestage, during which the main pro
+pellants were admitted under tank head only. 
+The resulting relatively low flow rates were then 
+increased by starting the turbo pump upon a 
+"prestage OK" signal. 
+With the increasing size of modern rocket 
+engines, visual observation became unreliable. 
+The type of installation of these systems in 
+static firing stands and on launch tables made 
+direct observation difficult. Furthermore, im
+proved igniters, developed to keep the ignition 
+flame concentrated where it should be, i.e., at 
+the injector face, resulted in little or no visible 
+fire emerging at the chamber exit. With the dis
+appearance of the prestage step, the visual 
+problem increased because of the large amount 
+of oxidizer present in full flow ignitions which 
+shrouds the ignition flame. Thus, means had to 
+be found to detect ignition by other means. 
+Optical Detection 
+Ground-mounted optical devices can be moved 
+up close to the chamber exit. A number of types 
+have been investigated, such as simple light or 
+infrared-sensitive cells. They were found, how
+ever, to be subject to the limitations mentioned 
+for human observers. It is possible to mount the 
+optical devices into the chamber wall facing 
+toward the inside near the injector face; how
+ever, the devices used thus become vehicle 
+mounted and require interfaces to ground-support 
+equipment. Also, "windows" in the chamber wall 
+represent undesirable surface discontinuities. It 
+is unlikely, therefore, that optical devices will 
+find wide application for ignition detection. 
+Pyrometers 
+Heat-sensitive pyrometers are closely related 
+to the optical devices and subject to the same 
+limitations. 
+Fusible Wire Links 
+For many applications these are simple and 
+reliable devices. A wire is strung across the 
+chamber exit which, when fused by the ignition 
+flame, interrupts a circuit and signals "ignition 
+OK." Through proper selection of wire gage, 
+material and distance from the chamber exit 
+and/or center, some quantitative judgment is 
+obtained. The wire can be ground mounted or 
+chamber mounted. It must be isolated and should 
+have spring loading, like the well-known electric 
+fuses, to assure positIve separation. 
+Wire links have a number of shortcomings. 
+The fused wire ends may touch other metal parts 
+and thus reconnect the circuit before the relay 
+drops out. SuitabJ e circuitry and mounting must 
+therefore be applied. If a pyrotechnic igniter is 
+used, the wire can be broken by inert particles, 
+or even by a dud igniter coming out of the cham
+ber, giving an incorrect "ignition OK" Signal. 
+This has been overcome by providing redundancy 
+using several wires in parallel, all of which 
+DESIGN OF THRUST CHAMBERS AND OTHER COMBUSTION DEVICES 
+must be broken before the sequence can proceed. 
+In another design the wire has been mounted as 
+a loop placed in a groove on a wooden or plastic 
+stick. It is thus supported against all reason
+ably expected mechanical damage and adequate 
+insulation is maintained after fusion. 
+Pressure-Sensing Devices 
+Because of the need to mount the fusible 
+wire s at the exit of the thrust cham ber, they are 
+subject to some of the limitations noted for vis
+ual and optical methods. It has been attempted, 
+therefore, to sense the pressure rise in the com
+bustion chamber resulting from the burning igniter 
+flame. However, since the pressure rise is small 
+(a few psi at best), reliable discrimination is 
+difficult. Furthermore, the sensing-pressure 
+switches must be able to withstand the much 
+higher pressures during subsequent main stage. 
+Pressure-sensing devices have potential for 
+multi start engines. 
+143 
+senses pressure buildup in the igniter injection 
+line upon rupture of the hypergolic fluid cartridge 
+burst diaphragms. The switch Signal then initi
+ates the next sequential step. A modification of 
+the system substitutes a pressure-actuated valve 
+for the switch with similar effects. This method 
+does not assure. however, that the cartridge is 
+properly filled with the right amount of the cor
+rect fluid. 
+Spark igniters use electric devices which 
+ascertain that the plug is sparking based on 
+conductivity effects due to ionization near the 
+electrodes. 
+The methods in the above list. which un
+doubtedly is not complete. are described as in
+direct because none of them directly and reliably 
+detects ignition; i.e .. the release of adequate 
+heat. This is a drawback and cannot entirely be 
+offset by weighing, certifying, and inspecting. 
+4.8 COMBUSTION INSTABILITY 
+Resistance Wires 
+Another method designed to overcome the 
+shortcomings of fusible wire links is the appli
+cation of resistance wires. Constructed like a 
+glow plug and connected to a bridge circuit, the 
+resistance wire will Signal by a distinctly differ
+ent resistance in the presence or absence of 
+ignition. The art is to find that spot in the 
+thrust chamber or gas generator which experi
+ences a clear temperature rise as a function of 
+ignition, yet remains cool enough to prevent 
+fusion of the wire. Resistance-wire sensors are 
+ideally suited for repeatable start engines. 
+Indirect Methods 
+In conjunction with hypergolic slug ignition, 
+other approaches to ignition sensing have been 
+developed. In one design an electric contact 
+assures that a cartridge is actually installed. 
+Thi s doe s not assure, however, that the cartridge 
+is loaded or completely loaded, nor that the 
+downstream lines are not clogged or that the 
+diaphragms will burst. Weighing of the cartridge 
+and purging of all lines must be included in the 
+firing preparation. 
+In another arrangement a pressure switch 
+"Combustion instability" is defined in terms 
+of amplitude of pressure fluctuations in the com
+bustion chamber. Chamber-pressure fluctuations 
+are always present during normal, stable opera
+tion of a rocket engine system. These fluctua
+tions are generally quite random. showing fre
+quency spectra which are essentially continuous 
+in nature, with few, if any, recognizable peaks. 
+However, in case of instability. large concentra
+tions of vibratory energy appear at one or more 
+frequencies in the spectrum. They can easily be 
+recognized against the normal random-noise 
+background. 
+It has been found experimentally that the 
+amplitude of the chamber pressure oscillations 
+which will cause detrimental physical or opera
+tional effects varies widely for different thrust 
+chambers and engine systems. Also. in a given 
+chamber or system the effects of various types 
+of instability can be quite different at the same 
+amplitude. Thus it is difficult to assign a quan
+titative value to the amplitude at which the com
+~ustion chamber should be considered as running 
+unstable. 
+It is an interesting observation that the first 
+large liquid-propellant rocket-propulsion system, 
+the German A-4 (V-2) rocket. never experienced 
+combustion instability in over 4000 launchings 
+and in several times as many static chamber and 
+144 
+DESIGN OF LIQUID PROPELLANT ROCKET ENGINES 
+engine firings. The term "combustion instabil
+ity" was literally unknown. It has been sug
+gested that the Germans may have had instabil
+ity, but did not know it because of their poor 
+high-speed recorders. To this it can be said 
+that for those instabilities which have caused 
+today's real difficulties, the high-speed recorder 
+chart is merely a postmortem confirmation of the 
+cause of often very costly failures, which did 
+not require any special instrumentation but 'were 
+unmistakable even to the untrained visual ob
+server. It is much more likely that there is a 
+relationship between the low performance level 
+of t.he A-4 or the chamber geometry, or both, and 
+the inherent stability. 
+Experimentally it has been found that as long 
+as the ratio of the peak-to-peak amplitude of 
+pressure oscillation to average chamber pressure 
+is kept below 0.10, there is usually no physical 
+damage to the chamber. However, while a 10
+percent variation in pressure for any class of 
+instability may not appear to have detrimental 
+physical effects instantly or within a short 
+period. it would be unacceptable for longer range 
+rocket vehicle missions. One practical way to 
+detect combustion instability and to prevent it 
+from causing damage during engine operation is 
+by monitoring the vibratory acceleration of the 
+system. Accelerometers are mounted on the 
+system to monitor in all three coordinates. They 
+are connected to discriminator circuits which are 
+set to specific g-load limits. When these limits 
+are exceeded, a counting instrument begins to 
+record. As soon as an allowable cumulative 
+L.QN(2IT!,!QI NAL. 
+TANI2ENTIAL 
+MQQE. 
+Ae 
+N=
+2Le 
+~ 
+0.59Ac 
+N=-
+de 
+.BAQlAl.. 
+MQQE. 
+l22Ae 
+N=-
+de 
+Figure 4-59.-Three modes of instability. Le = 
+combustion chamber length (injector [ace to 
+throat); de = combustion chamber d i am e t e r; 
+N = normal acoustic frequency; Ae = velocity of 
+sound in chamber. 
+number of oscillations is exceeded, an engine 
+cutoff signal is automatically triggered to pre
+vent damage. 
+Types of Instability 
+For proper remedial action, it will often be 
+important to know whether the observed oscilla
+tions are of a longitudinal. radial, or tangential 
+mode, or a combination of these. These three 
+modes and their normal acoustic frequency are 
+indicated in figure 4-59. Furthermore. in certain 
+cases. it will be extremely valuable to know 
+whether the oscillations originated in the thrust 
+chamber, or in the feed system, or whether they 
+originate in an interaction of characteristics, 
+harmless when separate but destructive when 
+combined, of both feed system and chamber. 
+This will be further discussed in connection 
+with methods to improve stability. 
+The effects of the oscillations on an engine 
+system are very much dependent on frequency. 
+These effects may range from Simple shaking 
+(usually at the lower frequencies). possibly re
+sulting in an eventual mechanical failure after 
+sometimes prolonged exposure, to "acoustic" 
+vibrations (usually at the higher frequencies) 
+capable of destroying the entire system in a few 
+hundred milliseconds. But, how low is "low" 
+and how high is "high "? As pointed out earlier, 
+the general field of combustion stability is ex
+tremely complex and it would be far beyond the 
+scope of this book to attempt to present a gen
+eralized theory of the subject. Each system. 
+because of configuration and dimensions, be
+haves somewhat. differently and requires special 
+treatment. The thrust chamber designer must 
+have a basic understanding of the stability prob
+lem. and it is felt that this can best be conveyed 
+by describing it in terms of a typical system, for 
+which a substantial amount of experimental data 
+exists. 
+The frequency of the chamber pressure oscil
+lations in a given chamber is determined by the 
+geometry of the system as well as by complex 
+interactions between the fluid flow in the pro
+pellant lines, the physical and chemical process:Figure 4-60. -Approximate vibration characteris
+tics at 150000 lb thrust level. 
+of combustion, and the dynamics of the combus
+tion gases in the chamber. It has been found 
+that each of the frequency components in the 
+instability spectrum of a thrust chamber is pre
+dominantly innuenced by only one physical 
+process so that it is possible to group the ob
+served instabilities in broad general classes, 
+which are: high frequency or gas dynamics, low 
+frequency or hydrodynamics, and intermediate 
+frequency or combustion dynamics, listed in the 
+order of their relative importance. Figure 4-60 
+presents vibration amplitudes of various fre
+quencies versus mixture ratio of a typical L02/ 
+RP-1 engine at the 150000-pound thrust level. 
+The graph indicates the large difference in vibra
+tion amplitude between a stable and an unstable 
+~egion. 
+/ligh-Frequency Instabilities 
+High-frequency instabilities at frequencies of 
+approximately 1000 cps and over are sometimes 
+referred to as "damaging acoustiC," or "scream
+ing" modes of instability. They are gas-dynamic 
+instabilities which are both sustained and initi
+ated by the combustion process and are believed 
+to be concentrated in the uppermost portion of 
+the combustion chamb~r where they cause in
+creased heat-transfer rates to the injector suf
+ficient to melt and burn it through within a few 
+hundred milliseconds. They also frequently have 
+serious damaging effects upon other parts of the 
+145 
+e
+geometria para tener en cuenta inestabilidades de turbobombas y geometria coaxial o similares.
+eliminating them once they are initiated. They 
+do not occur at, nor can they be generally damped 
+to, low-amplitude levels. They are either pres
+ent at high amplitudes or not at all. It is be
+lieved that these oscillations are predominantly 
+of the radial and tangential types. 
+In many systems extremely unpredictable 
+high-frequency instability has occurred. It is 
+often, but by no means always, connected with 
+the buildup phase to main stage. Systems which 
+ran stably during numerous successive tests can 
+become unstable without warning or subsequent 
+clear indication of a cause. Figure 4-61 shows 
+the starting of a typical high-frequency instabil
+ity, indicated by the SUdden shift in the acceler
+ometer trace due to high-amplitude chamber pres
+sure oscillations. All types of rocket propulsion 
+systems, including solid systems, have been 
+plagued by high-frequency instability. A consid
+erable amount of research and engineering has 
+been devoted to the explanation and elimination 
+of this phenomenon. 
+Unless a run in which instability is encoun
+tered is terminated within fractions of a second, 
+serious damage to the engine hardware almost 
+always occurs. It is assumed that the rapid gas 
+pulsations directly interface with propellant 
+injection, their mixing, and with the combustion 
+process, upsetting the condition in the boundary 
+zones, in particular at the injector face, to such 
+an extent that the heat transfer to the metal parts 
+increases at a high rate. Within seconds, or 
+even fractions thereof, the injector can burn 
+through, permitting propellant mixing behind the 
+injector face. This, in turn, leads to explosions 
+which often completely destroy the system. 
+It has been observed that the degree and 
+speed of damage is somewhat related to the 
+level of energy release occurring in the combus
+tion chamber. This may explain why "bursts of
+
+/ligh-Frequency Instabilities 
+High-frequency instabilities at frequencies of 
+approximately 1000 cps and over are sometimes 
+referred to as "damaging acoustiC," or "scream
+ing" modes of instability. They are gas-dynamic 
+instabilities which are both sustained and initi
+ated by the combustion process and are believed 
+to be concentrated in the uppermost portion of 
+the combustion chamb~r where they cause in
+creased heat-transfer rates to the injector suf
+ficient to melt and burn it through within a few 
+hundred milliseconds. They also frequently have 
+serious damaging effects upon other parts of the 
+145 
+eliminating them once they are initiated. They 
+do not occur at, nor can they be generally damped 
+to, low-amplitude levels. They are either pres
+ent at high amplitudes or not at all. It is be
+lieved that these oscillations are predominantly 
+of the radial and tangential types. 
+In many systems extremely unpredictable 
+high-frequency instability has occurred. It is 
+often, but by no means always, connected with 
+the buildup phase to main stage. Systems which 
+ran stably during numerous successive tests can 
+become unstable without warning or subsequent 
+clear indication of a cause. Figure 4-61 shows 
+the starting of a typical high-frequency instabil
+ity, indicated by the SUdden shift in the acceler
+ometer trace due to high-amplitude chamber pres
+sure oscillations. All types of rocket propulsion 
+systems, including solid systems, have been 
+plagued by high-frequency instability. A consid
+erable amount of research and engineering has 
+been devoted to the explanation and elimination 
+of this phenomenon. 
+Unless a run in which instability is encoun
+tered is terminated within fractions of a second, 
+serious damage to the engine hardware almost 
+always occurs. It is assumed that the rapid gas 
+pulsations directly interface with propellant 
+injection, their mixing, and with the combustion 
+process, upsetting the condition in the boundary 
+zones, in particular at the injector face, to such 
+an extent that the heat transfer to the metal parts 
+increases at a high rate. Within seconds, or 
+even fractions thereof, the injector can burn 
+through, permitting propellant mixing behind the 
+injector face. This, in turn, leads to explosions 
+which often completely destroy the system. 
+It has been observed that the degree and 
+speed of damage is somewhat related to the 
+level of energy release occurring in the combus
+tion chamber. This may explain why "bursts of 
+rocket engine system. High-frequency instabili
+ties are further characterized by instantaneous 
+initiation (a few milliseconds from absence to 
+full amplitude), and by extreme difficulty in instability" during shutdown cause damage less 
+frequently than they do during buildup and main 
+stage. 
+Low-Frequency Instabilities 
+This type of instability, at frequencies below 
+approximately 180 cps, is a hydrodynamic oscil
+lation, characterized by a cause-and-effect-type 
+coupling between combustion process and pro
+pellant feed system flow processes. The phe
+nomenon is sometimes referred to as "chugging." 
+Its secondary effects can be serious indeed. 
+"Chugging" may trigger destructive high-frequency 
+instability. Also, prolonged chugging can lead 
+to loosening of bolts and other vital connections 
+and to ruptures in general. Low-frequency in
+stability is self-sustaining but may damp out. 
+As a rule, it is predictable from analytical and 
+from test result studies. In figure 4-62 the high
+speed-pressure instrumentation measurements 
+indicating chugging clearly show that the oscil
+lations of propellant feed system pressures are 
+at the same frequency as the "rough combustion 
+cutoff accelerometer" reading. 
+Chugging occurs most frequently during 
+buildup and shutdown of an engine system, or 
+when operating at off-rated operating levels, 
+such as at incorrect mixture-ratio values. Like
+wise, too high, and particularly, too Iowa thrust 
+level can lead to chugging. This is especially 
+important for systems requiring throttling to a 
+lower-than-rated thrust level during flight. If 
+sustained, chugging will cause measurable per
+m~~;::::~:';" 
+;;~~'~J~:"" ,."" ~-"" .. 
+;~~i,~~~'''''' 
+nl[~ '''J[CTICIrI 
+",[SSulll[ 
+furl Utl[T 
+M.U;lfOLO 'R[SSUI![ 
+I 
+I 
+I 
+.,' 
+r/Nl\\WAW!\,AWNy\V,vf!W~WNmm,W!~Ntj\\\Wj,W\ 
+i ..... ·· ~ti 
+... .w-.. " ... ~t , . ,~ 
+I 
+I 
+I' I 
+I 
+~~~ 
+,I 
+I 
+Ii' I I 
+I 
+Figure 4-62.-High-speed pressure measurements 
+of low-frequency instability. 
+bustion chamber and of the propellant ducts, and 
+the magnitude of the propellant flow rates and 
+their ratio to one another (in a bipropellant sys
+tem), are critical to the phenomenon of low
+frequency system oscillations. 
+Intermediate-Frequency Instabilities 
+formance losses, which are attributable to widely 
+fluctuating mixture ratios. 
+The chugging phenomenon is frequently asso
+ciated with the quality and promptness of igni
+tion of the entering propellants. This can be 
+descnbed as "flame holding characteristics," 
+"combustion timelags," "flame propagation 
+velocity," or other terms, which ultimately are 
+all traceable to the excessive accumulation of 
+unburned fuel, with subsequent detonation or 
+cyclic higher-than-rated combustion. The re
+sulting excessive chamber-pressure spikes effect 
+a reduction, or even reversal, of the propellant 
+flows. This will cause rapid collapse of the 
+chamber pressure, allowing propellants to rush 
+in again, thus repeating the cycle. It is readily 
+evident that the physical dimensions of the com
+This instability, with frequencies ranging 
+from 200 to 1000 cps, is sometimes referred to 
+as combustion dynamics or "buzzing." It is 
+characterized by a spring-and-mass-type coupling 
+between combustion process and propellant feed 
+system flow processes. It is often present in 
+only a portion of the feed system, or is confined 
+to the combustion chamber, or, in a bipropellant 
+system, to one of the two propellant systems 
+only. It appears to be initiated by the combus
+tion process and to be sustained by acoustic 
+resonance of a critical portion of the system. 
+Some researchers have shown that in a system 
+having a pump, the pump may be the prime source 
+of these oscillations. 
+This type of instability has not appeared to 
+be a problem in the development of large engines. 
+While it can occur occasionally in large engines. 
+it appears to be much more prevalent in small
+scale low-thrust systems. Systems oscillations 
+of the buzzing type are undesirable because of 
+their adverse effects on engine reliability and 
+DESIGN OF THRUST CHAMBERS AND OTHER COMBUSTION DEVICES 
+'1J~1.. IKJI!C;l'IOl't 
+IOttUSVIII! 
+'UI!:I0 IIIIIL[T 
+IIIAli!Il"o\'O ,"fUUfII! 
+'uf:L .. U .... OI.lTl..I1' 
+'fIIUSUlit. 
+itOveM co ... usno" 
+(U'O., 
+ACCILUOMITIIII 
+'ulL "'*' I_If 
+'1II[S5111t1 
+CHAN8£R ,.ft[SSlJR( 
+147 
+Figure 4-64. -Field of stability and safe operating 
+region of a typical engine system. 
+Figure 4-63. -High-speed pressure measurements 
+of intermediate frequency instability. 
+performance. When exposed to prolonged buzz
+ing. critical parts of the engine may fail be
+cause of material fatigue. and thus cause sec
+ondary major failures. In addition. measurements 
+have shown that a performance (Is) loss of up to 
+approximately 7 percent can be incurred. which 
+is largely attributed to widely nuctuating mixture 
+ratios. 
+Figure 4-63 is the record of high-speed-pressure 
+measurements of a typical test afnicted by buzz
+ing. The oscillation is attenuated in the fuel 
+pump outlet pressure, and nonexistent in the 
+pump inlet pressure. This indicates that the 
+buzzing is limited to only a part of the feed 
+system. 
+Field of Stability 
+For a given engine system, combustion stabil
+ity limits can be defined experimentally in terms 
+of certain operational parameters such as cham
+ber pressure, injection tlP. and mixture ratio. 
+Figure 4-64 presents the stability field for a 
+typical L02/RP-1, 150000-pound nominal thrust 
+engine system. The stability field. together 
+with heat transfer limits. can serve as a guide to 
+the design of a safely operating engine system. 
+DeSign Approaches Toward Control of Combustion 
+Instability 
+The problem of controlling combustion insta
+bility in liquid propellant rocket engine systems 
+can be attacked in several ways. including sys
+tems design, choice of propellant combination. 
+and operating conditions, and through the use of 
+special control devices. Two basic approaches 
+toward eliminating combustion instability are 
+employed. The first is to eliminate triggering 
+processes and/or to limit the drivin!? energy per 
+cycle to a value below the damping per cycle 
+inherent to the system. This approach is typi
+fied by design investigations in which injector 
+configurations are varied to give different atomi
+zation and propellant distribution characteristics 
+with varying resistance to initiation of instabil
+ity, or in which propellant additives are used 
+which modify the physical properties controlling 
+spray formation. chemical kinetics. etc. Experi
+mental studies. both with full-scale engines and 
+with research model thrust chambers. have shown 
+that injector modification yields relative stabil
+ity ratings. differing by a factor from 5 to 6 from 
+the most stable to the least stable configuration. 
+The second approach is to introduce addi
+tional damping in the system through the use of 
+mechanical or other devices so that any opera
+tional disturbance. or oscillation triggered by 
+the disturbance, are sufficiently and rapidly 
+damped out. Experience over the past several 
+years has shown that the destructive transverse 
+acoustic modes of instability can be most effec
+tively combated through the use of this second 
+approach. Mechanical devices, such as barnes 
+or a divergent wall gap, have been found to 
+1,,' .. ·• .. - ~ 
+148 
+l.ie .... :........ 
+,. 
+• 
+....... 
+• •.••• 
+• 
+DESIGN OF LIQUID PROPELLANT ROCKET ENGINES 
+introduce sufficient damping into the system so 
+that it will recover from an instability triggered 
+by an explosive charge as large as can be used 
+without damaging the thrust chamber in some 
+other manner. This ability of a system to re
+cover from a triggered instability has been des
+ignated as "dynamic stability." A prerequisite 
+for any propulsion system to operate reliably is 
+that it should exhibit dynamic stability with 
+respect to all modes of instability. As a mini
+mum requirement it should be "dynamically 
+stable" at least with respect to the destructive 
+transverse (radial and tangential) acoustic 
+modes. 
+The successful application of the above 
+methods has been based primarily on criteria 
+established empirically in research model thrust 
+chambers, together Vlith testing in actual engine 
+systems. However, the understanding of the 
+fundamental physical principles of the damping 
+processes is still limited. 
+Prevention or Triggering Processes 
+The most desirable design method of con
+trolling instability is the prevention of those 
+physical or chemical processes which trigger 
+and/or sustain the resonant modes of the com
+bustion chamber or engine system. While a great 
+number of studies, in which different design 
+parameters were varied systematically, have 
+been made by various investigators, the results 
+have failed to yield truly generalized design 
+criteria. This can be traced to the fact that 
+basic processes which trigger and sustain the 
+various types of instability have not been iso
+lated. Thus, while a parameter which controls 
+one type of instability may have been estab
+lished on an engineering basis, this same design 
+criterion may be enhancing another type of insta
+1. 
+bility. The folloVling is a general discussion of 
+the prevention of triggering instability in various 
+com!)onent and subsystem designs: 
+Propellant feed system design.-Past ex
+perience has indicated that certain combustion 
+instabilities, such as buzzing, are sustained 
+through an interaction between feed system and 
+combustion dynamics. It is believed that hy
+draulic resonances are a major factor in sustain
+ing this type of instability. The requirement is 
+to design a feed system whose hydraulic charac
+teristics will not trigger the interact!on with the 
+combustion process. 
+2. Combustion chamber design.-Analytical 
+studies and experimental results have indicated 
+that the geometrical configuration of the combus
+tion chamber will determine the type of frequency 
+of the acoustic modes of instability. Chambers 
+having large length-to-diameter ratios appear to 
+be quite prone to large-amplitude longitudinal 
+instability. On the other hand, chambers having 
+small length-to-diameter ratios appear to be 
+sensitive to the transverse modes. Also, small
+diameter chambers are much more stable than 
+large-diameter chambers. The requirement is to 
+design a chamber geometry which will have least 
+tendency to trigger instability, in conjunction 
+with other considerations. 
+3. 
+Injector design.-The injector deSign ap
+pears to be a most critical factor in triggering 
+instability. In turn, it offers great potential for 
+controlling instability-triggering processes 
+through variation of parameters. Of the most 
+common types of injectors, the self-impinging 
+injector (fig. 4-45a) has been chosen by many 
+investigators as the best compromise between 
+performance and stability. There is some indi
+cation that longitudinal instability may be en
+hanced if the propellant travel time from the 
+injector face to the point of impingement is close 
+to the half-period (or an odd multiple of the half
+period) of the longitudinal mode oscillations. 
+There are strong indications that increasing the 
+injection tlP to too great a value may cause the 
+thrust chamber to operate unstably in the trans
+verse acoustic modes. The effect of injection 
+tlP on the longitudinal acoustic modes and on 
+hydrodynamic instabilities appears to be just the 
+opposite, with stability improving as tlP in
+creases. The propellant distribution across the 
+injector face has a significant relation to trig
+gering transverse modes of instability. 
+4. 
+Propellant combination and mixture ratio.
+Control tests with various propellants have 
+shown that there are certain oxidizers or fuels 
+which can be triggered into instability more 
+easily than others, in general or at certain mix
+ture ratio conditions. In L02/LH2 systems, a 
+lower hydrogen injection temperature tends to 
+trigger instability. 
+5. 
+Engine system operating characteristics.
+In some cases, combustion instability can be 
+
+ACOUSTIC SUPPRESSION LINER 
+Figure 4-67.-Combustion chamber acoustic liner. 
+to 4 percent of the total chamber wall surface 
+area. Furthermore, the suppressor thickness 
+should be maximum in the area of maximum pres
+sure variation; i.e., near the injector face. 
+Rating Stability 
+It is desireable to establish the combustion 
+stability level of a particular engine system 
+without an excessive number of tests. This can 
+be accomplished by perturbing a normally stable 
+system by suitable means until instability is 
+initiated. The relative stability of various sys
+tems is then judged as a function of the magni
+tude of perturbation needed to reduce the insta
+bility. The larger the perturbation, the more 
+stable the system. The perturbation can be 
+introduced in either the propellant feed system 
+or in the combustion chamber. Several effective 
+methods exist for inducing different types of 
+instability. 
+Feed System Perturbations 
+Perturbation in the propellant feed system to 
+induce disturbances in the chamber of the low
+frequency hydrodynamic type, can be introduced 
+by
+(1) Explosive charges in the fuel feed system 
+(2) Single-stroke positive displacement 
+pistons 
+(3) Oscillating pistons 
+Combustion Chamber Disturbances 
+The introduction of disturbance in the cham
+ber proper offers a simpler method of inducing 
+instability. Transverse acoustic modes have 
+been initiated most successfully by the following 
+methods: 
+1. Directed explosive pulses.-The directed 
+explosive pulse method of inducing instability, 
+as shown in figure 4-68a, uses a high explosive 
+charge mounted in an external fixture which is 
+attached to the combustion chamber in such a 
+way that the gas pulse resulting from the detona
+tion enters the chamber with any desired orien
+tation. 
+2. 
+Nondirected explosive pulses.-The closest 
+simulation of localized random detonations which 
+can occur in a chamber during normal operation 
+due to accumulation of unburned propellants is 
+achieved by the nondirectional explosive pulse 
+method as shown in figure 4-68b. An explosive 
+is placed into a thin-walled Micarta shell which 
+is designed to be mounted at any desired posi
+tion in the chamber. 
+3. 
+Directed nonexplosive gas flows.-In this 
+method, as shown in figure 4-68c, a flow of gas 
+from a regulated high-pressure source is con
+trolled by a fast-acting valve. This valve is 
+placed as near to the chamber as possible. This 
+method additionally permits a better definition of 
+the parameters associated with the disturbance. 
+Design Of Pressurized-Gas Propellant-Feed SysteITls 
+For the transfer of the rocket propellants from 
+the tanks to the thrust chamber at the required 
+flow rates and pressures, a suitable feed system 
+is required. The selection of the feed system 
+will depend on the mission of the vehicle, its 
+size and weight, thrust level and duration, space 
+available for the propulsion system, on reliabil
+ity considerations, and on other factors. There 
+is no simple rule for the choice between a pres
+surized gas feed system (fig. 1-12) or a turbo
+pump feed system (fig. 1-13). The advancement 
+in the state of the art of lightweight pressurized 
+gas feed systems, in conjunction with the avail
+ability of high-strength tank construction mate
+rials, has enlarged their field of applications to 
+engine thrust levels of approximately 100000 
+pounds, and total impulse values of over 5 million 
+pound-seconds. For large vehicle applications, 
+turbopump feed systems are predominant. How
+ever, some type of pressurized gas feed system 
+is always required even in a turbopump feed 
+system to supply propellants to the pump at the 
+correct inlet conditions. 
+Classified according to their power sources, 
+four major types of pressurized feed systems can 
+be distinguished: 
+(1) Stored gas systems 
+(2) Propellant evaporation systems 
+(3) Systems evaporating nonpropellants 
+(4) Systems using products of chemical re
+actions 
+Selection depends largely upon engine system 
+design, type of propellants, mission require
+ments, and available experience. 
+Among the considerations for selection of the 
+type of pressurized gas propellant feed system 
+are
+(1) Compatibility of pressurant gases with 
+propellants and tank materials, consid
+ering chemical interactions, temperature, 
+solubility. etc. 
+(2) Expected pressurization system reliabil
+ity and complexity, conSidering the state 
+of the art of systems components used. 
+(3) Molecular weight of the pressurant gases: 
+Lower molecular weight reduces required 
+pressurant weight per unit pressure and 
+per unit tank volume, and thus results in 
+lower vehicle system weight at burnout 
+and thus improved mass ratio. 
+(4) Pressurization system specific weight; 
+i.e .. required pressurization system 
+gross weight (including system compo
+nents and pressurant), per unit of weight 
+of useful pressurant. 
+5.1 DETERMINATION OF PRESSURANT 
+REQUIREMENTS 
+The physical and chemical processes which 
+take place during the expulsion of a liquid pro
+pellant from a tank by a gas or gas mixture are 
+numerous and difficult to analyze. Applicable 
+experimental data for a selected system are often 
+limited. Thus, the basis for the analytical ap
+proach is frequently narrow and uncertain. As a 
+result, the initial design calculations of the 
+quantity of pressuring gas required must be con
+sidered approximate until verified experimen
+tally. The refinement of the analytical approach 
+to minimize discrepancies between theoretical 
+predictions and actual test results is an art 
+requiring experience and thorough understanding 
+of the physical processes. 
+Basic considerations and necessary proce
+dures for the calculation of pressurant require
+ments are described below. 
+Required Engine System Data and Assumptions 
+Before starting calculations of pressurant 
+requirements. the following significant engine 
+oper2ting parameters must be known or assumed: 
+(1) DeSign operating temperature range of the 
+propellants and the feed system inclUd
+ing pressurant 
+151 
+152 
+DESIGN OF LIQUID PROPELLANT ROCKET ENGINES 
+(2) Type of propellants, their weights and 
+corresponding volumes at the extremes 
+of the operating temperature range 
+(3) Total tank volumes: Nominal value and 
+tolerances 
+(4) Initial tank ullage volume, percent of total 
+tank volume at the temperature limits. 
+(The term "ullage" denotes that portion 
+of a propellant tank not occupied by the 
+liquid propellants.) 
+(5) Trapped propellant volumes, percent of 
+total propellant load, at engine burnout 
+(6) Operating tank pressure: Nominal value 
+and tolerances 
+(7) Operating duration of the engine systems: 
+Nominal value and variations. 
+To avoid later marginal conditions, calcula
+tions should assume that pressurization must be 
+supplied for maximum systems operating duration 
+even though some missions may require shorter 
+durations. Realistic assumptions for the temper
+ature of tanks and propellants at burnout must be 
+made. If a mission calls for several system 
+restarts and coasting periods, the environmental 
+conditions during the coasting periods must also 
+be given or assumed. 
+Factors Influencing Pressurant Requirements 
+Several important factors which will influence 
+considerably the final state of a pressurizing gas 
+or gases, and thus their required quantity, are 
+discussed below. 
+1. 
+Propellant vaporizalion.-Propellants evap
+orate to various degrees from the gas-liquid in
+terface within the tank. The amount depends 
+upon the volatility of the propellant, the temper
+ature of the entering gas, the turbulence of the 
+!!as, the sloshing of the liquid, the tank geometry 
+including internal structural members, and the 
+rate of propellant expulsion. To whatever degree 
+vaporization takes place, it lowers the temper
+ature of the gas and adds propellant vapor as a 
+component of the pressurizing gases. Also, as 
+the liquid propellant level recedes, a film of 
+liquid may be left on the tank wall surface, 
+further contributing to propellant evaporation. 
+2. 
+Tank wall temperature.-If the pressurizing 
+gas is hotter than the tank wall s, cooling of the 
+gas and heating of the wall may result. On the 
+other hand, aerodynamic heating of the tank 
+walls in flight may cause heating of the pressur
+izing gas. It may also heat the propellant and 
+thus increase vaporization effects and raise 
+NPSH requirements in turbopump-fed systems. 
+3. 
+Vapor condensalion.-Certain components 
+of the pressurizing gas, such as water vapor, 
+may condense. Even if the bulk of the gas re
+mains above the dew point for the condensible 
+component, local condensation may occur at the 
+tank walls, or at the propellant surface. 
+4. Solubility of the pressurizing gas.-lf the 
+pressurizing gas contains components which are 
+soluble in the propellant, diffusion of these com
+ponents into the propellant can occur. Solubility 
+is generally affected by temperature and pressure 
+conditions. 
+5. 
+Ullage gas compression.-If, before start, 
+the tank ullage space is filled with low-pressure 
+gas, onset of pressurization will cause adiabatic 
+compression. This can raise the ullage space 
+temperature considerably during the initial few 
+seconds of operation. 
+6. 
+Chemical reaction.-If any components of 
+the pressurizing gas are chemically reactive 
+with the propellant, the reaction products may 
+become a component of the gas. 
+7. 
+Pressurizing gas turbulence. - The heat 
+exchange between pressurizing gas and propel
+lant would be extremely large if the gas were 
+permitted to agitate the liquid propellant surface. 
+This effect can be prevented through the use of 
+a diffuser which spreads the gas in a gentle flow 
+toward the top and sides of the tank. 
+Design Calculations of Pressurant Requirements 
+If the system operating duration is relatively 
+short, or if the pressurant temperature is close 
+to or lower than the propellant temperature, heat
+and mass-transfer effects can be neglected. The 
+required pressurant weight can then be calcu
+lated by the perfect gas law: 
+(5-1) 
+where 
+W g = required pressurant weight in the tank, lb 
+P T = propellant tank pressure, lb/ft 2 
+V T = total volume of the empty propellant tank, ft 3 
+DESIGN OF PRESSURIZED-GAS PROPELLANT-FEED SYSTEMS 
+Rg =gas constant of the pressurant. ft-Ib/lb
+deg R 
+T g = mean temperature of entering pressurant. oR 
+However. in cases where longer systems dura
+tion and higher pressurant temperatures are in
+volved. the pressurant requirement can best be 
+determined by the following procedure. keeping 
+in mind the limitations set forth at the beginning 
+of section 5.l. 
+Considering first a single-start operation (not 
+requiring coast periods and restarts). and neglect
+ing heat transfer from the tank walls. the total 
+heat transferred from the pressurant gas to the 
+vaporized propellant can be approximated by 
+equation (5-2). 
+153 
+The partial volume occupied by the vaporized 
+propellant is given by 
+(5-4) 
+where 
+V v = total volume occupied by the vaporized 
+propellant. ft 3 
+Z = compressibility factor evaluated at the 
+total pressure CPT) and the temperature 
+(T u) of the gaseous mixture at burnout 
+R p = gas constant of the propellant vapor. ft-Ib/ 
+lb-deg R 
+Q= HAt(Tu - Te) 
+where 
+Q = total heat transferred. Btu 
+(5-2) 
+H = experimentally determined heat transfer 
+coefficient at the gas-liquid interface. 
+Btu/sec-ft2 -deg R 
+A = area of the gas-liquid interface (in case of 
+a cylindrical tank. the cross-section area 
+of the tank). ft 2 
+= operating duration. sec 
+T u = temperature of the gases at burnout. OR 
+T e = temperature of the propellant. ° R 
+Both T u and Teare treated as constant values 
+at the interface between liquid and gas. 
+This heat. Q. is assumed to have heated and 
+vaporized the propellant according to the equa
+tion 
+where 
+W v = total weight of vaporized propellant. lb 
+C pI = speCific heat of the liquid propellant. 
+Btu/lb-deg R 
+hv = heat of vaporization of the propellant. 
+Btu/lb 
+C pv = specific heat of the propellant vapor. 
+Btu/lb-deg R 
+Tv = vaporization temperature of the liquid 
+propellant. OR 
+The value of W v can now be obtained from 
+equations (5-2) and (5-3) with an assumed value 
+for Tu. 
+The remaining tank volume at burnout. ne
+glecting residual propellants. can be assumed to 
+be occupied by the pressurant gas 
+(5-5) 
+where V g = volume of pressurant gas at burnout. 
+ft3 
+The weight of pressurant is calculated by the 
+perfect gas law 
+(5-6) 
+In order to maintain the heat balance. the value 
+for Q should satisfy the following equation: 
+(5-7) 
+where C pg = specific heat at constant pressure of 
+pressurant gas. Btu/lb-deg R 
+From equation (5-7) the required value of T g 
+for the assumed Tu can thus be calculated. If 
+however. T g is a predetermined fixed value. then 
+the values of W g. W v. and Tu must satisfy the 
+following as well as other correlated equations: 
+Thus far. heat transfer from the tank walls 
+has been neglected. However. if there is a con
+siderable temperature differential between pres
+suriz;ng gases. propellant. and tank walls. the 
+total heat transferred between them during the 
+mission must be taken into consideration for the 
+determination of vaporized propellant at burnout. 

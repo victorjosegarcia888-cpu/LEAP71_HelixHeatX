@@ -1,0 +1,490 @@
+Equation (5-3) can be rewritten as 
+Q:':Qw, 
+=Wv[Cpl(Tv-Te)+hv+Cpv(Tu-Tv)l (5-9) 
+where Qw, = total heat transferred between tank 
+walls and liquid and gaseous pro
+pellant during the mission. Btu. 
+The positive (+) or negative (-) 
+sign indicates whether Qw, is con
+tributed by. or lost to. the tank 
+walls. 
+Furthermore, equation (5-7) becomes 
+(5-10) 
+where Qw 1 = total heat transferred between pres
+surizing gases and tank walls dur
+ing a mission. Btu. Again the 
+positive (+) or negative (-) sign in
+dicates whether heat is contributed 
+by. or lost to. the tank walls. 
+Combining equations (5-9) and (5-10). the heat 
+balance considering heat transfer from the tank 
+walls can be written as 
+[W gC pg (T g - T u)J:': Qw 1 = W v (C pI (T v - T e) 
++hv+Cpv(Tu-Tv)l-(:':Qw) (5-11) 
+If the vehicle mission includes several pow
+ered night and coasting periods. the calculation 
+of the heat transfer across the gas-liquid inter
+face should take the total mission time into 
+consideration. Equation (5-2) can be rewritten 
+as 
+(5-12) 
+where 
+tm = total mission time including powered night 
+and coasting period. sec 
+T m = mean temperature of the pressurizing 
+gases during the entire mission. OR. 
+This is a function of many factors such 
+as length of coasting periods. heat trans
+fer between gases and tank wall. etc. 
+Other effects such as vapor condensation. 
+solubility of the pressurizing gas in the propel
+lant. and chemical reactions of the pressurizing 
+gas with the propellant can be included. based 
+on experimental data. However. no set of equa
+tions can be applied directly. 
+In some cases. the uncertainties in pressuriz
+ing system design can be reduced by providing 
+adjustability of the pressurant temperature at the 
+propellant tank inlet. In this approach. the tem
+perature of the pressurizing gas at system burn
+out is assumed or targeted from the beginning. 
+Based on this and other given or assumed data. 
+the values of required pressurant quantity and 
+inlet temperature can be calculated by equations 
+(5-1) through (5-11). Certain correction factors 
+such as pressurant solubility. etc., can be ap
+plied later. If the required pressurant quantity 
+in experimental engine system evaluation devi
+ates from the calculations. because of temper
+ature discrepancies of the pressurizing gas at 
+system burnout. an adjustment of the pressurant 
+temperature at the propellant tank inlet can often 
+be made to correct for this difference. such as 
+through an adjustment of the pressurant supply 
+from a heat exchanger. or from a gas generator. 
+Because of the narrow safety margins employed 
+in rocket vehicle design. the effect of varied gas 
+temperatures on structural members must be 
+carefully weighed. 
+The following is a sample calculation to 
+demonstrate this design approach: 
+Sample Calculation 5-1 
+From table 3-5, the following data are obtained 
+for the oxidizer tank of the A-4 stage propulsion 
+system: 
+Oxidizer, N20 4 
+Pressurant. gaseous He 
+Tank volume. neglecting the volume of resid
+ual propellant. (VT)= 119 ft3 
+Average tank cross-section area. (A)=20 ft2 
+Tank pressure. (?T)= 165 psia. or 23760 psfa 
+Propellant temperature, (T e) = 5200 R 
+Calculate the following: 
+(a) The total pressurant weight (W g) and 
+required temperature (T g) at the tank inlet, for a 
+single operation time (t) of 500 seconds. with an 
+experimentally determined heat transfer coeffi
+cient (H) at the gas-liquid interface of 0.002 
+Btu/sec-ft 2-deg R. It is assumed the ullage gas 
+temperature Tu at burnout is 7000 R and that 
+there is no heat transferred at the tank wall 
+surfaces. 
+" 
+DESIGN OF PRESSURIZED-GAS PROPELLANT· FEED SYSTEMS 
+(b) The required pressurant weight (W g) and 
+temperature (T g) at the tank inlet, for a mission 
+consisting of several powered flight and coast
+ing periods, with a total mission duration (tm) of 
+18000 seconds. The mean temperature of the 
+pressurizing gases during the mission (T m) is 
+155 
+Substitute this into equation (5-5), to obtain 
+the volume occupied by pressurant gas 
+v g = V T - V y = 119 -7.13 = 111. 87 ft 3 
+5260 R. The total heat transferred between pro
+pellant and tank walls (Qw 1) is -2000 Btu. The 
+total heat transferred between pressurizing gas 
+and tank walls (Qw2 ) is -600 Btu. The temper
+ature (T u) of the ullage gases at final burnout is 
+6600 R. 
+Solution 
+(a) From standard propellant references, the 
+following data are obtained for N20 4 at a pres
+sure of 165 psia: 
+Vaporization temperature, Tv = 6420 R 
+Heat of vaporization, hv = 178 Btullb 
+Mean value of specific heat in liquid state, 
+C pF 0.42 Btullb deg F 
+Mean value of specific heat in vapor state, 
+Cpv=0.18 Btu/lb-deg F 
+Compressibility factor, Z = 0.95 
+Molecular weight = 92 
+The specific heat of helium, Cpg, is 1.25 
+Btu/lb-deg F, and its molecular weight is 4. 
+From equation (5-2), total heat transferred at 
+the gas-liquid interface: 
+Q= HAt(Tu - Te) 
+= 0.002 x 20 x 500 (700 - 520) = 3600 Btu 
+Substitute this into equation (5-3): 
+3600=Wv[Cpl(Tv - Te) + hy+ Cpy(Tu - Ty)] 
+=Wy[O.42(642-520)+178+0.18(700 - 642)] 
+=Wyx239.6 
+Total weight of vaporized propellant, Wy = 15.lIb 
+Substitute into equation (5-4), to obtain the 
+volume occupied by the vaporized propellant: 
+WyZRpTu 
+Vy 
+PT 
+15.1 x 0.95 x~x 700 
+23760 
+=7.13ft3 
+From equation (5-6), the required pressurant 
+weight results: 
+23760 x 111.87 
+C5
+: 4)x 700 
+=9.79 lb 
+Substitute results into equation (5-7), 
+Q=9.79 Cpg(Tg- Tu) 
+3600=9.79x 1.25(Tg- Tu) 
+The required pressurant temperature at tank 
+inlet is: 
+_ 
+3600 
+_ 
+0 
+Tg-9.79x1.25+700-995 R 
+(b) From equation (5-12), the total heat trans
+ferred at the gas-liquid interface: 
+Q= HAtm (Tm - Te) 
+= 0.002 x 20 x 18000 (526 - 520) 
+=4320 Btu 
+Substitute into equation (5-9): 
+4320 - 2000 = W y [0.42 (642 - 520) 
++ 178 + 0.18 (660 - 642)] 
+Wy 
+= 10.0 lb 
+Substitute into equation (5-4): 
+10.OxO.95x (~) x660 
+Vv 
+23760 
+=4.45 ft 3 
+Substitute into equation (5-5): 
+1:£ 
+DESIGN OF LIQUID PROPELLANT ROCKET ENGINES 
+Vg =1l9-4.45=1l4.5 ft3 
+Substitute into equation (5-6): 
+W _23760 x llO.76 
+g
+C 5
+: 4 ) x 660 
+= 10.65 lb 
+Substitute into equation (5-10): 
+4320 = 10.65 x 1.25 (T g - 660) - 600 
+T = 432~ + 600_ + 660 = 1030° R 
+g 
+10.60 x 1.20 
+5.2 STORED GAS SYSTEMS 
+Stored gas pressurization systems are widely 
+used in numerous combinations. The gas is 
+usually stored in a vessel at pressures ranging 
+from 3000 to 5000 psi and supplied to the propel
+lant feed system at a specified pressure level 
+controlled by a regulator. These systems have 
+achieved a high level of reliability. In earlier 
+systems. compressed nitrogen gas was frequently 
+used or even air (German V-2). mainly for logis
+tics and supply reasons. As it became more 
+readily available. helium gas found increased 
+usage because of its substantially lower molec
+HELIUM 
+START AND SHUTOFF VALVE 
+REGULATOR 
+TO MAIN 
+PROPELLANT TANKS 
+Figure 5-l.-Helium pressurization system without 
+heating. 
+to the main propellant tanks. This has the ad
+vantage of great simplicity. However, the weight 
+of the system is relatively high because of the 
+lower temperature and thus lower specific volume 
+of the gas. 
+ular weight and thus reduced total pressurant 
+weight. and its superiority as an inert agent, 
+with very low boiling point. For hydrogen-fueled 
+engine systems, reliable compressed hydrogen 
+gas systems have been successfully developed. 
+In general, the most important design require
+ments for a stored gas system are: low molec
+ular weight of the gas, high gas density under 
+storage conditions, minimum residual gas weight, 
+and high allowable stress-to-density ratio of the 
+storage vessel material. Since helium systems 
+are now the most widely used ones, the following 
+discussions will be based on them. 
+Discussion of Commonly Used Configurations 
+1. Helium system without heating.-This 
+pressurization system is shown schematically in 
+figure 5-1. It consists of a high-pressure storage 
+vessel, a start and shutoff valve, and a pressure 
+regulator. Regulated helium is ducted directly 
+2. Helium system using thrust chamber heat 
+exchangers.-This system, which is used in the 
+design for the A-3 and A-4 stage propulsion sys
+tems. consists of a high-pressure helium storage 
+vessel, a start and shutoff valve, manifolded 
+thrust chamber heat exchangers, and a pressure 
+regulator. A typical schematic is shown in fig
+ure 5-2. The heat exchangers are part of the 
+thrust chamber divergent nozzle section and 
+absorb heat from the thrust chamber combustion 
+process. From overall performance and weight 
+considerations it is considered preferable to 
+locate the heat exchanger in the high-pressure 
+portion of the system. The volume increase of 
+the gas due to heating reduces the mass required 
+for tank pressurization. However, a considerable 
+quantity of cold, high-density helium still re
+mains in the storage vessel at the end of the 
+system operation. 
+3. 
+Helium cascade system.-The cascade 
+system shown schematically in figure 5-3 is an 
+DESIGN OF PRESSURIZED-GAS PROPELLANT-FEED SYSTEMS 
+THRUST CHAMBER 
+HEAT EXCHANGERS 
+TO MAIN 
+PROPELLANT TANKS 
+Figure 5-2.-Helium pressurization system using 
+thrust chamber heat exchangers. 
+157 
+all-helium pressurization system designed to 
+minimize the weight penalty resulting from cool
+ing of the helium during expansion. System com
+ponents include helium storage vessels of equal 
+high-pressure level but of different sizes, two of 
+which are divided internally by a flexible dia
+phragm, three thrust chamber heat exchangers, a 
+start and shutoff valve, and a pressure regulator. 
+During operation of the system, helium flows 
+from the first and smallest vessel, through a 
+heat exchanger, and displaces completely the 
+helium in the intermediate vessel. The helium 
+in the intermediate vessel in turn flows through 
+a second heat exchanger and completely dis
+places the helium in the last and largest vessel. 
+The latter flows through a third heat exchanger 
+and pressurizes the main propellant tanks. At 
+the end of the operation, only the small storage 
+vessel contains low-temperature, high-density 
+helium, while the two large storage vessels con
+tain relatively warm low-density helium. This 
+contrasts with the preceding systems in which 
+orie large storage vessel remains partially filled 
+with low-temperature, high-density helium. The 
+disadvantages of cascade systems are high 
+weight and complexity. 
+4. 
+THRUST CHAMBER 
+HEA T EXCHANGERS 
+Helium system with heating inside the 
+storage vessel.-This system is shown schemat
+ically in figure 5-4 and consists of a high-pressure 
+helium storage vessel containing a heat ex
+changer or other heat-generating device mounted 
+internally, a start and shutoff valve, and a pres
+sure regulator. This system provides higher 
+temperature helium to the main propellant tanks, 
+simultaneously assuring relatively warm residual 
+gas in the storage vessel. Disadvantages are 
+the need for larger and more complex high-pressure 
+storage vessels and the possibility of control 
+problems during operation. 
+For the pressurization of liquid hydrogen pro
+pellant tanks, stored hydrogen gas can be used 
+in place of helium for the systems described 
+above. 
+Calculations for Stored Gas Requirements 
+The design calculations discussed in section 
+REGULATOR 
+START AND SHUTOFF 
+VALVE 
+Figure 5-3.-Helium cascade system. 
+5.1 apply only to the net or effective quantity of 
+gas required to pressurize the propellant tanks. 
+However, the gross weight of the stored gas 
+required for a given system depends also on the.
+
+Figure 5-4. -Helium pressurization system using 
+heaters in storage vessel. 
+system design, on the expansion process during 
+operation. and on the environmental temperature 
+range within which the system must function. 
+Based on conditions at systems burnout. the 
+total or gross stored gas requirement can be 
+expressed by the following correlation: 
+Stored gas gross _ Net system pressurant 
+requirement 
+requirement 
+R 
+'d 
+I 
+. 
+Residual gas in 
++ eSl ua gas lIn + various lines. heat (5-13) 
+storage vesse 
+exchangers. etc. 
+<t 
+in 
+~ 
+w 
+~ 
+(/) 
+~ 
+a:: 
+Q.. 
+26 0 
+25 
+24 
+23 
+0 
+0 
+0 
+22 
+0 
+2 10 
+20 
+19 
+0 
+0 
+18 
+0 
+70 
+16 0 
+LINt 
+REGULATOR LlP (75 PSI) 
+1 PROPELLANT TANK 
+LINE LlP PRESS. I 65 PSIA -.
+T 
+PRESSURIZATION SYSTEM 
+Figure 5-5. -Estimated pressure drops [or A-4 
+stage oxidizer tank pressurization system. 
+A parameter to define these additions is the 
+pressurant use factor. defined as the ratio of 
+gross stored gas requirement or initial gas weight 
+in the storage vessel to the net weight of pres
+sur ant utilized: 
+Pressurant _ Gross stored gas requirement (5-14) 
+use factor 
+System pressurant net 
+requirement 
+The lowest pressure level in a storage vessel 
+required to safely operate the pressurization sys
+tem is determined by the individual system pres
+sure drops. Figure 5-5 shows estimated pressure 
+drops for the st.ored helium pressurization system 
+with thrust chamber heating which was selected 
+for the A-4 stage engine oxidizer tank. In addi
+tion. a safety margin is usually provided. In 
+this case, the mission is assumed to be com
+pleted when the storage vessel pressure decays 
+to 400 psia. 
+If a heating source is provided inside the 
+vessel. as shown in figure 5-4. the expansion 
+process of the gas within would be polytropic. 
+For a system without heating inside the storage 
+vessel. the expansion process of the gas can be 
+assumed to be isentropic; i.e., no heat is trans
+ferred between gas and vessel walls. From 
+equation (1-13) the following correlation can be 
+derived to calculate the final gas temperature in 
+the storage vessel: 
+(5-15) 
+where 
+Tl = initial helium temperature in the vessel. oR 
+159 
+Volume of the helium lines downstream of 
+regulator. 0.4 ft 3 
+Volume of heat exchangers. 1.0 ft 3 
+Volume of lines between storage vessel. heat 
+exchangers and regulator. negligible 
+Pressurant reserve. 2 percent 
+Assuming an isentropic expansion process. 
+calculate the following: 
+(!l) Oxidizer tank pressurant gross weight. 
+storage-vessel volume. and use factor, for case 
+(~) of sample calculation (5-1). 
+T 2 
+= final helium temperature in the vessel, oR 
+PI = initial helium pressure in the vessel, psi a 
+P 2 = final helium pressure in the vessel, psia 
+n = exponent for the polytropic expansion 
+process 
+The exponent n is estimated during analytical 
+treatment and verified experimentally. For isen
+tropiC expansion of helium, n = 1.67. 
+For most analyses it has been found adequate 
+to assume an adiabatic now process through 
+regulator and lines. It is a characteristic of this 
+process that the total (or "stagnation") temper
+ature remains constant. Since the gas essen
+tially comes to rest in the propellant tank and no 
+further compression takes place following initial 
+propellant tank pressurization, it is assumed 
+that propellant tank temperature is equal to heat 
+exchanger outlet temperature. 
+If an operating temperature range is specified 
+for a system, the lower temperature limit must be 
+used to calculate the weight of pressurant re
+quired. while the upper limit determines the vol
+ume of the gas storage vessel for a given storage 
+pressure. Thus. for a stated propellant tank net 
+pressurant gas requirement. a wider environmen
+tal temperature range results in a heavier pres
+surization system. regardless of the expansion 
+process followed by the gas. 
+Sample Calculation 5-2 
+The following data are given for the stored 
+helium pressurization system of the A-4 stage 
+oxidizer tank: 
+Temperature range in the storage vessel at 
+system start. 500°-560° R 
+Storage vessel pressure at system start. 4500 
+psia 
+Pressure in the storage vessel at system 
+burnout. 400 psia 
+QV Oxidizer tank pressmant gross weight, 
+storage-vessel volume, and use factor, for case 
+(E) of sample calculation (5-1). 
+(.£) Oxidizer tank pressurant gross weight. 
+storage-vessel volume. and use factor for single 
+start operation but without heat exchangers. 
+@ Same as (.£), but assuming a polytropic 
+expansion process with n = 1.2 in the storage 
+vessel. 
+Solution 
+The following calculations establish the re
+quirements for the oxidizer tank, which in the 
+A-4 stage has the higher minimum storage pres
+sure requirement. To this required pressurant 
+mass and volumes for fuel tank pressurization. 
+purges and valve actuations will have to be 
+added. 
+Q!) A net pressurant requirement of 9.79 
+pounds is obtained from sample calculation (5-1). 
+case @.). Temperature and pressure of the resid
+ual pressurant in the lines downstream of the 
+regulators following shutdown are assumed to be 
+the same as those of the propellant tank ullage 
+gases at system burnout (700° Rand 23760 
+psfa). Residual gas weight in these lines then 
+is 
+0.4 x 23 760 
+e 5
+: 4)x700 
+0.035 lb 
+It is further assumed that the temperature of the 
+residual pressurant in the heat exchangers is at 
+run tank inlet conditions. or 995° R, and that the 
+pressure is that of the residual helium in the 
+storage vessel, or 400 psia. Thus a value of 

@@ -1,0 +1,356 @@
+1 x 400 x 144=0151b 
+(15:4)x 995 
+. 
+is obtained for these residuals. 
+Substituting the lower limit of the system 
+operating temperature, and the initial and final 
+helium pressures into equation (5-15), the tem
+perature of the residual helium in the storage 
+vessel at system burnout is obtained: 
+1.67-1 
+T 2 = 500 x (4~~~) 1.61 = 500 x (0.089) 04 = 191°R 
+the lines are the same as those in the propellant 
+tank at system burnout (660° Rand 23760 psfa), 
+residual gas weight in these lines is 
+0.4 x 23760 = 0 037 lb 
+~15444) x 660 
+. 
+The temperature of the residual pressurant in the 
+heat exchangers is assumed to be at the run tank 
+inlet level. or 1030° R, and that the pressure is 
+that of the residual helium in the storage vessel. 
+or 400 psia. The gas weight in the heat ex
+changers then amounts to: 
+Using equation (5-13), the pressurant volume V L 
+required for oxidizer tank pressurization can now 
+be calculated, based on the lower storage tem
+perature limit of 500° R: 
+4500x144xVL 
+~1544) -- x500 
+4 
+400 x 144 x VL 
+=9.79+ (1544) -- x191 
+4 
+9.975 
+VL=0.374x6.9 3.78 ft 3 
+Gross pressurant weight: 
++0.035+0.15 
+4500 x 144 x 3.78 x 1.02 = 12.95 lb 
+~5444) x 500 
+including 2 percent reserve. 
+Using the upper start temperature lImit 
+(560° R), the required volume of the storage ves
+sel for oxidizer pressurization is calculated: 
+_ C5444) x 560 x 12.95 _ 
+Vu
+4500x144 -4.3ft 
+3 
+From equation (5-14), LOX tank pressurant 
+use factor: 
+12.95 = 1 32
+9.79 
+. 
+<> 
+~ From sample calculation (5-1), case Qi). 
+the net pressurant requirement is given as 10.65 
+pounds. Assuming temperature and pressure in 
+1x400x144 =0.145lb 
+(15:4 x 1030 
+From equation (5-13), pressurant volume VL 
+and mass are obtained, using the lower temper
+ature limit: 
+400x144xVL 
+10.65+ ~44) 
+e 5
+4500x144xVL 
+: 4)x 500 
+~ x191 
+4 
+V 
+= 10.832 = 42ft 3 
+L 
+2.58 
+Gross pressurant weight: 
+. 
++0.037+0.145 
+4500 x 144 x 4.2 x1 09=14 45lb 
+(1544) _ -4- Xi>OO 
+. -
+. 
+including 2 percent reserve. 
+Required volume of the storage vessel: 
+(~) x 560 x 14.45 
+V u = 
+4500 x 144 
+Pressurant use factor: 
+14.45 = 1 36 
+10.65 
+. 
+4.82 ft3 
+<£) Without heat exchangers. the bulk temper
+ature of helium in the propellant tank at system 
+burnout can be expected to be the average of the 
+, 
+, 
+' 
+" 
+DESIGN OF PRESSURIZED-GAS PROPELLANT· FEED SYSTEMS 
+initial and final helium temperatures in the stor
+age vessel, or 
+161 
+® The expansion process of helium in the 
+storage vessel is assumed to be polytropic, with 
+n = 1.2. From equation (5-14), the temperature of 
+residual helium in the vessel at system burnout: 
+1,2-1 
+Since this temperature is lower thari the propel
+lant temperature, no heat loss from pressurant to 
+propellant is assumed. The net pressurant 
+weight required may then be calculated by equa
+tion (5-1): 
+T =500 (400.,1T =500x 2.73 =3360 R 
+2 
+x\4500j 
+4.07 
+The helium bulk temperature in the propellant 
+tank at system burnout: 
+Wg 23760x119=2121b 
+(15444) x 346 
+. 
+The weight of residual helium in the lines at 
+system burnout: 
+0.4x23760 =0 071lb 
+(15444) x 346 
+. 
+From equation (5-13), pressurant volume V L 
+and mass are obtained, based on the lower ambi
+ent temperature limit: 
+4500 x 144 x V L 
+(1544) -- x500 
+4 
+V 
+L 
+400 x 144 x V L 
+= 21.2 + (1544) -- x191 
+4 
+=21.27 =825 ft3 
+2.58 
+' 
+Gross pressurant weight = 
+4500 x 144 x 8.25 x 1.02 = 28.2 lb 
+Q~4) x 500 
+including 2 percent reserve. 
+The required volume of the storage vessel is 
+_ ~1~44)x 560x 28.2 
+Vu-- 4500x144 
+Pressurant use factor: 
+28.2=133 
+21.2 
+. 
+9.4ft 3 
+The required net pressurant weight: 
+. 
+W g = 23760 x 119 = 17 5 Ib 
+e~44) x418 
+The residual helium weight in the lines at 
+system burnout: 
+0.4x23760 =0 059lb 
+0~49 x 418 
+. 
++ 0.071 
+Pressurant volume and mass, based on the 
+lower ambient temperature limit: 
+4500 x 144 x V L -- x500 
+4 
+~154~ 
+400 x 144 x V L 
+=17.5lb+ (1544~ -- x336 
+Gross pressurant weight: 
+4 
+4500x 144x 6,01 x 1.02=20.61b 
+(15444) x 500 
++0.059 
+including 2 percent reserve. 
+The required volume of the storage vessel: 
+~15444) x 560 x 20.6 
+V u 
+4500 x 144 - 6,88 ft3 
+162 
+DESIGN OF LIQUID PROPELLANT ROCKET ENGINES 
+Pressurant use factor: 
+21~·~=1.178 
+, 
+• '<l 
+Design of Stored Gas System Components 
+Since system components can be expected to 
+require relatively extensive development effort 
+to achieve satisfactory performance and reliabil
+ity. they require careful design considerations. 
+This is especially true for large, high-pressure. 
+lightweight, pressurant storage vessels. pres
+sure regulators. and thrust chamber nozzle skirt
+type heat exchangers. 
+Storage Vessels 
+Because of the combined requirement of high 
+pressure and light weight. pressurant storage 
+vessels are generally spherical in shape and 
+made of high-strength-to-weight materials. 
+PH-15-7-MO stainless steel. 6AI-4V-titanium. 
+and light aluminum liners wound with plastic 
+filaments for strength, such as fiber glass, have 
+been successfully employed as construction 
+materials for the vessels. Design details for 
+pressurant storage vessels will be further dis
+cussed in chapter VIII. 
+For weight estimates in preliminary designs. 
+it is assumed that the vessel is made of two 
+hemispherical shells. and that the thickness of 
+the weld lands can be accounted for by assuming 
+a 3-inch-wide band of one-half the wall thick
+ness placed over the weld seam. Hence, the 
+total weight of the vessel can be estimated as: 
+Wv = rrd 2pm (pd/4s) + 3rrdpm (0.5 pd/4s) (5-16) 
+where 
+W v = weight of the vessel. lb 
+d 
+p 
+s 
+= inside diameter of the vessel. in 
+= maximum storage pressure. psia 
+= allowable working stress of the material, 
+psi 
+Pm = density of the material, Iblin 3 
+It is of prime importance in the design of 
+stored gas systems that the storage vessel be 
+capable of containing the gas at high pressure 
+for long periods of time without loss by leakage. 
+Frequent checking of the storage pressure or 
+recharging is undesirable in most applications. 
+Experimental data indicate that gases of low 
+molecular weight such as helium and hydrogen 
+will not leak through homogeneous metals such 
+as good-quality, hot-rolled stock or forgings. 
+However, they can leak through porous metals 
+such as may exist in castings and in welded 
+jOints. Good welding workmanship and effective 
+leakage inspection are most important in the 
+fabrication of storage vessels. 
+Pressure Regulators 
+For most pressurization systems a regulator 
+of high accuracy is a necessity. Regulation be
+comes particularly difficult if gases with temper
+atures higher than 1200° R have to be handled, 
+or if high flow rates or large pressure differen
+tials are involved. Design detail of pressure 
+regulators will be discussed in chapter VII. For 
+some applications. a control system combining a 
+pressure switch, a solenoid valve, and an orifice 
+may be preferred. 
+Thrust Chamber Heat Exchangers 
+For helium systems using thrust-chamber heat 
+HEAT 
+EXCHANGER 
+t 
+NOZZLE WALL 
+i 
+THRUST CHAMBER 
+Figure 5-6.-Thrust chamber heat exchanger. 
+DESIGN OF PRESSURIZED-GAS PROPELLANT-FEED SYSTEMS 
+exchangers as shown in figure 5-2, the heat ex
+changer should be designed as an integral part 
+of the thrust chamber expansion nozzle. As a 
+rule, the heat exchanger is made of coiled tubing 
+formed to fit the nozzle contour (fig. 5-6). 
+The combustion-gas side heat-transfer coeffi
+163 
+compatibility with the main chamber nozzle wall. 
+Firm attachment of the heat exchanger to the 
+nozzle wall is mandatory, since heat exchanger 
+efficiency depends on intimate contact. Selec
+tion of tube thickness must be based on pressure 
+and thermal stress conditions. 
+cient can be determined by methods described in 
+chapter IV. The heat conducted through the wall 
+of the heat exchanger is assumed to be totally 
+absorbed by the pressurant helium, raising its 
+temperature. The determination of the helium
+side heat-transfer coefficient and the design of 
+the heat exchanger tubing are similar to the re
+generatively cooled tubular wall thrust chamber 
+analyses. The number of tube turns for the heat 
+exchanger is a function of the helium temperature 
+rise required and of the heat exchanger location 
+at the nozzle. The various operating parameters 
+of a thrust chamber heat exchanger can be corre
+lated by the following equation: 
+where 
+Wh =helium flow rate, lb/sec 
+C p 
+T i 
+= specific heat at constant pressure of 
+helium, Btu/lb-deg F 
+= mean helium temperature at heat ex
+changer inlet, oR 
+To = mean helium temperature at heat ex
+changer outlet, oR 
+A 
+= effective area of the heat exchanger, in2 
+hg = combustion-gas side heat transfer coeffi
+cient, Btulin 2-sec-deg F 
+hh 
+= helium-side heat transfer coefficient, 
+Btulin 2-sec-deg F 
+t 
+k 
+= heat exchanger tube wall thickness, in 
+= thermal conductivity of the tube material, 
+Btulin 2-sec-deg F lin 
+Taw = combustion-gas side adiabatic wall tem
+perature, ° R 
+Heat exchanger design must consider that the 
+temperature of the helium leaving the heat ex
+changer at any given time depends on the storage 
+vessel exit temperature. 
+The choice of heat exchanger tube material 
+must be made with consideration of its brazing 
+Sample Calculation (5-3) 
+The following data are given for the design of 
+the pressurant heat exchangers for the A-4 stage 
+engine thrust chamber nozzle extension, when 
+located at the station of area ratio = 10, and used 
+in parallel: 
+Helium flow rate through each heat exchanger, 
+Wh = 0.024 lb/sec (considers requirements 
+for both tanks and for other uses) 
+Helium specifiC heat ratiO, y = 1. 67 
+Helium specific heat at constant pressure, 
+Cp= 1.25 
+Mean temperature of helium at heat exchanger 
+inlet, Tj= 346° R 
+Mean temperature of helium at heat exchanger 
+outlet, To = 1030° R (from sample calcula
+tion (5-1), case @) 
+Combustion-gas side adiabatic wall tempera
+ture, Taw =4900° R 
+Combustion-gas side heat transfer coefficient, 
+hg = 5.7 X 10-5 (Btulin 2-sec-deg F) 
+Calculate: 
+C!) Heat exchanger tube dimensions, assum
+ing it to be made of 13V-llCr-3AC titanium alloy 
+with the following physical characteristics, at a 
+recommended maximum working temperature range 
+of 1400°-1550° R: 
+Minimum yield strength, Sy = 40 000 psi 
+Modulus of elasticity, E=12x 106 psi 
+Thermal conductivity, k=2.04x 10-4 Btulin2
+sec-deg F lin 
+Coefficient of thermal expansion, a = 5.0 x 10-6 
+inlin-deg F 
+Poisson's ratio, v=0.33 
+(£) Number of turns of the heat exchanger 
+tubing. 
+Solution 
+~) The wall temperature at given sections of 
+the heat exchanger will vary directly with the 
+bulk temperature of the helium in these sections. 
+Maximum wall temperature occurs at the heat 
