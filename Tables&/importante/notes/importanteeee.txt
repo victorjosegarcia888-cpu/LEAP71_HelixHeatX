@@ -1,0 +1,344 @@
+TABLE 6-1. -Operating Characteristics and Materials of Construction (or the Turbopump Shown in 
+Figure 6-14 
+Oxidizer 
+Fuel 
+Pumps: 
+Fluid .. 
+Inlet density. 
+. ........................... , 
+Inlet pressure (total) ................................ . 
+Discharge density. .. . ............................. . 
+Discharge pressure (total) ............................ . 
+Pressure rise in pump ............................... . 
+Pump developed head. . . . 
+Volume !low. . . . . . . 
+. ...................... . 
+. , ......................... . 
+Flow rate .......................................... . 
+Shaft speed ........................................ . 
+Efficiency ......................................... . 
+Shaft power ........................................ . 
+NPSH required. . . 
+Casing material. . . 
+. ................................ . 
+. ................. . 
+Inducer material .................................... . 
+Impeller material. ................................... . 
+Shaft material ...................................... . 
+Bearing material .................................... . 
+Turbine: 
+Inlet gas pressure (total) ............................. . 
+Exit gas pressure (static) ............................ . 
+Pressure ratio: Total inletlstatic exhaust ............. . 
+Inlet gas pressure (static) ........................... . 
+Inlet gas temperature ................................ . 
+Exit gas temperature ................................ . 
+Gas flow rate ...................................... . 
+Brake horsepower ................................... . 
+Shaft speed ........................................ . 
+Wheel material 
+Gearbox: 
+Liquid oxygen 
+71.38 lb/ft 3 
+80.0 psi a 
+70.95Ib/ft) 
+915.2 psia 
+835.2 psi 
+1696.2 ft 
+3257.4 gpm 
+518.0Ib/sec 
+75.5 percent 
+2117bhp 
+3G.0 ft 
+RP-l 
+50.45 lb/ft 3 
+57.0 psia 
+50.55 lb/ft) 
+1023.0 psi a 
+966.0 psi 
+2751.0 ft 
+2007.6 gpm 
+225.7 Ib/sec 
+6537 rpm 
+1
+72.1 percent 
+1565 bhp 
+35.0 ft 
+TENS 50-T6 aluminum alloy sand casting 
+7075-T6 aluminum alloy die 2024-T351 aluminum alloy 
+forging 
+plate 
+TENS 50-T6 aluminum alloy 9669-48230-3 aluminum alloy 
+sand casting 
+sand casting 
+4340 alloy steel 
+9310 alloy steel 
+597.6 psi a 
+32.86 psia 
+18.21 
+517.8 psia 
+12000 
+9380 
+F 
+F 
+Efficiency ......................................... . 
+Housing material. ................................... . 
+Nozzle block material ............................... . 
+Shaft material ...................................... . 
+Bearing material .................................... . 
+Reduction speed ratio ............................... . 
+Gearbox material. ............. . 
+Gear and- shaft material .............................. . 
+Bearing material .................................... . 
+previously required. The blender works on the 
+prinCiple of adding a small amount of a chemical 
+to the fuel tapped off through metering orifices 
+at the fuel pump outlet and of using this mixture 
+as the lubricant. The fuel entering the blender 
+inlet port is admitted to the top side of the addi
+tive chamber and to the blending chamber. The 
+fuel pressure causes the piston to displace and 
+_ 
+.... " 
+17.34 lblsec 
+3793 hp 
+31740 rpm 
+66.2 percent 
+Hastelloy • B " 
+Hastelloy • B" 
+Timken alloy 16-25-6 AMS-5727 steel 
+4340 alloy steel 
+9310 alloy steel 
+114.855 
+TENS 50-T6 aluminum alloy sand casting 
+9310 alloy steel die forging 
+9310 alloy steel 
+to inject a proportionate amount (2.75 percent) of 
+additive into the fuel flowing through the blend
+ing chamber. The mixture then flows to the 
+turbopump where it lubricates and cools the 
+gears and bearings. 
+Figure 6-18 and table 6-2 illustrate another 
+turbo pump system. It was developed for a 6000
+pound-thrust aircraft superperformance rocket 
+,.ii-----.... 
+l~ 
+DESIGN OF LIQUID PROPELLANT ROCKET ENGINES 
+NPSH. Pump inducers, impellers, shaft and cast 
+housings are fabricated from 300 series stainless 
+steel. Turbine manifold, housing and nozzle 
+blocks form an integral Hastellvy-X weldment. 
+The turbine wheel is made of Timken alioy. 
+Figure 6·18.-Cutaway view of an aircraft rocket 
+turbopump assembly. 
+engine (shown schematically in fig. 4-60). 
+Pumped fluids are 00 percent hydrogen peroxide 
+and JP-4 fuel. Th , turbopump consists of two 
+centrifugal pumps mounted back to back on a 
+single shaft which ie directly driven by a single
+stage, single-rotor impulse turbine. The shaft is 
+supported by antifriction bearings located be
+tween the two pumps, and just forward of the 
+overhung turbine. The bbarings are lubricated 
+by a presf'ure-fed lube oil system. Inducers are 
+used on both pumps to permit operation at a low 
+TABLE 6-2.-Aircraft Rocket Turbopump Oper
+ating Characteristics 
+Oxidizer 
+Pumps: 
+Fluid .. ......... .. ...... . 
+Denlity ................. . 
+Inlet prelsure (total) . . . . .. . 
+DilCharge preaaure (tOCal) .. 
+Prelsure rile in pump .. . . . . 
+Pump developed head ..... . 
+VolmDe now ...... .. .. ... . 
+Flow rate . . .... .... . .. ... . 
+8baR lpeed .... . . .. .. . .. . . 
+Erncleocy . . ............. . 
+Sbaft po 
+r ............. .. 
+1\Irbi ... : 
+1Dle& au pre lure (total) .. . 
+EDt au prel 
+£xt'.au \ 
+90% H:l02 
+86.7 lb/ftl 
+25 psi a 
+862 psla 
+837 psi 
+1382 ft 
+Fuel 
+jp-4 
+50.5 ltl/tt' 
+15 pS!\L 
+657 (.Isla 
+642 psi 
+1910 tt 
+108.8 gpm 
+26.4 gpm 
+20.52 lb/aec 2.84 lb/ ec 
+30000 rpm 
+60 perceat 
+40 percent 
+87 bbp 
+. (IWlc) .. . 
+Pmlure ratio: 
+Tocallnletll&altlc xbault 
+lDlet au 
+turet . . . . .. . 
+taDperaturl . . . . 
+au now rate ............ . 
+Brake bonepoonr . . .... . .. . 
+Ibaft ....... ········· ·l · ·· · 
+~ ........... ... . . 
+26 bbp 
+610 peta 
+t3.6 psi:!. 
+10 
+1114°F 
+8100F 
+O.i4lb/ aec 
+112 bp 
+10000 ra
+40 perceaC 
+6.2 TURBOPUMP SYSTEM PERFORMANCE 
+AND DESIGN PARAMETERS 
+Turbopump performance and design param
+eters are closely related. Variation of the turbo
+pump design and operating parameters will con
+tribute to the optirni~ation of both turbopump and 
+engine system performance. The turbopump 
+system design procedure includes the evaluation 
+of all possihle design approaches aud mechanical 
+configurations which can satisfy en!;.ine system 
+specifications. From this, the selection of the 
+best design with respect to overall systems reli
+ability and performance is made. 
+TurHpump System Performa.nce 
+The "best performing" turbopump system is 
+simply defined as that which affords the heavi
+est payload for a vehicle with a given thrust 
+level, range or velocity increment; gross stage 
+takeoff weight;. and thrust chamber specific 
+impulse (based on propellant combination, mix
+ture ratio, and chamber operating efficiency). 
+Turbopump performance affects the vehicle pay
+load in three ways: 
+1. 
+Turbopump component weight.-Since the 
+weight of the turbopump components is part of 
+stage burnout weight, it directly affects st3ge 
+payload. 
+2. Required pump-inlet suction pres ure 
+head. -Required suction pressure dir·ectly trans
+lates into required main propellant tank pressure 
+level. It it is raised, tank and pressurization 
+system weights increase and thus reduce the 
+8b&ge payload for a given burnout weight. 
+3. Turbine ,as flow rate.-Since the ~.ubine 
+drive gases, the now rate of which i a fuoctioo 
+or propellant types and now rate I pump di • 
+charge pressure , and of pump and turbine efti
+clenci s. are u ually Jected at a 10 r speclr1c 
+impulse than tbe thrust cbamber ga 
+(el.cep& in 
+the cue of the topping cycle). their now race 
+decreues tbe overall enpae ay ... apeciflc 
+1mpulae aDd tbaa decr8aHa tbe alJonble vebicle 
+DESIGN OF TURBOPUMP PROPELLANT-FEED SYSTEMS 
+stage burnout weight. For a fixed weight of 
+engines, tanks, guidance, and other equipment, a 
+decrease in allowable stage burnout weight re
+sults in decrease of payload weight. 
+The relation between turbine gas flow rate 
+and stage payload weight can be expressed by 
+an equivalent-weight factor, EWF, which is de
+fined as the decrease of payload weight (lb) as a 
+function of turbine flow rate (lb/sec). EWF is 
+proportional to the ratio between turbine exhaust 
+specific impulse (ls)te and thrust chamber spe
+cific impulse (I s)tc. 
+Solution 
+187 
+From equation (6-2): 
+Turbopump equivalent weight per engine 
+= 1900 + 92 x 55 
+= 6960 lb 
+Turbopump System Design Parameters 
+(6-1) 
+The total effect of the turbopumo on allow
+able vehicle stage payload, i. e., the equivalent 
+weight or" the turbopump, EW, is the sum of turbo
+pump component weight, W tb, and the product of 
+EWF and the turbine weight flow rate, Wt: 
+EW=Wtb+(EWF) (we) 
+(6-2) 
+Equation (6-2) permits a quantitative defini
+tion of the "best performing" turbopump system 
+possessing the lowest equivalent weight. Values 
+for the turbopump equivalent-weight factor EWF 
+range from 5(lbiIb/sec) for booster stage en
+gines to 200(lb/Ib/sec) for upper stage engines. 
+The equivalent-weight EW helps to establish the 
+optimized point between turbine and pump effi
+ciencies, and corresponding turbopump component 
+weights. It is not practical to include the effects 
+of pump inlet pressure on vehicle tank weights, 
+since the required information is usually unavail
+able to the turbopump designer. It is advisable 
+however, that the pumps should be designed for 
+the lowest possible inlet pressure. 
+Sample Calculation (6-1) 
+The following design data are set forth for 
+the hypothetical A-1 stage engine: 
+Turbopump weight. Wtb• 1900 lb 
+Turbine gas flowrate, Wt, 92 lb/sec 
+Turbopump equivalent-weight factor EWF. 
+55Ib/lb/sec 
+Determine the turbopump equivalent weight (EW) 
+per engine. 
+In the design of turbo pump systems the follow
+ing parameters. which are often interdependent. 
+are considered paramount and will be discussed: 
+(1) Propellant properties 
+(2) Pump developed heads and flow rates 
+(3) Pump specific speeds 
+(4) Pump net positive suction head (NPSH) 
+(5) Pump efficiencies 
+(6) Turbine overall performance and operating 
+efficiency 
+(7) Turbopump system cycle efficiency 
+(8) Turbopump system calibration and off
+design characteristics 
+No simple rules are available for optimizing 
+the correlations of these parameters when de
+signing a specific type of turbopump for a given 
+engine systems application. Generally speaking. 
+however, available pump suction pressure to
+gether with the basic pump flow characteristics 
+will determine the maximum shaft speed at which 
+the unit can operate. The higher this shaft 
+speed, the lower the turbopump weight is likely 
+to be. Once the pump speed is determined. tur
+bine type. turbine driving arrangement, and tur
+bine power source are selected on the basis of 
+efficiency, weight, simplicity, and other factors. 
+Propellant Properties 
+General data for some propellants used in 
+liquid rocket engines are given in tables 1-3 to 
+1-5. Table 6-3 lists those properties of com
+monly used liquid propellants which have spe
+cific significance in the design of pumps. These 
+propellants include Earth-storable liquids such 
+as RP-1 and N2
+0 4 • cryogenics such as L02 
+and 
+LH2 • and liquids having a wide range of physical 
+and chemical properties. 
+The low temperature of cryogenic liquids 
+creates problems with turbopump construction 
+materials, seals. bearings, lubricants, and through 
+the danger of ice formation. The total tempera
+ture range to which the structural elements of a 
+cryogenic turbo pump may be exposed varies from
