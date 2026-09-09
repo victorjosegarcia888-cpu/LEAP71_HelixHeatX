@@ -1,0 +1,804 @@
+Curvas del fabricante:
+El fabricante suele 
+proporcionar las curvas de 
+actuaciones para un tamaño, 
+un fluido y un régimen de giro 
+determinados.
+Es común que la presión 
+proporcionada por la bomba 
+se indique en altura hidráulica.
+
+Dependencia funcional de las actuaciones de una bomba
+Adimensionalizando con n, ρ y D, se obtiene:
+QnD3= ϕ∆ρP2µ2
+,
+n D nDρ2
+, Modelo adimensional de bomba
+La expresión final práctica característica de las bombas se obtiene si, 
+además, consideramos que:
+• La experiencia indica que el efecto del número de Reynolds es secundario.
+• El parámetro de salto de presión se suele expresar como función del de 
+caudal en lugar de lo contrario
+∆ρn2P ϕD2=′ QnD3 
+Para un modelo adimensional 
+determinado y para:
+• Cualquier otro parámetro adimensional de funcionamiento, como el de 
+potencia o el rendimiento, presentará la misma dependencia adimensional
+0,1<ReRe'<10
+
+Efecto del número de Reynolds:
+∆ρWρP
+n D2
+3 5
+n D2
+(en línea continua)
+(en línea discontinua)
+104
+104
+103
+103
+102
+102
+QnD31010µ/µagua = 1
+µ/µagua = 1
+Ejemplo del efecto de la variación de la viscosidad sobre las curvas de presión y 
+potencia adimensional en función del caudal adimensional, para una bomba 
+determinada. Relación entre los parámetros de actuaciones y los parámetros de 
+diseño vistos en capítulos anteriores
+Turbomáquinas. Cap. 4: Actuaciones, A. Lecuona y J. I. Nogueira
+Relación entre parámetro de caudal,                , y coeficiente de flujo,       . 3 nD
+Q CQ=1U VMm= Φ{ . 1 12M M
+Q m geom Q V A
+C K nr U=  ⇒ = Φ  π =  ω 
+Ambos parámetros responden al mismo 
+concepto y sólo se diferencian por una 
+constante dependiente de la geometría 
+adimensional que define la forma de la 
+máquina.
+Relación entre parámetro presión,                   , y coeficiente de carga,             . 2 2 P
+P C nD
+∆ =ρ 2
+2Uflτ=Ψ{2. 2 2 2 2 fl P geom Q P Q C K nr U
+∆ =ητ ρ 
+    ′ ⇒ =ηΨ
+
+para cualquier fluido, tamaño y condiciones de 
+funcionamiento, de ese modelo de bomba, si 
+la variación del número de Reynolds no es 
+excesiva.
+Notas:
+(i)Como en cualquier adimensionalización, se 
+ha de tener especial cuidado en introducir las 
+variables en un sistema coherente de 
+unidades
+(ii)A veces se usa el parámetro adimensional 
+de altura hidráulica, en vez del de presión, 
+siendo ambos totalmente equivalentes: 
+0
+0.2
+0.4
+0.6
+0.8
+1
+1.2
+1.4
+1.6
+1.8
+0 0.2 0.4 0.6 0.8 1 1.2 1.4 1.6
+η3 5 nD ρW
+2 2 P
+P C nD
+∆ =ρ
+3 nD
+Q CQ=2 2 2 2 Dn
+Hg C Dn
+P C H P
+∆ = ≡ ∆
+
+La tobera propulsiva 
+• Sónica 
+En las TGs propulsivas no se llega a expansionar hasta la presión atmosférica, 
+como se hace con la turbina libre. La expansión remanente se produce en un 
+conducto convergente, tobera, por lo que solo puede llegar a acelerar hasta la 
+velocidad del sonido local en su área mínima o garganta. Si queda aún presión 
+disponible, se desaprovecha, pues se produce fuera de la tobera en forma de 
+ondas de expansión libre, visibles. 
+Al ser la velocidad del sonido 𝑎 =
+𝛾𝑅𝑔𝑇, la alta temperatura de los gases de 
+escape hace que sea posible obtener empuje a velocidades de vuelo supersónicas. 
+La existencia de recalentamiento tras la turbina, denominado postcombustión, hace 
+que su área de garganta tenga que aumentarse considerablemente. Ello se logra 
+con un mecanismo de iris, el cual logra incluso orientar el chorro. 
+• Supersónica 
+Para volar a altas velocidades se provoca una expansión adicional tras la 
+garganta sónica disponiendo un conducto divergente. Su peso y la necesidad 
+de geometría variable hace que sean infrecuentes.Relación entre parámetro de caudal,                , y coeficiente de flujo,       . 3 nD
+Q CQ
+=1UVMm= Φ{ . 1 12M MQ m geom Q V AC K nr U=  ⇒ =Φ  π = ω 
+Ambos parámetros responden al mismo 
+concepto y sólo se diferencian por una 
+constante dependiente de la geometría 
+adimensional que define la forma de la 
+máquina
+
+Cuando el rendimiento es elevado (cerca 
+del punto de diseño), ambos parámetros 
+responden al mismo concepto y se 
+diferencian, salvo el rendimiento, en una 
+constante dependiente de la geometría 
+adimensional que define la forma de la 
+máquina.2.- Similitud entre bombas y ventiladores
+• Dependencia funcional de las actuaciones de un ventilador
+Parámetros de actuaciones:
+• Pese a trasegar un fluido compresible, el salto de presión es suficientemente 
+pequeña como para despreciar la compresibilidad, resultando en el mismo 
+análisis que las bombas:
+∆Pρ2n D2= ϕ ′QnD3
+
+Consideraciones adicionales:
+Para un modelo adimensional 
+determinado y para:
+0,1<Re Re'<10
+• Para comparar ventiladores de distinto fabricante, ha de tenerse especial 
+precaución en comprobar si el ∆P proporcionado es total a total, total a 
+estático o cualquier otra combinación:3.- Dependencia funcional y curvas características 
+de turbinas hidráulicas
+• Dependencia funcional de las actuaciones de una turbina hidráulica
+Parámetros de actuaciones:
+• El estudio de parámetros de actuaciones y análisis dimensional de una 
+turbina hidráulica es el mismo que se realiza para una bomba, con la 
+salvedad de que las turbinas suelen presentar geometría variable para 
+optimizar su funcionamiento. Esto implica considerar un parámetro 
+adimensional adicional “α ”.
+QnD3= ϕ′′∆ρP2n D2,α
+Consideraciones adicionales:
+
+Para un modelo adimensional 
+determinado y para:
+0,1<ReRe'<10
+• En el caso de las turbinas hidráulicas no es usual encontrar curvas 
+adimensionalizadas. Sin embargo, suelen usarse curvas con parámetros 
+“reducidos” correspondientes a considerar que están elaboradas para la 
+máquina semejante con D = 1m, ∆H = 1m.c.a. “Curvas de desarrollo”: son las que presentan la eficiencia en función del caudal y 
+régimen de giro, para una altura hidráulica y geometría variable a elegir.
+“Curvas de operación”: presentan la eficiencia en función de la altura hidráulica y 
+el caudal, para un régimen de giro dado y geometría variable optimizada.
+
+La dependencia funcional de partida puede establecerse en 
+base a:
+• Las variables que intervienen en las ecuaciones de Navier
+Stokes y sus condiciones de contorno.
+E
+• Un orden de magnitud menor del término de fuerzas 
+gravitatorias frente a las generadas por inercia o presión
+Régimen
+&=(,,m f P P T nR c kD E S E g p
+Geometría
+µ, , , , , , ,Modelodecompresor Fluido.
+
+Dependencia funcional de las actuaciones de un compresor
+Turbomáquinas. Cap. 4: Actuaciones, A. Lecuona y J. I. Nogueira
+Adimensionalizandoconvenientemente con PE, TE, Rgy D, se obtiene:
+2
+, , , , ,Modelodecompresor g E g E E S
+E E E g E E g
+m RT RT k T P nD
+PD P PD RT P RD
+  µ   =ϕ γ    
+&
+La expresión final práctica se obtiene si, además, consideramos que:
+• La experiencia indica que el efecto del número de Reynolds y de la 
+conductividad térmica son secundarios.
+• El parámetro de presiones se suele expresar como función del de flujo 
+másico en lugar de lo contrario.
+2, , g E S
+E E g Em RT P nD
+P PD RT
+ 
+′  =ϕ γ    
+&
+0,2 5 'ReRe < <4
+
+iMPORTANTE: Para un modelo adimensional 
+determinado y para:
+17
+•Dependencia funcional de las actuaciones de un compresor
+Turbomáquinas. Cap. 4: Actuaciones, A. Lecuona y J. I. Nogueira
+Adimensionalizandoconvenientemente con PE, TE, Rgy D, se obtiene:
+2
+, , , , ,Modelodecompresor g E g E E S
+E E E g E E g
+m RT RT k T P nD
+PD P PD RT P RD
+  µ   =ϕ γ    
+&
+La expresión final práctica se obtiene si, además, consideramos que:
+• La experiencia indica que el efecto del número de Reynolds y de la 
+conductividad térmica son secundarios.
+• El parámetro de presiones se suele expresar como función del de flujo 
+másico en lugar de lo contrario.
+2
+, , g E S
+E E g E
+m RT P nD
+P PD RT
+ 
+′  =ϕ γ    
+&
+0,2 5
+
+Dependencia funcional y curvas características 
+de compresores
+• Curvas características de un compresor
+Consideraciones adicionales:
+• En lugar de las variables adimensionales:                 
+emplear:            
+&
+m T
+P
+E
+y        
+n
+T
+&
+m RT
+P D
+g E
+2
+E
+y     
+nD
+R T
+g E
+; es usual 
+. Esto implica que han de especificarse las unidades 
+E
+E
+empleadas y sólo se retiene el efecto de variación de condiciones de entrada.
+• Las curvas adimensionales se pueden usar para distintos gases, pero están 
+definidas para determinado valor de la relaciones de calores específicos: γ.
+• El efecto del número de Reynolds puede ser especialmente relevante cerca 
+de la línea de entrada en pérdida “stall”
+
+Dependencia funcional y curvas características 
+de turbinas térmicas
+• Dependencia funcional de las actuaciones de una turbina térmica
+Parámetros de actuaciones:
+• El estudio de parámetros de actuaciones y análisis dimensional de una 
+turbina térmica es el mismo que se realiza para un compresor, con la 
+salvedad de que la relación de presiones suele presentarse como PE/PS > 1 
+(relación de expansión).
+P
+E
+P
+S
+= ϕ
+
+′ 
+
+
+&
+m RT
+g E
+P D
+E
+2
+,
+nD
+R T
+g E
+Consideraciones adicionales:
+,
+γ
+
+
+
+
+Para un modelo adimensional 
+determinado y para:
+0,2
+<
+<
+Re
+Re
+'
+5
+• Debido a la dificultad de superponer las curvas de iso-rendimiento sobre las 
+de relación de expansión, en ocasiones se presentan por separado o se 
+modifica el parámetro de gasto multiplicándolo por el de régimen de giro.
+• Se llaman caudales y regímenes corregidos aquellos que se refieren a unas 
+condiciones estándar.7.- Límites de la envolvente de trabajo de una bomba
+• Cavitación en bombas: NPSH
+El parámetro que define la aparición de cavitación en una bomba es la “Net 
+Pressure Suction Head”:
+NPSH
+=
+P P T
+Et
+−
+ρ
+v
+g
+Este parámetro nos indica la presión total que ha de tenerse, como mínimo, a la 
+entrada de la bomba, PEt, para evitar la cavitación en el punto más crítico que 
+tenga la bomba. Dicha presión se ve afectada por la temperatura de trabajo del 
+fluido a través de la presión de vapor del mismo, Pv(T), y aparece dividida por 
+ρg para expresar dicha diferencia de presiones presión como altura de columna 
+de líquido.
+Por otro lado, referido a una superficie libre a presión, Patm., y despreciando 
+perdidas de carga, la presión a la entrada de la bomba cumple la expresión:
+Et
+=
+P P g
+atm
+.
+−ρ h
+La relación entre ambas expresiones nos indica la altura, h > 0, a la que una 
+bomba puede situarse sobre la superficie libre (una vez cebada) o si ha de 
+colocarse bajo dicha superficie, y a qué profundidad h < 0. 7.- Límites de la envolvente de trabajo de una bomba
+• Curva de cavitación y parámetro de thoma
+El NPSH de una bomba, en 
+función de su punto de 
+funcionamiento suele indicarse 
+en una curva.
+Dado que, en realidad, se trata 
+de una diferencia de presión 
+(entre la entrada y el punto más 
+exigido del interior de la
+12
+10
+NPSH  [m]  .
+0 
+2 
+4 
+6 
+8
+n = 3336 rpm
+D2 = 265 mm
+H2O
+0
+50
+100
+150
+Q [m3/h]
+200
+turbomáquina), este parámetro puede adimensionalizarse para  poder inferir 
+como se comportaría dicha bomba a distinta escala, régimen de vueltas o con 
+un fluido distinto. La adimensionalización sería dependiente de la misma 
+combinación de variables que cualquier diferencia de presión (ρn2D2), 
+pudiéndose optar por adimensionalizar con otra diferencia de presión de la 
+misma máquina. Esto es lo que se ha hecho tradicionalmente definiendo el
+parámetro de Thoma, σ :
+σ =
+NPSH
+∆
+H
+
+= ϕ 
+′′′
+
+Q Re
+nD
+3
+,
+
+
+
+250
+(Donde la dependencia con Re es secundaria frente al 
+efecto del parámetro de caudal como en el resto de 
+parámetros adimensionales comentados)
+
+ Uso de inductores
+El NPSH de una bomba puede 
+reducirse para un régimen 
+determinado, situando un 
+inductor al comienzo de la 
+misma. Suele tratarse de unos 
+alabes en forma espiral que 
+aumentan ligeramente la presión 
+antes de que el flujo penetre en 
+el resto de la turbomáquina, en 
+un intervalo operativo reducido.
+En la figura se
+observa el inductor
+de una turbo-bomba
+diseñada para el
+motor cohete M-1.8.-Comparación entre turbomáquinas
+Turbomáquinas. Cap. 4: Actuaciones, A. Lecuona y J. I. Nogueira
+Existe una estrategia para comparar turbomáquinasde flujo incompresible, no 
+semejantes, y poder seleccionar el tipo de turbomáquinaa emplear en una 
+aplicación determinada. Consiste en caracterizar cada turbomáquinapor un par 
+de valores representativos de sus actuaciones.
+Un par de valores que caracteriza una turbomáquinason los parámetros de 
+presión y de caudal en el punto de rendimiento máximo. Es decir:
+Como se indicóen los apartados de análisis dimensional, este par de 
+parámetros es equivalente usar los coeficientes de carga y de flujo en dicho 
+punto de rendimiento máximo:
+Ambas caracterizaciones se usan indistintamente en la literatura. En lo que sigue, 
+se obviaráel subíndice “máximo”entendiéndose que nos referimos a dicho valor 
+si no se indica lo contario.
+2 2 max
+max
+P
+P C nD η=η
+η=η
+∆ =ρ 3 max
+max
+Q
+Q C nD η=η
+η=η
+= y
+2
+2 max
+max
+fl
+U η=η
+η=η
+τ Ψ =
+1 max
+max
+M
+m
+V
+U η=η
+η=η
+Φ
+
+Comparación entre turbomáquinas
+• Diámetro específico y velocidad específica
+Los parámetros anteriores pueden no ser explícitos en algunas aplicaciones. Por 
+ejemplo, si se conoce el ∆P y Q de una aplicación, saber que tamaño y régimen 
+de giro requiere una turbomáquina definida por CP y CQ en su punto óptimo 
+implica operar matemáticamente. Por conveniencia, para dichos casos se han 
+definido dos combinaciones de CP y CQ que los sustituyen: el diámetro 
+específico, DS, (proporcional al diámetro y sin que intervenga el régimen de giro) 
+y la velocidad específica, NS, (proporcional al régimen de giro y sin que 
+intervenga el diámetro). Sus expresiones, siempre en el punto de rendimiento 
+óptimo, son las siguientes:
+C
+D
+S
+=
+C
+1 4
+P
+1 2
+Q
+(
+=
+D
+P
+∆ ρ
+Q
+1 2
+)
+1 4
+y
+N
+S
+=
+C
+1 2
+Q
+C
+3 4
+P
+Q
+n
+1 2
+= 
+∆ ρ
+(
+P
+)
+3 4
+
+
+8.- Comparación entre turbomáquinas
+• Estrategia de comparación de turbomáquinas térmicas
+En prediseño, para comparar turbomáquinas de flujo compresible, no 
+semejantes, y poder seleccionar el tipo de turbomáquina a emplear en una 
+aplicación determinada, se suelen usar los mismos parámetros de partida que 
+para flujo incompresible. En cada caso habrá que comprobar que valores se han 
+empleado para construir el diámetro específico y la velocidad específica, pero es 
+bastante usual recurrir al caudal a la entrada de la turbomáquina (ya que en este 
+caso, el caudal volumétrico no es constante y varía en el interior de la misma) y 
+sustituir ∆P/ρ por el incremento de entalpía isentrópico en la turbomáquina, ∆hs. 
+Los parámetros pasan a denominarse diámetro especifico isentrópico, DSs, y 
+velocidad específica isentrópica, NSs:
+D DQ
+∆
+E 
+h
+=
+S
+s
+s
+1 4
+1 2
+Q
+N n h
+y
+= ∆
+S
+s
+E
+1 2
+3 4
+
+Geometrías óptimas para una solicitación determinada: 
+Línea de Cordier para un escalón
+.
+Φ−Ψ
+Ψ
+Relación
+común a todas
+(línea de Cordier)
+ηmax
+Con cualquiera de las parejas de parámetros que se han comentado, para 
+caracterizar una turbomáquina, se pueden representar en un gráfico las 
+turbomáquinas construidas, con los mejores rendimientos. Si se hace esto, se 
+descubre que los valores de estos parámetros no cubren todo el espacio, sino 
+que se agrupan en
+torno a una línea.
+Esta curva se
+denomina línea de
+Cordier y nos indica
+que, para un valor
+dado de uno de
+estos parámetros,
+su pareja está
+definida. La figura
+presenta un
+esquema para
+bombas
+
+Relación
+común a todas
+(línea de Cordier)
+ηmax
+Con cualquiera de las parejas de parámetros que se han comentado, para 
+caracterizar una turbomáquina, se pueden representar en un gráfico las 
+turbomáquinas construidas, con los mejores rendimientos. Si se hace esto, se 
+descubre que los valores de estos parámetros no cubren todo el espacio, sino 
+que se agrupan en
+torno a una línea.
+Esta curva se
+denomina línea de
+Cordier y nos indica
+que, para un valor
+dado de uno de
+estos parámetros,
+su pareja está
+definida. La figura
+presenta un
+esquema para
+bombas:
+ηmax
+Centrífuga
+Flujo mixto
+ηmax
+Axial
+
+Ejemplo de líneas de Cordierpara ventiladores
+ 
+Ventiladores axiales 
+Ventiladores de flujo mixto 
+Ventiladores de flujo cruzado 
+Ventiladores centrífugos 
+0,5 
+0,7 
+1 
+2 
+3 
+4 
+5 
+7 
+10 
+0,5 0,7 1 2 3 4 5 7 10 20 
+Línea de 
+Cordier 
+DSs 
+NSsω 
+ 
+Línea de Cordier 
+Ventiladores 
+centrífugos 
+Ventiladores de 
+flujo mixto 
+Ventiladores de 
+flujo cruzado 
+Ventiladores axiales 
+Álabes inclinados hacia delante 
+ΨgDs 
+ΦQ 
+0,4 
+0,3 
+0,2 
+0,1 
+0,08 
+0,06 
+0,04 
+0,03 
+0,02 
+0,01 
+0,008 
+0,006 
+0,01 0,02 0,06 0,1 0,2 0,3 0,4 0,6 1
+
+- Arquitectura funcional y tipos (cont.) (Volver) 
+• Control 
+Sea éste mecánico o electrónico es necesario para: – Arbitrar la secuencia de arranque y de parada. – Limitar la temperatura de entrada a la turbina, para evitar su destrucción. – Evitar que el compresor entre en pérdida o bombeo, en inglés: surge o stall.  – Limitar el ritmo de calentamiento y de enfriamiento para evitar tensiones internas de 
+origen térmico en los materiales. – Provocar el nivel de potencia o de régimen requerido por el operador. – Evitar una operación peligrosa. – Tener en cuenta el historial de operación para revisiones
+
+MOTORES DE ENCENDIDO: Tipos de turbina de gas para producción eléctrica 
+I.
+I.
+I.
+De carga base 
+Preparadas para funcionar continuamente, de 6.000 a 8.000 h/año. La 
+eficiencia y la fiabilidad son prioritarias, 𝑇𝑚𝑎𝑥 moderada. Suelen usar diseños 
+pesados, robustos y duraderos. 
+De carga pico 
+Para funcionamiento esporádico, para atender demandas puntuales. Uso de 
+unas 1.000 h/año, ≈ un arranque y parada diario. Un tiempo de respuesta corto 
+es interesante. 
+De reserva, standby o emergencia 
+Con un arranque medio ≈ semanal y unas 100 h/año de funcionamiento. 
+Las de reserva o standby arrancan cuando otra normal falla o está inoperativa. 
+Las de emergencia han de arrancar y dar potencia rápidamente. 
+ La vida de las TGs disminuye al aumentar la 𝑇𝑚𝑎𝑥 y al aumentar el número 
+de arrancadas, a causa de las tensiones térmicas. 
+
+Potencia W 
+Todo motor ofrece una potencia máxima. En ciertas TGs ésta puede sobrepasarse 
+durante un cierto tiempo límite, llamada potencia de emergencia. Puede ser 
+necesaria una revisión después de aplicarla. 
+Si se produce una potencia menor, puede configurar la potencia máxima continua. 
+Para potencias menores se opera a carga parcial. 
+Si no se produce potencia alguna, se puede mantener el motor caliente para 
+responder de inmediato, se denomina marcha en vacío o ralentí. 
+• Calor residual 
+Suele especificarse en las TGs por interesar la cogeneración. Dada la adiabaticidad 
+es fácilmente calculable: 
+�
+� 𝑢𝑒 =
+1−1
+𝜂
+W 
+• Régimen 
+Viene limitado en las TGs por la centrifugación de los rotores. Las velocidades 
+periféricas 𝑈𝑒𝑥 = 𝜔𝑟𝑒𝑥 soportables rondan los 300 m/s para diseños comunes a 500 
+m/s para diseños cuidados. Debido a esta limitación, las turbomáquinas de pequeño 
+diámetro pueden girar a regímenes superiores que las de mayor diámetro. 4.4.- Parámetros básicos (Volver)  
+• Temperatura máxima 
+Limitada por los materiales y la refrigeración disponible. Un ligero sobre
+calentamiento puede destruir la TG. Las turbinas más sencillas funcionan con 800
+1.000 ºC a potencia nominal, mientras que las de aviación soportan hasta unos 
+1.200 ºC. Para aplicaciones críticas, como turborreactores militares, se admite 
+hasta unos 1.400 ºC, especialmente para tiempos cortos. 
+• Relación de presiones 
+Π puede ser nominalmente entre 2 y 40. Crece con 𝑈𝑝 y el número de escalones. 
+Conseguir elevados Π significa varios escalones de compresión y varios de 
+expansión, lo cual solo está justificado en motores de gran tamaño, por su coste. 
+El valor óptimo de Π depende de otros parámetros del ciclo, que se estudian 
+posteriormente. 
+• Emisiones a la atmósfera 
+La combustión continua permite unas emisiones de gases tóxicos (CO, NOx, HC y 
+hollín) muy reducida. A ello ayuda el que las TGs normalmente operan sin cambios 
+bruscos de su operación y poco frecuentemente a cargas parciales. 4.5.- Combustibles para TGs (Volver)  
+• Líquidos 
+En contraste con los MACIs, cuyos combustibles están enormemente 
+especializados, las TGs pueden quemar casi cualquiera, mientras sea carente de 
+cenizas u otros contaminantes que puedan dañar la turbina: alcoholes, gasolinas, 
+gasóleos, queroseno, etc. Para ello precisan tan solo ligeros ajustes. 
+El combustible habitual es el queroseno, de volatilidad intermedia entre la gasolina y 
+el combustible Diésel. 
+No pueden quemar combustibles residuales por corroer la turbina a causa de su alto 
+contenido en azufre y en metales pesados. 
+• Gaseosos 
+Salvo que contengan sustancias nocivas, se puede quemar casi cualquier gas 
+combustible, salvo que su poder calorífico sea muy bajo, como el gas pobre o 
+algunos biogases. 
+Puede quemarse hidrógeno, metano, propano, butano, etc. Siendo necesario tan 
+solo pequeños ajustes. 
+• Es posible quemar a la vez varios combustibles. Así, los biogases pueden ser 
+quemados si se mantiene la llama con un combustible de calidad.1. La turbinas de gas ofrecen la conversión de energía química del combustible a 
+trabajo de forma continua, lo cual les otorga ventajas. 
+2. La eficiencia energética de las turbinas de gas ronda del 30% al 40%. Los 
+MACIs llegan al 50%. Sin embargo, las TGs permiten un mejor 
+aprovechamiento del calor residual. 
+3. Incluso permiten el ciclo combinado, que llega al 60%, la cifra más alta hasta la 
+fecha. 
+4. El ciclo termodinámico básico de las TG es el ciclo Brayton, comprendido entre 
+dos presiones y dos isentrópicas. 
+5. Las turbinas de gas pueden construirse de potencias muy elevadas, 300 MW, 
+pero se han construido tan potentes como las turbinas de vapor, que llegan a 1 
+GW. 
+6. Las turbinas de gas resultan idóneas para la propulsión aérea al producir 
+directamente empuje y ser ligeras. 
+7. Se han llegado a construir turbinas de gas de pequeñas potencias 
+(microturbinas), pero la pequeñez de los álabes reduce su rendimiento. 
+8. La potencia de las TGs propulsivas (turborreactor) no puede evaluarse en kW 
+pues depende de la velocidad de vuelo. En su lugar se expresa en N de empuje 
+a nivel del mar. Cómo evoluciona el empuje con la altura y velocidad de vuelo 
+es un resultado detallado que debe ser investigado.– Dosado de combustible – Temperatura máxima alcanzada internamente – Presión máxima alcanzada – Temperatura de los gases de escape – Potencia por unidad de peso – Régimen de giro – Rendimiento energético – Tolerancia a distintos combustion
+
+
+1. Desglose las diferencias básicas entre los MACIs y las TGs en cuanto a: – Dosado de combustible: Los MACIs llegan a 𝐹𝑅 = 1 e incluso mezcla rica. Las TGs no 
+pueden, a causa de la elevada temperatura de los gases que ello trae consigo. – Temperatura máxima alcanzada internamente. La temperatura de la válvula de 
+escape de los MACIs llega a temperaturas similares a las alcanzadas por el estator 
+de turbina de las TGs, aunque se modera algo a causa de la alternancia del ciclo.  – Presión máxima alcanzada. En los MACIs se sobrepasan instantáneamente las 150 
+bar al final de la combustión, e incluso más. El las TGs, aunque se llegue a relación 
+de presiones de 40, e incluso, contando con la compresión externa en los 
+turborreactores (el del avión Concorde llega a 80), no llega a ser tan alta. Sin 
+embargo, es continua. – Temperatura de los gases de escape. Resulta similar entre los MEC y las turbinas, 
+entre 400 y 650 ºC. Sin embargo, los MEP pueden superar lso 1.000 ºC a plena 
+potencia. Los turborreactores con postcombustión pueden acercarse a esta cifra. – Potencia por unidad de peso. Las TGs son las claras ganadoras, si se cuida el peso.  – Régimen de giro. Las TGs giran mucho más deprisa, en todos los tamaños. Por ello, 
+suelen requerir un reductor d eengranajes que complica el sistema. – Rendimiento energético. Las TGs raramente superan el 40%, mientas que los MEC 
+llegan a superar el 50%. Los MEP raramente superan el 40%, salvo motores 
+especiales de gas natural estacionarios, gracias a la alta resistencia a la detonación 
+de este combustible. – Tolerancia a distintos combustibles. Las TGs pueden quemar casi cualquiera de ellos, 
+mientras sea limpio. Los MACI son más exigentes por tener combustión discontinua.  el tipo de turbomáquina a emplear en una 
+aplicación determinada, se suelen usar los mismos parámetros de partida que 
+para flujo incompresible. En cada caso habrá que comprobar que valores se han 
+empleado para construir el diámetro específico y la velocidad específica, pero es 
+bastante usual recurrir al caudal a la entrada de la turbomáquina (ya que en este 
+caso, el caudal volumétrico no es constante y varía en el interior de la misma) y 
+sustituir ∆P/ρ por el incremento de entalpía isentrópico en la turbomáquina, ∆hs. 
+Los parámetros pasan a denominarse diámetro especifico isentrópico, DSs, y 
+velocidad específica isentrópica, NSs:
+D DQ
+∆
+E 
+h
+=
+S
+s
+s
+1 4
+1 2
+Q
+N n h
+y
+= ∆
+S
+s
+E
+1 2
+3 4
+
+8.- Comparación entre turbomáquinas
+• Ejemplo de rendimientos obtenibles con turbinas hidráulicas
+ηmax 
+1,0 
+0,9 
+0,8 
+0,7 
+0,6 
+Notas:
+Turbinas Deriaz 
+Turbinas Pelton 
+1 a 6 inyectores 
+Turbinas Francis 
+Lenta         
+0 
+0,23 
+Normal       
+1,15 
+Rápida      
+Turbinas Kaplan y hélice 
+Lenta         
+Ultrarápida 
+2,3 
+Normal       
+Rápida            
+3,45 
+Ultrarápida 
+4,6 
+NSsω
+ 
+Se tiende a clasificar las máquinas de lentas o rápidas por su velocidad específica.
+Cada curva no pertenece a una sola turbina, es la envolvente de las mejores 
+turbinas operando en su de rendimiento máximo.
