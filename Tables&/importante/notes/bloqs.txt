@@ -1,0 +1,88 @@
+🔹 Bloque 1 – Inicialización del entorno
+TASK: Initialize_Environment
+description: Configura el dominio volumétrico y las condiciones iniciales.
+actions:
+  - Crear geometría base (cilindro o tobera).
+  - Definir regiones: cámara, turbobombas LOX‑CH₄, bearings híbridos.
+  - Asignar fluido inicial: aire o metano a 300 K, presión 1–5 bar.
+  - Activar malla CFD adaptativa para zonas de cavitación.
+🔹 Bloque 2 – Rodamientos híbridos criogénicos
+TASK: Define_Cryogenic_Bearings
+description: Implementa parámetros del NASA TM‑87255.
+parameters:
+  - Journal_diameter = 41.76 mm
+  - Bearing_surface_diameter = 41.90 mm
+  - Radial_clearance = 0.14 mm
+  - Axial_length = 23.5 mm
+  - Pocket_length = 2.3 mm
+  - Orifice_diameter = 0.66 mm
+equations:
+  - stiffness_N_per_cm = 8.91e5 - 1.07e8 * C
+  - mass_flow_rate = rho * A * v
+  - pressure_ratio_opt = 0.2–0.55
+notes:
+  - Materiales: Inconel 718 + cromo / acero 316 + plata.
+  - Velocidad máxima: 80 000 rpm.
+🔹 Bloque 3 – Microfibras quasicristalinas UHTC
+TASK: Insert_UHTC_Microfibers
+description: Genera red térmica y barrera de difusión.
+materials:
+  - ZrB₂–SiC–TaSi₂
+  - Matriz SiO₂–B₂O₃ (borosilicato)
+geometry:
+  - Lattice_type = Penrose / LEAP‑71
+  - Microfiber_diameter = 5–50 µm
+  - Porosidad variable sin pérdida de conductividad
+effects:
+  - Bloqueo de O₂ por expansión m‑ZrO₂
+  - Pinning de grietas por gradiente térmico lineal
+🔹 Bloque 4 – Turbobombas LOX‑CH₄
+TASK: Build_Turbopumps
+description: Aplica criterios del NASA SP‑8048.
+components:
+  - Rodete_LOX
+  - Rodete_CH₄
+  - Turbina común
+design_rules:
+  - DN máx = 2e6
+  - Refrigeración por propulsante líquido
+  - Materiales: 440‑C, Armalon, Rulon
+  - Equilibrio hidráulico del impulsor
+  - Minimizar número de rodamientos
+🔹 Bloque 5 – Flujo regenerativo y térmico
+Código
+TASK: Regenerative_Flow_Simulation
+description: Modela refrigeración y eficiencia isentrópica.
+equations:
+  - enthalpy = cp * T
+  - efficiency_isentropic = h_real / h_is
+parameters:
+  - Temperature_range = 3000–3500 K
+  - Coolant = CH₄ / LOX
+geometry:
+  - Canales helicoidales aperiódicos
+validation:
+  - Verificar gradiente térmico < límite material
+  - Evaluar erosión en paredes de tobera
+🔹 Bloque 6 – Optimización volumétrica
+Código
+TASK: Optimize_Volume
+description: Ajusta masa, rigidez y transferencia térmica.
+objectives:
+  - Minimizar masa total
+  - Maximizar rigidez K
+  - Minimizar difusión de O₂
+  - Maximizar eficiencia de refrigeración
+constraints:
+  - Temperatura máx material UHTC = 3500 K
+  - Presión máx bearing = 4.5 MPa
+🔹 Bloque 7 – Exportación de parámetros
+Código
+TASK: Export_Design_Data
+description: Genera salida para iteración del agente.
+outputs:
+  - geometry_model
+  - lattice_parameters
+  - flow_results
+  - thermal_analysis
+  - erosion_model
