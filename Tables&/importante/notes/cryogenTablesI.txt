@@ -30,3 +30,50 @@ diameter. Os
 Diametrical clearance, .14 .0051 .13 .0051
 OJ - Os
 aAt ambient conditions and 0 rpm. 
+
+
+NASI\ TM-87255
+4. Title and Subtitle
+Evaluation of a Hybrid Hydrostatic Bearing for
+Cryogenic Turbopump Application
+7. Author(s)
+Paul W. Spica, Ned P. Hannum, and Scott D. Meyer
+9. Performing Organization Name and Address
+National Aeronautics and Space Administration
+Lewis Research Center
+Cleveland, Ohio 44135
+12. Sponsoring Agency Name and Address
+National Aeronautics and Space Administration
+Washington, D.C. 20546
+15. Supplementary Notes
+16. Abstract
+3. Recipient's Catalog No.
+5. Report Date
+April 1986
+6. Performing Organization Code
+506-60··42
+8. Performing Organization Report No.
+E-2945
+10. Work Unit No.
+11. Contract or Grant No.
+13. Type of Report and Period Covered
+lechnical Memorandum
+14. Sponsoring Agency Code
+A 20-mm hybrid hydrostatic bearing was evaluated in liquid hydrogen at speeds to
+80 000 rpm and radial loads to 440 N (100 lbf). The size and operating conditions of the bearing were selected to be compatible with the operating requirements of an advanced technology turbopump. Measured bearing stiffness was 1.5
+times greater than predicted, while the fluid flow rate through the bearing was
+35 to 65 percent less than predicted. lhe optimal pressure ratio for the bearing
+should be between 0.2 and 0.55 depending on the balance of bearing efficiency
+and stiffness. The bearing operated for 337 start-stop cycles without failure.
+17. Key Words (Suggested by Author(s))
+Cryogenic turbopump; Fluid film bearing; Cryogenic bearing; Hybrid bearing;
+Hydrostatic bearing; Cryogenic
+lubrication
+18. Distribution Statement
+Unclassified - unlimited
+STAR Category 20
+19. Security Classif. (of this report)
+Unclassified
+20. Security Class if. (of this page)
+Unclassified
+
