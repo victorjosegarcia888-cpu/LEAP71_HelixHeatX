@@ -1,0 +1,46 @@
+Evaluation of a Hybrid Hydrostatic Bearing
+for Cryogenic Turbopump Application
+
+Several test parameters were varied to characterize the bearing's steadystate operation. The rotation of the tester shaft was varied between 0 and
+80 000 rpm. Bearing inlet fluid pressure was varied between 2.07 and 4.48 MPa
+(300 and 650 psia), while the fluid sump pressure was independently varied
+between 0.34 and 2.07 MPa (50 and 300 psia). The maximum radial load applied
+to the bearing was 440 N (100 lbf). Measured hybrid-hydrostatic-bearing stiffness was 1.5 times greater than
+predicted, while the fluid flow rate through the bearing was 35 to 05 percent
+less than predicted. Under two-phase fluid conditions, the stiffness was even
+greater and the flow rate was less. The optimal pressure ratio for the bearing
+should be between 0.2 and 0.55 depending on the balance desired between bearing
+efficiency and stiffness. Startup and shutdown cyclic tests were conducted to
+demonstrate the ability of the hybrid-hydrostatic-bearing assembly to survive
+at least a 300-firing-duty cycle. For a typical cycle, the shaft was accelerated to 50 000 rpm in 1.8 sec. The bearing operated for 331 start-stop cycles
+without failure. The objective of this report is to evaluate a hybrid hydrostatic bearing
+for cryogenic turbopump applications. The hybrid hydrostatic bearing tested
+consisted of a palr of 20-mm angular-contact ball bearlngs encased ln a journal, whlch ln turn was supported by a fluid fl1m. The purpose of the ball
+bearlngs was to prevent wear of the journal and of the hydrostatic bearing
+prlor to pressurlzatlon at startup and durlng shutdown of the system. The size
+of the bearlng and the operatlng conditions were selected to be compatible with
+the operatlng requirements of an advanced technology turbopump. Llquld hydrogen was used as the working fluld wlth speeds to 80 000 rpm and radial loads
+to 440 N (100 lbf). startup and shutdown cycllc tests were also conducted. 
+
+variables para geometria o volumetrico; coef massico masa-volumen
+BN bearing number, Re/GRAOP
+C hydrostatic-bearing radial clearance, mm (in.)
+Os hydrostatic-bearing surface diameter, mm (in.)
+E eccentricity ratio, e/C
+e eccentricity or journal deflection, mm (in.)
+GRAOP modified Reynolds number based on axial pressure flow,
+(GRAOPS)(PR)OS/(L - w)
+GRAOPS Reynolds number based on axial pressure flow, (Ps - Pa)C3/R(p)v
+K statlc stlffness, N/cm (lbf/in.)
+K dlmenslonless stiffness, K(e)/(Ps - Pa)L(Ds)
+L journal axial length, mm (in.)
+LOFlO load-to-flow ratio, W(C 4)/e(m)v(L)Os
+m mass flow rate through the hydrostatic bearing, g/sec (lbm/sec)
+PR pocket pressure ratio, (Pr - Pa)/Ps - Pa)
+Pa sump pressure, MPa (psia)
+Pr pocket pressure, MPa (psia)
+Ps bearing inlet pressure, MPa (psia)
+R radius of the hydrostatic bearing, mm (in.)
+Re Reynolds number, U(C)/2
+U journal surface velocity, mm/sec (in./sec)
+W load applled to the bearlng, N (lbf) 
