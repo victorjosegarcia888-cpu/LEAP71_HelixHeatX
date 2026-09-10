@@ -1,0 +1,32 @@
+TABLE I. - CRITICAL HYDROSTATIC DIMENSIONS
+[Number of pockets per row, 10; number
+of rows, 2.]
+(a) Common dimensions for configurations
+1 and 2
+Description Nominal dimensions
+mm
+Journal axial length, L 23.5
+Pocket axial length, w 2.3
+Pocket circumferential length, i. 5.9
+Axial land length, X 6.0
+Pocket depth (max.), d .56
+Orifice diameter, do .66
+Orifice length, Y 1.1
+(b) Dimensional differences between
+configurations 1 and 2
+in.
+0.926
+.091
+.232
+.236
+.022
+.026
+.045
+Descriptiona Configuration 1 Configuration
+mm in. mm in.
+Journal diameter, OJ 41. 76 1.6440 43.83 1.7255
+Hydrostatic-bearing surface 41.90 1.6497 43.96 1.7306
+diameter. Os
+Diametrical clearance, .14 .0051 .13 .0051
+OJ - Os
+aAt ambient conditions and 0 rpm. 
