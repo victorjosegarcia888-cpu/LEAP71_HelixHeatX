@@ -1,0 +1,190 @@
+Script teórico para diseño volumétrico de cavidades, bearings y turbobombas con microfibras quasicristalinas
+1
+Definir el dominio volumétrico inicial
+Start Here
+Se establece el volumen base donde se generarán cavidades, canales y bearings neumáticos.
+
+Crear un volumen cilíndrico o toroidal para simular cámara neumática.
+
+Definir regiones para bearing híbrido, turbobomba LOX, turbobomba CH₄.
+
+Asignar propiedades iniciales del fluido: aire a 300 K, presión 1–5 bar.
+
+Preparar malla para simulación CFD.
+
+2
+Insertar microfibras quasicristalinas UHTC
+Recommended
+Se genera la red aperiodica que actuará como estructura térmica y barrera contra difusión de oxígeno.
+
+Generar lattice Penrose / Fibonacci / LEAP‑71.
+
+Aplicar materiales UHTC: ZrB₂–SiC–TaSi₂.
+
+Añadir matriz de borosilicato SiO₂–B₂O₃.
+
+Ajustar espesor sin alterar porosidad.
+
+Integrar nodos de expansión m‑ZrO₂ para pinning de grietas.
+
+3
+Modelar cavidades neumáticas y canales de flujo
+Se definen los canales internos para estudiar caudal másico y presión antes de introducir gases calientes.
+
+Crear canales helicoidales y cavidades tipo aerospike.
+
+Ajustar diámetro hidráulico para evitar cavitación.
+
+Definir zonas de expansión y contracción.
+
+Añadir válvulas neumáticas virtuales para control de presión.
+
+4
+Aplicar ecuaciones de caudal másico y presión
+Se calculan los parámetros fundamentales del flujo para validar la geometría.
+
+𝑚
+˙
+=
+𝜌
+𝐴
+𝑣
+𝑝
+=
+𝑝
+0
++
+Δ
+𝑝
+𝑔
+𝑒
+𝑜
+𝑚
+𝑅
+𝑒
+=
+𝜌
+𝑣
+𝐷
+𝜇
+Calcular Reynolds para régimen laminar/turbulento.
+
+Ajustar área A para obtener el caudal deseado.
+
+Validar pérdidas de carga por microfibras.
+
+5
+Simular calentamiento del gas a 3000 K
+warning
+Se introduce gas caliente para estudiar eficiencia isentrópica y erosión.
+
+ℎ
+=
+𝑐
+𝑝
+𝑇
+𝜂
+𝑖
+𝑠
+=
+ℎ
+𝑟
+𝑒
+𝑎
+𝑙
+ℎ
+𝑖
+𝑠
+Elevar temperatura del gas neumático a 3000–3500 K.
+
+Evaluar expansión térmica del lattice.
+
+Verificar que la matriz borosilicatada evita difusión de O₂.
+
+Analizar tensiones por m‑ZrO₂.
+
+6
+Integrar turbobombas LOX–CH₄
+Se añaden los modelos de turbobombas basados en criterios NASA SP‑8048.
+
+Añadir rodete LOX y rodete CH₄.
+
+Definir bearings híbridos con película criogénica.
+
+Aplicar ecuaciones de cavitación LOX.
+
+Ajustar DN del bearing según NASA SP‑8048.
+
+7
+Simular ciclo completo del motor
+Se ejecuta el ciclo de flujo desde cavidades neumáticas hasta combustión.
+
+Simular flujo regenerativo en tobera.
+
+Integrar hot‑gas para turbina.
+
+Validar presión de cámara.
+
+Evaluar erosión y estabilidad térmica.
+
+8
+Generar reporte para agente de diseño
+success
+Se produce un archivo de instrucciones para un agente tipo pikoGK o shapeKernel.
+
+Exportar parámetros: volumen, lattice, ecuaciones, caudales.
+
+Incluir reglas de diseño: porosidad, espesor, materiales.
+
+Añadir límites térmicos y mecánicos.2. Tipos de rodamientos y su aplicación
+El documento compara los principales tipos usados en turbobombas:
+
+Tipo de rodamiento	Ventajas	Desventajas	Aplicación típica
+Conrad (radial + axial)	Alta tolerancia a desalineación, soporta cargas combinadas	Limitado número de bolas, dos piezas de jaula	Cargas mixtas, doble dirección de empuje
+Angular-contact	Mayor capacidad axial, una sola jaula	Solo una dirección de empuje	Alta velocidad, carga axial predominante
+Split-inner-ring	Mayor capacidad axial, menor juego axial	Menor tolerancia a desalineación	Empuje bidireccional
+Cilíndrico (roller)	Alta capacidad radial, gran rigidez	Sin capacidad axial, desgaste en criogénicos	Alta carga radial sin restricción axial
+Balance piston	Gran capacidad de empuje	Requiere presión estable, sensible al arranque	Cuando el empuje supera la capacidad del rodamiento
+
+
+👉 Esto te da una base para decidir si tu diseño de turbobomba LOX‑CH₄ debería usar rodamientos híbridos (como en el TM‑87255) o rodillos criogénicos con refrigeración directa por el propelente.
+
+🧊 3. Materiales y refrigeración
+Se recomiendan aceros 440‑C, Inconel, Monel, y jaulas de Armalon o Rulon para ambientes criogénicos.
+
+El propelente líquido (hidrógeno, oxígeno o metano) puede actuar como refrigerante y lubricante.
+
+Se enfatiza el control de flujo de refrigeración y estabilidad térmica para evitar cavitación y desgaste.
+
+Esto conecta directamente con tus imágenes de microfibras LEAP‑71 y flujo criogénico LOX, que podrían mejorar la transferencia térmica y reducir la erosión.
+
+🔩 4. Criterios de diseño
+El documento define reglas para:
+
+Capacidad de carga y velocidad (DN ≤ 2 × 10⁶ para criogénicos).
+
+Rigidez radial como parámetro clave para evitar resonancias.
+
+Tolerancia de desalineación y pre‑carga axial para evitar deslizamiento.
+
+Montaje y materiales estabilizados por ciclos de enfriamiento antes del mecanizado final.
+
+🔬 5. Recomendaciones prácticas
+Integrar el diseño de rodamientos desde la fase inicial del turbopump.
+
+Minimizar el número de rodamientos y asegurar balance hidráulico del impulsor.
+
+Usar análisis dinámico computacional para evaluar rigidez y respuesta del eje.
+
+Verificar en pruebas de fuego real la vida útil y comportamiento térmico.
+
+🚀 6. Conexión con tu proyecto
+Tu enfoque de neumática y microfibras puede integrarse como:
+
+Sistema de refrigeración estructural dentro del rodamiento o carcasa.
+
+Canales aperiodicos para controlar flujo y presión del gas criogénico.
+
+Materiales porosos metálicos para distribuir el calor y reducir oxidación.
+
+Preparar script para iteración automática.
