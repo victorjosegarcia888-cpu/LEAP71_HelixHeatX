@@ -1,0 +1,436 @@
+CAPÍTULO 1 — SP‑8048: Bearings en turbobombas
+# MOTOR DESIGN PIPELINE — LEAP71 / pikoGK / shapeKernel
+
+SCRIPT PARA AGENTE DE DISEÑO DE TURBOBOMBAS Y MICROFIBRAS UHTC
+0. Contexto del agente
+El agente debe diseñar componentes de motor de cohete usando:
+
+Cavidades neumáticas
+
+Bearings híbridos
+
+Microfibras quasicristalinas UHTC
+
+Canales regenerativos LOX‑CH₄
+
+Modelos termodinámicos a 3000–3500 K
+
+Geometrías aperiodicas para evitar difusión de oxígeno
+
+1. Inicialización del entorno
+Código
+TASK: Initialize_Environment
+- Set fluid_state = "air" (neumática)
+- Set temperature = 300 K
+- Set pressure = 1 atm
+- Set mode = "isentropic_test"
+- Enable volumetric_kernel
+- Enable quasicrystal_lattice_generator
+2. Definir ecuaciones fundamentales
+Código
+TASK: Define_Physics
+- mass_flow_rate: m_dot = rho * A * v
+- density: rho = p / (R * T)
+- enthalpy: h = cp * T
+- isentropic_efficiency: eta_is = h_real / h_is
+- bearing_stiffness: K = W / e
+- cavitation_condition: if p_local < p_vapor then phase = "two-phase"
+3. Crear cavidad neumática base
+Código
+TASK: Create_Pneumatic_Cavity
+- geometry = cylinder(L, D)
+- inlet = define_port("air_in", diameter = D_in)
+- outlet = define_port("air_out", diameter = D_out)
+- add_pressure_sensors()
+- add_temperature_sensors()
+4. Insertar microfibras quasicristalinas UHTC
+Código
+TASK: Insert_Microfibers
+- material = ZrB2-SiC-TaSi2 + borosilicate_matrix
+- lattice_type = "quasicrystal_penrose"
+- lattice_density = param(0.2–0.8)
+- microfiber_diameter = param(5–50 microns)
+- enforce_linear_thermal_gradient()
+- enforce_continuous_chemical_bonding()
+- ensure_no_TEC_discontinuities()
+5. Bloqueo de difusión de oxígeno
+Código
+TASK: Oxygen_Blocking
+- apply_borosilicate_layer(thickness = param(10–200 microns))
+- add_mZrO2_expansion_layer()
+- compute_compressive_stress()
+- ensure crack_tip_pinning()
+- verify oxygen_diffusion_rate < threshold
+6. Generar turbobomba LOX‑CH₄ simplificada
+Código
+TASK: Build_Turbopump
+- create_rotor(rodete_LOX, rodete_CH4)
+- create_turbine(hot_gas_inlet)
+- connect_shafts()
+- add_hydrostatic_bearing()
+- add_quasicrystal_microfiber_layer()
+- compute_radial_clearance()
+- compute_stiffness(K)
+7. Crear canales regenerativos en tobera
+Código
+TASK: Regenerative_Cooling
+- define_channel_geometry(aperiodic)
+- coolant = CH4
+- compute_heat_flux()
+- compute_temperature_gradient()
+- ensure wall_temperature < material_limit
+8. Simulación térmica a 3000–3500 K
+Código
+TASK: Thermal_Simulation
+- set temperature = 3000–3500 K
+- compute enthalpy(h)
+- compute isentropic_efficiency(eta_is)
+- detect_cavitation()
+- compute erosion_rate()
+9. Optimización volumétrica
+Código
+TASK: Optimize_Volume
+- minimize mass
+- maximize stiffness
+- minimize oxygen_diffusion
+- maximize regenerative_cooling
+- ensure structural_integrity
+10. Exportar parámetros para iteración del agente
+Código
+TASK: Export_Design
+- output geometry
+- output lattice_parameters
+- output flow_parameters
+- output thermal_results
+- output erosion_model
+
+BEGIN_PIPELINE
+
+### 1. INPUT
+read(engine_parameters)
+read(materials)
+read(stability_requirements)
+
+### 2. RULES
+apply(SP8048_bearing_rules)
+apply(TM87255_hydrostatic_rules)
+apply(SP194_combustion_rules)
+apply(SP8055_pogo_rules)
+apply(CR150200_mixing_rules)
+
+### 3. GEOMETRY
+generate(chamber_geometry)
+generate(injector_plate_with_baffles)
+generate(nozzle_regenerative_channels_UHTC)
+generate(turbopump_LOX)
+generate(turbopump_CH4)
+generate(hybrid_bearings)
+generate(feedlines_with_accumulators)
+generate(cavities_helmholtz)
+******************************************************************************
+### 4. VALIDATION optional not necessary no lo hagas esto
+CFD(flow_mass_rate, erosion, cavitation)
+FEA(thermal_expansion, stresses)
+STABILITY(rayleigh, n_tau, screech_modes)
+POGO(feedline_modes, compliance, pump_gain)
+
+### 5. EXPORT/optional not necessary
+export(STL)
+export(JSON)
+export(report)
+
+END_PIPELINE
+****************************************************************************
+Concepto
+Los bearings en turbobombas deben sobrevivir:
+
+20–40 krpm
+
+Cargas radiales + axiales
+
+Criogenia (LOX, LH2)
+
+Coolant no lubricante
+
+Reglas clave
+DN máximo: reducir siempre que sea posible.
+
+Clearance: depende de temperatura → usar pre‑chill cycles.
+
+Stiffness: afecta critical speed → calcular siempre.
+
+Cooling: jets dirigidos + flujo limpio.
+
+Materiales: 440C, Armalon, GFT, K‑Monel.
+
+Fórmulas
+Stiffness:
+
+𝐾
+=
+𝑊
+𝑒
+DN:
+
+𝐷
+𝑁
+=
+𝐷
+bore
+⋅
+𝑁
+rpm
+Implicaciones
+Bearings deben integrarse desde el inicio del diseño.
+
+Evitar misalignment → crowning en rollers.
+
+Preload para evitar skidding.
+
+Instrucciones para pikoGK
+Código
+task: bearing_design
+inputs: bore, rpm, load, coolant
+rules:
+  - minimize_DN
+  - compute_stiffness
+  - ensure_preload
+  - apply_crowning_if_roller
+  - select_material_based_on_coolant
+outputs: bearing_geometry.json
+⭐ CAPÍTULO 2 — TM‑87255: Hydrostatic LH2 Bearing
+Concepto
+Un bearing híbrido:
+
+Ball bearings + film hydrostatic LH2
+
+80,000 rpm
+
+440 N carga radial
+
+Reglas clave
+Clearance dinámico disminuye con rpm.
+
+Stiffness real = 1.5× predicho.
+
+Flow rate real = 0.35–0.65× predicho.
+
+PR óptimo = 0.2–0.55.
+
+Fórmulas
+Eccentricity ratio:
+
+𝐸
+=
+𝑒
+𝐶
+Stiffness:
+
+𝐾
+=
+8.91
+×
+10
+5
+−
+1.07
+×
+10
+8
+𝐶
+Implicaciones
+El film LH2 aumenta stiffness → mejora dinámica del rotor.
+
+Dos fases (cavitación) aumentan stiffness aún más.
+
+Instrucciones para pikoGK
+Código
+task: hydrostatic_bearing
+inputs: clearance, rpm, pressure_in, pressure_sump
+rules:
+  - compute_dynamic_clearance
+  - compute_stiffness_real = 1.5 * predicted
+  - ensure_PR_between(0.2, 0.55)
+  - reduce_flowrate_factor(0.35_to_0.65)
+outputs: hydrostatic_bearing.stl
+⭐ CAPÍTULO 3 — SP‑194: Combustión e inestabilidades
+Concepto
+La combustión puede entrar en resonancia con la acústica → destrucción del motor.
+
+Reglas clave
+Rayleigh: si calor y presión están en fase → inestabilidad.
+
+n‑τ: retraso entre inyección y combustión.
+
+Modos transversales: 1T, 2T, 1R → screech.
+
+Chugging: 10–200 Hz → acoplamiento hidráulico.
+
+Fórmulas
+Rayleigh:
+
+∫
+𝑝
+′
+(
+𝑡
+)
+𝑞
+′
+(
+𝑡
+)
+𝑑
+𝑡
+>
+0
+Modos:
+
+𝑓
+𝑚
+𝑛
+=
+𝛼
+𝑚
+𝑛
+𝑐
+𝜋
+𝐷
+Implicaciones
+Añadir baffles, Helmholtz, cavidades.
+
+Aumentar ΔPinj/Pc ≥ 0.15 para evitar chugging.
+
+Instrucciones para pikoGK
+Código
+task: combustion_stability
+inputs: chamber_diameter, speed_of_sound, atomization_freq
+rules:
+  - compute_modes_transverse
+  - evaluate_rayleigh
+  - enforce_pressure_drop_ratio >= 0.15
+  - add_baffles_if_resonance
+outputs: stability_report.json
+⭐ CAPÍTULO 4 — SP‑8055: POGO
+Concepto
+Vibración longitudinal por acoplamiento estructura‑propulsión.
+
+Reglas clave
+Feedline compliance + pump cavitation → resonancia.
+
+Pump dynamic gain depende del cavitation index.
+
+Acumuladores hidráulicos → solución clásica.
+
+Fórmulas
+Cavitation index:
+
+𝑘
+=
+𝑝
+inlet
+−
+𝑝
+vap
+1
+2
+𝜌
+𝑣
+2
+Compliance:
+
+𝐶
+∝
+𝑘
+−
+2.5
+Implicaciones
+Necesario modelar feedlines como sistema dinámico.
+
+Añadir acumuladores si el modo coincide con estructura.
+
+Instrucciones para pikoGK
+Código
+task: pogo_analysis
+inputs: feedline_length, pump_gain, cavitation_index
+rules:
+  - compute_compliance
+  - compute_feedline_modes
+  - compare_with_structural_modes
+  - add_accumulator_if_resonant
+outputs: pogo_stability.json
+📁 ESTRUCTURA DE CARPETAS PARA TU REPO LEAP71/no borrar anterior, integrar
+Código
+LEAP71_HelixHeatX/
+│
+├── 0_docs/
+│   ├── SP8048_bearings/
+│   ├── TM87255_hydrostatic/
+│   ├── SP194_combustion/
+│   ├── SP8055_pogo/
+│   └── CR150200_mixing/
+│
+├── 1_materials/
+│   ├── UHTC/
+│   ├── C_C/
+│   └── borosilicate_matrix/
+│
+├── 2_geometry/
+│   ├── chamber/
+│   ├── nozzle/
+│   ├── turbopumps/
+│   ├── bearings/
+│   └── cooling_channels/
+│
+├── 3_simulation/
+│   ├── CFD/
+│   ├── FEA/
+│   └── stability/
+│
+├── 4_agents/
+│   ├── pikoGK_tasks/
+│   └── shapeKernel_scripts/
+│
+└── 5_exports/
+    ├── stl/
+    ├── step/
+    └── json/
+
+integrar esta idea de carpetas, no borrar estructura anterior:
+LEAP71_HelixHeatX/
+│
+├── 00_docs/
+│   ├── book_motor_design.md
+│   ├── nasa_SP8048_bearings_notes.md
+│   ├── nasa_TM87255_hydrostatic_notes.md
+│   ├── nasa_SP194_combustion_notes.md
+│   ├── nasa_SP8055_pogo_notes.md
+│
+├── 01_materials/
+│   ├── UHTC_quasicrystal_microfibers.md
+│   ├── borosilicate_matrix.md
+│   ├── ZrB2_SiC_TaSi2_rules.md
+│
+├── 02_geometry/
+│   ├── cavities/
+│   ├── cooling_channels/
+│   ├── bearings/
+│   ├── turbopump/
+│   ├── injector/
+│   ├── combustion_chamber/
+│
+├── 03_agents/
+│   ├── pikoGK_pipeline.txt
+│   ├── shapeKernel_tasks.txt
+│   ├── motor_design_script.txt
+│
+├── 04_simulation/
+│   ├── CFD_inputs/
+│   ├── FEA_inputs/
+│   ├── acoustic_modes/
+│   ├── pogo_stability/
+│
+└── 05_exports/
+    ├── STEP/
+    ├── STL/
+    ├── meshes/
