@@ -1,3 +1,80 @@
+1
+Definir Entrada del Sistema
+Start Here
+El agente establece los parámetros base del motor antes de generar geometría.
+
+Seleccionar propulsor: LOX/CH₄, Metalox o variante.
+
+Definir empuje objetivo (kN).
+
+Elegir ciclo termodinámico: SC, ORSC, FFSC.
+
+Establecer materiales UHTC: ZrB₂–SiC–TaSi₂ + matriz borosilicato.
+
+Fijar límites térmicos: 3000–3600 K en cámara, 900–1100 K en turbina.
+
+2
+Aplicar Reglas de Diseño NASA
+Critical
+Se imponen restricciones físicas y de estabilidad provenientes de los documentos NASA.
+
+SP‑8048 Bearings: minimizar DN, tolerancias de alineación, refrigeración por propulsor.
+
+TM‑87255 Hydrostatic LH₂: presión de entrada 2–4.5 MPa, clearance dinámico 0.035–0.043 mm.
+
+SP‑194 Combustión: evitar acoplamiento n‑τ, resonadores Helmholtz si PR < 0.2.
+
+SP‑8055 POGO: desacoplar líneas, añadir acumuladores si frecuencia coincide con modo estructural.
+
+CR‑150200 Mezclado: evitar RSS/blowapart, asegurar caída de presión del inyector ≥ 15–20% Pc.
+
+3
+Generar Geometría Base
+Geometry
+El agente crea la geometría volumétrica del motor y sus cavidades internas.
+
+Crear cámara de combustión UHTC con aerospike o tobera convencional.
+
+Insertar cooling helicoidal tipo HelixHeatX.
+
+Modelar cavidades neumáticas y canales de flujo.
+
+Diseñar bearings híbridos (hidrostáticos + rodamiento angular).
+
+Construir turbobombas LOX/CH₄ con clearances NASA.
+
+Añadir inyector anti‑screech con deflectores y cavidades acústicas.
+
+4
+Validación Multidominio
+Analysis
+El agente ejecuta análisis físicos para verificar estabilidad y rendimiento.
+
+CFD: mezcla, atomización, perfiles de presión.
+
+FEA: tensiones térmicas en UHTC, expansión m‑ZrO₂.
+
+Acústica: modos 1T/2T/1R, criterio Rayleigh.
+
+POGO: acoplamiento estructura‑propulsión.
+
+Mezclado: ZOM, RSS, eficiencia C*.
+
+Ciclo completo: balance de masa, energía y presión.
+
+5
+Exportación para pikoGK / shapeKernel
+Output
+El agente genera los archivos y parámetros necesarios para simulación y manufactura.
+
+Exportar STEP/STL de geometría.
+
+Exportar malla CFD/FEA.
+
+Generar parámetros de cavidades, canales, tolerancias.
+
+Crear script de iteración automática para optimización.
+
 Curvas del fabricante:
 El fabricante suele 
 proporcionar las curvas de 
