@@ -1,0 +1,222 @@
+2. Definir ecuaciones fundamentales
+Código
+TASK: Define_Physics
+- mass_flow_rate: m_dot = rho * A * v
+- density: rho = p / (R * T)
+- enthalpy: h = cp * T
+- isentropic_efficiency: eta_is = h_real / h_is
+- bearing_stiffness: K = W / e
+- cavitation_condition: if p_local < p_vapor then phase = "two-phase"
+3. Crear cavidad neumática base
+Código
+TASK: Create_Pneumatic_Cavity
+- geometry = cylinder(L, D)
+- inlet = define_port("air_in", diameter = D_in)
+- outlet = define_port("air_out", diameter = D_out)
+- add_pressure_sensors()
+- add_temperature_sensors()
+4. Insertar microfibras quasicristalinas UHTC
+Código
+TASK: Insert_Microfibers
+- material = ZrB2-SiC-TaSi2 + borosilicate_matrix
+- lattice_type = "quasicrystal_penrose"
+- lattice_density = param(0.2–0.8)
+- microfiber_diameter = param(5–50 microns)
+- enforce_linear_thermal_gradient()
+- enforce_continuous_chemical_bonding()
+- ensure_no_TEC_discontinuities()
+5. Bloqueo de difusión de oxígeno
+Código
+TASK: Oxygen_Blocking
+- apply_borosilicate_layer(thickness = param(10–200 microns))
+- add_mZrO2_expansion_layer()
+- compute_compressive_stress()
+- ensure crack_tip_pinning()
+- verify oxygen_diffusion_rate < threshold
+6. Generar turbobomba LOX‑CH₄ simplificada
+Código
+TASK: Build_Turbopump
+- create_rotor(rodete_LOX, rodete_CH4)
+- create_turbine(hot_gas_inlet)
+- connect_shafts()
+- add_hydrostatic_bearing()
+- add_quasicrystal_microfiber_layer()
+- compute_radial_clearance()
+- compute_stiffness(K)
+7. Crear canales regenerativos en tobera
+Código
+TASK: Regenerative_Cooling
+- define_channel_geometry(aperiodic)
+- coolant = CH4
+- compute_heat_flux()
+- compute_temperature_gradient()
+- ensure wall_temperature < material_limit
+8. Simulación térmica a 3000–3500 K
+Código
+TASK: Thermal_Simulation
+- set temperature = 3000–3500 K
+- compute enthalpy(h)
+- compute isentropic_efficiency(eta_is)
+- detect_cavitation()
+- compute erosion_rate()
+9. Optimización volumétrica
+Código
+TASK: Optimize_Volume
+- minimize mass
+- maximize stiffness
+- minimize oxygen_diffusion
+- maximize regenerative_cooling
+- ensure structural_integrity
+10. Exportar parámetros para iteración del agente
+Código
+TASK: Export_Design
+- output geometry
+- output lattice_parameters
+- output flow_parameters
+- output thermal_results
+- output erosion_model
+
+2. Insertar rodamientos híbridos criogénicos
+Basado en el NASA TM‑87255:
+
+Materiales: Inconel 718 (journal), acero 316 + plata (superficie).
+
+Dimensiones críticas:
+
+𝐿
+=
+23.5
+ mm
+, 
+𝑤
+=
+2.3
+ mm
+, 
+𝑑
+=
+0.56
+ mm
+, 
+𝐷
+𝑗
+=
+41.76
+ mm
+, 
+𝐷
+𝑠
+=
+41.90
+ mm
+.
+
+Ecuaciones clave:
+
+𝐾
+=
+8.91
+×
+10
+5
+−
+1.07
+×
+10
+8
+⋅
+𝐶
+𝑚
+˙
+=
+𝜌
+⋅
+𝐴
+⋅
+𝑣
+Presión óptima: ratio 
+𝑃
+𝑅
+=
+0.2
+–
+0.55
+.
+
+Velocidad de rotación: hasta 80 000 rpm.
+
+🔬 3. Integrar microfibras quasicristalinas UHTC
+Basado en tu repo woven_si2Monolitic:
+
+Composición: ZrB₂–SiC–TaSi₂ + matriz borosilicatada (SiO₂–B₂O₃).
+
+Estructura: lattice aperiodico tipo Penrose o LEAP‑71.
+
+Propiedades:
+
+Alta conductividad térmica.
+
+Bloqueo de difusión de O₂ mediante expansión m‑ZrO₂.
+
+Espesor variable sin pérdida de porosidad.
+
+🚀 4. Modelar turbobombas LOX‑CH₄
+Basado en el NASA SP‑8048:
+
+Rodetes: uno para LOX, otro para CH₄.
+
+DN máximo: 
+2
+×
+10
+6
+.
+
+Refrigeración: propulsante líquido como lubricante.
+
+Materiales: acero 440‑C, jaulas Armalon o Rulon.
+
+Criterios de diseño:
+
+Minimizar número de rodamientos.
+
+Equilibrar hidráulicamente el impulsor.
+
+Controlar rigidez radial para evitar resonancias.
+
+🌡️ 5. Simular flujo regenerativo
+Ecuaciones térmicas:
+
+ℎ
+=
+𝑐
+𝑝
+⋅
+𝑇
+y
+𝜂
+𝑖
+𝑠
+=
+ℎ
+𝑟
+𝑒
+𝑎
+𝑙
+ℎ
+𝑖
+𝑠
+Temperatura de gas: 3000–3500 K.
+
+Canales: helicoidales o aperiodicos para refrigeración.
+
+Validar: gradiente térmico y erosión en paredes de tobera.
+
+📊 6. Exportar parámetros para iteración
+Geometría: cámara, tobera, turbobombas, bearings.
+
+Materiales: UHTC, Inconel, acero 440‑C.
+
+Flujo: presión, caudal másico, temperatura.
+
+Resultados: rigidez, eficiencia isentrópica, cavitación.
