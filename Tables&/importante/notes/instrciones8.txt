@@ -1,6 +1,109 @@
 CAPÍTULO 1 — SP‑8048: Bearings en turbobombas
 # MOTOR DESIGN PIPELINE — LEAP71 / pikoGK / shapeKernel
 
+SCRIPT PARA AGENTE DE DISEÑO DE TURBOBOMBAS Y MICROFIBRAS UHTC
+0. Contexto del agente
+El agente debe diseñar componentes de motor de cohete usando:
+
+Cavidades neumáticas
+
+Bearings híbridos
+
+Microfibras quasicristalinas UHTC
+
+Canales regenerativos LOX‑CH₄
+
+Modelos termodinámicos a 3000–3500 K
+
+Geometrías aperiodicas para evitar difusión de oxígeno
+
+1. Inicialización del entorno
+Código
+TASK: Initialize_Environment
+- Set fluid_state = "air" (neumática)
+- Set temperature = 300 K
+- Set pressure = 1 atm
+- Set mode = "isentropic_test"
+- Enable volumetric_kernel
+- Enable quasicrystal_lattice_generator
+2. Definir ecuaciones fundamentales
+Código
+TASK: Define_Physics
+- mass_flow_rate: m_dot = rho * A * v
+- density: rho = p / (R * T)
+- enthalpy: h = cp * T
+- isentropic_efficiency: eta_is = h_real / h_is
+- bearing_stiffness: K = W / e
+- cavitation_condition: if p_local < p_vapor then phase = "two-phase"
+3. Crear cavidad neumática base
+Código
+TASK: Create_Pneumatic_Cavity
+- geometry = cylinder(L, D)
+- inlet = define_port("air_in", diameter = D_in)
+- outlet = define_port("air_out", diameter = D_out)
+- add_pressure_sensors()
+- add_temperature_sensors()
+4. Insertar microfibras quasicristalinas UHTC
+Código
+TASK: Insert_Microfibers
+- material = ZrB2-SiC-TaSi2 + borosilicate_matrix
+- lattice_type = "quasicrystal_penrose"
+- lattice_density = param(0.2–0.8)
+- microfiber_diameter = param(5–50 microns)
+- enforce_linear_thermal_gradient()
+- enforce_continuous_chemical_bonding()
+- ensure_no_TEC_discontinuities()
+5. Bloqueo de difusión de oxígeno
+Código
+TASK: Oxygen_Blocking
+- apply_borosilicate_layer(thickness = param(10–200 microns))
+- add_mZrO2_expansion_layer()
+- compute_compressive_stress()
+- ensure crack_tip_pinning()
+- verify oxygen_diffusion_rate < threshold
+6. Generar turbobomba LOX‑CH₄ simplificada
+Código
+TASK: Build_Turbopump
+- create_rotor(rodete_LOX, rodete_CH4)
+- create_turbine(hot_gas_inlet)
+- connect_shafts()
+- add_hydrostatic_bearing()
+- add_quasicrystal_microfiber_layer()
+- compute_radial_clearance()
+- compute_stiffness(K)
+7. Crear canales regenerativos en tobera
+Código
+TASK: Regenerative_Cooling
+- define_channel_geometry(aperiodic)
+- coolant = CH4
+- compute_heat_flux()
+- compute_temperature_gradient()
+- ensure wall_temperature < material_limit
+8. Simulación térmica a 3000–3500 K
+Código
+TASK: Thermal_Simulation
+- set temperature = 3000–3500 K
+- compute enthalpy(h)
+- compute isentropic_efficiency(eta_is)
+- detect_cavitation()
+- compute erosion_rate()
+9. Optimización volumétrica
+Código
+TASK: Optimize_Volume
+- minimize mass
+- maximize stiffness
+- minimize oxygen_diffusion
+- maximize regenerative_cooling
+- ensure structural_integrity
+10. Exportar parámetros para iteración del agente
+Código
+TASK: Export_Design
+- output geometry
+- output lattice_parameters
+- output flow_parameters
+- output thermal_results
+- output erosion_model
+
 BEGIN_PIPELINE
 
 ### 1. INPUT
