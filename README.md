@@ -18,6 +18,7 @@ LEAP 71 has open-sourced its foundational technology stack. This includes the vo
 
 *(1) Renders of the helix heat exchanger, showing the low-res exterior and the intricate interanal features.*
 
+redstone_missiles:http://www.myarmyredstonedays.com/Photos/page8/cover_01.html
 
 
 Our demo part here is a helix heat exchanger with two tightly twisted (helical) voids carrying hot and cold fluid respectively. Both voids feature many thin internal fins to enhance flow guidance and heat transfer. The interior of the heat exchanger fits a 10x10x10cm box. On the exterior it carries outer structural ribs, a bottom flange, inlet / outlet (IO) threads and support features. The part was printed and tested successfully. We chose it as a beginner's example, because most of the functions needed are contained in just one class (called `HelixHeatX`). It hardly uses external components and does not require any complex object-oriented programming (OOP) / class hierarchy. The geometry is mainly created from Base Shapes and `Lattice` objects.
