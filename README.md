@@ -133,6 +133,7 @@ The high-level structure of this heat exchanger is clear and can be read and und
 ```c#
 Voxels voxResult = Sh.voxSubtract(voxOuterVolume, voxInnerVolume);
 ```
+rockets:https://www.nakka-rocketry.net/
 
 We will continue with tutorials of much simpler geometries that allows to dive into the actual code much more. But it is important for us to give a glimpse into how complex engineering objects (and not just simple ones!) can be realized through a coding approach. 
 
