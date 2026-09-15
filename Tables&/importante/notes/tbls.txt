@@ -1,0 +1,60 @@
+TABLA 1 — Termodinámica aplicada (Galmés + Sutton + NASA)
+Variable	Símbolo	Unidad	Ecuación	Fuente
+Relación de presiones	Πc	–	Πc = P2/P1	Galmés
+Relación de temperaturas	τc	–	τc = (T2/T1)	Galmés
+Rendimiento compresor	ηc	–	ηc = (Πc^((γ−1)/γ)−1)/(T2/T1−1)	Galmés
+Rendimiento turbina	ηt	–	ηt = (1−T4/T3)	Galmés
+Caudal másico	ṁ	kg/s	ṁ = ρ·A·v	Galmés
+Flujo volumétrico	Q	m³/s	Q = ṁ/ρ	Galmés
+Velocidad característica	c*	m/s	c* = (Pc·At)/ṁ	Sutton
+Impulso específico	Isp	s	Isp = F/(ṁ·g0)	Sutton
+
+
+📊 TABLA 2 — Turbobombas LOX/CH₄ (Galmés + NASA TM + SpaceX)
+
+
+
+
+Parámetro	LOX Pump	CH₄ Pump	Fuente
+Caudal	500–800 kg/s	300–600 kg/s	NASA
+Presión salida	20–30 MPa	12–18 MPa	NASA
+RPM	25,000–35,000	20,000–30,000	Galmés
+Potencia turbina	8–12 MW	4–7 MW	NASA TM
+NPSH	3–10 m	2–6 m	Galmés
+Cavitación	Cc = k·(NPSH)^−2.5	–	Galmés
+Material	Inconel 718	Monel 400	NASA
+Refrigeración	Regenerativa	Gas caliente	NASA TM
+
+
+📊 TABLA 3 — Cámara de combustión LOX/CH₄ (NASA SP‑8120 + Sutton)
+
+
+Parámetro	Valor típico Raptor	Rango NASA
+Pc	30 MPa	10–35 MPa
+Tc	3300–3600 K	2800–3800 K
+At	0.0072 m²	0.005–0.010
+Ae	0.65 m²	0.4–0.8
+Ae/At	90	40–120
+Lc	0.45 m	0.3–0.6
+Dc	0.28 m	0.2–0.4
+Material	Inconel 718	NASA
+Refrigeración	Metano regenerativo	NASA
+
+
+📊 TABLA 4 — Ecuaciones de oxidación y disociación (UC3M + NASA CR)
+Fenómeno	Ecuación	Aplicación
+Índice de oxidación	Iox = (O/F)/((Tad/1000)·4)	Control de mezcla
+Disociación CO₂	CO₂ ⇌ CO + O	Corrección térmica
+Disociación H₂O	H₂O ⇌ OH + H	Perfil térmico
+Disociación CH₄	CH₄ ⇌ C + 2H₂	Coking FRPB
+
+
+📊 TABLA 5 — Plasma (Chen)
+Variable	Símbolo	Ecuación	Aplicación
+Conductividad	σ	σ = n·e²·τ/m	Ignición
+Longitud Debye	λD	sqrt(ε0·k·Te/(ne·e²))	Estabilidad
+Frecuencia plasma	ωp	sqrt(ne·e²/(ε0·m))	Igniters
+Temperatura electrónica	Te	500–4000 K	Arco eléctrico
+
+
+📁 DatosMotor.txt — Versión extendida (NASA + SpaceX + Galmés + Chen)
