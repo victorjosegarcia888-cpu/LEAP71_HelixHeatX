@@ -1,0 +1,97 @@
+# DatosMotor.txt — Motor LOX/CH4 tipo Raptor 3 (FFSCC)
+# Integración completa: NASA TM, NASA SP‑8120, Sutton, Galmés, Chen, Nakka
+
+[Propelentes]
+LOX:
+  Tc_crit = 154.6 K
+  Pc_crit = 5.04 MPa
+  rho = 1141 kg/m3
+  Cp = 918 J/kg·K
+
+CH4:
+  Tc_crit = 190.6 K
+  Pc_crit = 4.59 MPa
+  rho = 422 kg/m3
+  Cp = 2220 J/kg·K
+
+[Motor]
+Pc = 30e6 Pa
+Tc = 3500 K
+OF_global = 3.60
+mdot_total = 1100 kg/s
+Isp_vac = 356 s
+c_star = 1800 m/s
+CF = 1.50
+
+[Geometría]
+At = 0.0072 m2
+Ae = 0.65 m2
+Ae_At = 90
+Dc = 0.28 m
+Lc = 0.45 m
+V_camara = 0.0277 m3
+
+[Preburners]
+ORPB:
+  OF = 25
+  T_out = 950 K
+  mdot = 700 kg/s
+  material = Inconel718
+
+FRPB:
+  OF = 0.32
+  T_out = 900 K
+  mdot = 400 kg/s
+  coking_risk = 0.85
+  material = CuNi70_30
+
+[Turbobombas]
+LOX_pump:
+  mdot = 700 kg/s
+  RPM = 32000
+  P_out = 28e6 Pa
+  Power = 10 MW
+  NPSH = 6 m
+
+CH4_pump:
+  mdot = 400 kg/s
+  RPM = 27000
+  P_out = 15e6 Pa
+  Power = 6 MW
+  NPSH = 4 m
+
+[Plasma]
+Te = 8000 K
+ne = 1e18 m^-3
+sigma = (ne * e^2 * tau) / m_e
+lambda_D = sqrt(epsilon0 * k * Te / (ne * e^2))
+
+[Disociación]
+CO2 <-> CO + O
+H2O <-> OH + H
+CH4 <-> C + 2H2
+Deq = 0.15 + 0.0001*(Tc - 1500)
+
+[OTDF]
+OTDF = (Tmax - Tavg) / (Tavg - Tinlet)
+
+[Materiales]
+Inconel718:
+  Tmax = 980 C
+  k = 11.4 W/mK
+  sigma_y = 1030 MPa
+
+Monel400:
+  Tmax = 600 C
+  k = 21.8 W/mK
+  sigma_y = 275 MPa
+
+CuNi70_30:
+  Tmax = 450 C
+  k = 50 W/mK
+  sigma_y = 150 MPa
+
+Acero316L:
+  Tmax = 550 C
+  k = 16 W/mK
+  sigma_y = 290 MPa
