@@ -689,3 +689,98 @@ namespace RocketComparative
     }
 }
 
+importante mirar las tablas para diseñar tasks y program.cs en pikogk de leap 71 para kilo code
+I\)
+...... TABLE 8-1. Thrust Chamber Characteristics I\)
+Engine Designation
+RL IOB-2 LE-7 (Japan) RCS RS-27 AJ-10-118I
+Application Delta-III and IV Booster stage for Attitude Delta II Space Delta II Second stage
+upper stage H-II launcher control Launch booster
+Manufacturer Pratt & Whitney, Mitsubishi Heavy Kaiser The Boeing Co., Aerojet Propulsion
+United Technologies Industries Marquardt Rocketdyne Company
+Corporation Company Propulsion &
+Power
+Thrust Chamber
+Fuel Liquid H2 Liquid H2 MMH RP-I (kerosene) 50% N2H4/50%
+UDMH
+Oxidizer Liquid 02 Liquid 0 2 N204 Liquid oxygen N204
+Thrust chamber thrust (lbf)
+at sea level (lbf) No sea level firing I 90,400 12 164,700 NA
+in vacuum (I bf) 24,750 242,500 18 207,000 9850
+Thrust chamber mixture ratio 5.88 6.0 2.0 2.35 1.90
+Thrust chamber specific impulse
+at sea level (sec) NA 349.9 200 257
+in vacuum (sec) 462 445.6 290 294 320
+Characteristic exhaust velocity, c* (ft/sec) 7578 5594.8 5180 5540 5606
+Thrust chamber propellant flow (lb/sec) 53.2 346.9 0.062 640 30.63
+Injector end chamber pressure (psia) 640 70 576 125
+Nozzle end stagnation pressure (psia) NA 1917 68 534
+Thrust chamber sea level weight (!bf) < 150 1560 7 730 137
+Gimbal mount sea level weight (lbf) <IO 57.3 NA 70 23
+Chamber diameter (in.) 15.75 1.09 21 I 1.7
+Nozzle throat diameter (in.) 5.2 9.25 0.427 16.2 7.5
+Nozzle exit diameter (in.) 88 68.28 3.018 45.8 60
+Nozzle exit area ratio 285 54:I 50:1 8:1 65:1
+Chamber contraction area ratio 2.87 6:1 l.67: I 2.54:l
+Characteristic chamber length L* (in.) 30.7 18 38.7 30.5
+Thrust chamber overall length (in.) 90 14.8 l l.O 86.15 18.7
+Fuel jacket and manifold volume (ft3) 3.5 2.5
+Nozzle extension Carbon-carbon None None None None
+Cumul. firing duration (sec) > 360* > 150
+Restart capability Yes No Yes No Yes
+Cooling system Stainless steel Regenerative (fuel) Radiation Stainless steel tubes, Ablative layer
+tubes, lf passes cooled, stainless cooled, single pass, is partly consumed
+regenerative cooled steel tubes niobium regenerative cooling
+Tube diameter/channel width (in.) NA 0.05 (channel) NA 0.45 Ablative material:
+Silica phenolic
+Number of tubes NA 288 0 292
+Jacket pressure drop (psi) 253 540 NA lOO NA
+Injector type Concentric annular Hollow post/sleeve Drilled Flat plate, drilled Outer row: shower head;
+swirl and resonator elements; baffle and holes rings and baffle triplets & doublets,
+cavities acoustic cavities with dual tuned
+resonator
+Injector pressure drop-oxidizer (psi) 100 704 50 156 40
+Injector pressure drop-fuel (psi) 54 154 50 140 40
+Number of oxidizer injector orifices 216 452 (coaxial) 1 1145 1050
+Number of fuel injector orifices 216 452 ( coaxial) 1530 1230
+Engine Characteristics
+Feed system Turbopump with Turbopump Pressure Turbopump with Pressure
+expander cycle fed tanks gas generator fed tanks
+Engine thrust ( at sea level) (lb) NA 190,400 12 165,000 NA
+Engine thrust (altitude) (lb) 24,750 242,500 18 207,700 9850
+Engine specific impulse at sea level NA 349.9 200 253 320
+Engine specific impulse at altitude 462 445.6 290 288 320
+Engine mixture ratio (oxidizer/fuel) 5.88 6.0 2.0 2.27 1.90
+*limited only by available propellant.
+~ Sources: Companies listed above and NASA.
+c.> The thrust for the thrust chamber is usually slightly less than the thrust of the engine for open cycles, such as a gas generator cycle; the thrust chamber specific
+impulse is actually slightly higher (about I%) than the engine specific impulse. For closed cycles such as the staged combustion cycle, the F and I, values of the
+engine and thrust chamber are the same. FIGURE 8-4. Injector with 90° self-impinging (fuel-against-fuel and oxidizer-againstoxidizer)-type countersunk doublet injection pattern. Large holes are inlets to fuel
+manifolds. Pre-drilled rings are brazed alternately over an annular fuel manifold or
+groove and a similar adjacent oxidizer manifold or groove. A section through a similar
+but larger injector is shown in Fig. 8-1.
+type of injector is not used with liquid storable bi propellants, in part because the
+pressure drop to achieve high velocity would become too high.
+The SSME injector shown in Fig. 9-6 uses 600 of these concentric sleeve
+injection elements; 75 of them have been lengthened beyond the injector face to
+form cooled baffles, which reduce the incidence of combustion instability.
+The original method of making injection holes was to carefully drill them and
+round out or chamfer their inlets. This is still being done today. It is difficult to
+align these holes accurately (for good impingement) and to avoid burrs and
+surface irregularities. One method that avoids these problems and allows a large
+number of small accurate injecton orifices is to use multiple etched, very thin
+plates (often called platelets) that are then stacked and diffusion bonded
+together to form a monolithic structure as shown in Fig. 8- 5. The photo-etched
+pattern on each of the individual plates or metal sheets then provides not only
+for many small injection orifices at the injector face, but also for internal distribution or flow passages in the injector and sometimes also for a fine-mesh
+filter inside the injector body. The platelets can be stacked parallel to or normal
+to the injector face. The finished injector has been called the platelet injector and
+has been patented by the Aerojet Propulsion Company. The hydraulic injector characteristics can be evaluated accurately and can be
+designed for orifices with the desired injection pressures, injection velocities,
+flows, and mixture ratio. For a given thrust F and a given effective exhaust
+velocity c, the total propellant mass flow mis given by m = F/c from Eq. 2-6.
+The relations between the mixture ratio, the oxidizer, and the fuel flow rates are
+givenby Eqs. 6-1 to 6-4. For the flow of an incompressible fluid through
+hydraulic orifices,
+Q = CdAJ2b.p/p
+m = Qp = CdAJ2pb.p
