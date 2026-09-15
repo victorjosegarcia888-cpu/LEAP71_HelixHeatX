@@ -1,0 +1,65 @@
+# TasksRaptor.txt — Extendido NASA + SpaceX + Plasma Chen + Turbobombas Galmés
+
+Task: Calcular flujo volumétrico
+  Input: mdot, rho
+  Output: Q = mdot / rho
+
+Task: Índice de oxidación
+  Input: OF_local, Tad
+  Output: Iox = OF_local / ((Tad/1000)*4)
+
+Task: Disociación termoquímica
+  Input: Tc, composición
+  Output: fracciones CO, CO2, OH, H2, O, Deq
+
+Task: Perfil térmico OTDF
+  Input: mapa térmico radial
+  Output: OTDF, hot-spots, alertas
+
+Task: Riesgo de coking FRPB
+  Input: T_preburner, OF
+  Output: índice 0–1
+
+Task: Simulación turbobomba LOX/CH4
+  Input: mdot, RPM, presión requerida
+  Output: potencia turbina, eficiencia, cavitación
+
+Task: Cavitación NPSH
+  Input: presión vapor, altura geométrica
+  Output: NPSH = (P_in - Pv) / (rho*g)
+
+Task: Plasma (Chen)
+  Input: Te, ne
+  Output: lambda_D, sigma, frecuencia plasma
+
+Task: Grad-B drift (Chen)
+  Input: B, gradB, v_perp
+  Output: v_gradB = (v_perp^2 / (2*omega_c)) * (gradB/B^2)
+
+Task: Curvature drift
+  Input: Rc, v_parallel
+  Output: v_R = (m*v_parallel^2)/(q*Rc*B)
+
+Task: Polarization drift
+  Input: dE/dt
+  Output: v_p = -(1/(omega_c*B)) * dE/dt
+
+Task: Geometría de tobera NASA SP‑8120
+  Input: Ae/At, Pc
+  Output: longitud, ángulo divergente, eficiencia
+
+Task: Burning rate sólido (Nakka)
+  Input: p, a, n
+  Output: r = a * p^n
+
+Task: Masa de propelente sólido (Nakka)
+  Input: Ab(t), r(t)
+  Output: mdot = Ab * r * rho_p
+
+Task: Vibraciones e inestabilidad (Sutton)
+  Input: D, L, Tc
+  Output: frecuencias longitudinal, radial, tangencial
+
+Task: Thrust chamber resonance
+  Input: speed of sound a, geometry
+  Output: f = (n*a)/(2*L)
