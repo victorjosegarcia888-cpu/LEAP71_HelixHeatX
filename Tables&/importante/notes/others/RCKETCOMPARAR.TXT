@@ -1,0 +1,78 @@
+using System;
+
+namespace RocketComparative
+{
+    class Program
+    {
+        static void Main()
+        {
+            var raptor = new Engine("Raptor 3", 30e6, 356, 1100, 90);
+            var rs25  = new Engine("RS-25", 20e6, 452, 450, 77);
+
+            Compare(raptor, rs25);
+
+            Console.WriteLine("\n--- Simulación FFSCC ---");
+            FFSCC(raptor);
+
+            Console.WriteLine("\n--- Simulación Plasma Chen ---");
+            PlasmaSim(8000, 1e18);
+
+            Console.WriteLine("\n--- Turbobombas LOX/CH4 ---");
+            PumpSim(700, 32000, 28e6);
+            PumpSim(400, 27000, 15e6);
+        }
+
+        static void Compare(Engine a, Engine b)
+        {
+            Console.WriteLine($"Comparativa NASA–SpaceX\n");
+            Console.WriteLine($"{a.Name} Pc={a.Pc/1e6} MPa Isp={a.Isp} mdot={a.Mdot} Ae/At={a.AreaRatio}");
+            Console.WriteLine($"{b.Name} Pc={b.Pc/1e6} MPa Isp={b.Isp} mdot={b.Mdot} Ae/At={b.AreaRatio}");
+
+            double thrustA = a.Mdot * a.Isp * 9.81;
+            double thrustB = b.Mdot * b.Isp * 9.81;
+
+            Console.WriteLine($"Thrust A={thrustA/1000} kN");
+            Console.WriteLine($"Thrust B={thrustB/1000} kN");
+        }
+
+        static void FFSCC(Engine e)
+        {
+            double mdotORPB = e.Mdot * 0.65;
+            double mdotFRPB = e.Mdot * 0.35;
+
+            Console.WriteLine($"ORPB mdot={mdotORPB} kg/s T=950 K");
+            Console.WriteLine($"FRPB mdot={mdotFRPB} kg/s T=900 K (coking risk)");
+        }
+
+        static void PlasmaSim(double Te, double ne)
+        {
+            double epsilon0 = 8.854e-12;
+            double k = 1.38e-23;
+            double echarge = 1.602e-19;
+
+            double lambdaD = Math.Sqrt(epsilon0 * k * Te / (ne * echarge * echarge));
+
+            Console.WriteLine($"Debye length = {lambdaD} m");
+        }
+
+        static void PumpSim(double mdot, double rpm, double pressure)
+        {
+            double power = mdot * pressure / (rpm / 1000.0);
+            Console.WriteLine($"Pump mdot={mdot} kg/s RPM={rpm} Power≈{power/1e6} MW");
+        }
+    }
+
+    class Engine
+    {
+        public string Name;
+        public double Pc;
+        public double Isp;
+        public double Mdot;
+        public double AreaRatio;
+
+        public Engine(string n, double pc, double isp, double md, double ar)
+        {
+            Name = n; Pc = pc; Isp = isp; Mdot = md; AreaRatio = ar;
+        }
+    }
+}
