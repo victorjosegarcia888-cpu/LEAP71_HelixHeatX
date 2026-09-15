@@ -1,0 +1,198 @@
+Tabla 1 — Parámetros geométricos y operativos
+Parámetro	LOX Pump	CH₄ Pump	Fuente
+Caudal másico (kg/s)	700	400	NASA TM
+Densidad fluido (kg/m³)	1141	422	NASA
+RPM	32,000	27,000	Galmés
+Presión salida (MPa)	28	15	NASA
+Presión entrada (MPa)	0.3	0.2	Rocketdyne
+NPSH requerido (m)	6	4	Galmés
+Potencia turbina (MW)	10–12	5–7	NASA TM
+Tipo de turbina	Axial	Axial	Rocketdyne
+Número de etapas	1 + inducer	1 + inducer	Rocketdyne
+Material rotor	Inconel 718	Monel 400	NASA
+
+
+Tabla 2 — Ecuaciones de diseño
+Variable	Ecuación	Uso
+Head rise	
+𝐻
+=
+Δ
+𝑃
+𝜌
+𝑔
+Dimensionar impulsor
+Potencia	
+𝑊
+=
+𝑚
+˙
+⋅
+Δ
+ℎ
+/
+𝜂
+Turbina
+Cavitación	
+𝑁
+𝑃
+𝑆
+𝐻
+=
+𝑃
+𝑖
+𝑛
+−
+𝑃
+𝑣
+𝑎
+𝑝
+𝜌
+𝑔
+Evitar cavitación
+Velocidad específica	
+𝑁
+𝑠
+=
+𝑁
+𝑄
+𝐻
+3
+/
+4
+Selección de geometría
+Torque	
+𝑇
+=
+𝑊
+𝜔
+Diseño de eje
+
+
+Tabla 3 — Curvas de rendimiento
+RPM	Eficiencia	Potencia (MW)	Caudal (kg/s)
+20,000	0.45	6	500
+25,000	0.55	8	600
+30,000	0.62	10	700
+35,000	0.65	12	750
+
+
+✅ 2. TABLAS DE MATERIALES — AMPLIADAS (NASA SP‑8120 + Sutton + ASM)
+Tabla 1 — Materiales para cámara, tobera, turbina
+Material	Tmax (°C)	Conductividad (W/m·K)	Límite fluencia (MPa)	Densidad (kg/m³)	Uso
+Inconel 718	980	11.4	1030	8190	Cámara / turbina
+Monel 400	600	21.8	275	8800	Turbina FRPB
+Cu‑Ni 70/30	450	50	150	8900	Prequemador FRPB
+TZM (Mo‑Ti‑Zr)	2400	138	480	10220	Tobera
+C/C (Carbon‑Carbon)	3000	20–40	—	1800	Tobera extendida
+Grafito reforzado	3500	100	—	1800	Aerospike
+Acero 316L	550	16	290	8000	Líneas criogénicas
+Titanio Ti‑6Al‑4V	400	7	880	4430	Bombas LH2
+
+
+Tabla 2 — Compatibilidad química
+Material	LOX	CH₄	H₂	Observaciones
+Inconel 718	Excelente	Excelente	Excelente	Resiste ignición por oxígeno
+Monel 400	Excelente	Buena	Excelente	Usado en turbinas ORPB
+Cu‑Ni	Buena	Excelente	Buena	Evita coking
+C/C	Excelente	Excelente	Excelente	Tobera de alto rendimiento
+
+
+✅ 3. SIMULADOR DE CÁMARA + TOBERA (C#)
+(modelo físico basado en Sutton + NASA SP‑8120)
+
+csharp
+public class ChamberNozzleSim
+{
+    public double Pc, Tc, At, Ae, gamma, R;
+
+    public ChamberNozzleSim(double Pc, double Tc, double At, double Ae, double gamma, double R)
+    {
+        this.Pc = Pc; this.Tc = Tc; this.At = At; this.Ae = Ae;
+        this.gamma = gamma; this.R = R;
+    }
+
+    public double CStar()
+    {
+        return (Pc * At) / MassFlow();
+    }
+
+    public double MassFlow()
+    {
+        double term = Math.Sqrt(gamma / R * Tc);
+        return Pc * At / term;
+    }
+
+    public double ExitVelocity()
+    {
+        double pr = 1e5 / Pc; // presión ambiente 1 bar
+        double term = (2 * gamma / (gamma - 1)) * R * Tc *
+                      (1 - Math.Pow(pr, (gamma - 1) / gamma));
+        return Math.Sqrt(term);
+    }
+
+    public double Thrust()
+    {
+        double ve = ExitVelocity();
+        double mdot = MassFlow();
+        return mdot * ve + (1e5 - Pc) * Ae;
+    }
+}
+✅ 4. SIMULADOR DE PLASMA (C#) — Basado en Chen
+csharp
+public class PlasmaSim
+{
+    const double epsilon0 = 8.854e-12;
+    const double k = 1.38e-23;
+    const double echarge = 1.602e-19;
+    const double me = 9.11e-31;
+
+    public double DebyeLength(double Te, double ne)
+    {
+        return Math.Sqrt(epsilon0 * k * Te / (ne * echarge * echarge));
+    }
+
+    public double PlasmaFrequency(double ne)
+    {
+        return Math.Sqrt(ne * echarge * echarge / (epsilon0 * me));
+    }
+
+    public double Conductivity(double ne, double tau)
+    {
+        return ne * echarge * echarge * tau / me;
+    }
+}
+✅ 5. SIMULADOR DE INESTABILIDAD ACÚSTICA (Sutton) — EN TXT
+Código
+# Simulador de inestabilidad acústica (Sutton)
+
+[Entrada]
+D = diámetro cámara
+L = longitud cámara
+Tc = temperatura combustión
+gamma = 1.2
+R = 350 J/kgK
+
+[Velocidad del sonido]
+a = sqrt(gamma * R * Tc)
+
+[Frecuencias]
+Longitudinal:
+  f_L = a / (2L)
+
+Radial:
+  f_R = 1.84 * a / (πD)
+
+Tangencial:
+  f_T = a / (D)
+
+[Detección de inestabilidad]
+Si presión oscila > 5% → inestabilidad leve
+Si presión oscila > 20% → inestabilidad severa
+Si f coincide con modo natural → riesgo alto
+
+[Mitigación]
+- Añadir baffles (NASA)
+- Cambiar patrón de inyección
+- Añadir cavidades Helmholtz
+- Ajustar O/F
